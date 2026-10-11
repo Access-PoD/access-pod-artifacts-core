@@ -1,0 +1,39 @@
+{
+  "artifact_type": "CSC_Evidence_Bundle_Reference",
+  "document_id": "APOD-TR-003",
+  "version": "B",
+  "bundle_classification": {
+    "tier": "12",
+    "description": "High-sensitivity audit-grade evidence bundle"
+  },
+  "bundle_scope": {
+    "governance_framework": "Access PoD / CSC",
+    "architecture_reference": "Q-Pathformer (illustrative)",
+    "time_window": "bounded"
+  },
+  "contents_summary": {
+    "csc_signals_count": 12,
+    "telemetry_sources": [
+      "Access PoD enforcement events",
+      "SAPP simulation outcomes",
+      "UGCCMT provenance records",
+      "Human oversight actions"
+    ]
+  },
+  "disclosure_controls": {
+    "default_state": "sealed",
+    "access_basis": [
+      "authority_level",
+      "time_constraint",
+      "necessity_of_review"
+    ],
+    "bulk_disclosure": "restricted"
+  },
+  "confirmation_model": {
+    "issuance_confirmation": true,
+    "access_confirmation": true,
+    "third_party_verifiable": true
+  },
+  "status": "reference_only",
+  "note": "This file provides descriptive metadata only and does not disclose cryptographic or security mechanisms."
+}

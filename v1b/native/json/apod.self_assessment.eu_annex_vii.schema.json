@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "apod.self_assessment.eu_annex_vii.schema.json",
+  "title": "Access PoD EU Annex VII Self-Assessment (Native)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "apod_version",
+    "artifact_type",
+    "regulatory_alignment",
+    "system",
+    "governance",
+    "assessment",
+    "assurance_rules",
+    "metadata",
+    "signoff"
+  ],
+  "properties": {
+    "apod_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "artifact_type": {
+      "type": "string",
+      "const": "self_assessment"
+    },
+    "regulatory_alignment": {
+      "type": "string",
+      "const": "EU_AI_Act_Annex_VII"
+    },
+    "system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "environment", "jurisdiction", "intended_use", "high_risk_claimed"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "name": { "type": "string", "minLength": 1, "maxLength": 256 },
+        "environment": {
+          "type": "string",
+          "enum": ["pilot", "staging", "production", "sandbox", "test"]
+        },
+        "jurisdiction": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1, "maxLength": 64 }
+        },
+        "intended_use": { "type": "string", "minLength": 1, "maxLength": 512 },
+        "high_risk_claimed": { "type": "boolean" }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["authority", "execution_interface", "assurance_signal", "provenance_model"],
+      "properties": {
+        "authority": { "type": "string", "const": "Access_PoD" },
+        "execution_interface": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "assurance_signal": { "type": "string", "const": "CSC" },
+        "provenance_model": { "type": "string", "const": "UGCCMT" }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "A_system_context",
+        "B_risk_management",
+        "C_data_governance",
+        "D_traceability",
+        "E_human_oversight",
+        "F_robustness_security",
+        "G_post_market_monitoring",
+        "H_transparency",
+        "I_third_party_delegation",
+        "J_evidence_readiness"
+      ],
+      "properties": {
+        "A_system_context": { "$ref": "#/$defs/status" },
+        "B_risk_management": { "$ref": "#/$defs/status" },
+        "C_data_governance": { "$ref": "#/$defs/status" },
+        "D_traceability": { "$ref": "#/$defs/status" },
+        "E_human_oversight": { "$ref": "#/$defs/status" },
+        "F_robustness_security": { "$ref": "#/$defs/status" },
+        "G_post_market_monitoring": { "$ref": "#/$defs/status" },
+        "H_transparency": { "$ref": "#/$defs/status" },
+        "I_third_party_delegation": { "$ref": "#/$defs/status" },
+        "J_evidence_readiness": { "$ref": "#/$defs/status" }
+      }
+    },
+    "assurance_rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "telemetry_required",
+        "assurance_suspends_if_telemetry_missing",
+        "certification_claims_prohibited"
+      ],
+      "properties": {
+        "telemetry_required": { "type": "boolean" },
+        "assurance_suspends_if_telemetry_missing": { "type": "boolean" },
+        "certification_claims_prohibited": { "type": "boolean" }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["created_utc", "review_cycle", "status"],
+      "properties": {
+        "created_utc": { "$ref": "#/$defs/utc_datetime" },
+        "review_cycle": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "status": { "type": "string", "enum": ["draft", "final", "superseded"] }
+      }
+    },
+    "signoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "name", "date_utc", "attestation"],
+      "properties": {
+        "role": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 256 },
+        "date_utc": {
+          "anyOf": [
+            { "$ref": "#/$defs/utc_datetime" },
+            { "type": "string", "const": "" }
+          ]
+        },
+        "attestation": { "type": "string", "minLength": 1, "maxLength": 1024 }
+      }
+    }
+  },
+  "$defs": {
+    "status": {
+      "type": "string",
+      "enum": ["met", "partially_met", "not_met", "not_applicable"]
+    },
+    "utc_datetime": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    }
+  }
+}

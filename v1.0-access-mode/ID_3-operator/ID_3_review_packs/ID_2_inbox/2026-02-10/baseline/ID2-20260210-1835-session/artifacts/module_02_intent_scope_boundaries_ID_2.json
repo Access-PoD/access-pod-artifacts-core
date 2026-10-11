@@ -1,0 +1,65 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "record_class": "non_inspection_module_record",
+  "access_mode_primary": "ID_2",
+  "inspection_status": "not_frozen",
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "human_decision_required": true,
+
+  "module": {
+    "module_id": "02",
+    "module_title": "Intent, Scope & Boundaries",
+    "source_module_path": "modes/ID_2_access/modules/module_02_intent_scope_boundaries_ID_2.md",
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_02_intent_scope_boundaries_ID_2.md"
+  },
+
+  "inputs": {
+    "references": [],
+    "prompts_or_questions": [],
+    "context_notes": ""
+  },
+
+  "captures": {
+    "governance_intent": "",
+    "audience": [],
+    "in_scope": [],
+    "out_of_scope": [],
+    "temporal_boundaries": "",
+    "assumptions": [],
+    "ai_assistance_boundary": {
+      "ai_may_assist": [],
+      "ai_must_not": []
+    },
+    "scope_compression_statement": "",
+    "boundary_stress_case": {
+      "scenario": "",
+      "response": ""
+    }
+  },
+
+  "observations": [],
+  "uncertainty_notes": [],
+  "escalation_triggers": [
+    {
+      "trigger": "Request for recommendations / approvals",
+      "required_action": "Re-scope or stop; human decision required",
+      "severity": "high"
+    }
+  ],
+
+  "validation": {
+    "misalignment_tests_run": [],
+    "verification_questions": [],
+    "human_review_notes": ""
+  },
+
+  "outputs": {
+    "generated_artifacts": [],
+    "links": []
+  },
+
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  }
+}

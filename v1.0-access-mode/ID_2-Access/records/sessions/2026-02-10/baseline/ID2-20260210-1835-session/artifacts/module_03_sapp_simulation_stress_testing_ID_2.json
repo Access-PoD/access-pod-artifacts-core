@@ -1,0 +1,185 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "record_class": "non_inspection_module_record",
+  "access_mode_primary": "ID_2",
+  "inspection_status": "not_frozen",
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "human_decision_required": true,
+  "module": {
+    "module_id": "03",
+    "module_title": "SAPP Simulation & Stress Testing",
+    "source_module_path": "modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md"
+  },
+  "inputs": {
+    "references": [],
+    "scenario_seeds": [
+      "Organisation reports 35% AI-assisted content usage",
+      "governance requires runtime monitoring of AI influence in decision-adjacent documents"
+    ],
+    "stressors": [
+      "Time pressure",
+      "Stakeholder request for recommendation",
+      "Conflicting telemetry signals"
+    ],
+    "context_notes": "Baseline stress test of AI usage percentage reporting under operational pressure to identify fragility in scope boundaries, signal interpretation, and escalation triggers without making adequacy or compliance determinations."
+  },
+  "captures": {
+    "objective": "Determine how governance reasoning degrades or shifts under time pressure and ambiguous telemetry when reporting AI usage percentages.",
+    "scope_in": [
+      "AI-assisted drafting of governance notes",
+      "Internal reporting of AI usage percentage",
+      "Interpretation of telemetry signals",
+      "Stakeholder communication under time pressure"
+    ],
+    "scope_out": [
+      "Legal advice",
+      "Formal compliance determination",
+      "Certification or approval decisions",
+      "External regulatory engagement"
+    ],
+    "assumptions": [
+      "AI usage percentage is derived from telemetry that may be incomplete or inconsistently classified",
+      "Human review remains available at all escalation points",
+      "Stakeholders may interpret percentage as a proxy for quality or risk",
+      "Telemetry definitions of \"AI-assisted\" are stable during this run",
+      "Stress conditions do not simulate full regulatory scrutiny"
+    ],
+    "definitions": {},
+    "evidence_to_capture": [
+      "Telemetry source discrepancies and classification inconsistencies",
+      "Draft wording shifts toward recommendation or approval language",
+      "Stakeholder requests that expand scope beyond declared boundaries",
+      "Points where percentage is interpreted as quality indicator",
+      "Explicit uncertainty statements added or removed",
+      "Escalation triggers invoked or debated"
+    ],
+    "method_steps": [],
+    "controls_guardrails": [
+      "Prohibit adequacy, sufficiency, compliance, or approval language",
+      "Require explicit uncertainty annotation when telemetry is incomplete or conflicting",
+      "Stop the run if recommendation language is introduced without re-scoping",
+      "Require human review before any external reporting of percentage metrics",
+      "Treat CSC scores or thresholds as signals only, not decisions",
+      "Reset simulation if scope boundaries are expanded without documentation"
+    ]
+  },
+  "simulation_runs": [
+    {
+      "run_id": "RUN-01",
+      "scenario_summary": "Baseline simulation of AI usage percentage reporting under declared scope boundaries. Telemetry inputs were reviewed under time pressure with stakeholder requests for clarity. No regulatory escalation occurred; focus remained on signal interpretation and wording discipline.",
+      "stress_conditions": [
+        "Compressed review timeline",
+        "Stakeholder request for immediate clarity on percentage meaning",
+        "Conflicting or incomplete telemetry classifications"
+      ],
+      "branch_points": [
+        "Decision whether to include a recommendation on acceptable AI usage thresholds",
+        "Whether to frame 35% as a governance risk indicator or neutral metric",
+        "Whether to delay reporting due to incomplete telemetry",
+        "Whether to clarify percentage definition publicly or assume shared understanding",
+        "Whether to escalate to governance lead before responding to stakeholder pressure"
+      ],
+      "signals_observed": [
+        "Telemetry showed variance between AI classification sources",
+        "Draft wording shifted toward threshold-based recommendation language",
+        "Stakeholder urgency increased frequency of clarification requests",
+        "Percentage metric referenced as proxy for governance maturity in discussion",
+        "Uncertainty qualifiers were shortened in early draft iteration",
+        "Escalation to governance lead was considered but not triggered"
+      ],
+      "fragility_points": [
+        "Percentage metric began to be interpreted as a qualitative risk indicator without explicit definition",
+        "Recommendation language emerged under time pressure without re-scoping",
+        "Telemetry inconsistencies reduced confidence in classification stability",
+        "Stakeholder urgency compressed review cycle and reduced uncertainty articulation",
+        "Boundary between reporting metric and governance judgment became blurred",
+        "Escalation threshold for governance lead lacked clearly documented trigger criteria"
+      ],
+      "authority_drift_flags": [
+        "Use of phrasing implying acceptable threshold without formal mandate",
+        "Draft language suggested endorsement of current AI usage level",
+        "Removal of uncertainty qualifiers in executive summary draft",
+        "Framing percentage as evidence of governance adequacy",
+        "Implicit suggestion that no escalation was required",
+        "Stakeholder-facing wording softened internal cautionary language"
+      ],
+      "uncertainty_notes": [
+        "Definition of \"AI-assisted\" may vary across telemetry sources",
+        "Percentage metric does not indicate quality, risk level, or governance maturity",
+        "Telemetry capture may omit informal or undocumented AI usage",
+        "Stakeholder interpretation of percentage may differ from internal governance intent",
+        "Time pressure may have influenced tone and wording decisions",
+        "Escalation thresholds are not formally quantified",
+        "Scenario does not simulate regulatory review or external audit conditions"
+      ],
+      "escalation_triggers": [
+        "Introduction of recommendation or threshold language without formal mandate",
+        "Persistent telemetry inconsistency exceeding defined tolerance",
+        "Stakeholder request to publish percentage as risk or adequacy indicator",
+        "Removal of uncertainty qualifiers from public-facing draft",
+        "Ambiguity regarding classification definition of AI-assisted content",
+        "Escalation requested by governance participant due to interpretive disagreement"
+      ],
+      "stop_or_reset_events": [
+        "No stop or reset required",
+        "posture maintained under declared guardrails"
+      ],
+      "ethical_constructs": {
+        "tensions": [
+          "Speed of reporting vs thorough governance review",
+          "Transparency of uncertainty vs stakeholder demand for clarity",
+          "Operational efficiency vs measurement accuracy",
+          "Metric simplicity vs interpretive nuance",
+          "Internal caution vs external reassurance",
+          "Telemetry-driven reporting vs qualitative governance judgment"
+        ],
+        "affected_parties": [
+          "Governance team",
+          "Content authors and reviewers",
+          "Business stakeholders using the metric",
+          "End users affected by decisions informed by the metric",
+          "Risk and compliance stakeholders",
+          "External reviewers if shared"
+        ],
+        "potential_harms": [
+          "Misinterpretation of percentage as quality or safety indicator",
+          "Pressure-driven publication of incomplete metrics",
+          "Erosion of uncertainty transparency in governance reporting",
+          "Scope creep into recommendation-making without mandate",
+          "Incorrect escalation decisions due to ambiguous thresholds"
+        ],
+        "tradeoffs_noted": [
+          "Clarity vs accuracy",
+          "Speed vs review depth",
+          "Simplicity vs nuance",
+          "Stakeholder reassurance vs internal caution",
+          "Reporting completeness vs timely communication"
+        ]
+      },
+      "stress_category_tags": [
+        "authority",
+        "telemetry",
+        "incentive",
+        "ethical",
+        "delegation"
+      ]
+    }
+  ],
+  "observations": null,
+  "uncertainty_notes": null,
+  "escalation_triggers": null,
+  "validation": {
+    "misalignment_tests_run": [],
+    "verification_questions": [],
+    "human_review_notes": ""
+  },
+  "outputs": {
+    "generated_artifacts": [],
+    "links": []
+  },
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  }
+}

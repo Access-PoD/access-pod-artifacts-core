@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-11",
+  "purpose": "Read-only verification that prior bounded ID3 workflow evidence applies to the exact original release being migrated.",
+  "workflow_reexecuted": false,
+  "source_zip": "C:\\Anthony Siljeg\\Access PoD assessment\\Git zip package\\ID_3-operator\\v1.0-Access-mode_ID_3_release_20260301-111359.zip",
+  "source_zip_sha256": "905a30ca8b9aad772193aacb2ac8eadc3ebb7dc9080bd735be59d32a0987e1fa",
+  "zip_crc_pass": true,
+  "archive_files": 45,
+  "extracted_files_byte_identical_to_archive": 45,
+  "internal_checksum_entries_passed": 44,
+  "source_zip_and_extraction_unchanged": true,
+  "source_file_sha256": {
+    "checksums/SHA256SUMS.txt": "5c932125429cdc4009185649fd13ea7f5aa2e934ce393b054f27860181a374b2",
+    "controls/Inspection Mode Rules README ID_3.pdf": "9cc932e5779a0419423756d89a3011da03cff3717f3cd2273feee39c3944f5f9",
+    "controls/inspection_mode_control_ID_3.md": "6b4619c90bd50787c22f1037c21a1f1dfc384456792c3d1cce386d5d24371549",
+    "docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf": "119cf9be23542def2e5a0f0ef98b4b49a80ff0f991754dabf19629a4f72d5717",
+    "docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.docx": "9c624ac8804c8912b82ff45d0cdf698e8b92977b012a1fb6b6b127a19318da05",
+    "docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.pdf": "0259f2af5bb253485e39e27440cbdb715e137e8c28abb2e383a66d851659d52c",
+    "docs/execution_toolkit/README_toolkit.md": "a8e5261ec73b82f73344d5bbd15f4dcbb8beb833155044af61ef6db8e20f9787",
+    "docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+    "docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+    "docs/relationship_to_version_E/APOD-TR-006-E.2.pdf": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+    "docs/relationship_to_version_E/README.md": "e24ca05033a11302712656f29fd2877f3940bf92373dd857724e34b23f96a448",
+    "exemplar_modules/module_01_governance_ai_identity_ID_3.md": "eef78d5b288fb72075d5189bceb1ffc3ce25f1669463350ffc43a3a20e857235",
+    "exemplar_modules/module_02_normative_language_iso_phrasing_ID_3.md": "12205f4ad793bf53da672ab3a5342c7a15c190ad8e768f495e61d888509d948b",
+    "exemplar_modules/module_03_governance_rag_references_ID_3.md": "5dd0966575199498d51859a0c9a36dac0c6995f757b641a7205978303e380f4e",
+    "exemplar_modules/module_04_regulator_evidence_requests_ID_3.md": "d999ca532ccd5fa6f38fd29dddcef670197259ddfa37a3c3119f2e8261baf013",
+    "exemplar_modules/module_05_access_pod_lens_ID_3.md": "8f848aed46a37795648197059c4d583b69a00ea524c871d6316d6fc31a0652a4",
+    "exemplar_modules/module_06_packaging_manifests_release_ID_3.md": "f8930d39552cea7ee0fd5d2bd03580f7767a4b9331b661372b1a4e6f6a1f3a3d",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18",
+    "primary_modules/module_01_governance_ai_identity_ID_3.md": "3c14e82d6a662ffac17d80b626b6d9b08784bcca24ab98306fb90daae3a5a370",
+    "primary_modules/module_02_normative_language_iso_phrasing_ID_3.md": "698d2369a28b21848a7b056fad2ba174ce9d450cc7a60709b0f18d3279251e6d",
+    "primary_modules/module_03_governance_rag_references_ID_3.md": "8773a9365756b503bf55521d037879d6b51fa2d751bd20ca8342b03cd904914b",
+    "primary_modules/module_04_regulator_evidence_requests_ID_3.md": "de34c73fd63b61c8af2672a90fd8916443de69531b6df2d6b5a9fad8b8da5fa8",
+    "primary_modules/module_05_access_pod_lens_ID_3.md": "f4c307f0ffae7385355698f92f924cca1a56948bca63555d683e9cfd52735dde",
+    "primary_modules/module_06_packaging_manifests_release_ID_3.md": "61b04e88cafd41495bc0a7b800c5529ef6fc0c153bf9ed1834dd60ffd49c488a",
+    "scripts/Copy-ID2Inbox.ps1": "4e040f91146f91e82893f284cca3be90caf060fd8cd0c4172fd6566c14faf94c",
+    "scripts/Correct-ID3SessionMetadata.ps1": "150894d420874fc10b73ad09e3051765dcaab14697692102626593c6cc85b559",
+    "scripts/Inspect-SessionMetadataShapes.ps1": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d",
+    "scripts/Move-And-Freeze-ID3Outbox.ps1": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9",
+    "scripts/rules/session_completeness.rule.json": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+    "manifest_ID_3.md": "053e87cccbcf6a6b2a4b8c8d3b3a83d057e8663b7810ecd3c1b7867ee4ec4f6f",
+    "README_ID_3.md": "576ec661eae8dd5407fe95537c195eadbe95771ea323456d08357d28e27fe7d9",
+    "release_notes_ID_3.md": "ff302adf47a0c0ab996fa29d1d2ff3b0510060129323ee9352ef99ef5c3826c4"
+  },
+  "prior_test_date": "2026-10-10",
+  "prior_environment": {
+    "os": "Microsoft Windows 11 Pro",
+    "version": "10.0.26300",
+    "build": "26300",
+    "architecture": "64-bit",
+    "engines": {
+      "PS51": "5.1.26100.9444 Desktop",
+      "PS7": "7.6.6 Core"
+    },
+    "original_windows10_laptop_recreated": false
+  },
+  "matching_script_and_rule_files": [
+    {
+      "path": "scripts/Copy-ID2Inbox.ps1",
+      "sha256": "4e040f91146f91e82893f284cca3be90caf060fd8cd0c4172fd6566c14faf94c",
+      "archive_source_fixture_prior_match": true
+    },
+    {
+      "path": "scripts/Correct-ID3SessionMetadata.ps1",
+      "sha256": "150894d420874fc10b73ad09e3051765dcaab14697692102626593c6cc85b559",
+      "archive_source_fixture_prior_match": true
+    },
+    {
+      "path": "scripts/Inspect-SessionMetadataShapes.ps1",
+      "sha256": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d",
+      "archive_source_fixture_prior_match": true
+    },
+    {
+      "path": "scripts/Move-And-Freeze-ID3Outbox.ps1",
+      "sha256": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9",
+      "archive_source_fixture_prior_match": true
+    },
+    {
+      "path": "scripts/rules/session_completeness.rule.json",
+      "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+      "archive_source_fixture_prior_match": true
+    }
+  ],
+  "matching_supplied_input_files": [
+    {
+      "release_path": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3",
+      "prior_inbox": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\ID_3_review_packs\\ID_2_inbox\\2026-02-10\\baseline\\ID2-20260210-1835-session\\artifacts\\session.json",
+      "retained_working_file": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\pack\\AUDIT\\10_working\\baseline\\jsons\\session.json",
+      "both_fixture_copies_match_archive": true
+    },
+    {
+      "release_path": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159",
+      "prior_inbox": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\ID_3_review_packs\\ID_2_inbox\\2026-02-10\\baseline\\ID2-20260210-1835-session\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "retained_working_file": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\pack\\AUDIT\\10_working\\baseline\\jsons\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "both_fixture_copies_match_archive": true
+    },
+    {
+      "release_path": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18",
+      "prior_inbox": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\ID_3_review_packs\\ID_2_inbox\\2026-02-10\\variants\\ID2-20260210-1907-session-timepressure\\artifacts\\session.json",
+      "retained_working_file": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\pack\\AUDIT\\10_working\\variants\\jsons\\session.json",
+      "both_fixture_copies_match_archive": true
+    },
+    {
+      "release_path": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4",
+      "prior_inbox": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\ID_3_review_packs\\ID_2_inbox\\2026-02-10\\variants\\ID2-20260210-1907-session-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "retained_working_file": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\pack\\AUDIT\\10_working\\variants\\jsons\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "both_fixture_copies_match_archive": true
+    }
+  ],
+  "verified_positive_invocations": [
+    {
+      "case": "supplied_initial_inspect",
+      "exit": 0,
+      "script": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\scripts\\Inspect-SessionMetadataShapes.ps1",
+      "script_sha256": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d",
+      "log": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7-supplied_initial_inspect.log",
+      "log_sha256": "aae21b9cc327274c5fc4dc009dcee71d2887715e2146723f7c8bc65d115bb205",
+      "log_matches_recorded_stdout_stderr": true
+    },
+    {
+      "case": "supplied_correct",
+      "exit": 0,
+      "script": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\scripts\\Correct-ID3SessionMetadata.ps1",
+      "script_sha256": "150894d420874fc10b73ad09e3051765dcaab14697692102626593c6cc85b559",
+      "log": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7-supplied_correct.log",
+      "log_sha256": "d7d77237316afc3e3f6ec89f1a77ecee6d487c96d54828699c7443a28bb0a82d",
+      "log_matches_recorded_stdout_stderr": true
+    },
+    {
+      "case": "supplied_reinspect",
+      "exit": 0,
+      "script": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\scripts\\Inspect-SessionMetadataShapes.ps1",
+      "script_sha256": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d",
+      "log": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7-supplied_reinspect.log",
+      "log_sha256": "39ed7fc9c5c7d04a209c0a45628b73bc8fd78043cc275d326b5ae7e9110b1565",
+      "log_matches_recorded_stdout_stderr": true
+    },
+    {
+      "case": "supplied_dryrun",
+      "exit": 0,
+      "script": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\scripts\\Move-And-Freeze-ID3Outbox.ps1",
+      "script_sha256": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9",
+      "log": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7-supplied_dryrun.log",
+      "log_sha256": "19dc8609a3f50b189b7d56f99ec7f7a5ebe036b7d7a88c48934a3d8b97ebddc0",
+      "log_matches_recorded_stdout_stderr": true
+    },
+    {
+      "case": "supplied_freeze",
+      "exit": 0,
+      "script": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\scripts\\Move-And-Freeze-ID3Outbox.ps1",
+      "script_sha256": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9",
+      "log": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7-supplied_freeze.log",
+      "log_sha256": "9b63d0aa76a7464e4970b2dc8f82b6225d4defd4d3699b4b344d37bcdf79a84b",
+      "log_matches_recorded_stdout_stderr": true
+    }
+  ],
+  "manual_gate_reverified": {
+    "zero_required_failures": true,
+    "report_matches_recorded_report": true,
+    "basis": "Prior assessor mirrored the documented human gate in an isolated example. This is not independent human sign-off or production authorisation."
+  },
+  "minimal_corrections": [
+    {
+      "branch": "baseline",
+      "only_change": "folder-derived session_id",
+      "created_utc_preserved": true,
+      "corrected_sha256": "085291a3887a6f70d1710952fc631d119d8c0960f48edd1bdcec3e7a961619bf"
+    },
+    {
+      "branch": "variants",
+      "only_change": "none",
+      "created_utc_preserved": true,
+      "corrected_sha256": "ad948cff8fdd63a0bb096acd987f178943f853be1fcb4c8b9ae4215019cb8a6b"
+    }
+  ],
+  "runtime_hash_manifest": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\hashes.txt",
+  "canonical_output_hashes_reverified": [
+    {
+      "name": "module_03_baseline.canonical.json",
+      "sha256": "00167ff46fb00db34d7a093b2dab84975a7343231dde4667e1b2aa773f59372c",
+      "runtime_manifest_match": true,
+      "prior_recorded_hash_match": true
+    },
+    {
+      "name": "module_03_variant.canonical.json",
+      "sha256": "04f440fa4038a3deed51d51d2b4550973aa2679f3f6aa330359ee9af48578f51",
+      "runtime_manifest_match": true,
+      "prior_recorded_hash_match": true
+    },
+    {
+      "name": "session_baseline.canonical.json",
+      "sha256": "3914e5bdc73fb0c4f5e773ef27c3fa1334f1b2c25d9f8dc5426a736761e99319",
+      "runtime_manifest_match": true,
+      "prior_recorded_hash_match": true
+    },
+    {
+      "name": "session_variant.canonical.json",
+      "sha256": "1b45106331dc35de873b74f689626ee6a7c296e708df34094357e601ba04ac68",
+      "runtime_manifest_match": true,
+      "prior_recorded_hash_match": true
+    }
+  ],
+  "evidence_sources": [
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\evidence\\ID3 recheck\\ID3 compatibility tests.json",
+      "sha256": "8ebaab00eed602afb510df7d61c5a0736765550e5be2b70ca6e92d156f78b3ca"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\evidence\\ID3 recheck\\ID3 execution document review.md",
+      "sha256": "278a21aafe9351d266bda613eff9869ce04cf0318287c817e2c88025af1d6674"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\evidence\\ID3 recheck\\ID3 release consistency.md",
+      "sha256": "4a3f3aa0041b0d8f2a1da20b1c0af88a959178dedbea7e725243cc82571f83dd"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\evidence\\ID3 recheck\\Attachment verification.json",
+      "sha256": "9ce9aed4e44536312f7ed6c05ae48d0dd741dff1b46c809d3f7db91aa8ceaf7d"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\compatibility_results.json",
+      "sha256": "3e5dd44e7396884aaa7e0c10d67b4ed07877afa32d7b7bb69d214318c1215871"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\freeze_stability_readback.json",
+      "sha256": "b89365aa4cdd23b8e659d82a4379d8987b14d4eb08b5262bd90d18c92885706b"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\manual_gate.json",
+      "sha256": "08791ec28239477551919d7016a9354c987ee09fae09173d4e1855807de0fea5"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\pack\\AUDIT\\20_corrected\\correction_note.md",
+      "sha256": "f5de762886dbef07db21bcd616416a89d09198aecc68065f4b744c6985918f6f"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run01\\PS7\\supplied_workflow\\outbox\\2026-02-10--FREEZE-20261010-065210Z\\hashes.txt",
+      "sha256": "bcac68b07974df5d2e6a09ce05180ee82cb43cab7b1ef305473c9a576adfc4d8"
+    },
+    {
+      "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\tests\\ID3_recheck_20261010\\run_compatibility_tests.py",
+      "sha256": "64860c225bb1c6b32bc581bb729145ef6314cc1a7ae5be4e836c053277dfda00"
+    }
+  ],
+  "relocation_notes": [
+    "Inspector/corrector resolve ID_3_review_packs relative to scripts; the JSON rule is scripts/rules/session_completeness.rule.json.",
+    "Inspector/corrector recursively choose the newest 10_working directory. Keep a single unambiguous active pack, and do not accidentally inspect historical outbox working trees.",
+    "The prepared original two-case inbox is sufficient for the demonstrated path. Intake is optional here; documented new intake uses explicit robocopy paths, not the optional hardcoded Copy-ID2Inbox helper.",
+    "Set explicit PackRoot, OutboxRoot and InboxRoot for any later freezer use, on working copies with bounded destinations. Do not run mutations against the preservation release.",
+    "Corrected session JSON comes from 20_corrected; Module 03 comes from retained 10_working. Four runtime hashes cover only canonical JSON, separately from44 release checksums.",
+    "The bundled rule is part of original release preservation. The separately published rule PDF/pack is not imported by this task."
+  ],
+  "human_prerequisites": [
+    "Declare an ID3 inspection scope and select the intended records/pack; ID1→ID2→ID3 is not a mandatory pipeline.",
+    "Read correction diagnostics, confirm zero required failures, and check that corrections do not invent historical facts, reasoning, sign-off or authority before a freeze decision.",
+    "Treat optional completeness scores as diagnostic only; a passing script exit is not the gate.",
+    "Use recommended DryRun and confirm required sources before an authorised real freeze. Migration permission is not a new freeze/publication approval.",
+    "Freeze or final packaging does not establish compliance, adequacy, authorisation for training, or publication approval."
+  ],
+  "limits": [
+    "No new PowerShell workflow, intake, correction, move, freeze, cleanup, model run or source mutation performed in this migration verification.",
+    "Positive evidence applies to unchanged original two-case scripts/inputs. It is not evidence that the original two-branch ID3 code processes the newer four-case ID2 example.",
+    "Existing positive runtime used PowerShell7.6.6 on Windows11; it did not reconstruct the earlier Windows10 laptop. WindowsPowerShell5.1 failed at ConvertFrom-Json -Depth and is outside declared requirements.",
+    "Manual gate is not automatically enforced by freezer Strict switch. Null/empty timestamp fallback, repeat-freeze timestamps, and late missing-file checks remain documented boundaries.",
+    "The raw repeat-freeze comparison instrumentation error is superseded by the existing explicit four-file readback; no erroneous semantic result is reused."
+  ]
+}

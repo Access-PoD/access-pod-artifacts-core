@@ -1,0 +1,115 @@
+{
+  "manifest_type": "apod_artifact_manifest",
+  "pack_id": "APOD-TR-003",
+  "pack_version": "v1b",
+  "status": "Public Review Draft (Standards Exploration)",
+  "generated_utc": "2026-01-02T21:35:03.0374204Z",
+  "root_directory": "C:\\Access_PoD_vol.2_artifact_pack.v1b",
+  "files": [
+    {
+      "file_name": "Board Briefing — Runtime AI Governance & Risk Oversight.pdf",
+      "relative_path": "exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf",
+      "bytes": 209555,
+      "last_write_utc": "2026-01-02T05:48:46.3571080Z",
+      "sha256": "3a0ce810ebe102a9ccc077f0beb371fe57dd57c5fc6749e585bbb1a78d22a8cf"
+    },
+    {
+      "file_name": "Operator Evidence Checklist - Pre-Regulatory Engagement.pdf",
+      "relative_path": "exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf",
+      "bytes": 155839,
+      "last_write_utc": "2026-01-02T05:17:23.7047091Z",
+      "sha256": "6f68e9b7f2d9d927c4c4e4c1e7c4dba72c78fd11e24099fd5498129830337e1a"
+    },
+    {
+      "file_name": "Operator’s Manual - Access PoD.pdf",
+      "relative_path": "exec_ops/operator/Operator’s Manual - Access PoD.pdf",
+      "bytes": 285017,
+      "last_write_utc": "2026-01-02T05:10:43.4418348Z",
+      "sha256": "a7279e3721e1aae3a9a8194e26598cbbc2afc278164fc460bb7396bd56edce6a"
+    },
+    {
+      "file_name": "Regulator Q&A Playbook.pdf",
+      "relative_path": "exec_ops/regulator/Regulator Q&A Playbook.pdf",
+      "bytes": 224693,
+      "last_write_utc": "2026-01-02T05:15:49.8254403Z",
+      "sha256": "3a7bfd3cc05be5a45ce2b5a7d4a20524c5390061b5258bd52ad7aa19ba14d818"
+    },
+    {
+      "file_name": "apod.evidence_manifest.json",
+      "relative_path": "native/json/apod.evidence_manifest.json",
+      "bytes": 2135,
+      "last_write_utc": "2026-01-01T22:01:15.8350874Z",
+      "sha256": "cf17a1ddde74f0adf867902e4a8c702a3df8b7366ea393d8ddfb2beebde448fa"
+    },
+    {
+      "file_name": "apod.evidence_manifest.schema.json",
+      "relative_path": "native/json/apod.evidence_manifest.schema.json",
+      "bytes": 4114,
+      "last_write_utc": "2025-12-31T05:34:30.7801484Z",
+      "sha256": "a9bf2b31fc7fdeeefa02b166f19594efd5e603f26afec1eee641a05b3d7f6bdd"
+    },
+    {
+      "file_name": "apod.evidence_ref_mapping_v1b.json",
+      "relative_path": "native/json/apod.evidence_ref_mapping_v1b.json",
+      "bytes": 3160,
+      "last_write_utc": "2026-01-02T04:04:10.4211883Z",
+      "sha256": "ad06359207c40a898f57251221dafc62c5c240bb2fcf15378b4a7ae1604de47c"
+    },
+    {
+      "file_name": "apod.self_assessment.eu_annex_vii.schema.json",
+      "relative_path": "native/json/apod.self_assessment.eu_annex_vii.schema.json",
+      "bytes": 4880,
+      "last_write_utc": "2025-12-31T05:35:35.5925978Z",
+      "sha256": "7f7d490690a71cb6a1c33c286c306232caeb338c6a0842fc94f9e0d67745e3ab"
+    },
+    {
+      "file_name": "apod.self_assessment.eu_annex_vii.v1b.json",
+      "relative_path": "native/json/apod.self_assessment.eu_annex_vii.v1b.json",
+      "bytes": 1443,
+      "last_write_utc": "2026-01-02T04:04:20.2873990Z",
+      "sha256": "a8c440648ed253191e7bdeb02864c5b034df117d6044aa44d466a15cde1a21db"
+    },
+    {
+      "file_name": "csc_bundle_reference.json",
+      "relative_path": "native/json/csc_bundle_reference.json",
+      "bytes": 1144,
+      "last_write_utc": "2026-01-01T21:58:13.9254960Z",
+      "sha256": "f4ba5909d0104d0e8317250f2b114e32d27ecfdea7e20ddda3948321eca7e8ce"
+    },
+    {
+      "file_name": "csc_snapshot.json",
+      "relative_path": "native/json/csc_snapshot.json",
+      "bytes": 5789,
+      "last_write_utc": "2025-12-31T07:28:26.5992980Z",
+      "sha256": "af2f95e31b2afd497d7ec325b8cdb1865bf9275c659d9dd87efb8e06dda21904"
+    },
+    {
+      "file_name": "csc_snapshot.schema.json",
+      "relative_path": "native/json/csc_snapshot.schema.json",
+      "bytes": 9704,
+      "last_write_utc": "2025-12-31T07:34:17.3310538Z",
+      "sha256": "1b513adf121094729a181e3795e9824f69d85bc190fd8771a5beb89f96642b05"
+    },
+    {
+      "file_name": "apod.self_assessment.eu_annex_vii.expanded.non-native.json",
+      "relative_path": "non_native/json/apod.self_assessment.eu_annex_vii.expanded.non-native.json",
+      "bytes": 13041,
+      "last_write_utc": "2025-12-31T05:18:27.3141873Z",
+      "sha256": "1081ca242fbe11f57da54b63c366f53489fd56cb400d6cb2e1f1e4cb203d334e"
+    },
+    {
+      "file_name": "EU AI Act Annex VII-Aligned Evidence Checklist.pdf",
+      "relative_path": "norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf",
+      "bytes": 179767,
+      "last_write_utc": "2026-01-02T05:18:44.6601899Z",
+      "sha256": "b400f1ac13dc95fd66fe9ce81dad8383804aa86b61f779b0fff504d08a238f29"
+    },
+    {
+      "file_name": "README.md",
+      "relative_path": "README.md",
+      "bytes": 6143,
+      "last_write_utc": "2026-01-02T21:34:30.4993102Z",
+      "sha256": "2793524be4e95b0ea4e3cbbaf5079087986862b90616e19022f62a5310bca6c8"
+    }
+  ]
+}

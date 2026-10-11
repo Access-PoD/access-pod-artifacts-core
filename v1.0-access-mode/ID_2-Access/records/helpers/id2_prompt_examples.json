@@ -1,0 +1,51 @@
+{
+  "id": "ID2-PROMPT-EXAMPLES-001",
+  "description": "Helper examples for baseline-only and time-pressure variant prompt entry based on ID_2 walkthrough.",
+  "posture": "ID_2 exploratory, non-inspection, signals-only",
+  "examples": {
+    "baseline_only": {
+      "session_id": "ID2-YYYYMMDD-HHMM-baseline",
+      "purpose_statement": "Baseline session establishing reference governance behavior under moderate stress.",
+      "module_03": {
+        "scenario_seeds": [
+          "Organisation reports 35% AI-assisted content usage",
+          "Governance requires runtime monitoring of AI influence in decision-adjacent documents"
+        ],
+        "stressors": [
+          "Time pressure",
+          "Stakeholder request for recommendation",
+          "Conflicting telemetry signals"
+        ],
+        "objective": "Determine how governance reasoning degrades or shifts under time pressure and ambiguous telemetry during AI usage percentage reporting.",
+        "stress_conditions": [
+          "Compressed review timeline",
+          "Stakeholder request for immediate clarity on percentage meaning",
+          "Conflicting or incomplete telemetry classifications"
+        ]
+      }
+    },
+    "variant_timepressure": {
+      "session_id": "ID2-YYYYMMDD-HHMM-timepressure",
+      "purpose_statement": "Variant run applying intensified time-pressure stressor for comparison against baseline.",
+      "module_03": {
+        "scenario_seeds": [
+          "Organisation reports 35% AI-assisted content usage",
+          "Governance requires runtime monitoring of AI influence in decision-adjacent documents"
+        ],
+        "stressors": [
+          "Severe time pressure",
+          "Same-day stakeholder response requirement",
+          "Reduced peer review window",
+          "Deferred telemetry reconciliation due to deadline"
+        ],
+        "objective": "Observe how governance reasoning and uncertainty discipline shift under intensified time pressure and persistent telemetry ambiguity during AI usage percentage reporting.",
+        "stress_conditions": [
+          "Severely compressed review timeline with same-day publication expectation",
+          "Reduced opportunity for peer review before stakeholder response",
+          "Telemetry reconciliation deferred due to time constraints",
+          "Stakeholder demand for immediate interpretation of percentage as governance signal"
+        ]
+      }
+    }
+  }
+}

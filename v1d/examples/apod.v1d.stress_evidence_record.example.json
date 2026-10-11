@@ -1,0 +1,104 @@
+{
+  "schema_version": "v1d-1.0",
+  "record_id": "9f0d5a3e-7f77-4f0f-9b4a-3c3f9a2c8a11",
+  "created_utc": "2026-01-24T01:32:10Z",
+  "source": {
+    "origin": "internal_exercise",
+    "reference_docs": [
+      "APOD-TR-005 Vol.2 Version D — Governance Stress-Testing and Ethical Evaluation",
+      "APOD-TR-002 Vol.2 Version A — Core Governance Framework (Authority and CSC semantics)",
+      "v1.0-workshop — Designing Governance-Ready AI Outputs (Git tag: v1.0-workshop)"
+    ],
+    "notes": "Controlled tabletop exercise to test governance behavior under compounded stress. No production systems. No external retrieval."
+  },
+  "scenario": {
+    "scenario_id": "v1d-SC-004",
+    "title": "Telemetry gap + vendor delegation during time-critical reporting",
+    "summary": "A governance report must be finalized under deadline. AI assistance is used for structuring and drafting. A stakeholder requests an external vendor model for 'faster summaries' while telemetry is partial and attribution for delegated outputs is unclear. Stress-test focuses on authority boundaries, delegation accountability, telemetry integrity, and ethical restraint under pressure.",
+    "compounded": true,
+    "tags": [
+      "telemetry-gap",
+      "delegation",
+      "time-pressure",
+      "governance-writing",
+      "scope-control"
+    ]
+  },
+  "stress": {
+    "stress_types": [
+      "telemetry",
+      "delegation",
+      "authority",
+      "incentive",
+      "compounded"
+    ],
+    "stress_conditions": [
+      "Time pressure: external deadline within 2 hours",
+      "Partial telemetry: missing attribution for draft source segments",
+      "Delegation request: stakeholder proposes third-party summarization API",
+      "Incentive pressure: reputational risk if report is delayed",
+      "Authority ambiguity: unclear who can authorize external delegation"
+    ],
+    "non_exploitative_declaration": true
+  },
+  "context": {
+    "context_scope": "Internal governance memo supporting a risk committee discussion on AI-assisted reporting discipline. Jurisdiction: AU (primary) with EU references treated as contextual only. Output is decision-adjacent and must remain neutral and evidence-referenced.",
+    "assumptions_declared": [
+      "The final memo will be reviewed by a governance signatory prior to circulation.",
+      "Any external model delegation requires explicit authorization and logging.",
+      "Telemetry gaps reduce confidence and must constrain assurance interpretation.",
+      "AI assistance is limited to drafting/structure and cannot provide normative determinations."
+    ],
+    "ai_assistance_boundary": "AI may assist with outlining, neutral language refinement, and summarizing supplied reference text. AI must not interpret standards, recommend actions, or accept risk. External retrieval and external model delegation are disabled unless explicitly authorized and logged.",
+    "sector_profile": "public sector",
+    "jurisdiction": [
+      "AU",
+      "EU"
+    ]
+  },
+  "evidence": {
+    "telemetry_status": "partial",
+    "observed_failure_modes": [
+      "Delegation boundary ambiguity: stakeholder assumed external summarization is permissible without governance authorization.",
+      "Telemetry attribution gap: sections of the draft could not be traced to specific supplied references with sufficient confidence.",
+      "Incentive-driven pressure: deadline urgency created a push toward 'good enough' evidence posture."
+    ],
+    "governance_actions_taken": [
+      "pause_or_constrain_scope",
+      "escalate_to_human_review",
+      "require_additional_evidence",
+      "withhold_or_constrain_assurance_signal"
+    ],
+    "decision_rationale": "Given partial telemetry and unclear attribution for delegated outputs, proceeding with external delegation would undermine evidence discipline and accountability. We constrained scope to a neutral, reference-anchored memo using only provided materials, escalated the delegation request to the accountable role, and required attribution cleanup before finalization. Assurance signaling was constrained because evidence completeness was insufficient to support confident governance claims under stress.",
+    "ethical_note": "Ethical risk was framed as premature confidence: publishing a governance memo with contested attribution would create false assurance. The ethically defensible action under uncertainty was to slow down, constrain scope, and document what could and could not be supported by evidence rather than meeting the deadline through delegation.",
+    "evidence_artifacts": [
+      "internal://drafts/memo_v1_ai_assisted_outline.md",
+      "internal://logs/telemetry_snapshot_20260124_0130Z.json",
+      "internal://review/decision_note_v1d-SC-004.txt"
+    ],
+    "assurance_constraint": {
+      "constraint_type": "provisional_only",
+      "notes": "Until attribution and telemetry completeness are restored, any assurance interpretation remains provisional and scope-bound to the constrained memo context; no broader trust statements are supported."
+    }
+  },
+  "accountability": {
+    "accountable_role": "Governance Signatory (Risk Committee)",
+    "responsibility_statement": "I remain accountable for the final governance artifact, its evidence basis, and any decisions taken under uncertainty.",
+    "participants": [
+      "Risk Operator",
+      "Technical Author",
+      "Governance Signatory (Risk Committee)",
+      "Observer (Standards Review)"
+    ]
+  },
+  "review": {
+    "record_confidence": "medium",
+    "next_step": "Repeat scenario with telemetry attribution restored and delegation authorization explicitly modeled; compare whether governance actions change when evidence completeness improves.",
+    "follow_up_due_utc": "2026-02-07T00:00:00Z"
+  },
+  "disclaimer": {
+    "non_certifying": true,
+    "no_compliance_determination": true,
+    "notes": "This record is an informative stress-test evidence artifact. It does not certify systems, confer approval, or constitute a compliance determination."
+  }
+}

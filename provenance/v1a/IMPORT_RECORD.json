@@ -1,0 +1,132 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "v1a",
+  "date": "2026-10-10",
+  "status": "unchanged_published_import_with_separate_errata",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1a",
+  "source_zip": "access-pod-artifacts-v1a-pack.zip",
+  "source_zip_sha256": "b49ac3fa499cb125dcd26cb780f2daab783267916bdf06cf98d85c2848e427fd",
+  "source_zip_crc_pass": true,
+  "source_member_count": 10,
+  "imported_files": [
+    {
+      "path": "v1a/catalogs/csc_metric_catalog_v1a.json",
+      "bytes": 38949,
+      "sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632",
+      "archive_member": "catalogs/csc_metric_catalog_v1a.json"
+    },
+    {
+      "path": "v1a/docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "bytes": 4347,
+      "sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f",
+      "archive_member": "docs/Access_PoD_JSON_Instructions_v1a.pdf"
+    },
+    {
+      "path": "v1a/examples/example_csc_certificate_v1a.json",
+      "bytes": 6350,
+      "sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1",
+      "archive_member": "examples/example_csc_certificate_v1a.json"
+    },
+    {
+      "path": "v1a/profiles/csc_sector_profiles_v1a.json",
+      "bytes": 1546,
+      "sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f",
+      "archive_member": "profiles/csc_sector_profiles_v1a.json"
+    },
+    {
+      "path": "v1a/schemas/csc_metric_catalog_schema_v1a.json",
+      "bytes": 1887,
+      "sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2",
+      "archive_member": "schemas/csc_metric_catalog_schema_v1a.json"
+    },
+    {
+      "path": "v1a/schemas/csc-certificate.schema_v1a.json",
+      "bytes": 18576,
+      "sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34",
+      "archive_member": "schemas/csc-certificate.schema_v1a.json"
+    },
+    {
+      "path": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "bytes": 547992,
+      "sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8",
+      "archive_member": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf"
+    },
+    {
+      "path": "v1a/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "archive_member": "LICENSE"
+    },
+    {
+      "path": "v1a/manifest_v1a_pack.json",
+      "bytes": 3004,
+      "sha256": "a98e992307f1d76ac52d2354636c7d4ddd349a6894f17d6f838d77d9d6d2a649",
+      "archive_member": "manifest_v1a_pack.json"
+    },
+    {
+      "path": "v1a/README.md",
+      "bytes": 2682,
+      "sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80",
+      "archive_member": "README.md"
+    }
+  ],
+  "original_manifest_checks": [
+    {
+      "path": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "matches": true
+    },
+    {
+      "path": "catalogs/csc_metric_catalog_v1a.json",
+      "matches": true
+    },
+    {
+      "path": "docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "matches": true
+    },
+    {
+      "path": "examples/example_csc_certificate_v1a.json",
+      "matches": true
+    },
+    {
+      "path": "LICENSE",
+      "matches": true
+    },
+    {
+      "path": "profiles/csc_sector_profiles_v1a.json",
+      "matches": true
+    },
+    {
+      "path": "README.md",
+      "matches": true
+    },
+    {
+      "path": "schemas/csc_metric_catalog_schema_v1a.json",
+      "matches": true
+    },
+    {
+      "path": "schemas/csc-certificate.schema_v1a.json",
+      "matches": true
+    }
+  ],
+  "paper_matches_supplied_assessment_copy": true,
+  "paper_sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8",
+  "pdfs_unchanged": [
+    {
+      "path": "v1a/docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "bytes": 4347,
+      "sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f",
+      "archive_member": "docs/Access_PoD_JSON_Instructions_v1a.pdf"
+    },
+    {
+      "path": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "bytes": 547992,
+      "sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8",
+      "archive_member": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf"
+    }
+  ],
+  "added_component_notes": [
+    "v1a/ERRATA.md"
+  ],
+  "original_files_changed": [],
+  "interpretation": "Preservation checks only; not execution, semantic assurance, certification, final sealing or publication."
+}

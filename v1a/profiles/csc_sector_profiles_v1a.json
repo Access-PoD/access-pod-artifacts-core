@@ -1,0 +1,59 @@
+{
+  "profiles_version": "1.0.0",
+  "issued_at": "2025-12-27T00:00:00Z",
+  "profiles": [
+    {
+      "profile_id": "sector.healthcare.v1",
+      "description": "Healthcare prioritizes patient safety, oversight, transparency, and sector norms.",
+      "weights": {
+        "f6_1": 0.22,
+        "f6_2": 0.14,
+        "f6_3": 0.12,
+        "f6_4": 0.24,
+        "f6_5": 0.16,
+        "f6_6": 0.12
+      },
+      "gates": {
+        "f6_1_min_for_4star": 75,
+        "f6_4_min_for_4star": 80,
+        "f6_6_min_for_6star": 90
+      }
+    },
+    {
+      "profile_id": "sector.finance.v1",
+      "description": "Finance prioritizes security, fraud resistance, explainability, auditability, and ecosystem integrity.",
+      "weights": {
+        "f6_1": 0.25,
+        "f6_2": 0.16,
+        "f6_3": 0.14,
+        "f6_4": 0.2,
+        "f6_5": 0.1,
+        "f6_6": 0.15
+      },
+      "gates": {
+        "f6_1_min_for_4star": 80,
+        "f6_4_min_for_4star": 75,
+        "f6_6_min_for_6star": 90
+      }
+    },
+    {
+      "profile_id": "sector.public.v1",
+      "description": "Public sector prioritizes human-centric governance, transparency, and sector legitimacy.",
+      "weights": {
+        "f6_1": 0.18,
+        "f6_2": 0.12,
+        "f6_3": 0.16,
+        "f6_4": 0.26,
+        "f6_5": 0.16,
+        "f6_6": 0.12
+      },
+      "gates": {
+        "f6_1_min_for_4star": 70,
+        "f6_4_min_for_4star": 85,
+        "f6_6_min_for_6star": 90
+      }
+    }
+  ],
+  "status": "Public Review Draft (Standards Exploration)",
+  "document_id": "APOD-TR-002"
+}

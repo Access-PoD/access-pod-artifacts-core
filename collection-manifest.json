@@ -1,0 +1,1970 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "status": "locally_sealed_public_review_draft",
+  "date": "2026-10-11",
+  "destination_root": "C:\\access-pod-v1.0",
+  "completed_components": [
+    "v1a",
+    "v1b",
+    "v1c",
+    "v1d",
+    "v1.0-access-mode",
+    "ID_1-core",
+    "ID_2-Access",
+    "ID_3-operator",
+    "APOD-ID3-RULE-001-v1.1"
+  ],
+  "pending_components": [],
+  "excludes": [
+    "collection-manifest.json"
+  ],
+  "final_seal": true,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "LICENSING.md",
+      "bytes": 4961,
+      "sha256": "2ecdaef6bcb6e32b8038472bebc8c7c450f9619f2e59d907ce8a86b1bc66088e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11939,
+      "sha256": "306ce408416b58306a591847a4be8ab1842d48d40522a7aae075215eafe8c506"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.0_CONSOLIDATED.md",
+      "bytes": 8169,
+      "sha256": "a5bd55accf09142be5bbf4cac0970c0772cf9dde9478467a4d3f5d131184a575"
+    },
+    {
+      "path": "provenance/ACCESS_MODE_LAYOUT_20261011.json",
+      "bytes": 107672,
+      "sha256": "f8a7e2b91b9bab63901d13f4c123f4864d084f7895b93cdb7514cdec38e6d0b0"
+    },
+    {
+      "path": "provenance/ACCESS_MODE_NAVIGATION_20261011.json",
+      "bytes": 1052,
+      "sha256": "0abed878182a94f2eb8b428561243da300db3efa3e6c139ab9f74eb331a8ba34"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip",
+      "bytes": 485214,
+      "sha256": "771980f8c18e01560238040df910f714487464ec0287c9609823d92263f4bd3b"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/IMPORT_RECORD.json",
+      "bytes": 4846,
+      "sha256": "3ca949848dccb0568b4d7c2c109272b97a6b91e55ea7a191c8204654ddd018be"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/RULE_REVIEW.json",
+      "bytes": 12525,
+      "sha256": "1097cb38755ab80bef7354c6a730586444cd0a0e14a82c2db972029262235b01"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/RULE_REVIEW.md",
+      "bytes": 3379,
+      "sha256": "db442c371d328acd42e2857cddd661a414e78512e3e877411d3013b67afd7508"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/SHA256SUMS_APOD-ID3-RULE-001_rule-engine_v1.1_pack.txt",
+      "bytes": 122,
+      "sha256": "53db090915e7a25666ad1f1e01f442c3d90b4dc05a16cc3eeae2e086c3d82d84"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/DOCUMENTATION_REVISION_PACKET_20261011.json",
+      "bytes": 17675,
+      "sha256": "dbb96204318840d11769e88ef8210b78df30cbd51e2676544dcc65f36c29db20"
+    },
+    {
+      "path": "provenance/FINAL_PREPARATION_20261011.json",
+      "bytes": 5753,
+      "sha256": "0ae1c0e4474e7bcf547cd24141b6b81a7f14cafddd3b898694343fa5266417b7"
+    },
+    {
+      "path": "provenance/ID_1-core/IMPORT_RECORD.json",
+      "bytes": 12424,
+      "sha256": "ed7e25007b6538b40f89fd242510f93a769d24141d5203d827dd23fa5958923c"
+    },
+    {
+      "path": "provenance/ID_1-core/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "307bfa33d9d89aeb1de4282ebffc1aec805bae3cd04d92313ae84278b9d03508"
+    },
+    {
+      "path": "provenance/ID_1-core/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/ID_1-core/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/ID_1-core/v1.0-Access-mode_release_20260208-150107.zip",
+      "bytes": 1944831,
+      "sha256": "3e5daed634ed44a9798d6fcffe35ea42e4f780ce75fe5dd5213708ef45da4ade"
+    },
+    {
+      "path": "provenance/ID_2-Access/IMPORT_RECORD.json",
+      "bytes": 46516,
+      "sha256": "304b93cbbcef971a7552c87fa2f6836cb708676c03e26a38d2f480c71b60a2b1"
+    },
+    {
+      "path": "provenance/ID_2-Access/LOCAL_SOURCE_INVENTORY.json",
+      "bytes": 47195,
+      "sha256": "44af45192dab39c85827fa172a7df0ae8fc078bd198300786e28b64b983d258c"
+    },
+    {
+      "path": "provenance/ID_2-Access/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "47862c3c14e0b5b55fbfff98c39172b9a88de4ec28afe35275eba0eaad212004"
+    },
+    {
+      "path": "provenance/ID_2-Access/WORKFLOW_CHECK_2.json",
+      "bytes": 13930,
+      "sha256": "e2d77b860b4075854ec5ba21d473d8d63a188926da6b1545e2fa6d09c3087df2"
+    },
+    {
+      "path": "provenance/ID_2-Access/WORKFLOW_CHECK_4.json",
+      "bytes": 20227,
+      "sha256": "69d3b847526c7c596390dc162c98f127a55135eae4eba8ebe847fb8931b5cb6b"
+    },
+    {
+      "path": "provenance/ID_2-Access/documentation-20261011/DOC_REVISION_RECORD.json",
+      "bytes": 9534,
+      "sha256": "eafa461b3a850e30db6eebb3c60fa8893b803ee084982dcc2206457305cff0ad"
+    },
+    {
+      "path": "provenance/ID_2-Access/documentation-20261011/ID_2 Toolkit Script Examples Companion.backup.20260418-202652.docx",
+      "bytes": 724585,
+      "sha256": "4cc3edca3e8f1e42f0c57b3f4c79230b64435e0cf3eb3f76b6ad25eec23346ab"
+    },
+    {
+      "path": "provenance/ID_2-Access/link-path-corrections-20261011/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 700149,
+      "sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78"
+    },
+    {
+      "path": "provenance/ID_2-Access/link-path-corrections-20261011/CORRECTION_RECORD.json",
+      "bytes": 21324,
+      "sha256": "7b7d45a426005b3ee10e85ba36b4ab6761b9933d36d41b25f7d6b72ce8e2527f"
+    },
+    {
+      "path": "provenance/ID_2-Access/link-path-corrections-20261011/ID_2 Toolkit Script Examples Companion.pdf",
+      "bytes": 1567828,
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c"
+    },
+    {
+      "path": "provenance/ID_2-Access/local-document-history/Access-Mode ID_2 - Operational Runtime Reasoning (local v1.1 copy).pdf",
+      "bytes": 687345,
+      "sha256": "232df94a172631f5ca11c06c18b8cef6a3228dcd97ac90f8b89311350598b781"
+    },
+    {
+      "path": "provenance/ID_2-Access/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/ID_2-Access/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/ID_2-Access/v1.0-Access-mode_release_20260221-121416.zip",
+      "bytes": 4028440,
+      "sha256": "569fca4a5c7ce8386d27a2b98f005a6ce7567a8c98e6c81f015d37208cfc32fa"
+    },
+    {
+      "path": "provenance/ID_3-operator/IMPORT_RECORD.json",
+      "bytes": 17877,
+      "sha256": "409b73fba8cba62b0038c11eeba5fb667b4fa3e768c7cc356a21220b3e07319f"
+    },
+    {
+      "path": "provenance/ID_3-operator/SHA256SUMS_v1.0-access-mode_ID_3_pack.txt",
+      "bytes": 117,
+      "sha256": "8700db146e1013d1451f16e75d65faadd8ce610e89b9b5b7d43ecb084d44fb64"
+    },
+    {
+      "path": "provenance/ID_3-operator/WORKFLOW_CHECK.json",
+      "bytes": 22463,
+      "sha256": "7a3680044d24471ec321d6590f4fe8571795bb558b7b74b45aa8be64be7582c0"
+    },
+    {
+      "path": "provenance/ID_3-operator/WORKFLOW_CHECK.md",
+      "bytes": 3681,
+      "sha256": "fcb52e65b99d0e6da41c5763d47a000af2aca9e46ab0493d1261b5145495e0b7"
+    },
+    {
+      "path": "provenance/ID_3-operator/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/ID_3-operator/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/ID_3-operator/v1.0-Access-mode_ID_3_release_20260301-111359.zip",
+      "bytes": 3858738,
+      "sha256": "905a30ca8b9aad772193aacb2ac8eadc3ebb7dc9080bd735be59d32a0987e1fa"
+    },
+    {
+      "path": "provenance/v1.0-access-mode/IMPORT_RECORD.json",
+      "bytes": 20841,
+      "sha256": "386210bbb350809653dc1a35bf138da7e4552aaf0cddf3d7eb77dde66a87c23c"
+    },
+    {
+      "path": "provenance/v1.0-access-mode/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "d340317f173fb6e5859dfdc839b46abd48a2f0879a536400085fb47b55fb8de7"
+    },
+    {
+      "path": "provenance/v1.0-access-mode/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/v1.0-access-mode/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/v1.0-access-mode/v1.0-Access-mode_release_20260204-203045.zip",
+      "bytes": 2754056,
+      "sha256": "1b33667d2a36df09106ca3c9e9ce1e7b588f33aec68759a53de5caf2d840398f"
+    },
+    {
+      "path": "provenance/v1a/IMPORT_RECORD.json",
+      "bytes": 4800,
+      "sha256": "8b3386645ae0d8e9e21b7cd6685ee892597e6561ae4fae0918629a23867d49eb"
+    },
+    {
+      "path": "provenance/v1a/SHA256SUMS_v1a_pack.txt",
+      "bytes": 101,
+      "sha256": "ae24047340ac8287ffa96a45c48e401d9e8d1dfd44a2b091ef4cbfe86ba5f578"
+    },
+    {
+      "path": "provenance/v1a/access-pod-artifacts-v1a-pack.zip",
+      "bytes": 525127,
+      "sha256": "b49ac3fa499cb125dcd26cb780f2daab783267916bdf06cf98d85c2848e427fd"
+    },
+    {
+      "path": "provenance/v1b/IMPORT_RECORD.json",
+      "bytes": 9681,
+      "sha256": "793cd53137fc9504749730b6d57307c523534c6ee7e49d3c680ccee4f05be2ae"
+    },
+    {
+      "path": "provenance/v1b/SHA256SUMS_v1b_pack.txt",
+      "bytes": 101,
+      "sha256": "f0c187e821c70ab87476e3e64c4162df850be9c2baa8183004cab9741b409314"
+    },
+    {
+      "path": "provenance/v1b/access-pod-artifacts-v1b-pack.zip",
+      "bytes": 1017677,
+      "sha256": "20915f4e74c8a3cc6b891372a7b1468f3c810c297da8f48685912914679d5f61"
+    },
+    {
+      "path": "provenance/v1b/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/v1b/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/v1c/IMPORT_RECORD.json",
+      "bytes": 6849,
+      "sha256": "898e617f58dc1bc372f7876a8e44245f83c918a2cfffa78621bf817d5faad6cd"
+    },
+    {
+      "path": "provenance/v1c/manifest.external.json",
+      "bytes": 619,
+      "sha256": "b0829653361ab3491064a8252256fee38c65aa37d475bc2c530416fee2f4083e"
+    },
+    {
+      "path": "provenance/v1c/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/v1c/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "provenance/v1c/sealed_20260117_105542.zip",
+      "bytes": 503446,
+      "sha256": "a723ecadfc62453457d1405018d41ac2e490a18e3f0aeab8eff49399a8fe6cdd"
+    },
+    {
+      "path": "provenance/v1c/sealed_20260117_105542.zip.sha256",
+      "bytes": 102,
+      "sha256": "e2ff181979fc60dd0b1d81b16b486ffbd1eb73234d45975c27fb39b904e82549"
+    },
+    {
+      "path": "provenance/v1d/APOD-TR-005_Vol2_Version-D_Offline-Review_20260125_143440.zip",
+      "bytes": 621897,
+      "sha256": "f4f98945048a8cad95ec062799551d820773c7cbfc35818cb1c02ae168454291"
+    },
+    {
+      "path": "provenance/v1d/IMPORT_RECORD.json",
+      "bytes": 5816,
+      "sha256": "e3c885aa16ecf3b95024c5d64848e20499dc3530f3bcaa5fc05ea43963bf3c05"
+    },
+    {
+      "path": "provenance/v1d/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "provenance/v1d/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/CONTRIBUTORS.md",
+      "bytes": 906,
+      "sha256": "f3e846663025f13d065dbb7abb066f5c6b49751832229c2d39435cc8cae58df6"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+      "bytes": 6420,
+      "sha256": "f7dc095722c4deec109721097a04f41f4d1548f6ad99d45f2d1161c07d34b1f9"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/README.md",
+      "bytes": 1881,
+      "sha256": "df44b38334aa84f80e3fadda0bee5902cee1303fb0430354dea915511ecc08e2"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/SOURCE_NOTICES.md",
+      "bytes": 2617,
+      "sha256": "8e98bf30641fc9df166bce7192ed0d0fcaea44e7d5d66ede3f9b25627d4bce9a"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/changes/CHANGELOG.md",
+      "bytes": 1569,
+      "sha256": "dedf55cd8c8d4da76bb85123846d5773346eda044d65efc3e9a36e768f5a6aea"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/changes/DIFF_NOTES.md",
+      "bytes": 850,
+      "sha256": "5ccea0b4a7ef5415e78ae1d97c3da16577f4a6849e52577cf6c931aaa584a334"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/checksums/SHA256SUMS.txt",
+      "bytes": 822,
+      "sha256": "b8b7a8fdf59bd22a79ae803c226a879bb85bcc4e35b3e4afa24db993c9d4349a"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/manifests/rule_release.manifest.json",
+      "bytes": 948,
+      "sha256": "aa1d40e98613022341a912b86a334e1cb759a23df070d19d76417f561195397d"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/release_notes_INTERNAL.md",
+      "bytes": 1009,
+      "sha256": "4ecb4f205b2273c600d2d3d3e4a243932992767dd1728452ab0fd8e499abc226"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/rules/session_completeness.rule.json",
+      "bytes": 6948,
+      "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/spec/README.md",
+      "bytes": 749,
+      "sha256": "800ea1d66fc4fe782bf24267ef812951136f703e60a0dcb3cff498b7aa98af13"
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/spec/Rule Engine Formalization.pdf",
+      "bytes": 501421,
+      "sha256": "53dd78e5068465e4ece548000ef0efbf7653358298836294d063a36d06df2f80"
+    },
+    {
+      "path": "v1.0-access-mode/COLLECTION_GUIDE.md",
+      "bytes": 5532,
+      "sha256": "b3be4ea2f14bfe248c6ea8572764d1f33edf610701ff9518c76ac1e482fd1e39"
+    },
+    {
+      "path": "v1.0-access-mode/ERRATA.md",
+      "bytes": 9710,
+      "sha256": "d6ab26c25541e31f1334157b8f434a58e6c63f221677aad12910b21d36d66d5d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/Access-Mode ID_1 — Core (Learning).pdf",
+      "bytes": 185634,
+      "sha256": "f2dca3a384d53aa49a8318be0df695042585de85bf90c56d67b6246342995cfe"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/ERRATA.md",
+      "bytes": 6960,
+      "sha256": "604151731405972ddaa1346daef423a825815e3bd555442a70a92b579f2461d4"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/README_ID_1.md",
+      "bytes": 1862,
+      "sha256": "3480d987beb7b29021d1b7dd640930a3bcfa4e48f4bd618ac41ad48c943be805"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/SOURCE_NOTICES.md",
+      "bytes": 1990,
+      "sha256": "e8ca7d4faafdc1bf9d82b8eea06b5a14569913d8a900ca20deebceaaaae37a6a"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/docs/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/docs/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/docs/README_doc_orientation.md",
+      "bytes": 2901,
+      "sha256": "74307539e0b40746f5f2014318177cda7ab90b30d7e3c02364f17e0be1803b5e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/Learning_mode.md",
+      "bytes": 3226,
+      "sha256": "097269021a312aa1dab96ddffb815089644555e89e9df0ef4994a21c4c99d6f0"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/module_01_governance_ai_identity_ID_1.md",
+      "bytes": 9958,
+      "sha256": "6392715eb6a694377382712730b75184e8029c7b689ba58701578ec55fec0529"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/module_02_intent_scope_boundaries_ID_1.md",
+      "bytes": 8507,
+      "sha256": "57788316ddeebf36f1b7aaaf6550afd9d2bbda81adb4d1a2755a37e52d1ce275"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/module_03_governance_rag_references_ID_1.md",
+      "bytes": 7413,
+      "sha256": "1b91de460657bca70d60bdc374afc1af3936066bf87b4d0e20aaed4be70122eb"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/module_04_writing_governance_artifacts_ID_1.md",
+      "bytes": 6387,
+      "sha256": "2b64d8bf2bf19454dc589dffe726f44facc39324bbac1cc22bd3117593dcc25d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/module_05_access_pod_lens_ID_1.md",
+      "bytes": 6606,
+      "sha256": "a5fed12baa043bedb1cb5994f74ecc8ced01583178b99e337b49524f7a865ee6"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/exemplar_modules/module_06_forward_practice_reflection_ID_1.md",
+      "bytes": 6156,
+      "sha256": "6e652897c6fcc24c2797cb45054d739440af76a431bdc8e96c202490c971586b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/Learning_mode.md",
+      "bytes": 3226,
+      "sha256": "097269021a312aa1dab96ddffb815089644555e89e9df0ef4994a21c4c99d6f0"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/module_01_governance_ai_identity_ID_1.md",
+      "bytes": 13381,
+      "sha256": "e6a3da360b3953abefd9b9f5ed43d8040e8e43620f2a533808a3e4f2d5b1a85a"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/module_02_intent_scope_boundaries_ID_1.md",
+      "bytes": 13642,
+      "sha256": "97acfcec9d102d87c674725c04416c187939dd656499a409deb951fe352cd318"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/module_03_governance_rag_references_ID_1.md",
+      "bytes": 13090,
+      "sha256": "b0c087e533d0370d6fe8b0b24596001c951913c470b2d32a2348a54b01c6b6d0"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/module_04_writing_governance_artifacts_ID_1.md",
+      "bytes": 12511,
+      "sha256": "d52187edb2fe323f442d6f28f568bc98c564a4ad14b789a7ada0c755dfaddfcd"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/module_05_access_pod_lens_ID_1.md",
+      "bytes": 12306,
+      "sha256": "2df84bf22de54743d5b8a944790d8e2de6415e90e1056f802f04f54e4f262516"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/modules/module_06_forward_practice_reflection_ID_1.md",
+      "bytes": 11326,
+      "sha256": "ed29c22532291827e82267d50435349255da74fda2f9b475617ea2d377d9a2c6"
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/release_notes_ID_1.md",
+      "bytes": 8701,
+      "sha256": "9712e44fe03436a69787a6ac70214e328932cc0c9816b2474f9a7414325489ca"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md",
+      "bytes": 8377,
+      "sha256": "57b4d300e1a48fd944e09bcf4eccbf97adc0b3c0aa6df015b193c3b7ac79e968"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/README.md",
+      "bytes": 2667,
+      "sha256": "5e16a106c6f48b9ebb13e7fcf0768aa362dcc8af88aab1684486ec56d6b7c336"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/README_ID_2.md",
+      "bytes": 2089,
+      "sha256": "b5ab14c04e5f43191338cabbd938b837168618f1e91650e3ccbb6c3c170dcab5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/SOURCE_NOTICES.md",
+      "bytes": 3276,
+      "sha256": "6579688b0339ea6e05fd23f8ea91af043fdcd3050be7adf1e8f18d0c423c20df"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 722548,
+      "sha256": "f40cf1e16ff524d3ec0905092350f50d295fa3b0e6f8d1c0fb441bc88024f99d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "bytes": 170126,
+      "sha256": "fb0cb45d48e77a061b5191c1d923aa92f3f86063cdfa8cb79fee1192560b0f76"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "bytes": 332081,
+      "sha256": "b8b177ea0d6dd6347e3f13a9e160e50a5e509edc478e2a3fa942097010b3efe6"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "bytes": 3804,
+      "sha256": "472d780f9c3ea83b8e96f52cbe624659687607d0486e50df588ccb1048a64478"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "bytes": 1567828,
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - current two-candidate guide.docx",
+      "bytes": 700437,
+      "sha256": "8b4b0526d8842b7bd177cce0be42031fe0f2d7b698d1bee5820650588cd00133"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - current two-candidate guide.pdf",
+      "bytes": 1151509,
+      "sha256": "b3cbbb5085b95b0e5ceb344386f4171269482a6df1da95e21de1e9f9101e0554"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/REVISION_NOTES.md",
+      "bytes": 3430,
+      "sha256": "bea1d3ac94a2359527933d0654f130b7583104d19527d4881b87a58ebbb4081f"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 6767,
+      "sha256": "7f16b026054ea74a01015b8c784d9363aea882e39b92186e49a7856c66c269fc"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 6933,
+      "sha256": "bcdaec30af811623ff697c76fb5ddc5c4915c1eb270b719abf50364f4a7004a1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 6235,
+      "sha256": "959308de2678780e92de7ee7d0016fd6d822e135374d2db47caf7c1b1edf5f7b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5728,
+      "sha256": "f36e9b0dfcd50ef580f81941c290ce4fe5cd15fc91546cf994d8daaecd3bdbe5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 6189,
+      "sha256": "af588ac6bc0357471ba49ade51e9e73d7696a7eeade5ee0e6824ac81d815b26b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 6425,
+      "sha256": "7993e3166cec2e26f4f735ae6e00c18c1054ccb0c35585e699aa6943efb2e3c1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/exemplar_modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+      "bytes": 6408,
+      "sha256": "69c13b27104d655b6a2b860e5dbe273e447a746c4fa3bdb1dbf5043a7b7cfb3e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/README_ID_2.md",
+      "bytes": 2089,
+      "sha256": "b5ab14c04e5f43191338cabbd938b837168618f1e91650e3ccbb6c3c170dcab5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 722548,
+      "sha256": "f40cf1e16ff524d3ec0905092350f50d295fa3b0e6f8d1c0fb441bc88024f99d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+      "bytes": 18660,
+      "sha256": "57b61a11242f9ffb8ac6d36612815069e9629e23065876cdc1271bdfb1639900"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "bytes": 170126,
+      "sha256": "fb0cb45d48e77a061b5191c1d923aa92f3f86063cdfa8cb79fee1192560b0f76"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "bytes": 332081,
+      "sha256": "b8b177ea0d6dd6347e3f13a9e160e50a5e509edc478e2a3fa942097010b3efe6"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "bytes": 3804,
+      "sha256": "472d780f9c3ea83b8e96f52cbe624659687607d0486e50df588ccb1048a64478"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/Access-Mode ID_2 commands & Path 2 Execution Notes.docx",
+      "bytes": 53743,
+      "sha256": "c94aa768d9f9a3559f12555930d2c589cf97d598188f23a2417ca40a1668d29d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/Four ID_2 records_candidets session + ps7 console.docx",
+      "bytes": 74377,
+      "sha256": "514439f2767f0bc14ef037c225528fb1c3e6fa37cec607af1c63051559afaf1d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/ID_2 Toolkit Script Examples Companion - revised four-session run.docx",
+      "bytes": 32917,
+      "sha256": "8cc42f0c7a9e6e1ca3611005b07dd1447bc726d7d4693e1a6cf09865afe5418d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "bytes": 1567828,
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+      "bytes": 54401,
+      "sha256": "b2aeb0bb11e2d1a1860b89758beaa42e6e0b2221fc1bb93d0d99ef1aec655e65"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+      "bytes": 721699,
+      "sha256": "8dccef9482e9b26a454802f4c0c83366e728721ee65d3f429e18d11bb71b6045"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+      "bytes": 6895,
+      "sha256": "89949754960973b8a7874d6882f58fd2f7eebbcbbeb880d6ae358c3b3df40bf7"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1",
+      "bytes": 2706,
+      "sha256": "4859e6cc5182ee9d7142d10f98dfcf724fab2464b85bae5fbcf6b5edec155958"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 6767,
+      "sha256": "7f16b026054ea74a01015b8c784d9363aea882e39b92186e49a7856c66c269fc"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 6933,
+      "sha256": "bcdaec30af811623ff697c76fb5ddc5c4915c1eb270b719abf50364f4a7004a1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 6235,
+      "sha256": "959308de2678780e92de7ee7d0016fd6d822e135374d2db47caf7c1b1edf5f7b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5728,
+      "sha256": "f36e9b0dfcd50ef580f81941c290ce4fe5cd15fc91546cf994d8daaecd3bdbe5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 6189,
+      "sha256": "af588ac6bc0357471ba49ade51e9e73d7696a7eeade5ee0e6824ac81d815b26b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 6425,
+      "sha256": "7993e3166cec2e26f4f735ae6e00c18c1054ccb0c35585e699aa6943efb2e3c1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/exemplar_modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/manifest.txt",
+      "bytes": 5426,
+      "sha256": "710db57e23410422137b204ababb1ef075b106d08a0fd653ac3cdae9464acea8"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 13923,
+      "sha256": "3ff8c2271c9f80a5111795954524f0b173b1a6d5ac2b5d39b90df5af0d938d4c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 11869,
+      "sha256": "f448becb62e3a588aa1b3204cd0dcf1fb46463e9b5d3428aba74fda46101a287"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 11609,
+      "sha256": "c6edacf00c0f53372cb2a1343548aa3bf430e5ba79f264ec3f08cba90a344da6"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 9295,
+      "sha256": "ae7d014503832f38d6b00309a048f8cd534a1a21ce747d5e656e77bc500404a1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 11376,
+      "sha256": "21b584c3e5b6a11c885a64efa5cb2e8d1ff61889841228b3e98122e20808ed48"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 11050,
+      "sha256": "11614ae3d55c7f6d84ea41f480fc5b31ecd9004b86f9ba618dc7ba68f0b04987"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/comparisons/2026-04-11/ID2-20260411-1400-qpath-tr008-run/id2_comparison_summary.json",
+      "bytes": 25769,
+      "sha256": "8eb2246a7ed779b70370c11f36f156aa187adb96203f25949d6bbf75f193fdab"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/helpers/Helpers_README.md",
+      "bytes": 2166,
+      "sha256": "db08abf72cef1ddffa4c2bf8a727f5c161d0ef47df5e100d647f86fdd08d3e3c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/helpers/id2_prompt_examples.json",
+      "bytes": 2483,
+      "sha256": "7a60952c4f97514c1d0888a2a331fe4f73b54054d3540389657790e8433fe4e8"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 23005,
+      "sha256": "b0889f51dbf8ff60505b4b7a1bae4c4bcfc067e0115e3492e4d148f4c2bf7644"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10059,
+      "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "bytes": 3444,
+      "sha256": "c2e31860664755a8eba5d39eb04a1449d7e4f372b4852a65ab811327defe9742"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9324,
+      "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "bytes": 3592,
+      "sha256": "39f311d0bc7be97e2efc5f309580bac8c6bb9d10d421592b1350cd8454fe1ee1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10212,
+      "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "bytes": 3631,
+      "sha256": "59f0b405a813effb12e685a85201cdaab2732e278576d640eea9bd8b1479d2cf"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 7866,
+      "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "bytes": 3410,
+      "sha256": "6f1cf90c2c19fe485e61c64e71f32fc34f40a79af96852451ce5a93e4ae61ec9"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/templates/module_03.template.json",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/records/templates/session.template.json",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/release_notes_ID_2.md",
+      "bytes": 5257,
+      "sha256": "83160aa688d93aed9084b0fb54caaf7f87c7db1ae62e957e994cf9da13291673"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/helpers/Add-ID2SessionStatus.ps1",
+      "bytes": 821,
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "bytes": 2276,
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/helpers/Edit-ID2SessionJson.ps1",
+      "bytes": 5829,
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "bytes": 10087,
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "bytes": 11128,
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/primary/Normalize-ID2Module03.ps1",
+      "bytes": 4287,
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/scripts/primary/Run-ID2-StressComparison.ps1",
+      "bytes": 6964,
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/manifest.txt",
+      "bytes": 5426,
+      "sha256": "710db57e23410422137b204ababb1ef075b106d08a0fd653ac3cdae9464acea8"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 13923,
+      "sha256": "3ff8c2271c9f80a5111795954524f0b173b1a6d5ac2b5d39b90df5af0d938d4c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 11869,
+      "sha256": "f448becb62e3a588aa1b3204cd0dcf1fb46463e9b5d3428aba74fda46101a287"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 11609,
+      "sha256": "c6edacf00c0f53372cb2a1343548aa3bf430e5ba79f264ec3f08cba90a344da6"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 9295,
+      "sha256": "ae7d014503832f38d6b00309a048f8cd534a1a21ce747d5e656e77bc500404a1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 11376,
+      "sha256": "21b584c3e5b6a11c885a64efa5cb2e8d1ff61889841228b3e98122e20808ed48"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 11050,
+      "sha256": "11614ae3d55c7f6d84ea41f480fc5b31ecd9004b86f9ba618dc7ba68f0b04987"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/comparisons/2026-02-10/ID2-20260210-1835-session/id2_comparison_summary.json",
+      "bytes": 7819,
+      "sha256": "e86a5dcca5da72142cc6e3c54b09ab75ce24e894747c45b438be9e766c3f27a7"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/helpers/Helpers_README.md",
+      "bytes": 2166,
+      "sha256": "db08abf72cef1ddffa4c2bf8a727f5c161d0ef47df5e100d647f86fdd08d3e3c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/helpers/id2_prompt_examples.json",
+      "bytes": 2483,
+      "sha256": "7a60952c4f97514c1d0888a2a331fe4f73b54054d3540389657790e8433fe4e8"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 23005,
+      "sha256": "b0889f51dbf8ff60505b4b7a1bae4c4bcfc067e0115e3492e4d148f4c2bf7644"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9136,
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "bytes": 2817,
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10634,
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "bytes": 3519,
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/templates/module_03.template.json",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/records/templates/session.template.json",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/release_notes_ID_2.md",
+      "bytes": 5257,
+      "sha256": "83160aa688d93aed9084b0fb54caaf7f87c7db1ae62e957e994cf9da13291673"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/helpers/Add-ID2SessionStatus.ps1",
+      "bytes": 821,
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "bytes": 2276,
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/helpers/Edit-ID2SessionJson.ps1",
+      "bytes": 5829,
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "bytes": 10087,
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "bytes": 11128,
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/primary/Normalize-ID2Module03.ps1",
+      "bytes": 4287,
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44"
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/scripts/primary/Run-ID2-StressComparison.ps1",
+      "bytes": 6964,
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9136,
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "bytes": 2817,
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10634,
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "bytes": 3519,
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md",
+      "bytes": 9426,
+      "sha256": "53656e75c0a1b6d547d2e2bebb3e98d9e9fac0709bc5b948779c312f1ccc3819"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/README_ID_3.md",
+      "bytes": 4181,
+      "sha256": "576ec661eae8dd5407fe95537c195eadbe95771ea323456d08357d28e27fe7d9"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/SOURCE_NOTICES.md",
+      "bytes": 3454,
+      "sha256": "5a498e25c3482540b5adaf1b44e0f9391b4aab87754c859c8a77b4515cbb31dd"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/checksums/SHA256SUMS.txt",
+      "bytes": 6337,
+      "sha256": "5c932125429cdc4009185649fd13ea7f5aa2e934ce393b054f27860181a374b2"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/controls/Inspection Mode Rules README ID_3.pdf",
+      "bytes": 141877,
+      "sha256": "9cc932e5779a0419423756d89a3011da03cff3717f3cd2273feee39c3944f5f9"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/controls/inspection_mode_control_ID_3.md",
+      "bytes": 4417,
+      "sha256": "6b4619c90bd50787c22f1037c21a1f1dfc384456792c3d1cce386d5d24371549"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+      "bytes": 600419,
+      "sha256": "119cf9be23542def2e5a0f0ef98b4b49a80ff0f991754dabf19629a4f72d5717"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.docx",
+      "bytes": 759914,
+      "sha256": "9c624ac8804c8912b82ff45d0cdf698e8b92977b012a1fb6b6b127a19318da05"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.pdf",
+      "bytes": 1130916,
+      "sha256": "0259f2af5bb253485e39e27440cbdb715e137e8c28abb2e383a66d851659d52c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/execution_toolkit/README_toolkit.md",
+      "bytes": 2775,
+      "sha256": "a8e5261ec73b82f73344d5bbd15f4dcbb8beb833155044af61ef6db8e20f9787"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/docs/relationship_to_version_E/README.md",
+      "bytes": 623,
+      "sha256": "e24ca05033a11302712656f29fd2877f3940bf92373dd857724e34b23f96a448"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/exemplar_modules/module_01_governance_ai_identity_ID_3.md",
+      "bytes": 5355,
+      "sha256": "eef78d5b288fb72075d5189bceb1ffc3ce25f1669463350ffc43a3a20e857235"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/exemplar_modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "bytes": 5521,
+      "sha256": "12205f4ad793bf53da672ab3a5342c7a15c190ad8e768f495e61d888509d948b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/exemplar_modules/module_03_governance_rag_references_ID_3.md",
+      "bytes": 7020,
+      "sha256": "5dd0966575199498d51859a0c9a36dac0c6995f757b641a7205978303e380f4e"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/exemplar_modules/module_04_regulator_evidence_requests_ID_3.md",
+      "bytes": 6141,
+      "sha256": "d999ca532ccd5fa6f38fd29dddcef670197259ddfa37a3c3119f2e8261baf013"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/exemplar_modules/module_05_access_pod_lens_ID_3.md",
+      "bytes": 6171,
+      "sha256": "8f848aed46a37795648197059c4d583b69a00ea524c871d6316d6fc31a0652a4"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/exemplar_modules/module_06_packaging_manifests_release_ID_3.md",
+      "bytes": 6456,
+      "sha256": "f8930d39552cea7ee0fd5d2bd03580f7767a4b9331b661372b1a4e6f6a1f3a3d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/manifest_ID_3.md",
+      "bytes": 6284,
+      "sha256": "053e87cccbcf6a6b2a4b8c8d3b3a83d057e8663b7810ecd3c1b7867ee4ec4f6f"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/primary_modules/module_01_governance_ai_identity_ID_3.md",
+      "bytes": 12854,
+      "sha256": "3c14e82d6a662ffac17d80b626b6d9b08784bcca24ab98306fb90daae3a5a370"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/primary_modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "bytes": 5779,
+      "sha256": "698d2369a28b21848a7b056fad2ba174ce9d450cc7a60709b0f18d3279251e6d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/primary_modules/module_03_governance_rag_references_ID_3.md",
+      "bytes": 9894,
+      "sha256": "8773a9365756b503bf55521d037879d6b51fa2d751bd20ca8342b03cd904914b"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/primary_modules/module_04_regulator_evidence_requests_ID_3.md",
+      "bytes": 7412,
+      "sha256": "de34c73fd63b61c8af2672a90fd8916443de69531b6df2d6b5a9fad8b8da5fa8"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/primary_modules/module_05_access_pod_lens_ID_3.md",
+      "bytes": 9748,
+      "sha256": "f4c307f0ffae7385355698f92f924cca1a56948bca63555d683e9cfd52735dde"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/primary_modules/module_06_packaging_manifests_release_ID_3.md",
+      "bytes": 7358,
+      "sha256": "61b04e88cafd41495bc0a7b800c5529ef6fc0c153bf9ed1834dd60ffd49c488a"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/release_notes_ID_3.md",
+      "bytes": 6941,
+      "sha256": "ff302adf47a0c0ab996fa29d1d2ff3b0510060129323ee9352ef99ef5c3826c4"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/scripts/Copy-ID2Inbox.ps1",
+      "bytes": 2037,
+      "sha256": "4e040f91146f91e82893f284cca3be90caf060fd8cd0c4172fd6566c14faf94c"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/scripts/Correct-ID3SessionMetadata.ps1",
+      "bytes": 11264,
+      "sha256": "150894d420874fc10b73ad09e3051765dcaab14697692102626593c6cc85b559"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/scripts/Inspect-SessionMetadataShapes.ps1",
+      "bytes": 16694,
+      "sha256": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/scripts/Move-And-Freeze-ID3Outbox.ps1",
+      "bytes": 12203,
+      "sha256": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9"
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/scripts/rules/session_completeness.rule.json",
+      "bytes": 6948,
+      "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198"
+    },
+    {
+      "path": "v1.0-access-mode/INTERNAL_RELEASE_NOTES_v1.0_Access_Mode.md",
+      "bytes": 6813,
+      "sha256": "9e100551ae7350577e41a8ef986850fcce362b82ff77425522e038126d312bc9"
+    },
+    {
+      "path": "v1.0-access-mode/README.md",
+      "bytes": 3478,
+      "sha256": "80812efd8fbfcae3da70c7e8a08b1ae9f18aca6682a5ca216cb382e6490ec9da"
+    },
+    {
+      "path": "v1.0-access-mode/SOURCE_NOTICES.md",
+      "bytes": 1992,
+      "sha256": "5d54bfca9c2f42dd2eeff85813358d7f0ad30c884ae9d1d1062e2e2eb88f79e4"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/README_ID_1.md",
+      "bytes": 1314,
+      "sha256": "815e462d564acb2b3229b9ba07e755d172b6143b7001385bf7169cea5b32191f"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/Learning_mode.md",
+      "bytes": 3226,
+      "sha256": "097269021a312aa1dab96ddffb815089644555e89e9df0ef4994a21c4c99d6f0"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_01_governance_ai_identity_ID_1.md",
+      "bytes": 6895,
+      "sha256": "e7acc442ed8838dbe322ff01053851bdd11e191b7d11be063dfe503a26a505de"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_02_intent_scope_boundaries_ID_1.md",
+      "bytes": 5955,
+      "sha256": "cdb1a74db818d1b21e3a7c874924ea23bca07bf5b2fd587aee106fa16a173078"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_03_governance_rag_references_ID_1.md",
+      "bytes": 6619,
+      "sha256": "add9f87d8557f38978546ded906133bcf08a429693a605145f99da1346a064de"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_04_writing_governance_artifacts_ID_1.md",
+      "bytes": 5802,
+      "sha256": "46908ad86abd37f1ccc17b700098b8f95985f19f31dd5e28d79ac35c2e3de7ab"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_05_access_pod_lens_ID_1.md",
+      "bytes": 6327,
+      "sha256": "26c96ad22304c07f7d696ad592118e786ef27c67aa9c8f76b47f48c6b7ecfff8"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_06_forward_practice_reflection_ID_1.md",
+      "bytes": 5622,
+      "sha256": "b348b8a386c79793f205e5bb9abbb6fd8e40d8f4cb7cf06efd04c79985510438"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/README_ID_2.md",
+      "bytes": 1499,
+      "sha256": "b5a0f520816f0b8564ec23e280b4704033e452669b194f3ed1eeeeab08417168"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 7043,
+      "sha256": "cfee9ce01c0b118dadebc469ff362373f1ab3b202a4e0bf4d7a8009d3b6eea4a"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 5876,
+      "sha256": "8ea646f38b9ad1d0c5c15fa42841ca04072546748e3cf6c24558ee597113d977"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 3048,
+      "sha256": "cfcfb64a5555dc53666b614e02836c7d507439034b94297458705d84ebc283a6"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5878,
+      "sha256": "1012d3d43f5490c6b147d3e2b5716a6d2e8f1fa01da99b6a3db28332a86c9dcd"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 1262,
+      "sha256": "0429a874096ab59a60fe5b1a1d7a2a8c097e55294068e7a1fe578430dbcea4b3"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 3334,
+      "sha256": "dcad156ed2c54a15034b01b1b7805ac01607215ebe93d660bd5dee1e67f4b104"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/README_ID_3.md",
+      "bytes": 1377,
+      "sha256": "977f5cbb7a1711de5f98e5da1a06e6e72d8971921c6aa0f4f2eb7cc116813a1b"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/Inspection Mode Rules README ID_3.pdf",
+      "bytes": 141877,
+      "sha256": "9cc932e5779a0419423756d89a3011da03cff3717f3cd2273feee39c3944f5f9"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/inspection_mode_control_ID_3.md.md",
+      "bytes": 3519,
+      "sha256": "d1118a2a653e6c68827cd6087022505da169bbc8c1abdb7e5757ef559855f07c"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_01_governance_ai_identity_ID_3.md",
+      "bytes": 6682,
+      "sha256": "59a4540e2f0250da42fa1595f45a90c2f092217a5b319131e18702a64d765e14"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "bytes": 1088,
+      "sha256": "2b1b967938740c98f0569159efa459afc7706bd1549a964f2120202bf745edd4"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_03_governance_rag_references_ID_3.md",
+      "bytes": 6422,
+      "sha256": "c18c173044295b4909bdd8866b1454859228d80079ddacfe2e3ff2d006fc1504"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_04_regulator_evidence_requests_ID_3.md",
+      "bytes": 1072,
+      "sha256": "f3768804484ba4d50eb32b5d14254f022f74d134a87db0870e1dd0a6bd2cdf0a"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_05_access_pod_lens_ID_3.md",
+      "bytes": 6115,
+      "sha256": "40fbbda4b75287136b5f42bcc34f2143a73b329fedf6bda0a2f814cddc86c150"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_06_packaging_manifests_release_ID_3.md",
+      "bytes": 1072,
+      "sha256": "29159bc2d2a9d687b27f6e684853e78d4e1d6dca1d44c3d4a679842c281d0bca"
+    },
+    {
+      "path": "v1.0-access-mode/modes/MODE_DIFF_NOTE.md",
+      "bytes": 4098,
+      "sha256": "563e122946e8077363d42a1118b8f7b7089855e0ec7210590e48b121a1eed049"
+    },
+    {
+      "path": "v1.0-access-mode/modes/README.md",
+      "bytes": 1772,
+      "sha256": "89392dc77065c5cec5f83e3ef689642cd8c034168471b844cafcddac368b6bb8"
+    },
+    {
+      "path": "v1.0-access-mode/modules/ROBOCOPY_ONLY.pdf",
+      "bytes": 216821,
+      "sha256": "64d803acfa0b1521bc03e639caafa2c9cff51daea4b2e085ba50e64a923e0a3a"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_01_governance_ai_identity.md",
+      "bytes": 6678,
+      "sha256": "1bf0ed1d540d73bc6bc3833cf3c220f90e0ebbcfa1f4b47ec8636bb26634cfdf"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_02_intent_scope_boundaries.md",
+      "bytes": 5555,
+      "sha256": "62112f951725c552eee19284befb510fb0867149104e50a7086dc7521adcd43a"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_03_governance_rag_references.md",
+      "bytes": 6409,
+      "sha256": "7b5ee7b7a620193b00c815c0e84a33997f174d0b76416d9ee10950ce5b8d79e8"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_04_writing_governance_artifacts.md",
+      "bytes": 5589,
+      "sha256": "b898a99dbb7126729b99c272ab0b66c7184eefe8ab27bb6c207d81e8610ca8d3"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_05_access_pod_lens.md",
+      "bytes": 6102,
+      "sha256": "088a5b9b618d69b704bc122fbb157805526decf2312a57c10a3294be08f8023d"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_06_forward_practice_reflection.md",
+      "bytes": 5397,
+      "sha256": "6a82186076c5a7a3db8c2e88e316310e9d44737dda3c9910dfa3ed719aed735c"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/Access_Mode_Quick_Reference.md",
+      "bytes": 2478,
+      "sha256": "658724d02e36def6066be232fd5cd71321eb53198ecde46ad948847c6a9c8b4f"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/FACILITATOR_QUICK_START.md",
+      "bytes": 2192,
+      "sha256": "8b8200719bf8688e8af0092a4ee2e58d1bba4d84ff636eb844c7d1809aa42d50"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/Prompts_and_Project_Names_Examples_v1.0.pdf",
+      "bytes": 336599,
+      "sha256": "d9bd13435235d0378023a8c31a053422ac3774b592806956c7b6b83eb7f578f1"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/mode_index.md",
+      "bytes": 7560,
+      "sha256": "51ef65c9235522993971fc92fa928495bee84ce4aef73e8c4cd4470a9bc6bbe4"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/references/ACCESS_MODE_TEMPLATE.md",
+      "bytes": 12583,
+      "sha256": "f6727c3b065fa5a36085005215345928b1fcb35ecc6c815255caab63f733de01"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/references/Access-Mode Quick Reference.pdf",
+      "bytes": 232807,
+      "sha256": "5975f530504fdaf4cac000b00d29e97d2045a28348c6c8d04bf07191d3a6f151"
+    },
+    {
+      "path": "v1.0-access-mode/public-review/Access_Mode_Configuration_Notes_v1.0.md",
+      "bytes": 4692,
+      "sha256": "c6ec21fdf8aefeb3a67112257a295c63aa7a6ce57153d1a3ff72b571acf7f961"
+    },
+    {
+      "path": "v1.0-access-mode/public-review/Public_Review_Framing_Note.md",
+      "bytes": 3411,
+      "sha256": "b6e90c76b972007581aaf8a05a63aa2c061d8cf90f74ade8c35e6692b399ee9c"
+    },
+    {
+      "path": "v1.0-access-mode/public-review/RELATIONSHIP_TO_ACCESS_POD_VOL2.md",
+      "bytes": 2861,
+      "sha256": "20ce98a23450b9ac0a378708e87e6d8646f3ffdab261d7128e7cd4cc93fe660b"
+    },
+    {
+      "path": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "v1.0-access-mode/releases/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "v1.0-access-mode/releases/README_doc_orientation.md",
+      "bytes": 2878,
+      "sha256": "b33cc5473784d4405e969dae2a4d0b0dc7955bb70370d6094b07336f8ac47ba6"
+    },
+    {
+      "path": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "bytes": 547992,
+      "sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8"
+    },
+    {
+      "path": "v1a/ERRATA.md",
+      "bytes": 2457,
+      "sha256": "fe69e56e14bf686c9801c722b0a5eae72db18e027484ff385743db953ddd3b39"
+    },
+    {
+      "path": "v1a/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "path": "v1a/README.md",
+      "bytes": 2682,
+      "sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80"
+    },
+    {
+      "path": "v1a/catalogs/csc_metric_catalog_v1a.json",
+      "bytes": 38949,
+      "sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632"
+    },
+    {
+      "path": "v1a/docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "bytes": 4347,
+      "sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f"
+    },
+    {
+      "path": "v1a/examples/example_csc_certificate_v1a.json",
+      "bytes": 6350,
+      "sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1"
+    },
+    {
+      "path": "v1a/manifest_v1a_pack.json",
+      "bytes": 3004,
+      "sha256": "a98e992307f1d76ac52d2354636c7d4ddd349a6894f17d6f838d77d9d6d2a649"
+    },
+    {
+      "path": "v1a/profiles/csc_sector_profiles_v1a.json",
+      "bytes": 1546,
+      "sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f"
+    },
+    {
+      "path": "v1a/schemas/csc-certificate.schema_v1a.json",
+      "bytes": 18576,
+      "sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34"
+    },
+    {
+      "path": "v1a/schemas/csc_metric_catalog_schema_v1a.json",
+      "bytes": 1887,
+      "sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2"
+    },
+    {
+      "path": "v1b/ERRATA.md",
+      "bytes": 4735,
+      "sha256": "051163add41a9049ffd0e1888630ec785fe2865386ea9e05425d8bc15d0bd43f"
+    },
+    {
+      "path": "v1b/README.md",
+      "bytes": 6143,
+      "sha256": "2793524be4e95b0ea4e3cbbaf5079087986862b90616e19022f62a5310bca6c8"
+    },
+    {
+      "path": "v1b/SOURCE_NOTICES.md",
+      "bytes": 1735,
+      "sha256": "127cfbe09a371fca10329bd914b5b1ca73af1bef933d6b4d692ae1f9c46af845"
+    },
+    {
+      "path": "v1b/exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf",
+      "bytes": 209555,
+      "sha256": "3a0ce810ebe102a9ccc077f0beb371fe57dd57c5fc6749e585bbb1a78d22a8cf"
+    },
+    {
+      "path": "v1b/exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf",
+      "bytes": 155839,
+      "sha256": "6f68e9b7f2d9d927c4c4e4c1e7c4dba72c78fd11e24099fd5498129830337e1a"
+    },
+    {
+      "path": "v1b/exec_ops/operator/Operator’s Manual - Access PoD.pdf",
+      "bytes": 285017,
+      "sha256": "a7279e3721e1aae3a9a8194e26598cbbc2afc278164fc460bb7396bd56edce6a"
+    },
+    {
+      "path": "v1b/exec_ops/regulator/Regulator Q&A Playbook.pdf",
+      "bytes": 224693,
+      "sha256": "3a7bfd3cc05be5a45ce2b5a7d4a20524c5390061b5258bd52ad7aa19ba14d818"
+    },
+    {
+      "path": "v1b/manifest_v1b.json",
+      "bytes": 5063,
+      "sha256": "80da645d3ac16fa9b6ce20f44238884f8d85037455688309fdeeecf9bedb8360"
+    },
+    {
+      "path": "v1b/native/json/apod.evidence_manifest.json",
+      "bytes": 2135,
+      "sha256": "cf17a1ddde74f0adf867902e4a8c702a3df8b7366ea393d8ddfb2beebde448fa"
+    },
+    {
+      "path": "v1b/native/json/apod.evidence_manifest.schema.json",
+      "bytes": 4114,
+      "sha256": "a9bf2b31fc7fdeeefa02b166f19594efd5e603f26afec1eee641a05b3d7f6bdd"
+    },
+    {
+      "path": "v1b/native/json/apod.evidence_ref_mapping_v1b.json",
+      "bytes": 3160,
+      "sha256": "ad06359207c40a898f57251221dafc62c5c240bb2fcf15378b4a7ae1604de47c"
+    },
+    {
+      "path": "v1b/native/json/apod.self_assessment.eu_annex_vii.schema.json",
+      "bytes": 4880,
+      "sha256": "7f7d490690a71cb6a1c33c286c306232caeb338c6a0842fc94f9e0d67745e3ab"
+    },
+    {
+      "path": "v1b/native/json/apod.self_assessment.eu_annex_vii.v1b.json",
+      "bytes": 1443,
+      "sha256": "a8c440648ed253191e7bdeb02864c5b034df117d6044aa44d466a15cde1a21db"
+    },
+    {
+      "path": "v1b/native/json/csc_bundle_reference.json",
+      "bytes": 1144,
+      "sha256": "f4ba5909d0104d0e8317250f2b114e32d27ecfdea7e20ddda3948321eca7e8ce"
+    },
+    {
+      "path": "v1b/native/json/csc_snapshot.json",
+      "bytes": 5789,
+      "sha256": "af2f95e31b2afd497d7ec325b8cdb1865bf9275c659d9dd87efb8e06dda21904"
+    },
+    {
+      "path": "v1b/native/json/csc_snapshot.schema.json",
+      "bytes": 9704,
+      "sha256": "1b513adf121094729a181e3795e9824f69d85bc190fd8771a5beb89f96642b05"
+    },
+    {
+      "path": "v1b/non_native/json/apod.self_assessment.eu_annex_vii.expanded.non-native.json",
+      "bytes": 13041,
+      "sha256": "1081ca242fbe11f57da54b63c366f53489fd56cb400d6cb2e1f1e4cb203d334e"
+    },
+    {
+      "path": "v1b/norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf",
+      "bytes": 179767,
+      "sha256": "b400f1ac13dc95fd66fe9ce81dad8383804aa86b61f779b0fff504d08a238f29"
+    },
+    {
+      "path": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+      "bytes": 544413,
+      "sha256": "70a00569dce83bf3294ce64e62fcc8764b652e95798b5302622be5a28ddedfc8"
+    },
+    {
+      "path": "v1c/APOD-TR-004_Vol2_Version-C.pdf",
+      "bytes": 392753,
+      "sha256": "ece85c35ebb1aa7fab9c56a2208ea9b6d72d3f237266463b1c0db7526dbd8518"
+    },
+    {
+      "path": "v1c/ERRATA.md",
+      "bytes": 4454,
+      "sha256": "f618b543e57ab63fad810bae71707ecc6801d75f041c0a81994247b824ed2b70"
+    },
+    {
+      "path": "v1c/README.md",
+      "bytes": 3947,
+      "sha256": "05008a742765ae23f10a51d11237172b4ce525bd63e3240a1d910cdd0f8b1727"
+    },
+    {
+      "path": "v1c/SOURCE_NOTICES.md",
+      "bytes": 1859,
+      "sha256": "37236493126b4f11fd12e9c4c73ed42a98054b8adfa05d28fa8691b8b1f66ae2"
+    },
+    {
+      "path": "v1c/annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).md",
+      "bytes": 6821,
+      "sha256": "f4123d187a969c73e44ea0de2d71483bd9a8f6e4ab9927fa14dd00294f30ef24"
+    },
+    {
+      "path": "v1c/annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf",
+      "bytes": 131698,
+      "sha256": "f452b2bd152b412ced1d4ff518e64e224c5cb218ca366a1b0360f7b3c3ee8e05"
+    },
+    {
+      "path": "v1c/examples/dataset_lineage.example.json",
+      "bytes": 876,
+      "sha256": "0407cb4ddc71c9ac54604ccfab0eed480a4e9412f8772c09cdaaba17ac8e85bc"
+    },
+    {
+      "path": "v1c/examples/policy_lineage.example.json",
+      "bytes": 818,
+      "sha256": "42a54c350b2d0bed9ebdbfae616eeae7c8f9e6790d2cd652490a7c07dbe01d6b"
+    },
+    {
+      "path": "v1c/manifest.internal.json",
+      "bytes": 1836,
+      "sha256": "cb58f7d6c3d4db50c239a3fcd5ac71221fc64ec23f74f2a3ba0a2c0c791b8e87"
+    },
+    {
+      "path": "v1c/manifest.json",
+      "bytes": 1363,
+      "sha256": "e538d6f97f0c0d3d9295b10ef232ec6c1778b119e8b65c1ff3d3ea2e6258ca87"
+    },
+    {
+      "path": "v1c/release_notes.md",
+      "bytes": 3413,
+      "sha256": "5f13d9446243baa24e63422cde43b96ae7dc9d862c867a88fc14ccb3ac4df95d"
+    },
+    {
+      "path": "v1c/schemas/lineage_policy_dataset.schema.json",
+      "bytes": 3208,
+      "sha256": "474f70f04265f8a0caaa86a8a4a4bb4a52be4c7410a9fbf717e892df1d79e796"
+    },
+    {
+      "path": "v1d/ERRATA.md",
+      "bytes": 4838,
+      "sha256": "dab0c3867738076d178e1835beafe9439a87ff08b43f144877a7870d93563303"
+    },
+    {
+      "path": "v1d/README.md",
+      "bytes": 6532,
+      "sha256": "f9d0361b8446b96bbca715348212315a5e79b2044ed063b92b55ae04d176d1a4"
+    },
+    {
+      "path": "v1d/SOURCE_NOTICES.md",
+      "bytes": 1945,
+      "sha256": "896dc50dbfe1bcc9a84ca45fad2aeac619dfe75415bda65c51a88778836113c7"
+    },
+    {
+      "path": "v1d/companions/schemas/apod.v1d.stress_evidence_record.schema.json",
+      "bytes": 12726,
+      "sha256": "d81b4da442e7593f245adbbfc5046f58dce7bdf1c86da3e2624973325d95b48e"
+    },
+    {
+      "path": "v1d/companions/schemas/v1d_scenarios.schema.json",
+      "bytes": 2656,
+      "sha256": "8c6dcb4a0302d9f809c0d1c9ba82f374be39df05d8edc658a5b77b03406a091e"
+    },
+    {
+      "path": "v1d/companions/v1d_rules_of_engagement.md",
+      "bytes": 3823,
+      "sha256": "3f01c9be7ac21eba3054dcffdab58092ac640c323947dd69ba3847029c6f47c3"
+    },
+    {
+      "path": "v1d/companions/v1d_scenarios.md",
+      "bytes": 6077,
+      "sha256": "40bd8e2028874d53be2e3425aeebed1cc73d9111d4555762c65a5410938171e3"
+    },
+    {
+      "path": "v1d/examples/apod.v1d.stress_evidence_record.example.json",
+      "bytes": 6123,
+      "sha256": "882d70b37c05d0f0c3de7f88bfd4b888db7180dc67906c649f3afef52fecb1ce"
+    },
+    {
+      "path": "v1d/examples/v1d_scenarios.index.json",
+      "bytes": 2872,
+      "sha256": "56f54d95aa6b2bf6abec23927d206bb4192a6b1be52088a80711481fa796cf90"
+    },
+    {
+      "path": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+      "bytes": 419750,
+      "sha256": "b6d7ffccc69dc1de96324e320520a0170b0fd46c090cf764c9d5b6ec0ce4e0d9"
+    },
+    {
+      "path": "v1d/tools/docs/validate_jsonschema_usage.pdf",
+      "bytes": 220265,
+      "sha256": "d75408e5ffda75a7314c14fe3aff045d9f9f30c246aeea0c612f967e5c2b9d3e"
+    },
+    {
+      "path": "v1d/tools/validate_jsonschema.py",
+      "bytes": 2664,
+      "sha256": "1313101846efe9678fcc521298bf158dd980523483b87100317cd64e51178b96"
+    }
+  ],
+  "created_date": "2026-10-10",
+  "pending_documentation_updates": [],
+  "component_variants": {
+    "ID_2-Access": {
+      "root": "Published two-candidate example with original ZIP preserved; current handbook link correction and separately named current guides recorded in provenance.",
+      "four-candidates": "Local four-candidate draft; original sources preserved; revised Word guide, full-record companion and verified replay added."
+    }
+  },
+  "component_imports_complete": true,
+  "word_revision_complete": true,
+  "completed_documentation_updates": [
+    {
+      "component": "v1.0-access-mode/ID_2-Access",
+      "scope": "Four-candidate Word guide, full-record companion and working-copy replay documentation.",
+      "completed_date": "2026-10-11",
+      "word_revision_complete": true,
+      "edit_schedule": "v1.0-access-mode/ID_2-Access/four-candidates/docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+      "outputs": [
+        "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1",
+        "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md"
+      ],
+      "revision_record": "provenance/ID_2-Access/documentation-20261011/DOC_REVISION_RECORD.json"
+    },
+    {
+      "component": "v1.0-access-mode/ID_2-Access",
+      "completed_date": "2026-10-11",
+      "scope": "Correct handbook release link in both copies; current two-candidate execution-guide paths and working-copy setup.",
+      "outputs": [
+        "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - current two-candidate guide.docx",
+        "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - current two-candidate guide.pdf",
+        "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/REVISION_NOTES.md"
+      ],
+      "revision_record": "provenance/ID_2-Access/link-path-corrections-20261011/CORRECTION_RECORD.json"
+    }
+  ],
+  "component_locations": {
+    "v1a": "v1a",
+    "v1b": "v1b",
+    "v1c": "v1c",
+    "v1d": "v1d",
+    "v1.0-access-mode": "v1.0-access-mode",
+    "ID_1-core": "v1.0-access-mode/ID_1-core",
+    "ID_2-Access": "v1.0-access-mode/ID_2-Access",
+    "ID_3-operator": "v1.0-access-mode/ID_3-operator",
+    "APOD-ID3-RULE-001-v1.1": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1"
+  },
+  "layout_change_records": [
+    "provenance/ACCESS_MODE_LAYOUT_20261011.json",
+    "provenance/ID_2-Access/link-path-corrections-20261011/CORRECTION_RECORD.json"
+  ],
+  "layout_checks_complete": true,
+  "navigation_change_records": [
+    "provenance/ACCESS_MODE_NAVIGATION_20261011.json"
+  ],
+  "documentation_revision_records": [
+    "provenance/DOCUMENTATION_REVISION_PACKET_20261011.json",
+    "provenance/FINAL_PREPARATION_20261011.json"
+  ],
+  "public_documentation": {
+    "readme": "README.md",
+    "release_notes": "RELEASE_NOTES_v1.0_CONSOLIDATED.md",
+    "licence": "LICENSE",
+    "licensing_scope": "LICENSING.md",
+    "research_status": "Public Review Draft",
+    "preparation_identity": "v1.0-consolidated-draft",
+    "proposed_release_tag": "v1.0-consolidated",
+    "published": false
+  },
+  "empty_directories": [
+    "v1.0-access-mode/ID_3-operator/ID_3_review_packs/ID_3_outbox",
+    "v1.0-access-mode/ID_3-operator/ID_3_review_packs/records_only",
+    "v1.0-access-mode/modes/ID_1_core/drafts",
+    "v1.0-access-mode/modes/ID_1_core/notes",
+    "v1.0-access-mode/modes/ID_2_access/drafts",
+    "v1.0-access-mode/modes/ID_2_access/notes",
+    "v1.0-access-mode/modes/ID_3_operator/drafts",
+    "v1.0-access-mode/modes/ID_3_operator/notes",
+    "v1d/paper/docx"
+  ],
+  "seal": {
+    "type": "sha256_integrity_snapshot",
+    "sealed_at_utc": "2026-10-10T23:28:49.618145+00:00",
+    "digital_signature": false,
+    "published": false,
+    "archive_filename": "access-pod-v1.0.zip",
+    "external_receipt_filename": "SEAL_RECEIPT.json",
+    "external_checksum_filename": "SHA256SUMS.txt",
+    "scope": "Local collection and curated ZIP integrity; research status remains Public Review Draft."
+  }
+}

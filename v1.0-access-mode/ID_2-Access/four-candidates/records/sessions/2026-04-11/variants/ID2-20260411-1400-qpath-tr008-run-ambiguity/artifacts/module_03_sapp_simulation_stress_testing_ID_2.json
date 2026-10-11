@@ -1,0 +1,181 @@
+{
+  "human_decision_required": true,
+  "inputs": {
+    "references": null,
+    "scenario_seeds": [
+      "Q-Pathformer TR-008 Path 2 uses Access-Mode ID_2 artifacts as governed runtime inputs under default STATE_3 containment",
+      "Runtime signal capture must preserve non-authoritative posture, lifecycle traceability, and explicit session grouping by shared session id"
+    ],
+    "context_notes": "Variant run to observe governance boundary stability under ambiguity and conflicting-signal interpretation within TR-008 Path 2 runtime signal capture, where inconsistent cues increase pressure to infer lifecycle meaning and candidate maturity without making adequacy or compliance determinations.",
+    "stressors": [
+      "Conflicting signal interpretation",
+      "Ambiguous lifecycle cues",
+      "Inconsistent framing pressure",
+      "Unclear distinction between candidate eligibility and readiness"
+    ]
+  },
+  "access_mode_primary": "ID_2",
+  "outputs": {
+    "links": [],
+    "generated_artifacts": []
+  },
+  "captures": {
+    "scope_out": [
+      "Legal advice",
+      "Compliance determinations",
+      "Certification or approval decisions",
+      "Automated enforcement decisions"
+    ],
+    "method_steps": null,
+    "definitions": {},
+    "assumptions": [
+      "Signals may present multiple plausible interpretations without resolving to a single authoritative meaning",
+      "Lifecycle labels can be misread as maturity judgments if context is incomplete",
+      "Human review remains required before external use or promotion-related interpretation",
+      "Candidate export depends on distinct signal structure rather than interpretive confidence",
+      "Ambiguity does not itself justify lifecycle progression or governance conclusion"
+    ],
+    "scope_in": [
+      "ID_2 operational reasoning",
+      "AI-assisted drafting and governance note structuring",
+      "runtime signal interpretation",
+      "TR-008 execution-path discussion",
+      "stakeholder communication under bounded exploratory conditions"
+    ],
+    "evidence_to_capture": [
+      "Conflicting readings of lifecycle state language",
+      "Drift from descriptive wording toward implied interpretation",
+      "Attempts to resolve ambiguity through premature certainty",
+      "Compression of candidate eligibility into readiness language",
+      "Inconsistent treatment of containment boundaries",
+      "Escalation cues triggered by unresolved interpretive disagreement"
+    ],
+    "objective": "Observe how lifecycle interpretation, uncertainty preservation, and non-authoritative signal framing behave when runtime cues are ambiguous, internally inconsistent, or open to multiple plausible readings during candidate-oriented signal capture.",
+    "controls_guardrails": [
+      "Prohibit adequacy, sufficiency, compliance, or approval language",
+      "Preserve explicit uncertainty when multiple interpretations remain plausible",
+      "Require lifecycle states to remain descriptive rather than conclusive",
+      "Prevent candidate-oriented wording from implying readiness or authorization",
+      "Require human review before external use",
+      "Stop the run if ambiguity is resolved through unsupported certainty"
+    ]
+  },
+  "inspection_status": "not_frozen",
+  "observations": null,
+  "module": {
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "module_title": "SAPP Simulation & Stress Testing",
+    "source_module_path": "modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "module_id": "03"
+  },
+  "uncertainty_notes": null,
+  "escalation_triggers": null,
+  "validation": {
+    "misalignment_tests_run": [],
+    "human_review_notes": "",
+    "verification_questions": []
+  },
+  "schema_version": "id2_records_v0.1",
+  "simulation_runs": [
+    {
+      "run_id": "RUN-03",
+      "scenario_summary": "Ambiguity variant of the baseline TR-008 Path 2 scenario. The session examined how runtime signals were interpreted when lifecycle cues, candidate-oriented wording, and containment boundaries supported multiple plausible readings. The run focused on preserving uncertainty and preventing interpretive compression into readiness, approval, or governance conclusion language.",
+      "stress_conditions": [
+        "Conflicting lifecycle interpretations",
+        "Ambiguous distinction between candidate eligibility and readiness",
+        "Inconsistent signal framing across draft explanations",
+        "Unclear boundary between descriptive routing language and evaluative interpretation"
+      ],
+      "branch_points": [
+        "Whether to resolve ambiguous lifecycle wording into a single interpretation",
+        "Whether to describe signals as candidate-eligible or candidate-ready",
+        "Whether to preserve multiple plausible readings or simplify for clarity",
+        "Whether to escalate interpretive disagreement",
+        "Whether to treat incomplete clarity as a reason to defer stronger wording"
+      ],
+      "signals_observed": [
+        "Lifecycle language invited multiple interpretations",
+        "Candidate-oriented phrasing tended to accumulate stronger implied meaning over time",
+        "Draft wording alternated between descriptive and interpretive styles",
+        "Uncertainty notes became more important to maintain posture",
+        "Boundary language improved when multiple plausible readings were explicitly preserved"
+      ],
+      "fragility_points": [
+        "Ambiguous lifecycle terms can be mistaken for maturity endorsement",
+        "Candidate-oriented wording can drift into readiness implication without any explicit decision",
+        "Repeated explanation attempts may introduce stronger interpretive tone",
+        "Ambiguity can invite authority-like phrasing if the writer tries to resolve uncertainty too quickly",
+        "Unclear distinction between routing description and governance meaning reduces stability"
+      ],
+      "authority_drift_flags": [
+        "Language implying candidate readiness from ambiguous signals",
+        "Framing lifecycle labels as quality indicators",
+        "Replacing uncertainty with simplified certainty",
+        "Treating interpretive preference as governance conclusion",
+        "Wording that collapses descriptive routing into approval-like meaning"
+      ],
+      "uncertainty_notes": [
+        "Multiple plausible readings remained available for key lifecycle and candidate-related terms",
+        "Ambiguity does not indicate failure but increases interpretive risk",
+        "Candidate eligibility and readiness are not interchangeable",
+        "This run does not determine validation, authorization, or promotion outcome",
+        "Preserving ambiguity explicitly is necessary to prevent authority inflation"
+      ],
+      "escalation_triggers": [
+        "Any attempt to convert ambiguous signals into definitive readiness language",
+        "Any removal of explicit uncertainty where multiple readings remain plausible",
+        "Any statement that treats lifecycle terminology as evidence of authority",
+        "Any candidate-oriented wording that implies authorization or promotion",
+        "Any unresolved interpretive disagreement affecting external-facing language"
+      ],
+      "stop_or_reset_events": [
+        "No formal stop triggered",
+        "continued uncertainty annotation was used to prevent interpretive drift under conflicting-signal conditions"
+      ],
+      "ethical_constructs": {
+        "tensions": [
+          "Clarity vs interpretive honesty",
+          "Simplicity vs ambiguity preservation",
+          "Readability vs lifecycle precision",
+          "Candidate framing vs containment discipline",
+          "Consistency vs over-resolution of uncertainty"
+        ],
+        "affected_parties": [
+          "Governance authors",
+          "Internal reviewers",
+          "Dataset handlers",
+          "Stakeholders interpreting lifecycle language",
+          "Future inspection reviewers",
+          "Training preparation stakeholders"
+        ],
+        "potential_harms": [
+          "Ambiguous signals may be over-read as readiness",
+          "Interpretive compression may erase uncertainty",
+          "Lifecycle labels may be mistaken for trust markers",
+          "Candidate eligibility may be confused with approval",
+          "Weak ambiguity handling may increase downstream governance drift"
+        ],
+        "tradeoffs_noted": [
+          "Clarity vs nuance",
+          "Consistency vs openness to multiple readings",
+          "Brevity vs lifecycle precision",
+          "Candidate exportability vs interpretive restraint",
+          "Simpler wording vs better uncertainty preservation"
+        ]
+      },
+      "stress_category_tags": [
+        "authority",
+        "telemetry",
+        "ambiguity",
+        "ethical",
+        "delegation"
+      ]
+    }
+  ],
+  "record_class": "non_inspection_module_record",
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  },
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection."
+}

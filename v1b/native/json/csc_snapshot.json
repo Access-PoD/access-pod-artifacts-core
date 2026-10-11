@@ -1,0 +1,152 @@
+{
+  "apod_version": "1.0",
+  "artifact_type": "csc_snapshot",
+  "csc": {
+    "schema_version": "1.0",
+    "signal_type": "telemetry_derived_assurance",
+    "rating_scale": {
+      "min_stars": 1,
+      "max_stars": 6,
+      "interpretation_note": "Stars represent current governance risk posture, not approval, certification, or model quality. Output is scope-bound and time-bound."
+    }
+  },
+  "snapshot": {
+    "snapshot_id": "CSC-SNAP-20251231-000000Z-QPF-REF-001",
+    "created_utc": "2025-12-31T00:00:00Z",
+    "valid_from_utc": "2025-12-31T00:00:00Z",
+    "valid_to_utc": "2026-01-07T00:00:00Z",
+    "freshness": {
+      "telemetry_window_start_utc": "2025-12-24T00:00:00Z",
+      "telemetry_window_end_utc": "2025-12-31T00:00:00Z",
+      "telemetry_required": true,
+      "assurance_suspends_if_telemetry_missing": true
+    }
+  },
+  "scope": {
+    "system": {
+      "id": "QPF-REF-001",
+      "name": "Q-Pathformer Reference Implementation",
+      "environment": "pilot"
+    },
+    "jurisdiction": ["EU"],
+    "sector_profile": null,
+    "intended_use": "architecture-specific governance reference",
+    "deployment_boundary": "Access_PoD_governed_execution_interfaces",
+    "third_party_models_in_scope": false
+  },
+  "assurance_output": {
+    "csc_star_rating": 4,
+    "iso_aligned_risk_tier": "medium",
+    "status": "active",
+    "status_reason": "Sufficient telemetry evidence within the declared window; no unresolved critical governance failures reported within scope."
+  },
+  "factor_scores": {
+    "scale": "0-100",
+    "non_compensatory": true,
+    "factors": [
+      {
+        "id": "6.1",
+        "name": "Industry 4.0 & Security",
+        "score": 82,
+        "confidence": 0.74,
+        "evidence_summary": "Policy enforcement telemetry present at defined enforcement points; no critical security control failures reported within scope.",
+        "evidence_refs": ["POLICY_EXECUTION", "API_CONTROLS", "POST_MARKET"]
+      },
+      {
+        "id": "6.2",
+        "name": "Security & New Best Practice",
+        "score": 78,
+        "confidence": 0.68,
+        "evidence_summary": "Governance controls updated through change workflow; evidence indicates partial adaptation coverage.",
+        "evidence_refs": ["POLICY_EXECUTION", "POST_MARKET"]
+      },
+      {
+        "id": "6.3",
+        "name": "New Best Practice & Compliance",
+        "score": 75,
+        "confidence": 0.66,
+        "evidence_summary": "Policy adoption and governance decision logs are available; some telemetry completeness gaps remain.",
+        "evidence_refs": ["POLICY_EXECUTION", "POST_MARKET"]
+      },
+      {
+        "id": "6.4",
+        "name": "Compliance & Human-Centric Path",
+        "score": 80,
+        "confidence": 0.70,
+        "evidence_summary": "Human-in-the-loop escalation pathway exists and is auditable; intervention logging is partially standardized.",
+        "evidence_refs": ["HITL_EVENTS"]
+      },
+      {
+        "id": "6.5",
+        "name": "Human-Centric & Trust-Transparency",
+        "score": 77,
+        "confidence": 0.65,
+        "evidence_summary": "Scope-bound reporting and assurance interpretation guidance exist; transparency pack available.",
+        "evidence_refs": ["CSC_OUTPUT", "SCOPE"]
+      },
+      {
+        "id": "6.6",
+        "name": "Trust-Transparency & Industry / Sector Alignment",
+        "score": 72,
+        "confidence": 0.60,
+        "evidence_summary": "Sector profile not declared in this snapshot; generic alignment applied within pilot scope.",
+        "evidence_refs": ["SCOPE", "CSC_OUTPUT"]
+      }
+    ]
+  },
+  "qualification_gates": {
+    "gates_enforced": true,
+    "gate_results": [
+      {
+        "gate_id": "GATE-TELEM-COMPLETENESS",
+        "description": "Minimum telemetry completeness required for CSC issuance",
+        "status": "pass",
+        "notes": "Telemetry present within declared window; completeness score above minimum threshold (threshold values governed separately)."
+      },
+      {
+        "gate_id": "GATE-CRITICAL-FAILURES",
+        "description": "No unresolved critical governance control failures within scope",
+        "status": "pass",
+        "notes": "No critical unresolved failures reported in governance decision logs."
+      },
+      {
+        "gate_id": "GATE-HUMAN-OVERSIGHT",
+        "description": "Human oversight mechanisms available for elevated-risk events",
+        "status": "pass",
+        "notes": "Escalation and intervention records available."
+      }
+    ]
+  },
+  "degradation_and_revocation": {
+    "degradation_supported": true,
+    "revocation_supported": true,
+    "last_degradation_event": null,
+    "last_revocation_event": null,
+    "revocation_note": "Revocation is protective, not punitive; re-issuance requires renewed evidence and governance evaluation."
+  },
+  "evidence_manifest_linkage": {
+    "evidence_manifest_system_id": "QPF-REF-001",
+    "evidence_refs_used": [
+      "SCOPE",
+      "RISK_SAPP",
+      "DATA_PROVENANCE",
+      "POLICY_EXECUTION",
+      "HITL_EVENTS",
+      "API_CONTROLS",
+      "POST_MARKET",
+      "CSC_OUTPUT"
+    ],
+    "evidence_manifest_ref": "apod.evidence_manifest.json"
+  },
+  "restrictions": {
+    "cryptographic_realization": "restricted",
+    "validation_node_internals": "restricted",
+    "threshold_values_and_playbooks": "restricted"
+  },
+  "operator_signoff": {
+    "role": "assurance_lead",
+    "name": "",
+    "date_utc": "",
+    "attestation": "This CSC snapshot is computed from observed telemetry within the declared window and is provided as a scope-bound assurance signal. It is not a certification and shall not be used as an approval claim."
+  }
+}

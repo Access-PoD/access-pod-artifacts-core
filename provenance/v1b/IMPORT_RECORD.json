@@ -1,0 +1,236 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "v1b",
+  "date": "2026-10-11",
+  "status": "unchanged_published_import_with_separate_paper_and_notes",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+  "source_snapshot_download_date": "2026-10-10",
+  "source_zip": "access-pod-artifacts-v1b-pack.zip",
+  "source_zip_sha256": "20915f4e74c8a3cc6b891372a7b1468f3c810c297da8f48685912914679d5f61",
+  "source_zip_crc_pass": true,
+  "source_member_count": 16,
+  "imported_files": [
+    {
+      "path": "v1b/exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf",
+      "bytes": 209555,
+      "sha256": "3a0ce810ebe102a9ccc077f0beb371fe57dd57c5fc6749e585bbb1a78d22a8cf",
+      "archive_member": "exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf"
+    },
+    {
+      "path": "v1b/exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf",
+      "bytes": 155839,
+      "sha256": "6f68e9b7f2d9d927c4c4e4c1e7c4dba72c78fd11e24099fd5498129830337e1a",
+      "archive_member": "exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf"
+    },
+    {
+      "path": "v1b/exec_ops/operator/Operator’s Manual - Access PoD.pdf",
+      "bytes": 285017,
+      "sha256": "a7279e3721e1aae3a9a8194e26598cbbc2afc278164fc460bb7396bd56edce6a",
+      "archive_member": "exec_ops/operator/Operator’s Manual - Access PoD.pdf"
+    },
+    {
+      "path": "v1b/exec_ops/regulator/Regulator Q&A Playbook.pdf",
+      "bytes": 224693,
+      "sha256": "3a7bfd3cc05be5a45ce2b5a7d4a20524c5390061b5258bd52ad7aa19ba14d818",
+      "archive_member": "exec_ops/regulator/Regulator Q&A Playbook.pdf"
+    },
+    {
+      "path": "v1b/native/json/apod.evidence_manifest.json",
+      "bytes": 2135,
+      "sha256": "cf17a1ddde74f0adf867902e4a8c702a3df8b7366ea393d8ddfb2beebde448fa",
+      "archive_member": "native/json/apod.evidence_manifest.json"
+    },
+    {
+      "path": "v1b/native/json/apod.evidence_manifest.schema.json",
+      "bytes": 4114,
+      "sha256": "a9bf2b31fc7fdeeefa02b166f19594efd5e603f26afec1eee641a05b3d7f6bdd",
+      "archive_member": "native/json/apod.evidence_manifest.schema.json"
+    },
+    {
+      "path": "v1b/native/json/apod.evidence_ref_mapping_v1b.json",
+      "bytes": 3160,
+      "sha256": "ad06359207c40a898f57251221dafc62c5c240bb2fcf15378b4a7ae1604de47c",
+      "archive_member": "native/json/apod.evidence_ref_mapping_v1b.json"
+    },
+    {
+      "path": "v1b/native/json/apod.self_assessment.eu_annex_vii.schema.json",
+      "bytes": 4880,
+      "sha256": "7f7d490690a71cb6a1c33c286c306232caeb338c6a0842fc94f9e0d67745e3ab",
+      "archive_member": "native/json/apod.self_assessment.eu_annex_vii.schema.json"
+    },
+    {
+      "path": "v1b/native/json/apod.self_assessment.eu_annex_vii.v1b.json",
+      "bytes": 1443,
+      "sha256": "a8c440648ed253191e7bdeb02864c5b034df117d6044aa44d466a15cde1a21db",
+      "archive_member": "native/json/apod.self_assessment.eu_annex_vii.v1b.json"
+    },
+    {
+      "path": "v1b/native/json/csc_bundle_reference.json",
+      "bytes": 1144,
+      "sha256": "f4ba5909d0104d0e8317250f2b114e32d27ecfdea7e20ddda3948321eca7e8ce",
+      "archive_member": "native/json/csc_bundle_reference.json"
+    },
+    {
+      "path": "v1b/native/json/csc_snapshot.json",
+      "bytes": 5789,
+      "sha256": "af2f95e31b2afd497d7ec325b8cdb1865bf9275c659d9dd87efb8e06dda21904",
+      "archive_member": "native/json/csc_snapshot.json"
+    },
+    {
+      "path": "v1b/native/json/csc_snapshot.schema.json",
+      "bytes": 9704,
+      "sha256": "1b513adf121094729a181e3795e9824f69d85bc190fd8771a5beb89f96642b05",
+      "archive_member": "native/json/csc_snapshot.schema.json"
+    },
+    {
+      "path": "v1b/non_native/json/apod.self_assessment.eu_annex_vii.expanded.non-native.json",
+      "bytes": 13041,
+      "sha256": "1081ca242fbe11f57da54b63c366f53489fd56cb400d6cb2e1f1e4cb203d334e",
+      "archive_member": "non_native/json/apod.self_assessment.eu_annex_vii.expanded.non-native.json"
+    },
+    {
+      "path": "v1b/norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf",
+      "bytes": 179767,
+      "sha256": "b400f1ac13dc95fd66fe9ce81dad8383804aa86b61f779b0fff504d08a238f29",
+      "archive_member": "norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf"
+    },
+    {
+      "path": "v1b/manifest_v1b.json",
+      "bytes": 5063,
+      "sha256": "80da645d3ac16fa9b6ce20f44238884f8d85037455688309fdeeecf9bedb8360",
+      "archive_member": "manifest_v1b.json"
+    },
+    {
+      "path": "v1b/README.md",
+      "bytes": 6143,
+      "sha256": "2793524be4e95b0ea4e3cbbaf5079087986862b90616e19022f62a5310bca6c8",
+      "archive_member": "README.md"
+    }
+  ],
+  "original_manifest_checks": [
+    {
+      "path": "exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "exec_ops/operator/Operator’s Manual - Access PoD.pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "exec_ops/regulator/Regulator Q&A Playbook.pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/apod.evidence_manifest.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/apod.evidence_manifest.schema.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/apod.evidence_ref_mapping_v1b.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/apod.self_assessment.eu_annex_vii.schema.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/apod.self_assessment.eu_annex_vii.v1b.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/csc_bundle_reference.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/csc_snapshot.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "native/json/csc_snapshot.schema.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "non_native/json/apod.self_assessment.eu_annex_vii.expanded.non-native.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "README.md",
+      "hash_and_size_match": true
+    }
+  ],
+  "original_files_changed": [],
+  "pdfs_unchanged_from_zip": [
+    {
+      "path": "v1b/exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf",
+      "bytes": 209555,
+      "sha256": "3a0ce810ebe102a9ccc077f0beb371fe57dd57c5fc6749e585bbb1a78d22a8cf",
+      "archive_member": "exec_ops/board/Board Briefing — Runtime AI Governance & Risk Oversight.pdf"
+    },
+    {
+      "path": "v1b/exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf",
+      "bytes": 155839,
+      "sha256": "6f68e9b7f2d9d927c4c4e4c1e7c4dba72c78fd11e24099fd5498129830337e1a",
+      "archive_member": "exec_ops/operator/Operator Evidence Checklist - Pre-Regulatory Engagement.pdf"
+    },
+    {
+      "path": "v1b/exec_ops/operator/Operator’s Manual - Access PoD.pdf",
+      "bytes": 285017,
+      "sha256": "a7279e3721e1aae3a9a8194e26598cbbc2afc278164fc460bb7396bd56edce6a",
+      "archive_member": "exec_ops/operator/Operator’s Manual - Access PoD.pdf"
+    },
+    {
+      "path": "v1b/exec_ops/regulator/Regulator Q&A Playbook.pdf",
+      "bytes": 224693,
+      "sha256": "3a7bfd3cc05be5a45ce2b5a7d4a20524c5390061b5258bd52ad7aa19ba14d818",
+      "archive_member": "exec_ops/regulator/Regulator Q&A Playbook.pdf"
+    },
+    {
+      "path": "v1b/norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf",
+      "bytes": 179767,
+      "sha256": "b400f1ac13dc95fd66fe9ce81dad8383804aa86b61f779b0fff504d08a238f29",
+      "archive_member": "norms/eu_ai_act/annex_vii/EU AI Act Annex VII-Aligned Evidence Checklist.pdf"
+    }
+  ],
+  "added_paper": {
+    "path": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+    "source_filename": "APOD-TR-003_Vol2_Version-B (1).pdf",
+    "bytes": 544413,
+    "sha256": "70a00569dce83bf3294ce64e62fcc8764b652e95798b5302622be5a28ddedfc8",
+    "matches_user_supplied_paper": true,
+    "in_original_zip": false,
+    "pdf_bytes_or_metadata_modified": false,
+    "filename_only_normalized": true
+  },
+  "added_component_notes": [
+    "v1b/ERRATA.md",
+    "v1b/SOURCE_NOTICES.md"
+  ],
+  "repository_context_notices": [
+    {
+      "path": "provenance/v1b/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "source_repository_path": "LICENSE",
+      "scope": "Preserved repository-level context; not an original v1b ZIP member or a new component licence grant."
+    },
+    {
+      "path": "provenance/v1b/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a",
+      "source_repository_path": "LICENSE_HISTORY.md",
+      "scope": "Preserved repository-level context; not an original v1b ZIP member or a new component licence grant."
+    }
+  ],
+  "interpretation": "Import and preservation checks only; not runtime execution, semantic assurance, final sealing or publication."
+}

@@ -1,0 +1,1793 @@
+{
+  "meta": {
+    "catalog_id": "metric_catalog.v1",
+    "version": "1.0.0",
+    "issued_at": "2025-12-27T00:00:00Z",
+    "description": "Access PoD / SAPP - CSC Metric Catalog (v1). Defines telemetry-derived metrics, normalization, thresholds, and factor mapping.",
+    "scoring_scale": {
+      "min": 0,
+      "max": 100
+    },
+    "normalization_scale": {
+      "min": 0,
+      "max": 1
+    },
+    "factors": {
+      "6.1": "Industry 4.0 & Security (Trust)",
+      "6.2": "Security & New Best Practice (Trust)",
+      "6.3": "New Best Practice & Compliance (Transparency)",
+      "6.4": "Compliance & Human-Centric Path (Transparency)",
+      "6.5": "Human-Centric & Trust-Transparency (Openness)",
+      "6.6": "Trust-Transparency & Industry/Sector (Openness)"
+    },
+    "status": "Public Review Draft (Standards Exploration)",
+    "document_id": "APOD-TR-002",
+    "pack_version": "1.0.0"
+  },
+  "metrics": [
+    {
+      "metric_id": "SEC_ATTACK_DETECT_RATE",
+      "name": "Simulated attack detection rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          0.995
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.75
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "scenario_id",
+        "attack_type",
+        "detected",
+        "severity"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_FALSE_NEG_RATE",
+      "name": "Security false-negative rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.0,
+          0.05
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.08,
+        "critical": 0.15
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "scenario_id",
+        "attack_type",
+        "missed"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_FALSE_POS_RATE",
+      "name": "Security false-positive rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.0,
+          0.03
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.06,
+        "critical": 0.12
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "rule_id",
+        "decision",
+        "ground_truth"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_MTTC",
+      "name": "Mean time to containment (MTTC)",
+      "factor": "6.1",
+      "unit": "seconds",
+      "direction": "lower_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 300,
+        "steepness": 0.01,
+        "cap": [
+          0,
+          3600
+        ]
+      },
+      "thresholds": {
+        "warning": 900,
+        "critical": 1800
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "incident_id",
+        "detected_at",
+        "contained_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_POLICY_ENFORCE_SUCCESS",
+      "name": "Policy enforcement success rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.98,
+          0.999
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.95,
+        "critical": 0.9
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "policy_version",
+        "rule_id",
+        "enforced"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_KILL_SWITCH_SUCCESS",
+      "name": "Kill-switch activation success",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.95,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.9,
+        "critical": 0.8
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "action_id",
+        "kill_switch",
+        "success"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_OUTPUT_SAFETY_VIOL_RATE",
+      "name": "Output safety violation rate (post-filter)",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.0,
+          0.01
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.02,
+        "critical": 0.05
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "request_id",
+        "policy_decision",
+        "violation_type"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_TOOL_CALL_VIOL_RATE",
+      "name": "Tool-call constraint violation rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.0,
+          0.005
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.01,
+        "critical": 0.03
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "tool_name",
+        "requested_action",
+        "blocked",
+        "reason"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_PRIV_ESCALATION_BLOCK_RATE",
+      "name": "Privileged escalation blocked rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.95,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.9,
+        "critical": 0.8
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "principal_id",
+        "attempt_type",
+        "blocked"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SEC_EVIDENCE_INTEGRITY_PASS",
+      "name": "Evidence integrity verification pass rate",
+      "factor": "6.1",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.98,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.95,
+        "critical": 0.9
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "evidence_item_id",
+        "digest_match"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_REDTEAM_PASS_RATE",
+      "name": "Red-team suite pass rate",
+      "factor": "6.2",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          0.98
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "suite_id",
+        "test_id",
+        "passed",
+        "severity"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_PATCH_LATENCY",
+      "name": "Median patch latency for critical findings",
+      "factor": "6.2",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 72,
+        "steepness": 0.08,
+        "cap": [
+          0,
+          720
+        ]
+      },
+      "thresholds": {
+        "warning": 168,
+        "critical": 336
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "finding_id",
+        "severity",
+        "opened_at",
+        "fixed_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_CONTROL_TUNING_CADENCE",
+      "name": "Control tuning cadence",
+      "factor": "6.2",
+      "unit": "per_month",
+      "direction": "higher_is_better",
+      "aggregation": "count",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          2,
+          12
+        ],
+        "cap": [
+          0,
+          30
+        ]
+      },
+      "thresholds": {
+        "warning": 1,
+        "critical": 0
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "change_id",
+        "control_id",
+        "changed_at"
+      ],
+      "notes": "Measures whether controls are actively updated based on evidence."
+    },
+    {
+      "metric_id": "HARD_SUPPLYCHAIN_ATTEST_COVERAGE",
+      "name": "Supply-chain attestation coverage",
+      "factor": "6.2",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.8,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.7,
+        "critical": 0.5
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "component_id",
+        "attestation_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_DEPENDENCY_VULN_RATE",
+      "name": "Dependency high/critical vuln rate",
+      "factor": "6.2",
+      "unit": "per_release",
+      "direction": "lower_is_better",
+      "aggregation": "count",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0,
+          1
+        ],
+        "cap": [
+          0,
+          50
+        ]
+      },
+      "thresholds": {
+        "warning": 3,
+        "critical": 8
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "release_id",
+        "cve_id",
+        "severity"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_DATA_FLOW_VISIBILITY",
+      "name": "Data flow visibility coverage",
+      "factor": "6.2",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.75,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "dataset_id",
+        "flow_event_logged"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_REGRESSION_PASS_RATE",
+      "name": "Security regression pass rate",
+      "factor": "6.2",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          0.99
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.7
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "regression_id",
+        "passed"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_PRIVACY_TEST_PASS_RATE",
+      "name": "Privacy test pass rate",
+      "factor": "6.2",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          0.99
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.7
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "test_id",
+        "passed",
+        "privacy_risk"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_KEY_MGMT_HEALTH",
+      "name": "Key management health score",
+      "factor": "6.2",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          80,
+          100
+        ],
+        "cap": [
+          0,
+          100
+        ]
+      },
+      "thresholds": {
+        "warning": 70,
+        "critical": 50
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "key_id",
+        "rotation_due",
+        "hsm_backed"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "HARD_TELEMETRY_COMPLETENESS",
+      "name": "Telemetry completeness index",
+      "factor": "6.2",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.6
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "stream_id",
+        "expected_events",
+        "observed_events"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_POLICY_TRACE_COVERAGE",
+      "name": "Policy version trace coverage",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "policy_version",
+        "request_id",
+        "trace_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_TIME_TO_ADAPT",
+      "name": "Time-to-adapt after policy change",
+      "factor": "6.3",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 48,
+        "steepness": 0.1,
+        "cap": [
+          0,
+          720
+        ]
+      },
+      "thresholds": {
+        "warning": 120,
+        "critical": 240
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "policy_change_id",
+        "changed_at",
+        "deployed_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_DEPLOY_TOPOLOGY_VIS",
+      "name": "Deployment topology visibility",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.6
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "env_id",
+        "region",
+        "inventory_logged"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_DRIFT_DETECT_RECALL",
+      "name": "Drift detection recall",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.8,
+          0.95
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.7,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "drift_event_id",
+        "detected",
+        "confirmed"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_DRIFT_TO_ACTION_LAT",
+      "name": "Drift-to-action latency",
+      "factor": "6.3",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 72,
+        "steepness": 0.06,
+        "cap": [
+          0,
+          720
+        ]
+      },
+      "thresholds": {
+        "warning": 168,
+        "critical": 336
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "drift_event_id",
+        "detected_at",
+        "actioned_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_MODEL_LINEAGE_COVERAGE",
+      "name": "Model lineage coverage",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.6
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "model_version",
+        "parent_run_id",
+        "lineage_logged"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_DATA_PROVENANCE_COVERAGE",
+      "name": "Dataset provenance coverage",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.75,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "dataset_id",
+        "provenance_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_EVAL_REGISTRY_HEALTH",
+      "name": "Evaluation registry health",
+      "factor": "6.3",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          80,
+          100
+        ],
+        "cap": [
+          0,
+          100
+        ]
+      },
+      "thresholds": {
+        "warning": 70,
+        "critical": 50
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "eval_id",
+        "registered",
+        "reproducible"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_CHANGE_APPROVAL_TRACE",
+      "name": "Change approval traceability",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.6
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "change_id",
+        "approver",
+        "ticket_link"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "COMP_JURISDICTION_TAG_RATE",
+      "name": "Jurisdiction tagging rate",
+      "factor": "6.3",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.95,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.9,
+        "critical": 0.75
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "request_id",
+        "jurisdiction_tag"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_HIL_REVIEW_COVERAGE",
+      "name": "High-risk action human review coverage",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "action_id",
+        "risk_level",
+        "reviewed_by_human"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_OVERRIDE_JUST_COMPLETE",
+      "name": "Override justification completeness",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.75,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "override_id",
+        "fields_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_ESCALATION_SLA",
+      "name": "Escalation SLA compliance",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          0.99
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.7
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "case_id",
+        "sla_hours",
+        "resolved_in_sla"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_RISK_CLASS_ACCURACY",
+      "name": "Risk classification accuracy",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.8,
+          0.95
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.75,
+        "critical": 0.6
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "item_id",
+        "predicted_risk",
+        "validated_risk"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_AUDIT_EVIDENCE_COVERAGE",
+      "name": "Audit evidence coverage",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "control_id",
+        "evidence_linked"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_COMPLAINT_HANDLING_RATE",
+      "name": "Complaint handling completion rate",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          0.99
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.7
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "complaint_id",
+        "closed"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_MODEL_APPROVAL_TRACE",
+      "name": "Model approval traceability",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.95,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.9,
+        "critical": 0.75
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "model_version",
+        "approval_ticket"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_CONTROLS_EXCEPTION_RATE",
+      "name": "Controls exception rate",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.0,
+          0.02
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.04,
+        "critical": 0.08
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "exception_id",
+        "control_id",
+        "reason"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_RETRAIN_TRIGGER_VALIDITY",
+      "name": "Retrain trigger validity",
+      "factor": "6.4",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.75,
+          0.95
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.65,
+        "critical": 0.5
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "trigger_id",
+        "validated"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "GOV_HUMAN_LOAD_INDEX",
+      "name": "Human oversight load index",
+      "factor": "6.4",
+      "unit": "score",
+      "direction": "target_is_best",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "target",
+        "target": 0.6,
+        "tolerance": 0.25,
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.9,
+        "critical": 0.98
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "queue_depth",
+        "review_time_seconds"
+      ],
+      "notes": "Target balances over-reliance on automation vs human overload."
+    },
+    {
+      "metric_id": "TRN_EXPLAIN_COMPLETE",
+      "name": "Explanation completeness score",
+      "factor": "6.5",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.75,
+          0.95
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.65,
+        "critical": 0.5
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "request_id",
+        "explanation_fields_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_USER_COMPREHENSION",
+      "name": "User comprehension indicator",
+      "factor": "6.5",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.7,
+          0.9
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.6,
+        "critical": 0.45
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "survey_id",
+        "comprehension_score"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_REMEDIATION_VALIDATION",
+      "name": "Remediation validation rate",
+      "factor": "6.5",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.8,
+          0.95
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.7,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "fix_id",
+        "validated"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_COMPLAINT_RESOLUTION_TIME",
+      "name": "Complaint resolution time (p50)",
+      "factor": "6.5",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 72,
+        "steepness": 0.06,
+        "cap": [
+          0,
+          720
+        ]
+      },
+      "thresholds": {
+        "warning": 168,
+        "critical": 336
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "complaint_id",
+        "opened_at",
+        "closed_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_PUBLIC_REPORT_FRESHNESS",
+      "name": "Public transparency report freshness",
+      "factor": "6.5",
+      "unit": "days",
+      "direction": "lower_is_better",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 30,
+        "steepness": 0.12,
+        "cap": [
+          0,
+          365
+        ]
+      },
+      "thresholds": {
+        "warning": 60,
+        "critical": 120
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "report_id",
+        "published_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_DECISION_TRACE_RATE",
+      "name": "Decision trace availability rate",
+      "factor": "6.5",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "request_id",
+        "trace_uri"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_APPEAL_SUCCESS_HANDLING",
+      "name": "Appeal handling effectiveness",
+      "factor": "6.5",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.75,
+          0.95
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.65,
+        "critical": 0.5
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "appeal_id",
+        "handled_fairly",
+        "outcome"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_MODEL_LIMITS_DISCLOSED",
+      "name": "Model limits disclosure coverage",
+      "factor": "6.5",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.75,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "model_card_id",
+        "limits_section_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_HARM_EVENT_RATE",
+      "name": "Harm event rate (validated)",
+      "factor": "6.5",
+      "unit": "per_10k",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0,
+          1
+        ],
+        "cap": [
+          0,
+          50
+        ]
+      },
+      "thresholds": {
+        "warning": 3,
+        "critical": 8
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "harm_event_id",
+        "validated"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "TRN_BIAS_DISPARITY_INDEX",
+      "name": "Bias disparity index (key groups)",
+      "factor": "6.5",
+      "unit": "score",
+      "direction": "lower_is_better",
+      "aggregation": "p95",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.0,
+          0.05
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.08,
+        "critical": 0.15
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "group_id",
+        "metric",
+        "disparity"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_POLICY_PASS_RATE",
+      "name": "Sector policy suite pass rate",
+      "factor": "6.6",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          0.98
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "sector",
+        "suite_id",
+        "passed"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_ID_SPOOF_DETECT",
+      "name": "Impersonation/spoof detection accuracy",
+      "factor": "6.6",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          0.97
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.8,
+        "critical": 0.65
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "attempt_id",
+        "spoof_detected",
+        "ground_truth"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_CREDENTIAL_VERIFY_RATE",
+      "name": "Credential verification success rate",
+      "factor": "6.6",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.9,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.85,
+        "critical": 0.7
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "credential_id",
+        "verified"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_REVOCATION_PROPAGATION",
+      "name": "Revocation propagation time",
+      "factor": "6.6",
+      "unit": "hours",
+      "direction": "lower_is_better",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "sigmoid",
+        "midpoint": 24,
+        "steepness": 0.25,
+        "cap": [
+          0,
+          168
+        ]
+      },
+      "thresholds": {
+        "warning": 48,
+        "critical": 96
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "revocation_id",
+        "issued_at",
+        "applied_at"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_IP_OSS_PROV_COVERAGE",
+      "name": "IP/OSS provenance coverage",
+      "factor": "6.6",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.85,
+          1.0
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.75,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "component_id",
+        "license",
+        "provenance_present"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_MARKET_INTEGRITY_SIGNAL",
+      "name": "Marketplace integrity signal",
+      "factor": "6.6",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          70,
+          95
+        ],
+        "cap": [
+          0,
+          100
+        ]
+      },
+      "thresholds": {
+        "warning": 60,
+        "critical": 45
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "signal_id",
+        "spam_rate",
+        "fraud_rate"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_REPUTATION_STABILITY",
+      "name": "Reputation stability index",
+      "factor": "6.6",
+      "unit": "score",
+      "direction": "target_is_best",
+      "aggregation": "p50",
+      "normalization": {
+        "method": "target",
+        "target": 0.7,
+        "tolerance": 0.2,
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.4,
+        "critical": 0.25
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "entity_id",
+        "reputation_score",
+        "volatility"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_AUDIT_INTEROP_SCORE",
+      "name": "Audit interoperability score",
+      "factor": "6.6",
+      "unit": "score",
+      "direction": "higher_is_better",
+      "aggregation": "mean",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          70,
+          95
+        ],
+        "cap": [
+          0,
+          100
+        ]
+      },
+      "thresholds": {
+        "warning": 60,
+        "critical": 45
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "export_format",
+        "accepted_by_partners"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_PARTNER_ATTEST_RATE",
+      "name": "Partner attestation rate",
+      "factor": "6.6",
+      "unit": "ratio",
+      "direction": "higher_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0.8,
+          0.98
+        ],
+        "cap": [
+          0,
+          1
+        ]
+      },
+      "thresholds": {
+        "warning": 0.7,
+        "critical": 0.55
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "partner_id",
+        "attested"
+      ],
+      "notes": ""
+    },
+    {
+      "metric_id": "SECTOR_PUBLIC_COMPLAINT_SIGNAL",
+      "name": "Public complaint signal rate",
+      "factor": "6.6",
+      "unit": "per_10k",
+      "direction": "lower_is_better",
+      "aggregation": "rate",
+      "normalization": {
+        "method": "minmax",
+        "good_range": [
+          0,
+          2
+        ],
+        "cap": [
+          0,
+          50
+        ]
+      },
+      "thresholds": {
+        "warning": 5,
+        "critical": 10
+      },
+      "telemetry_source": "sapp+runtime",
+      "event_fields": [
+        "complaint_id",
+        "channel",
+        "validated"
+      ],
+      "notes": ""
+    }
+  ]
+}

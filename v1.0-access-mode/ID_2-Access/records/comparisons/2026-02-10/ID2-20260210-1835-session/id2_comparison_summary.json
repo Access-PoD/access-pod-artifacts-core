@@ -1,0 +1,153 @@
+{
+  "baseline": "records\\sessions\\2026-02-10\\baseline\\ID2-20260210-1835-session\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+  "variants_root": "records\\sessions\\2026-02-10\\variants",
+  "generated_utc": "2026-02-20T22:28:32Z",
+  "results": [
+    {
+      "variant_file": "C:\\v1.0-Access-mode\\modes\\ID_2_access\\records\\sessions\\2026-02-10\\variants\\ID2-20260210-1907-session-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "scenario_summary": "Time-pressure variant of AI usage percentage reporting. Review timeline was significantly compressed and stakeholder demand required near-immediate clarification of the percentage metric. Telemetry inconsistencies persisted and uncertainty articulation was reduced under speed constraints. Escalation consideration was time-limited but not formally triggered.",
+      "stress_category_tags": [
+        "authority",
+        "telemetry",
+        "incentive",
+        "ethical",
+        "delegation"
+      ],
+      "diffs": {
+        "stress_conditions": {
+          "added": [
+            "Reduced opportunity for peer review before stakeholder response",
+            "Severely compressed review timeline with same-day publication expectation",
+            "Stakeholder demand for immediate interpretation of percentage as governance signal",
+            "Telemetry reconciliation deferred due to time constraints"
+          ],
+          "removed": [
+            "Compressed review timeline",
+            "Conflicting or incomplete telemetry classifications",
+            "Stakeholder request for immediate clarity on percentage meaning"
+          ],
+          "added_count": 4,
+          "removed_count": 3,
+          "net_change": 1,
+          "replacement_detected": true
+        },
+        "fragility_points": {
+          "added": [
+            "Boundary between reporting metric and governance judgment became more rapidly blurred",
+            "Stakeholder urgency further compressed review cycle and reduced uncertainty articulation",
+            "Time constraints reduced opportunity to clarify definitions before stakeholder communication"
+          ],
+          "removed": [
+            "Boundary between reporting metric and governance judgment became blurred",
+            "Stakeholder urgency compressed review cycle and reduced uncertainty articulation"
+          ],
+          "added_count": 3,
+          "removed_count": 2,
+          "net_change": 1,
+          "replacement_detected": true
+        },
+        "authority_drift_flags": {
+          "added": [
+            "Draft language more quickly suggested endorsement of current AI usage level",
+            "Implicit suggestion that no escalation was required due to deadline pressure",
+            "Increased tolerance for recommendation-style phrasing under time constraints",
+            "Removal of uncertainty qualifiers earlier in executive summary drafting"
+          ],
+          "removed": [
+            "Draft language suggested endorsement of current AI usage level",
+            "Implicit suggestion that no escalation was required",
+            "Removal of uncertainty qualifiers in executive summary draft"
+          ],
+          "added_count": 4,
+          "removed_count": 3,
+          "net_change": 1,
+          "replacement_detected": true
+        },
+        "escalation_triggers": {
+          "added": [
+            "Deadline-driven pressure to bypass formal review checkpoints"
+          ],
+          "removed": [],
+          "added_count": 1,
+          "removed_count": 0,
+          "net_change": 1,
+          "replacement_detected": false
+        }
+      },
+      "review_notes": [
+        "Stress conditions changed vs baseline (exploratory). Added: Reduced opportunity for peer review before stakeholder response | Severely compressed review timeline with same-day publication expectation | Stakeholder demand for immediate interpretation of percentage as governance signal",
+        "Baseline stress conditions removed/changed: Compressed review timeline | Conflicting or incomplete telemetry classifications | Stakeholder request for immediate clarity on percentage meaning",
+        "Net-new fragility points detected (exploratory): Boundary between reporting metric and governance judgment became more rapidly blurred | Stakeholder urgency further compressed review cycle and reduced uncertainty articulation | Time constraints reduced opportunity to clarify definitions before stakeholder communication",
+        "What to check: whether scope boundaries and guardrails still hold under this stress intensity.",
+        "Net-new authority drift flags detected (exploratory): Draft language more quickly suggested endorsement of current AI usage level | Implicit suggestion that no escalation was required due to deadline pressure | Increased tolerance for recommendation-style phrasing under time constraints | Removal of uncertainty qualifiers earlier in executive summary drafting",
+        "What to check: wording that implies endorsement, adequacy, thresholds, or recommendation tone under pressure.",
+        "Net-new escalation triggers detected (exploratory): Deadline-driven pressure to bypass formal review checkpoints",
+        "What to check: human review routing remains explicit and non-automated; escalation prompts are documented.",
+        "Stress category tags: authority, telemetry, incentive, ethical, delegation. Use tags to group recurring patterns across variants (visibility, not validation).",
+        "Reminder: preserve uncertainty notes. Do not smooth uncertainty to meet stakeholder urgency."
+      ]
+    }
+  ],
+  "aggregate": {
+    "variants_count": 1,
+    "top_recurring_added": {
+      "stress_conditions": [
+        {
+          "item": "Telemetry reconciliation deferred due to time constraints",
+          "count": 1
+        },
+        {
+          "item": "Stakeholder demand for immediate interpretation of percentage as governance signal",
+          "count": 1
+        },
+        {
+          "item": "Reduced opportunity for peer review before stakeholder response",
+          "count": 1
+        },
+        {
+          "item": "Severely compressed review timeline with same-day publication expectation",
+          "count": 1
+        }
+      ],
+      "fragility_points": [
+        {
+          "item": "Boundary between reporting metric and governance judgment became more rapidly blurred",
+          "count": 1
+        },
+        {
+          "item": "Time constraints reduced opportunity to clarify definitions before stakeholder communication",
+          "count": 1
+        },
+        {
+          "item": "Stakeholder urgency further compressed review cycle and reduced uncertainty articulation",
+          "count": 1
+        }
+      ],
+      "authority_drift_flags": [
+        {
+          "item": "Increased tolerance for recommendation-style phrasing under time constraints",
+          "count": 1
+        },
+        {
+          "item": "Removal of uncertainty qualifiers earlier in executive summary drafting",
+          "count": 1
+        },
+        {
+          "item": "Implicit suggestion that no escalation was required due to deadline pressure",
+          "count": 1
+        },
+        {
+          "item": "Draft language more quickly suggested endorsement of current AI usage level",
+          "count": 1
+        }
+      ],
+      "escalation_triggers": [
+        {
+          "item": "Deadline-driven pressure to bypass formal review checkpoints",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "notes": "Exploratory comparative summary only. Does not assert adequacy, compliance, certification, or readiness."
+}

@@ -14,3 +14,14 @@ Thumbs.db
 *.zip
 *.tar
 *.gz
+
+# Preserve the nine published source archives in the consolidated collection.
+!/provenance/APOD-ID3-RULE-001-v1.1/APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip
+!/provenance/ID_1-core/v1.0-Access-mode_release_20260208-150107.zip
+!/provenance/ID_2-Access/v1.0-Access-mode_release_20260221-121416.zip
+!/provenance/ID_3-operator/v1.0-Access-mode_ID_3_release_20260301-111359.zip
+!/provenance/v1.0-access-mode/v1.0-Access-mode_release_20260204-203045.zip
+!/provenance/v1a/access-pod-artifacts-v1a-pack.zip
+!/provenance/v1b/access-pod-artifacts-v1b-pack.zip
+!/provenance/v1c/sealed_20260117_105542.zip
+!/provenance/v1d/APOD-TR-005_Vol2_Version-D_Offline-Review_20260125_143440.zip

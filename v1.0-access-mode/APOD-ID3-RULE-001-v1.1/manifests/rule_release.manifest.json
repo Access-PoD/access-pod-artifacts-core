@@ -1,0 +1,25 @@
+{
+  "manifest_id": "APOD-ID3-RULE-001_v1_1",
+  "publication_id": "APOD-ID3-RULE-001",
+  "version": "v1.1",
+  "posture": "ID_3",
+  "status": "Initial Public Rule Baseline",
+  "intended_use": "Structural inspection enforcement; diagnostic completeness scoring only.",
+  "rule_identifier": {
+    "rule_id": "CSC_SESSION_COMPLETENESS_V1_1",
+    "schema_version": "rule_v1_1"
+  },
+  "includes": [
+    "README.md",
+    "CONTRIBUTORS.md",
+    "release_notes_INTERNAL.md",
+    "changes/CHANGELOG.md",
+    "changes/DIFF_NOTES.md",
+    "spec/README.md",
+    "spec/Rule Engine Formalization.pdf",
+    "rules/session_completeness.rule.json"
+  ],
+  "excludes_note": "Artifacts not listed above are excluded by definition.",
+  "non_authority_statement": "No compliance, adequacy, certification, approval, or governance maturity claims are made.",
+  "determinism_boundary": "Structural enforcement only. No semantic invention permitted."
+}

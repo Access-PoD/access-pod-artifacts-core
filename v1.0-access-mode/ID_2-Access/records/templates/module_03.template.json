@@ -1,0 +1,47 @@
+{
+  "human_decision_required": true,
+  "inputs": {
+    "references": [],
+    "scenario_seeds": [],
+    "context_notes": "",
+    "stressors": []
+  },
+  "access_mode_primary": "ID_2",
+  "outputs": {
+    "links": [],
+    "generated_artifacts": []
+  },
+  "captures": {
+    "scope_out": [],
+    "method_steps": [],
+    "definitions": {},
+    "assumptions": [],
+    "scope_in": [],
+    "evidence_to_capture": [],
+    "objective": "",
+    "controls_guardrails": []
+  },
+  "inspection_status": "not_frozen",
+  "observations": [],
+  "module": {
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "module_title": "SAPP Simulation & Stress Testing",
+    "source_module_path": "modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "module_id": "03"
+  },
+  "uncertainty_notes": [],
+  "escalation_triggers": [],
+  "validation": {
+    "misalignment_tests_run": [],
+    "human_review_notes": "",
+    "verification_questions": []
+  },
+  "schema_version": "id2_records_v0.1",
+  "simulation_runs": [],
+  "record_class": "non_inspection_module_record",
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  },
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection."
+}

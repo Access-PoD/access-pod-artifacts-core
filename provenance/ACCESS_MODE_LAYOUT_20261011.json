@@ -1,0 +1,2274 @@
+{
+  "date": "2026-10-11",
+  "collection": "v1.0-consolidated-draft",
+  "action": "Group standalone ID1–ID3 under Access-Mode and add separately licensed release references.",
+  "relocation_map": {
+    "ID_1-core": "v1.0-access-mode/ID_1-core",
+    "ID_2-Access": "v1.0-access-mode/ID_2-Access",
+    "ID_3-operator": "v1.0-access-mode/ID_3-operator"
+  },
+  "source_file_count": 356,
+  "final_file_count": 357,
+  "changed_existing_files": [
+    {
+      "previous_path": "APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+      "current_path": "APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+      "before_sha256": "6259c362c85afe95b38104792b1c66803b9d02c249c62d9a37d4f9b21dd85bce",
+      "after_sha256": "7a71c7b5686ef1ab8dae574e9ea5c8d46ab8c6cbd8deac9dcd46199472cd61f1"
+    },
+    {
+      "previous_path": "README.md",
+      "current_path": "README.md",
+      "before_sha256": "84d06a26c8b2c48337721327e0e545b1aa49e905801f7c31e1c28bf7649a0ba3",
+      "after_sha256": "110a289676d686295ba43547d677597d48da7fbd8669f6e0a310fdda40059d61"
+    },
+    {
+      "previous_path": "v1.0-access-mode/ERRATA.md",
+      "current_path": "v1.0-access-mode/ERRATA.md",
+      "before_sha256": "9889829ae62d8a2bbf920d490b7a99b2e3759fd1d6ef53a02fcf41da77501516",
+      "after_sha256": "465cd3b06e88343c852cedf855f69959c01571c6e0c0d381094ae6f0d4cc977f"
+    },
+    {
+      "previous_path": "ID_1-core/ERRATA.md",
+      "current_path": "v1.0-access-mode/ID_1-core/ERRATA.md",
+      "before_sha256": "1251f64b5c47f07575d70a233b9d9f627ae0afff3f1ca681294c6a810f56c26c",
+      "after_sha256": "799a0b3b87d1489e2b0b4049a1d4321fc87c056d67458baaf99e314b735c42ed"
+    },
+    {
+      "previous_path": "ID_1-core/SOURCE_NOTICES.md",
+      "current_path": "v1.0-access-mode/ID_1-core/SOURCE_NOTICES.md",
+      "before_sha256": "e27d0309cb04a077f3c9af473630ed34ba527415e98d7f09d6ec0b36d42b0bf6",
+      "after_sha256": "ed85bded288e89b74d7dbc0c913c4acecda81c67076338df8fa1c35f358009ad"
+    },
+    {
+      "previous_path": "ID_2-Access/MIGRATION_NOTES.md",
+      "current_path": "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md",
+      "before_sha256": "c4e5bca8ece79aea2b0262d9acf24a3dd653f9b3479b97598a68d0c65c4dade3",
+      "after_sha256": "ad9e5bd96aac39b4ec54a471f1a25453903164e63e6115e75373e9143996259f"
+    },
+    {
+      "previous_path": "ID_2-Access/SOURCE_NOTICES.md",
+      "current_path": "v1.0-access-mode/ID_2-Access/SOURCE_NOTICES.md",
+      "before_sha256": "d087090e38094a86849aae983fd217d4b9fc37cc414dc599c9476771db7a549d",
+      "after_sha256": "86678f139930b85514c5ec5010ab66ef13ade04638c2d242918434a00bd69e7c"
+    },
+    {
+      "previous_path": "ID_2-Access/four-candidates/README.md",
+      "current_path": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+      "before_sha256": "84cf732f36731f071566161e933141369ad757a33ab3c7459bcc069cd81c0f94",
+      "after_sha256": "dabd9b2c63bcff4668439ac1da74366965a0f1d937f6e0360c42d36a281c5fd4"
+    },
+    {
+      "previous_path": "ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+      "current_path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+      "before_sha256": "9f234311ba81a09cfe29ed4a0b2a9e069b30ec5c68a205501d3845be529f30cf",
+      "after_sha256": "b2aeb0bb11e2d1a1860b89758beaa42e6e0b2221fc1bb93d0d99ef1aec655e65"
+    },
+    {
+      "previous_path": "ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+      "current_path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+      "before_sha256": "b494f20fe5baffa3e12e531eb648e91d2504341b4e079f8f1170837d678f2649",
+      "after_sha256": "8dccef9482e9b26a454802f4c0c83366e728721ee65d3f429e18d11bb71b6045"
+    },
+    {
+      "previous_path": "ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+      "current_path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+      "before_sha256": "1b0360a4b02bd1d06986c56d7198bfee6077cb78d468b60facc553601c547654",
+      "after_sha256": "89949754960973b8a7874d6882f58fd2f7eebbcbbeb880d6ae358c3b3df40bf7"
+    },
+    {
+      "previous_path": "ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1",
+      "current_path": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1",
+      "before_sha256": "b6f05595cfbbea6a3b43662b4692108e6609e428c499f61c76396ea4df42191c",
+      "after_sha256": "4859e6cc5182ee9d7142d10f98dfcf724fab2464b85bae5fbcf6b5edec155958"
+    },
+    {
+      "previous_path": "ID_3-operator/MIGRATION_NOTES.md",
+      "current_path": "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md",
+      "before_sha256": "75270367a1e829d153cf9cf45047ef122e8c095f8512f4d47e6fecf2d0b51651",
+      "after_sha256": "f41aa4c5ae924c517a7e7d433402b2a804473605ef1c4e941ae038c2c750fcef"
+    },
+    {
+      "previous_path": "ID_3-operator/SOURCE_NOTICES.md",
+      "current_path": "v1.0-access-mode/ID_3-operator/SOURCE_NOTICES.md",
+      "before_sha256": "48002d3f5bfb230becec5507b1eb32f20e1cbdca1495b70c00d42f2b91c7c9e3",
+      "after_sha256": "84061a384d9faadea108bd0b9dc9929aaa8bac340f9818c755fefa480d7444b1"
+    }
+  ],
+  "unchanged_file_count_excluding_manifest": 341,
+  "original_papers_and_released_payloads_preserved": true,
+  "provenance_policy": "Earlier import/review records preserve their original paths and hashes. Resolve their historical collection locations with relocation_map; release identities are unchanged.",
+  "rule_pack_location": "APOD-ID3-RULE-001-v1.1",
+  "external_release_files_imported": false,
+  "document_path_revision": {
+    "date": "2026-10-11",
+    "result": "PASS",
+    "docx_sha256": "8dccef9482e9b26a454802f4c0c83366e728721ee65d3f429e18d11bb71b6045",
+    "replay_sha256": "4859e6cc5182ee9d7142d10f98dfcf724fab2464b85bae5fbcf6b5edec155958",
+    "page_count": 94,
+    "exact_pixel_and_normalized_text_match_pages": 91,
+    "original_pages_1_to_62_identical": true,
+    "changed_pages_inspected_original_resolution": [
+      64,
+      66,
+      67
+    ],
+    "unresolved_visual_defects": [],
+    "reference_full_review_evidence": "../../id2-word-guide-20261011/render-support/final-v3-visual-qa.json",
+    "comparison_evidence": "render-comparison-final.json",
+    "structural_evidence": "path-patch-evidence.json",
+    "independent_structural_review": "../external-link-audit/relocated-guide-independent-structure.json",
+    "powershell_parser_errors": 0,
+    "extracted_guide_command_lines_match_standalone_script": true,
+    "source_file_unchanged_during_render": true,
+    "scope": "Only the current root display, sourceRoot command and wrapper command keep-with-next changed.",
+    "approved": true
+  },
+  "external_link_audit": {
+    "checked_at_with_offset": "2026-10-10T21:37:16.541770+00:00",
+    "collection_root": "C:\\access-pod-v1.0",
+    "scope": "Clickable Markdown links, bare HTTP(S) URLs outside fenced/inline code, PDF URI annotations, DOCX external hyperlinks and six proposed related-release/license links. No JSON metadata URLs or ordinary non-linked bibliography strings crawled. Network statuses are retrieval evidence, not link-content endorsement.",
+    "distinct_url_count": 33,
+    "source_occurrence_count": 85,
+    "results": [
+      {
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://creativecommons.org/licenses/by/4.0/",
+          "status": 200,
+          "final_url": "https://creativecommons.org/licenses/by/4.0/",
+          "content_type": "text/html",
+          "redirects": [],
+          "elapsed_seconds": 0.219
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://creativecommons.org/licenses/by/4.0/",
+          "status": 200,
+          "final_url": "https://creativecommons.org/licenses/by/4.0/",
+          "content_type": "text/html",
+          "page_title": "Deed - Attribution 4.0 International - Creative Commons",
+          "bytes_read_limited": 31950,
+          "redirects": [],
+          "elapsed_seconds": 0.062
+        },
+        "sources": [
+          {
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "kind": "planned_related_release_link",
+            "source": "README.md (planned related-releases section)",
+            "label": "Dataset Lifecycle CC BY 4.0"
+          }
+        ]
+      },
+      {
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "status": 202,
+          "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "content_type": "text/html; charset=UTF-8",
+          "redirects": [],
+          "elapsed_seconds": 0.813
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "status": 202,
+          "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "content_type": "text/html; charset=UTF-8",
+          "page_title": "",
+          "bytes_read_limited": 2035,
+          "redirects": [],
+          "elapsed_seconds": 0.469
+        },
+        "sources": [
+          {
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+            "kind": "markdown_link",
+            "source": "v1b/ERRATA.md",
+            "line": 21
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.688
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release APOD-ID3-RULE-001 — Rule Engine (Session Completeness) — v1.1 · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.141
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+            "kind": "markdown_link",
+            "source": "APOD-ID3-RULE-001-v1.1/SOURCE_NOTICES.md",
+            "line": 3
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.766
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-Mode ID_1 — Core (Learning) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.125
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+            "kind": "markdown_link",
+            "source": "ID_1-core/SOURCE_NOTICES.md",
+            "line": 5
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.75
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-Mode ID_2 — Operational / Runtime Reasoning · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.172
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+            "kind": "markdown_link",
+            "source": "ID_2-Access/SOURCE_NOTICES.md",
+            "line": 3
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.61
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-Mode ID_3 — Operator / Inspection &amp; Freeze Discipline · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.094
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+            "kind": "markdown_link",
+            "source": "ID_3-operator/SOURCE_NOTICES.md",
+            "line": 3
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.515
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1.0-Access-Mode — Reasoning Orchestration for AI Governance (Method) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.125
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+            "kind": "markdown_link",
+            "source": "v1.0-access-mode/SOURCE_NOTICES.md",
+            "line": 5
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.61
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-PoD Dataset Lifecycle v1.0 · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.094
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-apod-dataset-lifecycle",
+            "kind": "planned_related_release_link",
+            "source": "README.md (planned related-releases section)",
+            "label": "Dataset Lifecycle v1.0 release"
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.656
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access PoD — Version B (v1b) Artifacts | Public Review Draft · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.11
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+            "kind": "markdown_link",
+            "source": "v1b/SOURCE_NOTICES.md",
+            "line": 5
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.578
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release APOD-TR-004 — Version C (v1c) Artifacts | Public Review Draft · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.109
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+            "kind": "markdown_link",
+            "source": "v1c/SOURCE_NOTICES.md",
+            "line": 5
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.516
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1d-Governance Stress-Testing and Ethical Evaluation · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.094
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+            "kind": "markdown_link",
+            "source": "v1d/SOURCE_NOTICES.md",
+            "line": 5
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases"
+            }
+          ],
+          "elapsed_seconds": 5.234
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Releases · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases"
+            }
+          ],
+          "elapsed_seconds": 0.156
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 46
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+            "page": 65
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 46
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+            "page": 65
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 46
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 46
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "provenance/ID_2-Access/local-document-history/Access-Mode ID_2 - Operational Runtime Reasoning (local v1.1 copy).pdf",
+            "page": 65
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+            "kind": "pdf_uri_annotation",
+            "source": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 46
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1"
+            }
+          ],
+          "elapsed_seconds": 0.343
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release APOD-ID3-RULE-001 — Rule Engine (Session Completeness) — v1.1 · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1"
+            }
+          ],
+          "elapsed_seconds": 0.172
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+            "kind": "markdown_bare_or_autolink",
+            "source": "ID_3-operator/README_ID_3.md",
+            "line": 93
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/APOD-ID3-RULE-001-v1.1",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_1-core",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_1-core",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_1-core",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core"
+            }
+          ],
+          "elapsed_seconds": 0.359
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_1-core",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-Mode ID_1 — Core (Learning) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_1-core",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core"
+            }
+          ],
+          "elapsed_seconds": 0.203
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_1-core",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access"
+            }
+          ],
+          "elapsed_seconds": 0.39
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-Mode ID_2 — Operational / Runtime Reasoning · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access"
+            }
+          ],
+          "elapsed_seconds": 0.156
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-Access",
+            "kind": "pdf_uri_annotation",
+            "source": "provenance/ID_2-Access/local-document-history/Access-Mode ID_2 - Operational Runtime Reasoning (local v1.1 copy).pdf",
+            "page": 2
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+          "status": 404,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-access",
+          "error": "HTTP Error 404: Not Found",
+          "page_title": null,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-access"
+            }
+          ],
+          "elapsed_seconds": 0.719
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+          "status": 404,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-access",
+          "error": "HTTP Error 404: Not Found",
+          "page_title": null,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-access"
+            }
+          ],
+          "elapsed_seconds": 0.141
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+            "page": 2
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+            "page": 2
+          }
+        ],
+        "github_api_fallback": {
+          "method": "GET",
+          "requested_url": "https://api.github.com/repos/Access-PoD/access-pod-artifacts/releases/tags/ID_2-access",
+          "status": 404,
+          "final_url": "https://api.github.com/repositories/1123704099/releases/tags/ID_2-access",
+          "error": "HTTP Error 404: Not Found",
+          "page_title": null,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://api.github.com/repos/Access-PoD/access-pod-artifacts/releases/tags/ID_2-access",
+              "to": "https://api.github.com/repositories/1123704099/releases/tags/ID_2-access"
+            }
+          ],
+          "elapsed_seconds": 0.657
+        }
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator"
+            }
+          ],
+          "elapsed_seconds": 0.375
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access-Mode ID_3 — Operator / Inspection &amp; Freeze Discipline · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator"
+            }
+          ],
+          "elapsed_seconds": 0.157
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+            "kind": "pdf_uri_annotation",
+            "source": "APOD-ID3-RULE-001-v1.1/spec/Rule Engine Formalization.pdf",
+            "page": 2
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_3-operator",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode"
+            }
+          ],
+          "elapsed_seconds": 0.422
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1.0-Access-Mode — Reasoning Orchestration for AI Governance (Method) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode"
+            }
+          ],
+          "elapsed_seconds": 0.157
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "markdown_bare_or_autolink",
+            "source": "ID_1-core/release_notes_ID_1.md",
+            "line": 209
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "markdown_bare_or_autolink",
+            "source": "ID_2-Access/four-candidates/release_notes_ID_2.md",
+            "line": 183
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "markdown_bare_or_autolink",
+            "source": "ID_2-Access/release_notes_ID_2.md",
+            "line": 183
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/Access-Mode ID_1 — Core (Learning).pdf",
+            "page": 6
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+            "page": 2
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+            "page": 2
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "provenance/ID_2-Access/local-document-history/Access-Mode ID_2 - Operational Runtime Reasoning (local v1.1 copy).pdf",
+            "page": 2
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+            "kind": "pdf_uri_annotation",
+            "source": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workshop",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workshop"
+            }
+          ],
+          "elapsed_seconds": 0.89
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workshop",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1.0-workshop — Designing Governance-Ready AI Outputs (Informative) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workshop"
+            }
+          ],
+          "elapsed_seconds": 0.218
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 4
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workspace",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workspace",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workspace",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workspace",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workspace"
+            }
+          ],
+          "elapsed_seconds": 0.813
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workspace",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workspace",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1.0-workspace — Test Publication (Superseded) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workspace",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-workspace"
+            }
+          ],
+          "elapsed_seconds": 0.297
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-workspace",
+            "kind": "pdf_uri_annotation",
+            "source": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+            "page": 47
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.1-workspace",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.1-workspace",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.1-workspace",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.1-workspace",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.1-workspace"
+            }
+          ],
+          "elapsed_seconds": 0.844
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.1-workspace",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.1-workspace",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1.1-workspace — Scope 1 Inspection Workspace (Public Review) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.1-workspace",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.1-workspace"
+            }
+          ],
+          "elapsed_seconds": 0.188
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.1-workspace",
+            "kind": "pdf_uri_annotation",
+            "source": "v1c/APOD-TR-004_Vol2_Version-C.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1a?utm_source=chatgpt.com",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1a?utm_source=chatgpt.com",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1a?utm_source=chatgpt.com",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1a?utm_source=chatgpt.com",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1a?utm_source=chatgpt.com"
+            }
+          ],
+          "elapsed_seconds": 0.812
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1a?utm_source=chatgpt.com",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1a?utm_source=chatgpt.com",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access PoD Artifact Pack – v1a (Public Review Draft) · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1a?utm_source=chatgpt.com",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1a?utm_source=chatgpt.com"
+            }
+          ],
+          "elapsed_seconds": 0.172
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1a?utm_source=chatgpt.com",
+            "kind": "pdf_uri_annotation",
+            "source": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+            "page": 35
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1b",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1b",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1b",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b"
+            }
+          ],
+          "elapsed_seconds": 0.375
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1b",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Access PoD — Version B (v1b) Artifacts | Public Review Draft · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1b",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1b"
+            }
+          ],
+          "elapsed_seconds": 0.156
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1b",
+            "kind": "pdf_uri_annotation",
+            "source": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+            "page": 46
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1c",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1c",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1c",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c"
+            }
+          ],
+          "elapsed_seconds": 0.328
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1c",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release APOD-TR-004 — Version C (v1c) Artifacts | Public Review Draft · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1c",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c"
+            }
+          ],
+          "elapsed_seconds": 0.188
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1c",
+            "kind": "pdf_uri_annotation",
+            "source": "v1c/APOD-TR-004_Vol2_Version-C.pdf",
+            "page": 6
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d"
+            }
+          ],
+          "elapsed_seconds": 0.375
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release v1d-Governance Stress-Testing and Ethical Evaluation · Access-PoD/access-pod-artifacts-core · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [
+            {
+              "status": 301,
+              "from": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+              "to": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d"
+            }
+          ],
+          "elapsed_seconds": 0.188
+        },
+        "sources": [
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 2
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 5
+          },
+          {
+            "url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1d",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 5
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/v1.0-qpathformer-enterprise/QPATHFORMER-PLATFORM-1.0.txt",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/v1.0-qpathformer-enterprise/QPATHFORMER-PLATFORM-1.0.txt",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/v1.0-qpathformer-enterprise/QPATHFORMER-PLATFORM-1.0.txt",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.578
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/v1.0-qpathformer-enterprise/QPATHFORMER-PLATFORM-1.0.txt",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/v1.0-qpathformer-enterprise/QPATHFORMER-PLATFORM-1.0.txt",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "qpathformer-enterprise-v1.0-release/QPATHFORMER-PLATFORM-1.0.txt at v1.0-qpathformer-enterprise · qpathformer/qpathformer-enterprise-v1.0-release · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.11
+        },
+        "sources": [
+          {
+            "url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/blob/v1.0-qpathformer-enterprise/QPATHFORMER-PLATFORM-1.0.txt",
+            "kind": "planned_related_release_link",
+            "source": "README.md (planned related-releases section)",
+            "label": "Enterprise v1.0 license"
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.532
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Q-Pathformer Enterprise v1.0 - Governed Dataset Lifecycle &amp; CSC Evidence System · qpathformer/qpathformer-enterprise-v1.0-release · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.094
+        },
+        "sources": [
+          {
+            "url": "https://github.com/qpathformer/qpathformer-enterprise-v1.0-release/releases/tag/v1.0-qpathformer-enterprise",
+            "kind": "planned_related_release_link",
+            "source": "README.md (planned related-releases section)",
+            "label": "Enterprise v1.0 release"
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/blob/v2.0-qpathformer-enterprise-standards/QPATHFORMER-PLATFORM-1.0.txt",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/blob/v2.0-qpathformer-enterprise-standards/QPATHFORMER-PLATFORM-1.0.txt",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/blob/v2.0-qpathformer-enterprise-standards/QPATHFORMER-PLATFORM-1.0.txt",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.765
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/blob/v2.0-qpathformer-enterprise-standards/QPATHFORMER-PLATFORM-1.0.txt",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/blob/v2.0-qpathformer-enterprise-standards/QPATHFORMER-PLATFORM-1.0.txt",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "qpathformer-enterprise-v2.0-standards-release/QPATHFORMER-PLATFORM-1.0.txt at v2.0-qpathformer-enterprise-standards · qpathformer/qpathformer-enterprise-v2.0-standards-release · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.125
+        },
+        "sources": [
+          {
+            "url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/blob/v2.0-qpathformer-enterprise-standards/QPATHFORMER-PLATFORM-1.0.txt",
+            "kind": "planned_related_release_link",
+            "source": "README.md (planned related-releases section)",
+            "label": "Enterprise v2.0 license"
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+          "content_type": "text/html; charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.625
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+          "status": 200,
+          "final_url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+          "content_type": "text/html; charset=utf-8",
+          "page_title": "Release Q-Pathformer Enterprise v2.0 Standards Edition · qpathformer/qpathformer-enterprise-v2.0-standards-release · GitHub",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 0.109
+        },
+        "sources": [
+          {
+            "url": "https://github.com/qpathformer/qpathformer-enterprise-v2.0-standards-release/releases/tag/v2.0-qpathformer-enterprise-standards",
+            "kind": "planned_related_release_link",
+            "source": "README.md (planned related-releases section)",
+            "label": "Enterprise v2.0 release"
+          }
+        ]
+      },
+      {
+        "url": "https://policyofdevelopments.org/",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://policyofdevelopments.org/",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/",
+          "content_type": "text/html;charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 1.234
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://policyofdevelopments.org/",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/",
+          "content_type": "text/html;charset=utf-8",
+          "page_title": "Policy of Developments - Access PoD",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 1.422
+        },
+        "sources": [
+          {
+            "url": "https://policyofdevelopments.org/",
+            "kind": "pdf_uri_annotation",
+            "source": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+            "page": 35
+          },
+          {
+            "url": "https://policyofdevelopments.org/",
+            "kind": "pdf_uri_annotation",
+            "source": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+            "page": 48
+          }
+        ]
+      },
+      {
+        "url": "https://policyofdevelopments.org/whitepaper/accesspod",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://policyofdevelopments.org/whitepaper/accesspod",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/whitepaper/accesspod",
+          "content_type": "text/html;charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 1.782
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://policyofdevelopments.org/whitepaper/accesspod",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/whitepaper/accesspod",
+          "content_type": "text/html;charset=utf-8",
+          "page_title": "Access PoD",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 1.437
+        },
+        "sources": [
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/accesspod",
+            "kind": "pdf_uri_annotation",
+            "source": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+            "page": 30
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/accesspod",
+            "kind": "pdf_uri_annotation",
+            "source": "v1a/APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+            "page": 30
+          }
+        ]
+      },
+      {
+        "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+          "content_type": "text/html;charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 1.375
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+          "content_type": "text/html;charset=utf-8",
+          "page_title": "Access PoD",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 1.75
+        },
+        "sources": [
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "markdown_bare_or_autolink",
+            "source": "v1b/README.md",
+            "line": 180
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+            "page": 2
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "v1b/papers/APOD-TR-003_Vol2_Version-B.pdf",
+            "page": 2
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 3
+          },
+          {
+            "url": "https://policyofdevelopments.org/whitepaper/vol2-a-web-of-sharing-trust-responsibility-toward-a-trustless-future",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 3
+          }
+        ]
+      },
+      {
+        "url": "https://policyofdevelopments.org/workshop",
+        "head": {
+          "method": "HEAD",
+          "requested_url": "https://policyofdevelopments.org/workshop",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/workshop",
+          "content_type": "text/html;charset=utf-8",
+          "redirects": [],
+          "elapsed_seconds": 0.906
+        },
+        "get": {
+          "method": "GET",
+          "requested_url": "https://policyofdevelopments.org/workshop",
+          "status": 200,
+          "final_url": "https://policyofdevelopments.org/workshop",
+          "content_type": "text/html;charset=utf-8",
+          "page_title": "Policy of Developments - Access PoD",
+          "bytes_read_limited": 131072,
+          "redirects": [],
+          "elapsed_seconds": 1.25
+        },
+        "sources": [
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+            "page": 43
+          },
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 4
+          },
+          {
+            "url": "https://policyofdevelopments.org/workshop",
+            "kind": "pdf_uri_annotation",
+            "source": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+            "page": 44
+          }
+        ]
+      }
+    ]
+  },
+  "link_scope": "Markdown local links and current path references; PDF URI/destination links; DOCX external/local hyperlinks and bookmarks. Historical printed filesystem strings and JSON schema identifiers are not treated as active navigation URLs.",
+  "historical_pdf_correction": {
+    "old_url": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+    "replacement": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+    "location": "Page 2 of both original ID2 Operational Runtime Reasoning handbook copies",
+    "source_pdfs_modified": false
+  },
+  "post_move_checks_pending": false,
+  "final_seal": false,
+  "zip_created": false,
+  "post_move_replay": {
+    "source_root": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates",
+    "delivered_script": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\Replay-ID2-FourCandidate.ps1",
+    "script_sha256": "4859e6cc5182ee9d7142d10f98dfcf724fab2464b85bae5fbcf6b5edec155958",
+    "test_copy_adjustment": "Only the scratch working-directory literal was changed to a fresh task directory; sourceRoot and all comparison commands were unchanged.",
+    "test_copy_replacement": {
+      "from": "working\\id2-word-guide-20261011\\technical",
+      "to": "working\\access-mode-layout-20261011\\doc-update\\technical",
+      "count": 1
+    },
+    "tested_script": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\tested-replay.ps1",
+    "exit_code": 0,
+    "source_files_before": 56,
+    "source_files_after": 56,
+    "all_source_bytes_unchanged": true,
+    "baseline": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\technical\\replay\\records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+    "variants_count": 3,
+    "variant_files": [
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\technical\\replay\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\technical\\replay\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\technical\\replay\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json"
+    ],
+    "changed_existing_working_files": [
+      "records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json"
+    ],
+    "new_working_files": [
+      "records\\comparisons\\guide-replay\\id2_comparison_summary.json",
+      "records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-084129",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-084129",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-084129",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-084129"
+    ],
+    "summary_output": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\technical\\replay\\records\\comparisons\\guide-replay\\id2_comparison_summary.json",
+    "stdout_log": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\replay.stdout.log",
+    "stderr_log": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\access-mode-layout-20261011\\doc-update\\replay.stderr.log",
+    "stderr": "",
+    "working_record_semantic_changes": [
+      {
+        "file": "records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+        "semantic_changes": [
+          {
+            "path": "$.escalation_triggers",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.observations",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.uncertainty_notes",
+            "before": null,
+            "after": []
+          }
+        ]
+      },
+      {
+        "file": "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+        "semantic_changes": [
+          {
+            "path": "$.escalation_triggers",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.observations",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.uncertainty_notes",
+            "before": null,
+            "after": []
+          }
+        ]
+      },
+      {
+        "file": "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+        "semantic_changes": [
+          {
+            "path": "$.escalation_triggers",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.observations",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.uncertainty_notes",
+            "before": null,
+            "after": []
+          }
+        ]
+      },
+      {
+        "file": "records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+        "semantic_changes": [
+          {
+            "path": "$.escalation_triggers",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.observations",
+            "before": null,
+            "after": []
+          },
+          {
+            "path": "$.uncertainty_notes",
+            "before": null,
+            "after": []
+          }
+        ]
+      }
+    ],
+    "only_root_null_to_empty_array_normalization": true,
+    "warning_lines": []
+  },
+  "post_move_collection_check": {
+    "date": "2026-10-11",
+    "root": "C:\\access-pod-v1.0",
+    "method": "Independent read-only installed file/hash, directory, current Markdown link and explicit inline collection-path verification. No workflows executed.",
+    "checks": [
+      {
+        "check": "357 actual files",
+        "passed": true,
+        "details": 357
+      },
+      {
+        "check": "Old root ID directories absent",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "All three direct-child ID directories present",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "Actual file set matches approved plan",
+        "passed": true,
+        "details": {
+          "missing": [],
+          "extra": []
+        }
+      },
+      {
+        "check": "All original directories mapped and present",
+        "passed": true,
+        "details": {
+          "missing": [],
+          "extra": []
+        }
+      },
+      {
+        "check": "All files match approved installed bytes",
+        "passed": true,
+        "details": []
+      },
+      {
+        "check": "341 existing files preserved exactly after path mapping",
+        "passed": true,
+        "details": {
+          "count": 341,
+          "mismatches": []
+        }
+      },
+      {
+        "check": "Every existing PDF unchanged",
+        "passed": true,
+        "details": {
+          "count": 51,
+          "mismatches": []
+        }
+      },
+      {
+        "check": "All protected source scripts unchanged",
+        "passed": true,
+        "details": {
+          "count": 19,
+          "mismatches": []
+        }
+      },
+      {
+        "check": "All imported original/local-source files match preserved import hashes",
+        "passed": true,
+        "details": {
+          "entries": 277,
+          "mismatches": []
+        }
+      },
+      {
+        "check": "Manifest has 356 unique entries and excludes only itself",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "All manifest file sizes and SHA256 hashes match",
+        "passed": true,
+        "details": []
+      },
+      {
+        "check": "Final seal remains false",
+        "passed": true,
+        "details": null
+      },
+      {
+        "check": "No external release files bundled",
+        "passed": true,
+        "details": [
+          "provenance/ACCESS_MODE_LAYOUT_20261011.json"
+        ]
+      },
+      {
+        "check": "All 27 current local Markdown link targets exist",
+        "passed": true,
+        "details": {
+          "local_count": 27,
+          "broken": [],
+          "external_count": 16
+        }
+      },
+      {
+        "check": "All inspected current inline collection paths resolve",
+        "passed": true,
+        "details": {
+          "checked": 56,
+          "unresolved_current": []
+        }
+      },
+      {
+        "check": "Original historical Markdown source bytes preserved",
+        "passed": true,
+        "details": null
+      }
+    ],
+    "overall_pass": true,
+    "manifest_sha256_at_check": "20a4d4223c4527779354749c7d451b68c829fbbabe73b4d7f604bd14f696e2ed",
+    "known_historical_inline_path_dispositions": [
+      {
+        "file": "provenance/APOD-ID3-RULE-001-v1.1/RULE_REVIEW.md",
+        "line": 7,
+        "target": "C:\\access-pod-v1.0\\ID_3-operator\\scripts\\rules\\session_completeness.rule.json",
+        "kind": "inline_current_or_historical_path",
+        "classification": "historical_provenance_record",
+        "resolved": "C:\\access-pod-v1.0\\ID_3-operator\\scripts\\rules\\session_completeness.rule.json",
+        "exists": false,
+        "target_relative": "ID_3-operator/scripts/rules/session_completeness.rule.json",
+        "disposition": "Preserved historical source/provenance path; not a current navigation link. See root layout mapping/current notes."
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+        "line": 3,
+        "target": "C:\\access-pod-v1.0\\ID_2-Access\\four-candidates",
+        "kind": "inline_current_or_historical_path",
+        "classification": "historical_edit_schedule",
+        "resolved": "C:\\access-pod-v1.0\\ID_2-Access\\four-candidates",
+        "exists": false,
+        "target_relative": "ID_2-Access/four-candidates",
+        "disposition": "Preserved historical source/provenance path; not a current navigation link. See root layout mapping/current notes."
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README_ID_2.md",
+        "line": 53,
+        "target": "../../drafts/module_stubs/",
+        "kind": "inline_current_or_historical_path",
+        "classification": "preserved_local_source",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\drafts\\module_stubs",
+        "exists": false,
+        "target_relative": "v1.0-access-mode/drafts/module_stubs",
+        "disposition": "Preserved historical source/provenance path; not a current navigation link. See root layout mapping/current notes."
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/README_ID_2.md",
+        "line": 53,
+        "target": "../../drafts/module_stubs/",
+        "kind": "inline_current_or_historical_path",
+        "classification": "preserved_published_source",
+        "resolved": "C:\\access-pod-v1.0\\drafts\\module_stubs",
+        "exists": false,
+        "target_relative": "drafts/module_stubs",
+        "disposition": "Preserved historical source/provenance path; not a current navigation link. See root layout mapping/current notes."
+      },
+      {
+        "file": "v1.0-access-mode/modes/ID_2_access/README_ID_2.md",
+        "line": 37,
+        "target": "../../drafts/module_stubs/",
+        "kind": "inline_current_or_historical_path",
+        "classification": "preserved_published_source",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\drafts\\module_stubs",
+        "exists": false,
+        "target_relative": "v1.0-access-mode/drafts/module_stubs",
+        "disposition": "Preserved historical source/provenance path; not a current navigation link. See root layout mapping/current notes."
+      },
+      {
+        "file": "v1.0-access-mode/modes/ID_3_operator/README_ID_3.md",
+        "line": 36,
+        "target": "../../drafts/",
+        "kind": "inline_current_or_historical_path",
+        "classification": "preserved_published_source",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\drafts",
+        "exists": false,
+        "target_relative": "v1.0-access-mode/drafts",
+        "disposition": "Preserved historical source/provenance path; not a current navigation link. See root layout mapping/current notes."
+      }
+    ],
+    "local_markdown_links": [
+      {
+        "file": "APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+        "line": 3,
+        "target": "../README.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\README.md",
+        "exists": true,
+        "target_relative": "README.md"
+      },
+      {
+        "file": "README.md",
+        "line": 29,
+        "target": "v1.0-access-mode/ERRATA.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ERRATA.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ERRATA.md"
+      },
+      {
+        "file": "README.md",
+        "line": 87,
+        "target": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx"
+      },
+      {
+        "file": "README.md",
+        "line": 87,
+        "target": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md"
+      },
+      {
+        "file": "README.md",
+        "line": 87,
+        "target": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\Replay-ID2-FourCandidate.ps1",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1"
+      },
+      {
+        "file": "README.md",
+        "line": 87,
+        "target": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\REVISION_NOTES.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md"
+      },
+      {
+        "file": "README.md",
+        "line": 89,
+        "target": "v1.0-access-mode/ID_2-Access/four-candidates/docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md"
+      },
+      {
+        "file": "v1.0-access-mode/ERRATA.md",
+        "line": 22,
+        "target": "ID_1-core/ERRATA.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_1-core\\ERRATA.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_1-core/ERRATA.md"
+      },
+      {
+        "file": "v1.0-access-mode/ERRATA.md",
+        "line": 22,
+        "target": "ID_2-Access/MIGRATION_NOTES.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\MIGRATION_NOTES.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md"
+      },
+      {
+        "file": "v1.0-access-mode/ERRATA.md",
+        "line": 22,
+        "target": "ID_3-operator/MIGRATION_NOTES.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_3-operator\\MIGRATION_NOTES.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md"
+      },
+      {
+        "file": "v1.0-access-mode/ERRATA.md",
+        "line": 22,
+        "target": "../APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\APOD-ID3-RULE-001-v1.1\\MIGRATION_NOTES.md",
+        "exists": true,
+        "target_relative": "APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md"
+      },
+      {
+        "file": "v1.0-access-mode/ERRATA.md",
+        "line": 57,
+        "target": "../provenance/ACCESS_MODE_LAYOUT_20261011.json",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\provenance\\ACCESS_MODE_LAYOUT_20261011.json",
+        "exists": true,
+        "target_relative": "provenance/ACCESS_MODE_LAYOUT_20261011.json"
+      },
+      {
+        "file": "v1.0-access-mode/ID_1-core/ERRATA.md",
+        "line": 3,
+        "target": "../../README.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\README.md",
+        "exists": true,
+        "target_relative": "README.md"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+        "line": 9,
+        "target": "../../../../../../provenance/ACCESS_MODE_LAYOUT_20261011.json",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\provenance\\ACCESS_MODE_LAYOUT_20261011.json",
+        "exists": true,
+        "target_relative": "provenance/ACCESS_MODE_LAYOUT_20261011.json"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+        "line": 13,
+        "target": "ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+        "line": 15,
+        "target": "ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md",
+        "line": 15,
+        "target": "Replay-ID2-FourCandidate.ps1",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\Replay-ID2-FourCandidate.ps1",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 20,
+        "target": "docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 20,
+        "target": "docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\ID2_FOUR_CANDIDATE_FULL_RECORDS.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/ID2_FOUR_CANDIDATE_FULL_RECORDS.md"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 20,
+        "target": "docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\Replay-ID2-FourCandidate.ps1",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/Replay-ID2-FourCandidate.ps1"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 20,
+        "target": "docs/create_sessions/revisions/REVISION_NOTES.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\create_sessions\\revisions\\REVISION_NOTES.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/create_sessions/revisions/REVISION_NOTES.md"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 22,
+        "target": "docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\FOUR_CANDIDATE_DOCUMENTATION_EDITS.md",
+        "exists": true,
+        "target_relative": "v1.0-access-mode/ID_2-Access/four-candidates/docs/FOUR_CANDIDATE_DOCUMENTATION_EDITS.md"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 24,
+        "target": "../../../provenance/ID_2-Access/IMPORT_RECORD.json",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\provenance\\ID_2-Access\\IMPORT_RECORD.json",
+        "exists": true,
+        "target_relative": "provenance/ID_2-Access/IMPORT_RECORD.json"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 24,
+        "target": "../../../provenance/ID_2-Access/documentation-20261011/DOC_REVISION_RECORD.json",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\provenance\\ID_2-Access\\documentation-20261011\\DOC_REVISION_RECORD.json",
+        "exists": true,
+        "target_relative": "provenance/ID_2-Access/documentation-20261011/DOC_REVISION_RECORD.json"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+        "line": 24,
+        "target": "../../../collection-manifest.json",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\collection-manifest.json",
+        "exists": true,
+        "target_relative": "collection-manifest.json"
+      },
+      {
+        "file": "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md",
+        "line": 3,
+        "target": "../../README.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\README.md",
+        "exists": true,
+        "target_relative": "README.md"
+      },
+      {
+        "file": "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md",
+        "line": 3,
+        "target": "../../README.md",
+        "kind": "markdown_link",
+        "classification": "collection_added_current_documentation",
+        "resolved": "C:\\access-pod-v1.0\\README.md",
+        "exists": true,
+        "target_relative": "README.md"
+      }
+    ],
+    "limits": [
+      "External HTTP status and embedded PDF/DOCX links are recorded separately under external-link-audit.",
+      "Historical absolute paths are retained in source and provenance; current navigation and new executable guide paths are separately updated.",
+      "Any subsequent provenance/manifest finalization requires fresh inventory/hash verification."
+    ]
+  },
+  "document_navigation_check": {
+    "summary": {
+      "files": 57,
+      "unique_document_bytes": 36,
+      "internal_link_occurrences": 2191,
+      "unresolved_internal_link_occurrences": 0,
+      "file_or_other_action_occurrences": 0
+    },
+    "unresolved_internal_links": [],
+    "local_file_actions": [],
+    "errors": [],
+    "scope": "PDF Link annotations for GoTo/Dest validity and non-HTTP actions; DOCX internal hyperlink anchors/local HYPERLINK fields and non-HTTP hyperlink relationships. No macro/action execution. Bookmark/page structural resolution only, not GUI click test.",
+    "path_basis": "Document scan preceded relocation; original documents are unchanged. The relocated current guide passed its separate structural and rendered checks."
+  },
+  "completion_status": "Relocation, current navigation, document paths, file preservation and bounded replay verified. One retained historical PDF URL typo has a working correction in Access-Mode ERRATA; EUR-Lex challenge remains unconfirmed."
+}

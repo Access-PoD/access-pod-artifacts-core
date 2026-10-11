@@ -1,0 +1,111 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "APOD-ID3-RULE-001-v1.1",
+  "date": "2026-10-11",
+  "status": "original_rule_baseline_imported_unchanged",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/APOD-ID3-RULE-001-v1.1",
+  "source_zip": "APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip",
+  "source_zip_sha256": "771980f8c18e01560238040df910f714487464ec0287c9609823d92263f4bd3b",
+  "source_zip_crc_pass": true,
+  "source_file_count": 10,
+  "internal_checksums_verified": 9,
+  "archive_explicit_directory_entries": 0,
+  "archive_empty_directories": [],
+  "descriptive_manifest_listed_artifacts": 8,
+  "descriptive_manifest_excludes_its_own_file_and_checksum": true,
+  "source_files": [
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/changes/CHANGELOG.md",
+      "archive_member": "changes/CHANGELOG.md",
+      "bytes": 1569,
+      "sha256": "dedf55cd8c8d4da76bb85123846d5773346eda044d65efc3e9a36e768f5a6aea"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/changes/DIFF_NOTES.md",
+      "archive_member": "changes/DIFF_NOTES.md",
+      "bytes": 850,
+      "sha256": "5ccea0b4a7ef5415e78ae1d97c3da16577f4a6849e52577cf6c931aaa584a334"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/checksums/SHA256SUMS.txt",
+      "archive_member": "checksums/SHA256SUMS.txt",
+      "bytes": 822,
+      "sha256": "b8b7a8fdf59bd22a79ae803c226a879bb85bcc4e35b3e4afa24db993c9d4349a"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/manifests/rule_release.manifest.json",
+      "archive_member": "manifests/rule_release.manifest.json",
+      "bytes": 948,
+      "sha256": "aa1d40e98613022341a912b86a334e1cb759a23df070d19d76417f561195397d"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/rules/session_completeness.rule.json",
+      "archive_member": "rules/session_completeness.rule.json",
+      "bytes": 6948,
+      "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/spec/README.md",
+      "archive_member": "spec/README.md",
+      "bytes": 749,
+      "sha256": "800ea1d66fc4fe782bf24267ef812951136f703e60a0dcb3cff498b7aa98af13"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/spec/Rule Engine Formalization.pdf",
+      "archive_member": "spec/Rule Engine Formalization.pdf",
+      "bytes": 501421,
+      "sha256": "53dd78e5068465e4ece548000ef0efbf7653358298836294d063a36d06df2f80"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/CONTRIBUTORS.md",
+      "archive_member": "CONTRIBUTORS.md",
+      "bytes": 906,
+      "sha256": "f3e846663025f13d065dbb7abb066f5c6b49751832229c2d39435cc8cae58df6"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/README.md",
+      "archive_member": "README.md",
+      "bytes": 1881,
+      "sha256": "df44b38334aa84f80e3fadda0bee5902cee1303fb0430354dea915511ecc08e2"
+    },
+    {
+      "path": "APOD-ID3-RULE-001-v1.1/release_notes_INTERNAL.md",
+      "archive_member": "release_notes_INTERNAL.md",
+      "bytes": 1009,
+      "sha256": "4ecb4f205b2273c600d2d3d3e4a243932992767dd1728452ab0fd8e499abc226"
+    }
+  ],
+  "published_assets": [
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip",
+      "bytes": 485214,
+      "sha256": "771980f8c18e01560238040df910f714487464ec0287c9609823d92263f4bd3b",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/APOD-ID3-RULE-001-v1.1/APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip",
+      "asset_id": 364071907
+    },
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/SHA256SUMS_APOD-ID3-RULE-001_rule-engine_v1.1_pack.txt",
+      "bytes": 122,
+      "sha256": "53db090915e7a25666ad1f1e01f442c3d90b4dc05a16cc3eeae2e086c3d82d84",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/APOD-ID3-RULE-001-v1.1/SHA256SUMS_APOD-ID3-RULE-001_rule-engine_v1.1_pack.txt",
+      "asset_id": 364071954
+    }
+  ],
+  "paper_unchanged": true,
+  "original_rule_unchanged": true,
+  "rule_sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+  "rule_matches_existing_id3_copy": true,
+  "candidate_specific_rule_copies_created": false,
+  "local_four_case_rule_variant_imported": false,
+  "new_workflow_or_freeze_run": false,
+  "interpretation": "One original per-session field-rule baseline retained. Original report vocabulary and ID3 operator workflow are pair-oriented; four-candidate end-to-end execution remains separately unverified.",
+  "review_evidence": [
+    "RULE_REVIEW.json",
+    "RULE_REVIEW.md"
+  ],
+  "added_component_notes": [
+    "APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+    "APOD-ID3-RULE-001-v1.1/SOURCE_NOTICES.md"
+  ],
+  "collection_sealed_or_zipped": false
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/lineage_policy_dataset.schema.json",
+  "title": "Policy & Dataset Lineage (Informative)",
+  "description": "Informative schema for documenting policy and dataset lineage for traceability and audit support only. Not for conformance, certification, or approval.",
+  "type": "object",
+  "required": ["meta", "kind", "record"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["status", "intended_use", "does_not"],
+      "properties": {
+        "status": { "const": "informative" },
+        "intended_use": {
+          "type": "array",
+          "items": {
+            "enum": ["documentation", "traceability", "audit_support", "interpretive_clarity"]
+          }
+        },
+        "does_not": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "grant_policy_authority",
+              "certify_datasets",
+              "modify_csc_semantics",
+              "assert_trust",
+              "determine_readiness",
+              "replace_regulatory_decision"
+            ]
+          }
+        },
+        "version": { "type": "string" },
+        "generated_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["policy_lineage", "dataset_lineage"]
+    },
+    "record": {
+      "type": "object",
+      "oneOf": [
+        { "$ref": "#/$defs/policyLineage" },
+        { "$ref": "#/$defs/datasetLineage" }
+      ]
+    }
+  },
+  "$defs": {
+    "policyLineage": {
+      "type": "object",
+      "required": ["policy_id", "status", "scope"],
+      "properties": {
+        "policy_id": { "type": "string" },
+        "policy_version": { "type": "string" },
+        "status": {
+          "enum": ["legacy", "proposed", "amended"]
+        },
+        "effective_date": { "type": "string", "format": "date" },
+        "review_date": { "type": "string", "format": "date" },
+        "scope": {
+          "type": "object",
+          "properties": {
+            "jurisdiction": { "type": "string" },
+            "sector": { "type": "string" }
+          }
+        },
+        "supersedes": { "type": "string" },
+        "superseded_by": { "type": "string" },
+        "applicability_notes": { "type": "string" },
+        "declaration_only": { "const": true }
+      }
+    },
+    "datasetLineage": {
+      "type": "object",
+      "required": ["dataset_id", "status", "provenance"],
+      "properties": {
+        "dataset_id": { "type": "string" },
+        "dataset_version": { "type": "string" },
+        "status": {
+          "enum": ["operational", "proposed_experimental", "externally_verified"]
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "source": { "type": "string" },
+            "summary": { "type": "string" }
+          }
+        },
+        "permitted_use": { "type": "string" },
+        "testing_notes": { "type": "string" },
+        "external_verification_ref": { "type": "string" },
+        "declaration_only": { "const": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "v1d-scenarios-1.0",
+  "scenarios": [
+    {
+      "scenario_id": "v1d-SC-001",
+      "title": "Authority Under Deadline Pressure",
+      "stress_types": ["authority", "incentive"],
+      "summary": "A governance signatory is asked to approve AI-assisted outputs under an external deadline while escalation pathways exist but are costly to invoke.",
+      "recommended_method": "tabletop",
+      "tags": ["time-pressure", "sign-off", "escalation", "governance-writing"]
+    },
+    {
+      "scenario_id": "v1d-SC-002",
+      "title": "Delegation Without Attribution",
+      "stress_types": ["delegation", "telemetry"],
+      "summary": "A third-party model is proposed to accelerate summarisation, but attribution for delegated outputs is incomplete and telemetry coverage is partial.",
+      "recommended_method": "walkthrough",
+      "tags": ["third-party", "attribution-gap", "telemetry-gap", "delegation-boundary"]
+    },
+    {
+      "scenario_id": "v1d-SC-003",
+      "title": "Telemetry Delay During Incident Review",
+      "stress_types": ["telemetry"],
+      "summary": "Governance telemetry arrives late or out of sequence while decisions must be made. Evidence exists, but is not timely enough to support confident interpretation.",
+      "recommended_method": "simulation",
+      "tags": ["delayed-evidence", "confidence", "pause", "assurance-constraint"]
+    },
+    {
+      "scenario_id": "v1d-SC-004",
+      "title": "Ethical Ambiguity With No Clear Harm",
+      "stress_types": ["ethical_ambiguity"],
+      "summary": "System behavior creates plausible ethical concern, but no affected party or measurable harm can yet be identified. The pressure is to proceed because nothing is “proven.”",
+      "recommended_method": "walkthrough",
+      "tags": ["precaution", "non-decision", "ethical-restraint", "uncertainty"]
+    },
+    {
+      "scenario_id": "v1d-SC-005",
+      "title": "Incentive Conflict at Scale-Up",
+      "stress_types": ["incentive", "authority"],
+      "summary": "An organization plans to scale into a higher-impact context while stress-testing reveals unresolved fragility. Governance is pressured to preserve optics and timelines.",
+      "recommended_method": "tabletop",
+      "tags": ["scale-up", "optics", "risk-committee", "decision-pressure"]
+    },
+    {
+      "scenario_id": "v1d-SC-006",
+      "title": "Compounded Stress — Delegation + Incentives + Ethical Ambiguity",
+      "stress_types": ["compounded"],
+      "summary": "External delegation is requested under commercial pressure while telemetry is partial and ethical ambiguity exists. Multiple stressors interact and amplify governance fragility.",
+      "recommended_method": "tabletop",
+      "tags": ["compounded", "delegation", "telemetry-gap", "ethical-ambiguity", "deadline"]
+    }
+  ]
+}

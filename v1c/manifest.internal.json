@@ -1,0 +1,53 @@
+{
+  "schema": "qpf.seal.manifest.internal.v1",
+  "authority": "Anthony Siljeg — Platform Steward",
+  "root_dir": "C:\\release-v1c",
+  "file_count": 9,
+  "files": [
+    {
+      "path_rel": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).md",
+      "size_bytes": 6821,
+      "sha256": "F4123D187A969C73E44EA0DE2D71483BD9A8F6E4AB9927FA14DD00294F30EF24"
+    },
+    {
+      "path_rel": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf",
+      "size_bytes": 131698,
+      "sha256": "F452B2BD152B412CED1D4FF518E64E224C5CB218CA366A1B0360F7B3C3EE8E05"
+    },
+    {
+      "path_rel": "APOD-TR-004_Vol2_Version-C.pdf",
+      "size_bytes": 392753,
+      "sha256": "ECE85C35EBB1AA7FAB9C56A2208EA9B6D72D3F237266463B1C0DB7526DBD8518"
+    },
+    {
+      "path_rel": "examples/dataset_lineage.example.json",
+      "size_bytes": 876,
+      "sha256": "0407CB4DDC71C9AC54604CCFAB0EED480A4E9412F8772C09CDAABA17AC8E85BC"
+    },
+    {
+      "path_rel": "examples/policy_lineage.example.json",
+      "size_bytes": 818,
+      "sha256": "42A54C350B2D0BED9EBDBFAE616EEAE7C8F9E6790D2CD652490A7C07DBE01D6B"
+    },
+    {
+      "path_rel": "manifest.json",
+      "size_bytes": 1363,
+      "sha256": "E538D6F97F0C0D3D9295B10EF232EC6C1778B119E8B65C1FF3D3EA2E6258CA87"
+    },
+    {
+      "path_rel": "README.md",
+      "size_bytes": 3947,
+      "sha256": "05008A742765AE23F10A51D11237172B4CE525BD63E3240A1D910CDD0F8B1727"
+    },
+    {
+      "path_rel": "release_notes.md",
+      "size_bytes": 3413,
+      "sha256": "5F13D9446243BAA24E63422CDE43B96AE7DC9D862C867A88FC14CCB3AC4DF95D"
+    },
+    {
+      "path_rel": "schemas/lineage_policy_dataset.schema.json",
+      "size_bytes": 3208,
+      "sha256": "474F70F04265F8A0CAAA86A8A4A4BB4A52BE4C7410A9FBF717E892DF1D79E796"
+    }
+  ]
+}

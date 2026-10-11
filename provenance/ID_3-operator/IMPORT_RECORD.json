@@ -1,0 +1,336 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "ID_3-operator",
+  "date": "2026-10-11",
+  "status": "imported_original_unchanged_documentation_and_integrity_checked",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_3-operator",
+  "source_zip": "v1.0-Access-mode_ID_3_release_20260301-111359.zip",
+  "source_zip_sha256": "905a30ca8b9aad772193aacb2ac8eadc3ebb7dc9080bd735be59d32a0987e1fa",
+  "source_zip_crc_pass": true,
+  "source_file_count": 45,
+  "internal_checksums_verified": 44,
+  "archive_directories": [
+    "ID_3_review_packs/ID_2_inbox",
+    "ID_3_review_packs/ID_3_outbox",
+    "ID_3_review_packs/records_only",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session",
+    "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure"
+  ],
+  "preserved_empty_directories": [
+    "ID_3_review_packs/ID_3_outbox",
+    "ID_3_review_packs/records_only"
+  ],
+  "source_files": [
+    {
+      "path": "ID_3-operator/checksums/SHA256SUMS.txt",
+      "archive_member": "checksums/SHA256SUMS.txt",
+      "bytes": 6337,
+      "sha256": "5c932125429cdc4009185649fd13ea7f5aa2e934ce393b054f27860181a374b2"
+    },
+    {
+      "path": "ID_3-operator/controls/Inspection Mode Rules README ID_3.pdf",
+      "archive_member": "controls/Inspection Mode Rules README ID_3.pdf",
+      "bytes": 141877,
+      "sha256": "9cc932e5779a0419423756d89a3011da03cff3717f3cd2273feee39c3944f5f9"
+    },
+    {
+      "path": "ID_3-operator/controls/inspection_mode_control_ID_3.md",
+      "archive_member": "controls/inspection_mode_control_ID_3.md",
+      "bytes": 4417,
+      "sha256": "6b4619c90bd50787c22f1037c21a1f1dfc384456792c3d1cce386d5d24371549"
+    },
+    {
+      "path": "ID_3-operator/docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+      "archive_member": "docs/Access-Mode ID_3-Operator - Inspection & Freeze Discipline.pdf",
+      "bytes": 600419,
+      "sha256": "119cf9be23542def2e5a0f0ef98b4b49a80ff0f991754dabf19629a4f72d5717"
+    },
+    {
+      "path": "ID_3-operator/docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.docx",
+      "archive_member": "docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.docx",
+      "bytes": 759914,
+      "sha256": "9c624ac8804c8912b82ff45d0cdf698e8b92977b012a1fb6b6b127a19318da05"
+    },
+    {
+      "path": "ID_3-operator/docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.pdf",
+      "archive_member": "docs/execution_toolkit/ID_3 - Toolkit Script Examples Companion.pdf",
+      "bytes": 1130916,
+      "sha256": "0259f2af5bb253485e39e27440cbdb715e137e8c28abb2e383a66d851659d52c"
+    },
+    {
+      "path": "ID_3-operator/docs/execution_toolkit/README_toolkit.md",
+      "archive_member": "docs/execution_toolkit/README_toolkit.md",
+      "bytes": 2775,
+      "sha256": "a8e5261ec73b82f73344d5bbd15f4dcbb8beb833155044af61ef6db8e20f9787"
+    },
+    {
+      "path": "ID_3-operator/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "archive_member": "docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "archive_member": "docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "ID_3-operator/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "archive_member": "docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "ID_3-operator/docs/relationship_to_version_E/README.md",
+      "archive_member": "docs/relationship_to_version_E/README.md",
+      "bytes": 623,
+      "sha256": "e24ca05033a11302712656f29fd2877f3940bf92373dd857724e34b23f96a448"
+    },
+    {
+      "path": "ID_3-operator/exemplar_modules/module_01_governance_ai_identity_ID_3.md",
+      "archive_member": "exemplar_modules/module_01_governance_ai_identity_ID_3.md",
+      "bytes": 5355,
+      "sha256": "eef78d5b288fb72075d5189bceb1ffc3ce25f1669463350ffc43a3a20e857235"
+    },
+    {
+      "path": "ID_3-operator/exemplar_modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "archive_member": "exemplar_modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "bytes": 5521,
+      "sha256": "12205f4ad793bf53da672ab3a5342c7a15c190ad8e768f495e61d888509d948b"
+    },
+    {
+      "path": "ID_3-operator/exemplar_modules/module_03_governance_rag_references_ID_3.md",
+      "archive_member": "exemplar_modules/module_03_governance_rag_references_ID_3.md",
+      "bytes": 7020,
+      "sha256": "5dd0966575199498d51859a0c9a36dac0c6995f757b641a7205978303e380f4e"
+    },
+    {
+      "path": "ID_3-operator/exemplar_modules/module_04_regulator_evidence_requests_ID_3.md",
+      "archive_member": "exemplar_modules/module_04_regulator_evidence_requests_ID_3.md",
+      "bytes": 6141,
+      "sha256": "d999ca532ccd5fa6f38fd29dddcef670197259ddfa37a3c3119f2e8261baf013"
+    },
+    {
+      "path": "ID_3-operator/exemplar_modules/module_05_access_pod_lens_ID_3.md",
+      "archive_member": "exemplar_modules/module_05_access_pod_lens_ID_3.md",
+      "bytes": 6171,
+      "sha256": "8f848aed46a37795648197059c4d583b69a00ea524c871d6316d6fc31a0652a4"
+    },
+    {
+      "path": "ID_3-operator/exemplar_modules/module_06_packaging_manifests_release_ID_3.md",
+      "archive_member": "exemplar_modules/module_06_packaging_manifests_release_ID_3.md",
+      "bytes": 6456,
+      "sha256": "f8930d39552cea7ee0fd5d2bd03580f7767a4b9331b661372b1a4e6f6a1f3a3d"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9136,
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "bytes": 2817,
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10634,
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "ID_3-operator/ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "archive_member": "ID_3_review_packs/ID_2_inbox/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "bytes": 3519,
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18"
+    },
+    {
+      "path": "ID_3-operator/primary_modules/module_01_governance_ai_identity_ID_3.md",
+      "archive_member": "primary_modules/module_01_governance_ai_identity_ID_3.md",
+      "bytes": 12854,
+      "sha256": "3c14e82d6a662ffac17d80b626b6d9b08784bcca24ab98306fb90daae3a5a370"
+    },
+    {
+      "path": "ID_3-operator/primary_modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "archive_member": "primary_modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "bytes": 5779,
+      "sha256": "698d2369a28b21848a7b056fad2ba174ce9d450cc7a60709b0f18d3279251e6d"
+    },
+    {
+      "path": "ID_3-operator/primary_modules/module_03_governance_rag_references_ID_3.md",
+      "archive_member": "primary_modules/module_03_governance_rag_references_ID_3.md",
+      "bytes": 9894,
+      "sha256": "8773a9365756b503bf55521d037879d6b51fa2d751bd20ca8342b03cd904914b"
+    },
+    {
+      "path": "ID_3-operator/primary_modules/module_04_regulator_evidence_requests_ID_3.md",
+      "archive_member": "primary_modules/module_04_regulator_evidence_requests_ID_3.md",
+      "bytes": 7412,
+      "sha256": "de34c73fd63b61c8af2672a90fd8916443de69531b6df2d6b5a9fad8b8da5fa8"
+    },
+    {
+      "path": "ID_3-operator/primary_modules/module_05_access_pod_lens_ID_3.md",
+      "archive_member": "primary_modules/module_05_access_pod_lens_ID_3.md",
+      "bytes": 9748,
+      "sha256": "f4c307f0ffae7385355698f92f924cca1a56948bca63555d683e9cfd52735dde"
+    },
+    {
+      "path": "ID_3-operator/primary_modules/module_06_packaging_manifests_release_ID_3.md",
+      "archive_member": "primary_modules/module_06_packaging_manifests_release_ID_3.md",
+      "bytes": 7358,
+      "sha256": "61b04e88cafd41495bc0a7b800c5529ef6fc0c153bf9ed1834dd60ffd49c488a"
+    },
+    {
+      "path": "ID_3-operator/scripts/Copy-ID2Inbox.ps1",
+      "archive_member": "scripts/Copy-ID2Inbox.ps1",
+      "bytes": 2037,
+      "sha256": "4e040f91146f91e82893f284cca3be90caf060fd8cd0c4172fd6566c14faf94c"
+    },
+    {
+      "path": "ID_3-operator/scripts/Correct-ID3SessionMetadata.ps1",
+      "archive_member": "scripts/Correct-ID3SessionMetadata.ps1",
+      "bytes": 11264,
+      "sha256": "150894d420874fc10b73ad09e3051765dcaab14697692102626593c6cc85b559"
+    },
+    {
+      "path": "ID_3-operator/scripts/Inspect-SessionMetadataShapes.ps1",
+      "archive_member": "scripts/Inspect-SessionMetadataShapes.ps1",
+      "bytes": 16694,
+      "sha256": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d"
+    },
+    {
+      "path": "ID_3-operator/scripts/Move-And-Freeze-ID3Outbox.ps1",
+      "archive_member": "scripts/Move-And-Freeze-ID3Outbox.ps1",
+      "bytes": 12203,
+      "sha256": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9"
+    },
+    {
+      "path": "ID_3-operator/scripts/rules/session_completeness.rule.json",
+      "archive_member": "scripts/rules/session_completeness.rule.json",
+      "bytes": 6948,
+      "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198"
+    },
+    {
+      "path": "ID_3-operator/manifest_ID_3.md",
+      "archive_member": "manifest_ID_3.md",
+      "bytes": 6284,
+      "sha256": "053e87cccbcf6a6b2a4b8c8d3b3a83d057e8663b7810ecd3c1b7867ee4ec4f6f"
+    },
+    {
+      "path": "ID_3-operator/README_ID_3.md",
+      "archive_member": "README_ID_3.md",
+      "bytes": 4181,
+      "sha256": "576ec661eae8dd5407fe95537c195eadbe95771ea323456d08357d28e27fe7d9"
+    },
+    {
+      "path": "ID_3-operator/release_notes_ID_3.md",
+      "archive_member": "release_notes_ID_3.md",
+      "bytes": 6941,
+      "sha256": "ff302adf47a0c0ab996fa29d1d2ff3b0510060129323ee9352ef99ef5c3826c4"
+    }
+  ],
+  "published_assets": [
+    {
+      "path": "provenance/ID_3-operator/v1.0-Access-mode_ID_3_release_20260301-111359.zip",
+      "bytes": 3858738,
+      "sha256": "905a30ca8b9aad772193aacb2ac8eadc3ebb7dc9080bd735be59d32a0987e1fa",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/ID_3-operator/v1.0-Access-mode_ID_3_release_20260301-111359.zip",
+      "asset_id": 364405905
+    },
+    {
+      "path": "provenance/ID_3-operator/SHA256SUMS_v1.0-access-mode_ID_3_pack.txt",
+      "bytes": 117,
+      "sha256": "8700db146e1013d1451f16e75d65faadd8ce610e89b9b5b7d43ecb084d44fb64",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/ID_3-operator/SHA256SUMS_v1.0-access-mode_ID_3_pack.txt",
+      "asset_id": 364406061
+    }
+  ],
+  "pdf_count": 6,
+  "docx_count": 1,
+  "papers_and_execution_documents_unchanged": true,
+  "paper_e_matches_user_copy": true,
+  "shared_method_papers_match_id1": true,
+  "embedded_rule_retained": true,
+  "standalone_rule_pack_imported": false,
+  "original_prepared_two_candidate_inbox_preserved": true,
+  "id2_four_candidate_inputs_imported": false,
+  "workflow_evidence": [
+    "WORKFLOW_CHECK.json",
+    "WORKFLOW_CHECK.md"
+  ],
+  "workflow_evidence_scope": "Existing isolated PS7 example replay reverified against exact source bytes and preserved output hashes; no new freeze or workflow run during migration.",
+  "added_component_notes": [
+    "ID_3-operator/MIGRATION_NOTES.md",
+    "ID_3-operator/SOURCE_NOTICES.md"
+  ],
+  "script_logic_changed": false,
+  "source_records_changed": false,
+  "new_freeze_performed": false,
+  "collection_sealed_or_zipped": false
+}

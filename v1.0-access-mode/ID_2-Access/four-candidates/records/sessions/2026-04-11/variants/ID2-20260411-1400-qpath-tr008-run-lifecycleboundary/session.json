@@ -1,0 +1,104 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "session": {
+    "session_id": "ID2-20260411-1400-qpath-tr008-run-lifecycleboundary",
+    "mode_controls": {
+      "secondary_modes_allowed": [],
+      "primary_mode_locked": true,
+      "mode_switching_mid_session_prohibited": true
+    },
+    "facilitator": {
+      "name": "Anthony Siljeg",
+      "role": "AI governance lead"
+    },
+    "project_context": {
+      "purpose_statement": "Variant run applying cross-path boundary and lifecycle containment stress for comparison against baseline TR-008 Path 2 runtime signal capture while preserving non-authoritative signal discipline and explicit separation between execution behavior, candidate handling, and governance authority.",
+      "out_of_scope": [
+        "Legal advice",
+        "Compliance determinations",
+        "Certification/approval language",
+        "Automated enforcement decisions"
+      ],
+      "audience": [
+        "internal",
+        "standards_preparation"
+      ],
+      "in_scope": [
+        "ID_2 operational reasoning",
+        "AI-assisted drafting and governance note structuring",
+        "runtime signal interpretation",
+        "TR-008 execution-path discussion",
+        "stakeholder communication under bounded exploratory conditions"
+      ],
+      "project_name": "qpathformer_enterprise - TR-008"
+    },
+    "primary_materials": {
+      "exemplar_modules_folder": "modes/ID_2_access/exemplar_modules/",
+      "organizer_mode_file": "modes/ID_2_access/modules/organizer_mode.md",
+      "modules_folder": "modes/ID_2_access/modules/"
+    },
+    "timezone": "Australia/Canberra",
+    "created_utc": "2026-04-11T11:15:09Z",
+    "participants": [
+      {
+        "role": "Author and facilitator",
+        "name": "Anthony Siljeg"
+      }
+    ]
+  },
+  "validation": {
+    "validation_events": [],
+    "misalignment_testing_required_for_high_impact_outputs": true,
+    "human_review_required_before_external_use": true,
+    "question_driven_verification_required": true
+  },
+  "record_class": "non_inspection_session_record",
+  "access_mode_primary": "ID_2",
+  "run_plan": {
+    "modules_intended": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "notes": "Variant C focusing on cross-path boundary and lifecycle containment pressure to observe how Path 2 runtime signals are described when adjacent lifecycle stages, candidate handling, and promotion concepts create pressure to overstate maturity or authority.",
+    "module_order": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ]
+  },
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "signoff": {
+    "human_accountability_acknowledged": true,
+    "signed_at_utc": "",
+    "signed_by": "",
+    "non_inspection_acknowledged": true,
+    "no_adequacy_or_compliance_claims_acknowledged": true
+  },
+  "inspection_status": "not_frozen",
+  "session_status": {
+    "notes": "",
+    "intended_reuse": "",
+    "state": "active"
+  },
+  "session_events": [],
+  "outputs_index": {
+    "artifacts": null,
+    "module_records": [
+      "module_01_governance_ai_identity_ID_2.json",
+      "module_02_intent_scope_boundaries_ID_2.json",
+      "module_03_sapp_simulation_stress_testing_ID_2.json",
+      "module_04_writing_governance_artifacts_ID_2.json",
+      "module_05_access_pod_runtime_enforcement_ID_2.json",
+      "module_06_csc_scoring_revocation_ID_2.json"
+    ],
+    "artifacts_folder": "artifacts/"
+  },
+  "human_decision_required": true
+}

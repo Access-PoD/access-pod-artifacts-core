@@ -1,0 +1,436 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "v1.0-access-mode",
+  "date": "2026-10-11",
+  "status": "complete_unchanged_base_release_import_with_separate_notes",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode",
+  "source_snapshot_download_date": "2026-10-10",
+  "source_zip": "v1.0-Access-mode_release_20260204-203045.zip",
+  "source_zip_sha256": "1b33667d2a36df09106ca3c9e9ce1e7b588f33aec68759a53de5caf2d840398f",
+  "source_zip_crc_pass": true,
+  "source_member_count": 56,
+  "source_file_count": 50,
+  "preserved_explicit_archive_directories": [
+    "modes/ID_1_core/drafts/",
+    "modes/ID_1_core/notes/",
+    "modes/ID_2_access/drafts/",
+    "modes/ID_2_access/notes/",
+    "modes/ID_3_operator/drafts/",
+    "modes/ID_3_operator/notes/"
+  ],
+  "imported_files": [
+    {
+      "path": "v1.0-access-mode/modes/MODE_DIFF_NOTE.md",
+      "bytes": 4098,
+      "sha256": "563e122946e8077363d42a1118b8f7b7089855e0ec7210590e48b121a1eed049",
+      "archive_member": "modes/MODE_DIFF_NOTE.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/README_ID_1.md",
+      "bytes": 1314,
+      "sha256": "815e462d564acb2b3229b9ba07e755d172b6143b7001385bf7169cea5b32191f",
+      "archive_member": "modes/ID_1_core/README_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee",
+      "archive_member": "modes/ID_1_core/modules/Learning Mode Rules README ID_1.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/Learning_mode.md",
+      "bytes": 3226,
+      "sha256": "097269021a312aa1dab96ddffb815089644555e89e9df0ef4994a21c4c99d6f0",
+      "archive_member": "modes/ID_1_core/modules/Learning_mode.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_01_governance_ai_identity_ID_1.md",
+      "bytes": 6895,
+      "sha256": "e7acc442ed8838dbe322ff01053851bdd11e191b7d11be063dfe503a26a505de",
+      "archive_member": "modes/ID_1_core/modules/module_01_governance_ai_identity_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_02_intent_scope_boundaries_ID_1.md",
+      "bytes": 5955,
+      "sha256": "cdb1a74db818d1b21e3a7c874924ea23bca07bf5b2fd587aee106fa16a173078",
+      "archive_member": "modes/ID_1_core/modules/module_02_intent_scope_boundaries_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_03_governance_rag_references_ID_1.md",
+      "bytes": 6619,
+      "sha256": "add9f87d8557f38978546ded906133bcf08a429693a605145f99da1346a064de",
+      "archive_member": "modes/ID_1_core/modules/module_03_governance_rag_references_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_04_writing_governance_artifacts_ID_1.md",
+      "bytes": 5802,
+      "sha256": "46908ad86abd37f1ccc17b700098b8f95985f19f31dd5e28d79ac35c2e3de7ab",
+      "archive_member": "modes/ID_1_core/modules/module_04_writing_governance_artifacts_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_05_access_pod_lens_ID_1.md",
+      "bytes": 6327,
+      "sha256": "26c96ad22304c07f7d696ad592118e786ef27c67aa9c8f76b47f48c6b7ecfff8",
+      "archive_member": "modes/ID_1_core/modules/module_05_access_pod_lens_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/module_06_forward_practice_reflection_ID_1.md",
+      "bytes": 5622,
+      "sha256": "b348b8a386c79793f205e5bb9abbb6fd8e40d8f4cb7cf06efd04c79985510438",
+      "archive_member": "modes/ID_1_core/modules/module_06_forward_practice_reflection_ID_1.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/README_ID_2.md",
+      "bytes": 1499,
+      "sha256": "b5a0f520816f0b8564ec23e280b4704033e452669b194f3ed1eeeeab08417168",
+      "archive_member": "modes/ID_2_access/README_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 7043,
+      "sha256": "cfee9ce01c0b118dadebc469ff362373f1ab3b202a4e0bf4d7a8009d3b6eea4a",
+      "archive_member": "modes/ID_2_access/modules/module_01_governance_ai_identity_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 5876,
+      "sha256": "8ea646f38b9ad1d0c5c15fa42841ca04072546748e3cf6c24558ee597113d977",
+      "archive_member": "modes/ID_2_access/modules/module_02_intent_scope_boundaries_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 3048,
+      "sha256": "cfcfb64a5555dc53666b614e02836c7d507439034b94297458705d84ebc283a6",
+      "archive_member": "modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5878,
+      "sha256": "1012d3d43f5490c6b147d3e2b5716a6d2e8f1fa01da99b6a3db28332a86c9dcd",
+      "archive_member": "modes/ID_2_access/modules/module_04_writing_governance_artifacts_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 1262,
+      "sha256": "0429a874096ab59a60fe5b1a1d7a2a8c097e55294068e7a1fe578430dbcea4b3",
+      "archive_member": "modes/ID_2_access/modules/module_05_access_pod_runtime_enforcement_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 3334,
+      "sha256": "dcad156ed2c54a15034b01b1b7805ac01607215ebe93d660bd5dee1e67f4b104",
+      "archive_member": "modes/ID_2_access/modules/module_06_csc_scoring_revocation_ID_2.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18",
+      "archive_member": "modes/ID_2_access/modules/Organizer Mode Rules README_ID_2.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "archive_member": "modes/ID_2_access/modules/organizer_mode.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/README_ID_3.md",
+      "bytes": 1377,
+      "sha256": "977f5cbb7a1711de5f98e5da1a06e6e72d8971921c6aa0f4f2eb7cc116813a1b",
+      "archive_member": "modes/ID_3_operator/README_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/Inspection Mode Rules README ID_3.pdf",
+      "bytes": 141877,
+      "sha256": "9cc932e5779a0419423756d89a3011da03cff3717f3cd2273feee39c3944f5f9",
+      "archive_member": "modes/ID_3_operator/modules/Inspection Mode Rules README ID_3.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/inspection_mode_control_ID_3.md.md",
+      "bytes": 3519,
+      "sha256": "d1118a2a653e6c68827cd6087022505da169bbc8c1abdb7e5757ef559855f07c",
+      "archive_member": "modes/ID_3_operator/modules/inspection_mode_control_ID_3.md.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_01_governance_ai_identity_ID_3.md",
+      "bytes": 6682,
+      "sha256": "59a4540e2f0250da42fa1595f45a90c2f092217a5b319131e18702a64d765e14",
+      "archive_member": "modes/ID_3_operator/modules/module_01_governance_ai_identity_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_02_normative_language_iso_phrasing_ID_3.md",
+      "bytes": 1088,
+      "sha256": "2b1b967938740c98f0569159efa459afc7706bd1549a964f2120202bf745edd4",
+      "archive_member": "modes/ID_3_operator/modules/module_02_normative_language_iso_phrasing_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_03_governance_rag_references_ID_3.md",
+      "bytes": 6422,
+      "sha256": "c18c173044295b4909bdd8866b1454859228d80079ddacfe2e3ff2d006fc1504",
+      "archive_member": "modes/ID_3_operator/modules/module_03_governance_rag_references_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_04_regulator_evidence_requests_ID_3.md",
+      "bytes": 1072,
+      "sha256": "f3768804484ba4d50eb32b5d14254f022f74d134a87db0870e1dd0a6bd2cdf0a",
+      "archive_member": "modes/ID_3_operator/modules/module_04_regulator_evidence_requests_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_05_access_pod_lens_ID_3.md",
+      "bytes": 6115,
+      "sha256": "40fbbda4b75287136b5f42bcc34f2143a73b329fedf6bda0a2f814cddc86c150",
+      "archive_member": "modes/ID_3_operator/modules/module_05_access_pod_lens_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/module_06_packaging_manifests_release_ID_3.md",
+      "bytes": 1072,
+      "sha256": "29159bc2d2a9d687b27f6e684853e78d4e1d6dca1d44c3d4a679842c281d0bca",
+      "archive_member": "modes/ID_3_operator/modules/module_06_packaging_manifests_release_ID_3.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_01_governance_ai_identity.md",
+      "bytes": 6678,
+      "sha256": "1bf0ed1d540d73bc6bc3833cf3c220f90e0ebbcfa1f4b47ec8636bb26634cfdf",
+      "archive_member": "modules/module_01_governance_ai_identity.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_02_intent_scope_boundaries.md",
+      "bytes": 5555,
+      "sha256": "62112f951725c552eee19284befb510fb0867149104e50a7086dc7521adcd43a",
+      "archive_member": "modules/module_02_intent_scope_boundaries.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_03_governance_rag_references.md",
+      "bytes": 6409,
+      "sha256": "7b5ee7b7a620193b00c815c0e84a33997f174d0b76416d9ee10950ce5b8d79e8",
+      "archive_member": "modules/module_03_governance_rag_references.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_04_writing_governance_artifacts.md",
+      "bytes": 5589,
+      "sha256": "b898a99dbb7126729b99c272ab0b66c7184eefe8ab27bb6c207d81e8610ca8d3",
+      "archive_member": "modules/module_04_writing_governance_artifacts.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_05_access_pod_lens.md",
+      "bytes": 6102,
+      "sha256": "088a5b9b618d69b704bc122fbb157805526decf2312a57c10a3294be08f8023d",
+      "archive_member": "modules/module_05_access_pod_lens.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/module_06_forward_practice_reflection.md",
+      "bytes": 5397,
+      "sha256": "6a82186076c5a7a3db8c2e88e316310e9d44737dda3c9910dfa3ed719aed735c",
+      "archive_member": "modules/module_06_forward_practice_reflection.md"
+    },
+    {
+      "path": "v1.0-access-mode/modules/ROBOCOPY_ONLY.pdf",
+      "bytes": 216821,
+      "sha256": "64d803acfa0b1521bc03e639caafa2c9cff51daea4b2e085ba50e64a923e0a3a",
+      "archive_member": "modules/ROBOCOPY_ONLY.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "archive_member": "orchestration/Access_Mode_Project_Guide.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/mode_index.md",
+      "bytes": 7560,
+      "sha256": "51ef65c9235522993971fc92fa928495bee84ce4aef73e8c4cd4470a9bc6bbe4",
+      "archive_member": "orchestration/mode_index.md"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/Access_Mode_Quick_Reference.md",
+      "bytes": 2478,
+      "sha256": "658724d02e36def6066be232fd5cd71321eb53198ecde46ad948847c6a9c8b4f",
+      "archive_member": "orchestration/guides/Access_Mode_Quick_Reference.md"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/FACILITATOR_QUICK_START.md",
+      "bytes": 2192,
+      "sha256": "8b8200719bf8688e8af0092a4ee2e58d1bba4d84ff636eb844c7d1809aa42d50",
+      "archive_member": "orchestration/guides/FACILITATOR_QUICK_START.md"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/Prompts_and_Project_Names_Examples_v1.0.pdf",
+      "bytes": 336599,
+      "sha256": "d9bd13435235d0378023a8c31a053422ac3774b592806956c7b6b83eb7f578f1",
+      "archive_member": "orchestration/guides/Prompts_and_Project_Names_Examples_v1.0.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/references/ACCESS_MODE_TEMPLATE.md",
+      "bytes": 12583,
+      "sha256": "f6727c3b065fa5a36085005215345928b1fcb35ecc6c815255caab63f733de01",
+      "archive_member": "orchestration/references/ACCESS_MODE_TEMPLATE.md"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/references/Access-Mode Quick Reference.pdf",
+      "bytes": 232807,
+      "sha256": "5975f530504fdaf4cac000b00d29e97d2045a28348c6c8d04bf07191d3a6f151",
+      "archive_member": "orchestration/references/Access-Mode Quick Reference.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/public-review/Access_Mode_Configuration_Notes_v1.0.md",
+      "bytes": 4692,
+      "sha256": "c6ec21fdf8aefeb3a67112257a295c63aa7a6ce57153d1a3ff72b571acf7f961",
+      "archive_member": "public-review/Access_Mode_Configuration_Notes_v1.0.md"
+    },
+    {
+      "path": "v1.0-access-mode/public-review/Public_Review_Framing_Note.md",
+      "bytes": 3411,
+      "sha256": "b6e90c76b972007581aaf8a05a63aa2c061d8cf90f74ade8c35e6692b399ee9c",
+      "archive_member": "public-review/Public_Review_Framing_Note.md"
+    },
+    {
+      "path": "v1.0-access-mode/public-review/RELATIONSHIP_TO_ACCESS_POD_VOL2.md",
+      "bytes": 2861,
+      "sha256": "20ce98a23450b9ac0a378708e87e6d8646f3ffdab261d7128e7cd4cc93fe660b",
+      "archive_member": "public-review/RELATIONSHIP_TO_ACCESS_POD_VOL2.md"
+    },
+    {
+      "path": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "archive_member": "releases/APOD-TR-006 - Volume 2, Version E.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/releases/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "archive_member": "releases/APOD-TR-006-E.2.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/releases/README_doc_orientation.md",
+      "bytes": 2878,
+      "sha256": "b33cc5473784d4405e969dae2a4d0b0dc7955bb70370d6094b07336f8ac47ba6",
+      "archive_member": "releases/README_doc_orientation.md"
+    },
+    {
+      "path": "v1.0-access-mode/INTERNAL_RELEASE_NOTES_v1.0_Access_Mode.md",
+      "bytes": 6813,
+      "sha256": "9e100551ae7350577e41a8ef986850fcce362b82ff77425522e038126d312bc9",
+      "archive_member": "INTERNAL_RELEASE_NOTES_v1.0_Access_Mode.md"
+    },
+    {
+      "path": "v1.0-access-mode/README.md",
+      "bytes": 3478,
+      "sha256": "80812efd8fbfcae3da70c7e8a08b1ae9f18aca6682a5ca216cb382e6490ec9da",
+      "archive_member": "README.md"
+    }
+  ],
+  "module_counts": {
+    "modules": 6,
+    "modes/ID_1_core/modules": 6,
+    "modes/ID_2_access/modules": 6,
+    "modes/ID_3_operator/modules": 6
+  },
+  "upstream_embedded_manifest_present": false,
+  "upstream_checksum_sidecar_supplied": true,
+  "published_sidecar_matches": true,
+  "published_assets": [
+    {
+      "path": "provenance/v1.0-access-mode/v1.0-Access-mode_release_20260204-203045.zip",
+      "bytes": 2754056,
+      "sha256": "1b33667d2a36df09106ca3c9e9ce1e7b588f33aec68759a53de5caf2d840398f",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/v1.0-access-mode/v1.0-Access-mode_release_20260204-203045.zip",
+      "asset_id": 351020611,
+      "github_digest_from_download_snapshot": "sha256:1b33667d2a36df09106ca3c9e9ce1e7b588f33aec68759a53de5caf2d840398f",
+      "matches_download_snapshot": true
+    },
+    {
+      "path": "provenance/v1.0-access-mode/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "d340317f173fb6e5859dfdc839b46abd48a2f0879a536400085fb47b55fb8de7",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/v1.0-access-mode/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "asset_id": 351020727,
+      "github_digest_from_download_snapshot": "sha256:d340317f173fb6e5859dfdc839b46abd48a2f0879a536400085fb47b55fb8de7",
+      "matches_download_snapshot": true
+    }
+  ],
+  "original_files_changed": [],
+  "pdfs_unchanged_from_zip": [
+    {
+      "path": "v1.0-access-mode/modes/ID_1_core/modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee",
+      "archive_member": "modes/ID_1_core/modules/Learning Mode Rules README ID_1.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_2_access/modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18",
+      "archive_member": "modes/ID_2_access/modules/Organizer Mode Rules README_ID_2.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/modes/ID_3_operator/modules/Inspection Mode Rules README ID_3.pdf",
+      "bytes": 141877,
+      "sha256": "9cc932e5779a0419423756d89a3011da03cff3717f3cd2273feee39c3944f5f9",
+      "archive_member": "modes/ID_3_operator/modules/Inspection Mode Rules README ID_3.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/modules/ROBOCOPY_ONLY.pdf",
+      "bytes": 216821,
+      "sha256": "64d803acfa0b1521bc03e639caafa2c9cff51daea4b2e085ba50e64a923e0a3a",
+      "archive_member": "modules/ROBOCOPY_ONLY.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "archive_member": "orchestration/Access_Mode_Project_Guide.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/guides/Prompts_and_Project_Names_Examples_v1.0.pdf",
+      "bytes": 336599,
+      "sha256": "d9bd13435235d0378023a8c31a053422ac3774b592806956c7b6b83eb7f578f1",
+      "archive_member": "orchestration/guides/Prompts_and_Project_Names_Examples_v1.0.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/orchestration/references/Access-Mode Quick Reference.pdf",
+      "bytes": 232807,
+      "sha256": "5975f530504fdaf4cac000b00d29e97d2045a28348c6c8d04bf07191d3a6f151",
+      "archive_member": "orchestration/references/Access-Mode Quick Reference.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "archive_member": "releases/APOD-TR-006 - Volume 2, Version E.pdf"
+    },
+    {
+      "path": "v1.0-access-mode/releases/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "archive_member": "releases/APOD-TR-006-E.2.pdf"
+    }
+  ],
+  "paper_matches_supplied_assessment_copy": true,
+  "paper_sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+  "supplied_paper_filename": "APOD-TR-006+-+Volume+2,+Version+E.pdf",
+  "additional_paper_copy_created": false,
+  "added_component_notes": [
+    "v1.0-access-mode/ERRATA.md",
+    "v1.0-access-mode/SOURCE_NOTICES.md"
+  ],
+  "repository_context_notices": [
+    {
+      "path": "provenance/v1.0-access-mode/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "source_repository_path": "LICENSE",
+      "scope": "Repository context; not an original base ZIP member or a new component licence grant."
+    },
+    {
+      "path": "provenance/v1.0-access-mode/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a",
+      "source_repository_path": "LICENSE_HISTORY.md",
+      "scope": "Repository context; not an original base ZIP member or a new component licence grant."
+    }
+  ],
+  "embedded_historical_modes_preserved": true,
+  "later_standalone_id_packages_imported": false,
+  "interpretation": "Complete base-release preservation; no model execution, governance assurance, final sealing or publication."
+}

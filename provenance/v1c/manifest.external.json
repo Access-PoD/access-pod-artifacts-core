@@ -1,0 +1,15 @@
+{
+  "schema": "qpf.seal.manifest.external.v1",
+  "created_utc": "2026-01-17T10:55:42.2517212Z",
+  "seal_id": "20260117_105542",
+  "authority": "Anthony Siljeg — Platform Steward",
+  "source_dir": "C:\\release-v1c",
+  "output_dir": "C:\\release-v1c\\apod_artifacts_vol2_v1c\\seal_20260117_105542",
+  "packaging": {
+    "archive": "sealed_20260117_105542.zip",
+    "hash_algorithm": "SHA256",
+    "hash_sha256": "A723ECADFC62453457D1405018D41AC2E490A18E3F0AEAB8EFF49399A8FE6CDD",
+    "companion_sha_file": "sealed_20260117_105542.zip.sha256",
+    "internal_manifest_file": "manifest.internal.json"
+  }
+}

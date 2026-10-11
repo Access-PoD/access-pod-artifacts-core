@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "status": "informative",
+    "intended_use": ["documentation", "audit_support"],
+    "does_not": [
+      "certify_datasets",
+      "modify_csc_semantics",
+      "determine_readiness"
+    ],
+    "version": "0.1",
+    "generated_at": "2026-01-17T10:20:00Z"
+  },
+  "kind": "dataset_lineage",
+  "record": {
+    "dataset_id": "TEXT-CORPUS-ALPHA",
+    "dataset_version": "v0.9-exp",
+    "status": "proposed_experimental",
+    "provenance": {
+      "source": "Internal curated corpus",
+      "summary": "Mixed public-domain text and synthetic augmentation for exploratory testing."
+    },
+    "permitted_use": "Exploratory onboarding under containment only",
+    "testing_notes": "Telemetry monitored; outputs marked provisional; no assurance inference permitted.",
+    "external_verification_ref": "",
+    "declaration_only": true
+  }
+}

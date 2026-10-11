@@ -1,0 +1,13 @@
+# Preserve the sealed collection's exact bytes in Git and future checkouts.
+# These repository controls are outside the collection-manifest scope.
+/README.md -text -filter -ident
+/LICENSE -text -filter -ident
+/LICENSING.md -text -filter -ident
+/RELEASE_NOTES_v1.0_CONSOLIDATED.md -text -filter -ident
+/collection-manifest.json -text -filter -ident
+/v1a/** -text -filter -ident
+/v1b/** -text -filter -ident
+/v1c/** -text -filter -ident
+/v1d/** -text -filter -ident
+/v1.0-access-mode/** -text -filter -ident
+/provenance/** -text -filter -ident

@@ -1,0 +1,826 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "ID_2-Access",
+  "date": "2026-10-11",
+  "status": "two_candidate_original_plus_four_candidate_local_draft_documentation_pending",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+  "source_zip": "v1.0-Access-mode_release_20260221-121416.zip",
+  "source_zip_sha256": "569fca4a5c7ce8386d27a2b98f005a6ce7567a8c98e6c81f015d37208cfc32fa",
+  "source_zip_crc_pass": true,
+  "published_source_file_count": 53,
+  "published_archive_directories": [
+    "records/comparisons/",
+    "records/sessions/",
+    "records/comparisons/2026-02-10/",
+    "records/sessions/2026-02-10/",
+    "records/sessions/2026-02-10/baseline/",
+    "records/sessions/2026-02-10/variants/",
+    "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/",
+    "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/"
+  ],
+  "original_two_candidate_files": [
+    {
+      "path": "ID_2-Access/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "archive_member": "docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 700149,
+      "sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78"
+    },
+    {
+      "path": "ID_2-Access/docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "archive_member": "docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "bytes": 170126,
+      "sha256": "fb0cb45d48e77a061b5191c1d923aa92f3f86063cdfa8cb79fee1192560b0f76"
+    },
+    {
+      "path": "ID_2-Access/docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "archive_member": "docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "bytes": 332081,
+      "sha256": "b8b177ea0d6dd6347e3f13a9e160e50a5e509edc478e2a3fa942097010b3efe6"
+    },
+    {
+      "path": "ID_2-Access/docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "archive_member": "docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "bytes": 3804,
+      "sha256": "472d780f9c3ea83b8e96f52cbe624659687607d0486e50df588ccb1048a64478"
+    },
+    {
+      "path": "ID_2-Access/docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "archive_member": "docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "bytes": 1567828,
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c"
+    },
+    {
+      "path": "ID_2-Access/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "archive_member": "docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766"
+    },
+    {
+      "path": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "archive_member": "docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159"
+    },
+    {
+      "path": "ID_2-Access/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "archive_member": "docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "archive_member": "exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 6767,
+      "sha256": "7f16b026054ea74a01015b8c784d9363aea882e39b92186e49a7856c66c269fc"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "archive_member": "exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 6933,
+      "sha256": "bcdaec30af811623ff697c76fb5ddc5c4915c1eb270b719abf50364f4a7004a1"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "archive_member": "exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 6235,
+      "sha256": "959308de2678780e92de7ee7d0016fd6d822e135374d2db47caf7c1b1edf5f7b"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "archive_member": "exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5728,
+      "sha256": "f36e9b0dfcd50ef580f81941c290ce4fe5cd15fc91546cf994d8daaecd3bdbe5"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "archive_member": "exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 6189,
+      "sha256": "af588ac6bc0357471ba49ade51e9e73d7696a7eeade5ee0e6824ac81d815b26b"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "archive_member": "exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 6425,
+      "sha256": "7993e3166cec2e26f4f735ae6e00c18c1054ccb0c35585e699aa6943efb2e3c1"
+    },
+    {
+      "path": "ID_2-Access/exemplar_modules/organizer_mode.md",
+      "archive_member": "exemplar_modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "ID_2-Access/modules/module_01_governance_ai_identity_ID_2.md",
+      "archive_member": "modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 13923,
+      "sha256": "3ff8c2271c9f80a5111795954524f0b173b1a6d5ac2b5d39b90df5af0d938d4c"
+    },
+    {
+      "path": "ID_2-Access/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "archive_member": "modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 11869,
+      "sha256": "f448becb62e3a588aa1b3204cd0dcf1fb46463e9b5d3428aba74fda46101a287"
+    },
+    {
+      "path": "ID_2-Access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "archive_member": "modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 11609,
+      "sha256": "c6edacf00c0f53372cb2a1343548aa3bf430e5ba79f264ec3f08cba90a344da6"
+    },
+    {
+      "path": "ID_2-Access/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "archive_member": "modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 9295,
+      "sha256": "ae7d014503832f38d6b00309a048f8cd534a1a21ce747d5e656e77bc500404a1"
+    },
+    {
+      "path": "ID_2-Access/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "archive_member": "modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 11376,
+      "sha256": "21b584c3e5b6a11c885a64efa5cb2e8d1ff61889841228b3e98122e20808ed48"
+    },
+    {
+      "path": "ID_2-Access/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "archive_member": "modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 11050,
+      "sha256": "11614ae3d55c7f6d84ea41f480fc5b31ecd9004b86f9ba618dc7ba68f0b04987"
+    },
+    {
+      "path": "ID_2-Access/modules/Organizer Mode Rules README_ID_2.pdf",
+      "archive_member": "modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18"
+    },
+    {
+      "path": "ID_2-Access/modules/organizer_mode.md",
+      "archive_member": "modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030"
+    },
+    {
+      "path": "ID_2-Access/records/comparisons/2026-02-10/ID2-20260210-1835-session/id2_comparison_summary.json",
+      "archive_member": "records/comparisons/2026-02-10/ID2-20260210-1835-session/id2_comparison_summary.json",
+      "bytes": 7819,
+      "sha256": "e86a5dcca5da72142cc6e3c54b09ab75ce24e894747c45b438be9e766c3f27a7"
+    },
+    {
+      "path": "ID_2-Access/records/helpers/Helpers_README.md",
+      "archive_member": "records/helpers/Helpers_README.md",
+      "bytes": 2166,
+      "sha256": "db08abf72cef1ddffa4c2bf8a727f5c161d0ef47df5e100d647f86fdd08d3e3c"
+    },
+    {
+      "path": "ID_2-Access/records/helpers/id2_prompt_examples.json",
+      "archive_member": "records/helpers/id2_prompt_examples.json",
+      "bytes": 2483,
+      "sha256": "7a60952c4f97514c1d0888a2a331fe4f73b54054d3540389657790e8433fe4e8"
+    },
+    {
+      "path": "ID_2-Access/records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "archive_member": "records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 23005,
+      "sha256": "b0889f51dbf8ff60505b4b7a1bae4c4bcfc067e0115e3492e4d148f4c2bf7644"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9136,
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "archive_member": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "bytes": 2817,
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10634,
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e"
+    },
+    {
+      "path": "ID_2-Access/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "archive_member": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "bytes": 3519,
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18"
+    },
+    {
+      "path": "ID_2-Access/records/templates/module_03.template.json",
+      "archive_member": "records/templates/module_03.template.json",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe"
+    },
+    {
+      "path": "ID_2-Access/records/templates/session.template.json",
+      "archive_member": "records/templates/session.template.json",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505"
+    },
+    {
+      "path": "ID_2-Access/scripts/helpers/Add-ID2SessionStatus.ps1",
+      "archive_member": "scripts/helpers/Add-ID2SessionStatus.ps1",
+      "bytes": 821,
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55"
+    },
+    {
+      "path": "ID_2-Access/scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "archive_member": "scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "bytes": 2276,
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea"
+    },
+    {
+      "path": "ID_2-Access/scripts/helpers/Edit-ID2SessionJson.ps1",
+      "archive_member": "scripts/helpers/Edit-ID2SessionJson.ps1",
+      "bytes": 5829,
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707"
+    },
+    {
+      "path": "ID_2-Access/scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "archive_member": "scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "bytes": 10087,
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf"
+    },
+    {
+      "path": "ID_2-Access/scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "archive_member": "scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "bytes": 11128,
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1"
+    },
+    {
+      "path": "ID_2-Access/scripts/primary/Normalize-ID2Module03.ps1",
+      "archive_member": "scripts/primary/Normalize-ID2Module03.ps1",
+      "bytes": 4287,
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44"
+    },
+    {
+      "path": "ID_2-Access/scripts/primary/Run-ID2-StressComparison.ps1",
+      "archive_member": "scripts/primary/Run-ID2-StressComparison.ps1",
+      "bytes": 6964,
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7"
+    },
+    {
+      "path": "ID_2-Access/manifest.txt",
+      "archive_member": "manifest.txt",
+      "bytes": 5426,
+      "sha256": "710db57e23410422137b204ababb1ef075b106d08a0fd653ac3cdae9464acea8"
+    },
+    {
+      "path": "ID_2-Access/README_ID_2.md",
+      "archive_member": "README_ID_2.md",
+      "bytes": 2089,
+      "sha256": "b5ab14c04e5f43191338cabbd938b837168618f1e91650e3ccbb6c3c170dcab5"
+    },
+    {
+      "path": "ID_2-Access/release_notes_ID_2.md",
+      "archive_member": "release_notes_ID_2.md",
+      "bytes": 5257,
+      "sha256": "83160aa688d93aed9084b0fb54caaf7f87c7db1ae62e957e994cf9da13291673"
+    }
+  ],
+  "four_candidate_files": [
+    {
+      "path": "ID_2-Access/four-candidates/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "component_relative_path": "docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78",
+      "bytes": 700149,
+      "identical_to_current_local_support": false
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "component_relative_path": "docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "sha256": "fb0cb45d48e77a061b5191c1d923aa92f3f86063cdfa8cb79fee1192560b0f76",
+      "bytes": 170126,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "component_relative_path": "docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "sha256": "b8b177ea0d6dd6347e3f13a9e160e50a5e509edc478e2a3fa942097010b3efe6",
+      "bytes": 332081,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "component_relative_path": "docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "sha256": "472d780f9c3ea83b8e96f52cbe624659687607d0486e50df588ccb1048a64478",
+      "bytes": 3804,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "component_relative_path": "docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c",
+      "bytes": 1567828,
+      "identical_to_current_local_support": false
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "component_relative_path": "docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "bytes": 480560,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "component_relative_path": "docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "bytes": 635475,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "component_relative_path": "docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "bytes": 331846,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "component_relative_path": "exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "sha256": "7f16b026054ea74a01015b8c784d9363aea882e39b92186e49a7856c66c269fc",
+      "bytes": 6767,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "component_relative_path": "exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "sha256": "bcdaec30af811623ff697c76fb5ddc5c4915c1eb270b719abf50364f4a7004a1",
+      "bytes": 6933,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "component_relative_path": "exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "sha256": "959308de2678780e92de7ee7d0016fd6d822e135374d2db47caf7c1b1edf5f7b",
+      "bytes": 6235,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "component_relative_path": "exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "sha256": "f36e9b0dfcd50ef580f81941c290ce4fe5cd15fc91546cf994d8daaecd3bdbe5",
+      "bytes": 5728,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "component_relative_path": "exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "sha256": "af588ac6bc0357471ba49ade51e9e73d7696a7eeade5ee0e6824ac81d815b26b",
+      "bytes": 6189,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "component_relative_path": "exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "sha256": "7993e3166cec2e26f4f735ae6e00c18c1054ccb0c35585e699aa6943efb2e3c1",
+      "bytes": 6425,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/exemplar_modules/organizer_mode.md",
+      "component_relative_path": "exemplar_modules/organizer_mode.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "exemplar_modules/organizer_mode.md",
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "bytes": 2416,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/module_01_governance_ai_identity_ID_2.md",
+      "component_relative_path": "modules/module_01_governance_ai_identity_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/module_01_governance_ai_identity_ID_2.md",
+      "sha256": "3ff8c2271c9f80a5111795954524f0b173b1a6d5ac2b5d39b90df5af0d938d4c",
+      "bytes": 13923,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "component_relative_path": "modules/module_02_intent_scope_boundaries_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/module_02_intent_scope_boundaries_ID_2.md",
+      "sha256": "f448becb62e3a588aa1b3204cd0dcf1fb46463e9b5d3428aba74fda46101a287",
+      "bytes": 11869,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "component_relative_path": "modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "sha256": "c6edacf00c0f53372cb2a1343548aa3bf430e5ba79f264ec3f08cba90a344da6",
+      "bytes": 11609,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "component_relative_path": "modules/module_04_writing_governance_artifacts_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/module_04_writing_governance_artifacts_ID_2.md",
+      "sha256": "ae7d014503832f38d6b00309a048f8cd534a1a21ce747d5e656e77bc500404a1",
+      "bytes": 9295,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "component_relative_path": "modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "sha256": "21b584c3e5b6a11c885a64efa5cb2e8d1ff61889841228b3e98122e20808ed48",
+      "bytes": 11376,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "component_relative_path": "modules/module_06_csc_scoring_revocation_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/module_06_csc_scoring_revocation_ID_2.md",
+      "sha256": "11614ae3d55c7f6d84ea41f480fc5b31ecd9004b86f9ba618dc7ba68f0b04987",
+      "bytes": 11050,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/Organizer Mode Rules README_ID_2.pdf",
+      "component_relative_path": "modules/Organizer Mode Rules README_ID_2.pdf",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/Organizer Mode Rules README_ID_2.pdf",
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18",
+      "bytes": 233802,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/modules/organizer_mode.md",
+      "component_relative_path": "modules/organizer_mode.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "modules/organizer_mode.md",
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "bytes": 2416,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/helpers/Helpers_README.md",
+      "component_relative_path": "records/helpers/Helpers_README.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "records/helpers/Helpers_README.md",
+      "sha256": "db08abf72cef1ddffa4c2bf8a727f5c161d0ef47df5e100d647f86fdd08d3e3c",
+      "bytes": 2166,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/helpers/id2_prompt_examples.json",
+      "component_relative_path": "records/helpers/id2_prompt_examples.json",
+      "source_kind": "published_zip_support",
+      "archive_member": "records/helpers/id2_prompt_examples.json",
+      "sha256": "7a60952c4f97514c1d0888a2a331fe4f73b54054d3540389657790e8433fe4e8",
+      "bytes": 2483,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "component_relative_path": "records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source_kind": "published_zip_support",
+      "archive_member": "records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "b0889f51dbf8ff60505b4b7a1bae4c4bcfc067e0115e3492e4d148f4c2bf7644",
+      "bytes": 23005,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/templates/module_03.template.json",
+      "component_relative_path": "records/templates/module_03.template.json",
+      "source_kind": "published_zip_support",
+      "archive_member": "records/templates/module_03.template.json",
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "bytes": 1341,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/templates/session.template.json",
+      "component_relative_path": "records/templates/session.template.json",
+      "source_kind": "published_zip_support",
+      "archive_member": "records/templates/session.template.json",
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "bytes": 2700,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/helpers/Add-ID2SessionStatus.ps1",
+      "component_relative_path": "scripts/helpers/Add-ID2SessionStatus.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/helpers/Add-ID2SessionStatus.ps1",
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55",
+      "bytes": 821,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "component_relative_path": "scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea",
+      "bytes": 2276,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/helpers/Edit-ID2SessionJson.ps1",
+      "component_relative_path": "scripts/helpers/Edit-ID2SessionJson.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/helpers/Edit-ID2SessionJson.ps1",
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707",
+      "bytes": 5829,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "component_relative_path": "scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf",
+      "bytes": 10087,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "component_relative_path": "scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1",
+      "bytes": 11128,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/primary/Normalize-ID2Module03.ps1",
+      "component_relative_path": "scripts/primary/Normalize-ID2Module03.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/primary/Normalize-ID2Module03.ps1",
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44",
+      "bytes": 4287,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/scripts/primary/Run-ID2-StressComparison.ps1",
+      "component_relative_path": "scripts/primary/Run-ID2-StressComparison.ps1",
+      "source_kind": "published_zip_support",
+      "archive_member": "scripts/primary/Run-ID2-StressComparison.ps1",
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7",
+      "bytes": 6964,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/manifest.txt",
+      "component_relative_path": "manifest.txt",
+      "source_kind": "published_zip_support",
+      "archive_member": "manifest.txt",
+      "sha256": "710db57e23410422137b204ababb1ef075b106d08a0fd653ac3cdae9464acea8",
+      "bytes": 5426,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/README_ID_2.md",
+      "component_relative_path": "README_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "README_ID_2.md",
+      "sha256": "b5ab14c04e5f43191338cabbd938b837168618f1e91650e3ccbb6c3c170dcab5",
+      "bytes": 2089,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/release_notes_ID_2.md",
+      "component_relative_path": "release_notes_ID_2.md",
+      "source_kind": "published_zip_support",
+      "archive_member": "release_notes_ID_2.md",
+      "sha256": "83160aa688d93aed9084b0fb54caaf7f87c7db1ae62e957e994cf9da13291673",
+      "bytes": 5257,
+      "identical_to_current_local_support": true
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "component_relative_path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895",
+      "bytes": 10059
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "component_relative_path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\session.json",
+      "sha256": "c2e31860664755a8eba5d39eb04a1449d7e4f372b4852a65ab811327defe9742",
+      "bytes": 3444
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "component_relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3",
+      "bytes": 9324
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "component_relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\session.json",
+      "sha256": "39f311d0bc7be97e2efc5f309580bac8c6bb9d10d421592b1350cd8454fe1ee1",
+      "bytes": 3592
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "component_relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca",
+      "bytes": 10212
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "component_relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\session.json",
+      "sha256": "59f0b405a813effb12e685a85201cdaab2732e278576d640eea9bd8b1479d2cf",
+      "bytes": 3631
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "component_relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4",
+      "bytes": 7866
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "component_relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\session.json",
+      "sha256": "6f1cf90c2c19fe485e61c64e71f32fc34f40a79af96852451ce5a93e4ae61ec9",
+      "bytes": 3410
+    },
+    {
+      "path": "ID_2-Access/four-candidates/records/comparisons/2026-04-11/ID2-20260411-1400-qpath-tr008-run/id2_comparison_summary.json",
+      "component_relative_path": "records/comparisons/2026-04-11/ID2-20260411-1400-qpath-tr008-run/id2_comparison_summary.json",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\comparisons\\2026-04-11\\ID2-20260411-1400-qpath-tr008-run\\id2_comparison_summary.json",
+      "sha256": "8eb2246a7ed779b70370c11f36f156aa187adb96203f25949d6bbf75f193fdab",
+      "bytes": 25769
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/create_sessions/Access-Mode ID_2 commands & Path 2 Execution Notes.docx",
+      "component_relative_path": "docs/create_sessions/Access-Mode ID_2 commands & Path 2 Execution Notes.docx",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\docs\\create_sessions\\Access-Mode ID_2 commands & Path 2 Execution Notes.docx",
+      "sha256": "c94aa768d9f9a3559f12555930d2c589cf97d598188f23a2417ca40a1668d29d",
+      "bytes": 53743
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/create_sessions/Four ID_2 records_candidets session + ps7 console.docx",
+      "component_relative_path": "docs/create_sessions/Four ID_2 records_candidets session + ps7 console.docx",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\docs\\create_sessions\\Four ID_2 records_candidets session + ps7 console.docx",
+      "sha256": "514439f2767f0bc14ef037c225528fb1c3e6fa37cec607af1c63051559afaf1d",
+      "bytes": 74377
+    },
+    {
+      "path": "ID_2-Access/four-candidates/docs/create_sessions/ID_2 Toolkit Script Examples Companion - revised four-session run.docx",
+      "component_relative_path": "docs/create_sessions/ID_2 Toolkit Script Examples Companion - revised four-session run.docx",
+      "source_kind": "local_four_candidate_snapshot",
+      "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\docs\\create_sessions\\ID_2 Toolkit Script Examples Companion - revised four-session run.docx",
+      "sha256": "8cc42f0c7a9e6e1ca3611005b07dd1447bc726d7d4693e1a6cf09865afe5418d",
+      "bytes": 32917
+    }
+  ],
+  "published_assets": [
+    {
+      "path": "provenance/ID_2-Access/v1.0-Access-mode_release_20260221-121416.zip",
+      "bytes": 4028440,
+      "sha256": "569fca4a5c7ce8386d27a2b98f005a6ce7567a8c98e6c81f015d37208cfc32fa",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/ID_2-Access/v1.0-Access-mode_release_20260221-121416.zip",
+      "asset_id": 359515817
+    },
+    {
+      "path": "provenance/ID_2-Access/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "47862c3c14e0b5b55fbfff98c39172b9a88de4ec28afe35275eba0eaad212004",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/ID_2-Access/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "asset_id": 359516018
+    }
+  ],
+  "published_sidecar_matches": true,
+  "local_source_root": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions",
+  "local_source_file_count": 141,
+  "local_source_unchanged": true,
+  "local_document_history": {
+    "path": "provenance/ID_2-Access/local-document-history/Access-Mode ID_2 - Operational Runtime Reasoning (local v1.1 copy).pdf",
+    "source_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\docs\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+    "sha256": "232df94a172631f5ca11c06c18b8cef6a3228dcd97ac90f8b89311350598b781",
+    "bytes": 687345
+  },
+  "original_paper_and_handbook_unchanged": true,
+  "original_handbook_sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78",
+  "paper_e_sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+  "paper_e_matches_supplied_copy": true,
+  "existing_docs_edited": false,
+  "four_candidate_documentation_update_pending": true,
+  "script_logic_changed": false,
+  "original_records_changed": false,
+  "four_candidate_layout": "one baseline plus timepressure, ambiguity and lifecycleboundary variants",
+  "workflow_evidence": [
+    "WORKFLOW_CHECK_4.json",
+    "WORKFLOW_CHECK_2.json"
+  ],
+  "added_navigation_notes": [
+    "ID_2-Access/MIGRATION_NOTES.md",
+    "ID_2-Access/SOURCE_NOTICES.md",
+    "ID_2-Access/four-candidates/README.md"
+  ],
+  "interpretation": "Both examples preserved; four-candidate folder is a local assembled draft, not the published two-case release. No model run, ID3 eligibility, freeze or publication is established."
+}

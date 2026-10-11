@@ -1,0 +1,49 @@
+{
+  "apod_version": "1.0",
+  "artifact_type": "self_assessment",
+  "regulatory_alignment": "EU_AI_Act_Annex_VII",
+  "system": {
+    "id": "QPF-REF-001",
+    "name": "Q-Pathformer Reference Implementation",
+    "environment": "pilot",
+    "jurisdiction": [
+      "EU"
+    ],
+    "intended_use": "architecture-specific governance reference",
+    "high_risk_claimed": false
+  },
+  "governance": {
+    "authority": "Access_PoD",
+    "execution_interface": "Q-Pathformer API",
+    "assurance_signal": "CSC",
+    "provenance_model": "UGCCMT"
+  },
+  "assessment": {
+    "A_system_context": "met",
+    "B_risk_management": "partially_met",
+    "C_data_governance": "met",
+    "D_traceability": "partially_met",
+    "E_human_oversight": "met",
+    "F_robustness_security": "partially_met",
+    "G_post_market_monitoring": "partially_met",
+    "H_transparency": "met",
+    "I_third_party_delegation": "not_applicable",
+    "J_evidence_readiness": "partially_met"
+  },
+  "assurance_rules": {
+    "telemetry_required": true,
+    "assurance_suspends_if_telemetry_missing": true,
+    "certification_claims_prohibited": true
+  },
+  "metadata": {
+    "created_utc": "2025-12-31T00:00:00Z",
+    "review_cycle": "pre_regulatory_engagement",
+    "status": "draft"
+  },
+  "signoff": {
+    "role": "governance_signatory",
+    "name": "",
+    "date_utc": "",
+    "attestation": "Assessment reflects current operational evidence availability under Access PoD."
+  }
+}

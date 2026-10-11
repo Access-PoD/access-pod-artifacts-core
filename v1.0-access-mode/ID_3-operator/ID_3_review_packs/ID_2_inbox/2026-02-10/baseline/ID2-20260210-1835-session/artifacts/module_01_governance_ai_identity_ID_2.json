@@ -1,0 +1,52 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "record_class": "non_inspection_module_record",
+  "access_mode_primary": "ID_2",
+  "inspection_status": "not_frozen",
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "human_decision_required": true,
+
+  "module": {
+    "module_id": "01",
+    "module_title": "Governance AI Identity",
+    "source_module_path": "modes/ID_2_access/modules/module_01_governance_ai_identity_ID_2.md",
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_01_governance_ai_identity_ID_2.md"
+  },
+
+  "inputs": {
+    "references": [],
+    "prompts_or_questions": [],
+    "context_notes": ""
+  },
+
+  "captures": {
+    "purpose_intent": "",
+    "role_authority_statement": "",
+    "authorship_boundaries": {
+      "ai_may_assist": [],
+      "human_must_decide": []
+    },
+    "non_delegable_judgments": [],
+    "risk_failure_awareness": []
+  },
+
+  "observations": [],
+  "uncertainty_notes": [],
+  "escalation_triggers": [],
+
+  "validation": {
+    "misalignment_tests_run": [],
+    "verification_questions": [],
+    "human_review_notes": ""
+  },
+
+  "outputs": {
+    "generated_artifacts": [],
+    "links": []
+  },
+
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  }
+}

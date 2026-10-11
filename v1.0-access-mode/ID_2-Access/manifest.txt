@@ -1,0 +1,145 @@
+Access-Mode ID_2 — Operational / Runtime Reasoning
+Release Package Manifest (ID_2-access)
+Date of Issue: 21 February 2026
+
+Scope and Authority
+This release implements Access-Mode ID_2 as defined in APOD-TR-006 (Version E — Access-Mode Method).
+This release does not modify the Access-Mode method.
+
+Posture Declaration
+All materials operate under ID_2 — Operational / Runtime Reasoning.
+Outputs are exploratory and signals-based.
+No adequacy, compliance, certification, or inspection readiness is conferred.
+
+================================================================================
+1) Canonical Components
+================================================================================
+
+Root
+- README_ID_2.md
+- release_notes_ID_2.md
+
+ID_2 Modules (Primer)
+Path: modules/
+- module_01_governance_ai_identity_ID_2.md
+- module_02_intent_scope_boundaries_ID_2.md
+- module_03_sapp_simulation_stress_testing_ID_2.md
+- module_04_writing_governance_artifacts_ID_2.md
+- module_05_access_pod_runtime_enforcement_ID_2.md
+- module_06_csc_scoring_revocation_ID_2.md
+- Organizer Mode Rules README_ID_2.pdf
+- organizer_mode.md
+
+ID_2 Modules (Exemplar)
+Path: exemplar_modules/
+- module_01_governance_ai_identity_ID_2.md
+- module_02_intent_scope_boundaries_ID_2.md
+- module_03_sapp_simulation_stress_testing_ID_2.md
+- module_04_writing_governance_artifacts_ID_2.md
+- module_05_access_pod_runtime_enforcement_ID_2.md
+- module_06_csc_scoring_revocation_ID_2.md
+- organizer_mode.md
+
+Canonical Method References
+Path: docs/relationship_to_version_E/
+- APOD-TR-006 - Volume 2, Version E.pdf
+- APOD-TR-006-E.2.pdf
+- Access_Mode_Project_Guide.pdf
+
+================================================================================
+2) Public Companion Documents (Informative — Non-Normative)
+================================================================================
+
+Path: docs/
+- Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf
+
+Path: docs/create_sessions/
+- ID_2 Toolkit Script Examples Companion.pdf
+
+================================================================================
+3) Additional Supplements (Informative — Non-Normative — Optional)
+================================================================================
+
+Path: docs/additional/
+- ID_2 Structured Comparative Analysis.pdf
+- Session JSON Review — ID_2 Posture-Safe Editing.pdf
+- Version_D_to_ID2_Alignment_Note.md
+
+================================================================================
+4) Structured Records (Optional — Example Session Artifacts)
+================================================================================
+
+Templates
+Path: records/templates/
+- session.template.json
+- module_03.template.json
+
+Helper References
+Path: records/helpers/
+- Helpers_README.md
+- id2_prompt_examples.json
+- prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json
+
+Example Session (Baseline)
+Path: records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/
+- session.json
+- artifacts/module_01_governance_ai_identity_ID_2.json
+- artifacts/module_02_intent_scope_boundaries_ID_2.json
+- artifacts/module_03_sapp_simulation_stress_testing_ID_2.json
+- artifacts/module_04_writing_governance_artifacts_ID_2.json
+- artifacts/module_05_access_pod_runtime_enforcement_ID_2.json
+- artifacts/module_06_csc_scoring_revocation_ID_2.json
+
+Example Session (Variant — Time Pressure)
+Path: records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/
+- session.json
+- artifacts/module_01_governance_ai_identity_ID_2.json
+- artifacts/module_02_intent_scope_boundaries_ID_2.json
+- artifacts/module_03_sapp_simulation_stress_testing_ID_2.json
+- artifacts/module_04_writing_governance_artifacts_ID_2.json
+- artifacts/module_05_access_pod_runtime_enforcement_ID_2.json
+- artifacts/module_06_csc_scoring_revocation_ID_2.json
+
+Example Comparison Output
+Path: records/comparisons/2026-02-10/ID2-20260210-1835-session/
+- id2_comparison_summary.json
+
+================================================================================
+5) Execution Scripts (Optional — Posture-Constrained Utilities)
+================================================================================
+
+Path: scripts/helpers/
+- Add-ID2SessionStatus.ps1
+- Add-ID2StressCategoryTags.ps1
+- Edit-ID2SessionJson.ps1
+- Map-VersionD-StressTo-ID2Module03.ps1
+
+Path: scripts/primary/
+- ID2_Comparative_Analysis_Tool.ps1
+- Normalize-ID2Module03.ps1
+- Run-ID2-StressComparison.ps1
+
+Script Authority Boundary
+Scripts assist with structure, normalization, tagging, and deterministic comparison.
+They do not:
+- alter reasoning posture
+- determine adequacy or compliance
+- initiate inspection posture
+- trigger enforcement
+- replace facilitator judgment
+
+================================================================================
+6) Internal Release Navigation
+================================================================================
+
+- release_notes_ID_2.md
+- manifest.txt
+
+================================================================================
+7) Integrity
+================================================================================
+
+Verify package integrity using:
+- SHA256SUMS_v1.0-access-mode_pack.txt
+
+All authority remains defined by canonical Access-Mode artifacts.

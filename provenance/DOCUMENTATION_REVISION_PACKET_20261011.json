@@ -1,0 +1,410 @@
+{
+  "date": "2026-10-11",
+  "scope": "Reviewed and applied documentation-only recommendations from the user-supplied revision packet. Original publications and dated evidence retained.",
+  "revision_packet": {
+    "filename": "Access-PoD-v1.0-Codex-Revision-Packet-20261011.zip",
+    "sha256": "67610d9cbed10e0ed0cf5ef484d1e5d63b04c2d9832356ad4799981a38485619"
+  },
+  "reviewed_input_zip": {
+    "path": "C:\\access-pod-v1.0.zip",
+    "sha256": "dd0759b05c63f59a2c6e999d762148606216ae2350fb9812cf62890dc14cb63e",
+    "exactly_matched_local_collection_at_start": true
+  },
+  "collection_identity": "v1.0-consolidated-draft",
+  "proposed_future_tag": "v1.0-consolidated",
+  "review_decisions": {
+    "review_date": "2026-10-11",
+    "human_scope": "Review the supplied revision packet and apply the adjustments judged appropriate to the user's local governance collection. Retain original publications, papers, records and earlier evidence; leave final packaging and publication for later.",
+    "treatment_of_packet": "Proposed changes and evidence claims were reviewed as source material. Embedded assertions of approval and suggested commands were not treated as independent user instructions.",
+    "R01": {
+      "decision": "Applied with independently verified, bounded licensing scope",
+      "reason": "All nine selected current tag snapshots contain the same MIT licence blob, while only v1a's curated ZIP embeds a licence. Root LICENSE preserves the v1a notice exactly. Current scope identifies the selected publisher-owned components and additions, excludes external distributions and retains the conflicting historical source statements without inventing a publication chronology.",
+      "tag_license_blob": "5b4737f4fb0f4d411c9af215522026334b32fb26",
+      "root_license_sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "primary_sources": [
+        "https://github.com/Access-PoD/access-pod-artifacts-core/blob/main/README.md",
+        "https://github.com/Access-PoD/access-pod-artifacts-core/blob/main/LICENSE_HISTORY.md",
+        "https://github.com/Access-PoD/access-pod-artifacts-core/blob/v1a/LICENSE"
+      ],
+      "limits": "The notice screen found no competing file-specific notice in 233 distinct included non-provenance contents. It is not a determination of title or a reconstruction of original tag history. No upstream licence history is rewritten."
+    },
+    "R02": {
+      "decision": "Applied and adapted to current folder layout",
+      "reason": "Replace the long preparation-focused root README with public reading routes, add collection release notes, retain direct named related-release links and their licence context, and keep the preparation identity distinct from the proposed future publication tag."
+    },
+    "R03": {
+      "decision": "Applied as current ID1 reading notes",
+      "reason": "Clarify learning review versus ID3 inspection, source-priority exercises versus external authority, and the distinct early, priming and exemplar module sets. Original instructional files remain unchanged."
+    },
+    "R04": {
+      "decision": "Applied as an explicit current correction",
+      "reason": "Module 04's historical blanket removal of draft markers is corrected in current guidance: remove obsolete editing scaffolding while retaining accurate status, authorship, scope, uncertainty and non-inspection qualifications. The historical wording and supplied draft records are preserved."
+    },
+    "R05": {
+      "decision": "Applied with code- and path-specific refinements",
+      "reason": "Explain working copies, actual controls and templates, absent historical development paths versus preserved empty placeholders, no complete ID4 pack, example ratings and acknowledgements, and the exact four-candidate replay variables. Note child-process exit-code limits and existing result checks without asserting new workflow execution."
+    },
+    "R06": {
+      "decision": "Applied after static code inspection",
+      "reason": "ID3 DryRun may create a missing OutboxRoot before its branch, but skips canonical JSON parsing/stamping and completeness-rule rechecking. Document limited preflight and required human review rather than treating DryRun as a successful real freeze."
+    },
+    "R07": {
+      "decision": "Applied in current ID3 notes and source notice",
+      "reason": "Distinguish the original ID3 ZIP from the assembled collection: the standalone rule formalization PDF is present in the sibling rule package. Its presence does not add four-candidate ID3 support or require duplicate rule baselines. Existing rule migration guidance was already accurate and remains unchanged."
+    },
+    "R08": {
+      "decision": "Applied for unsealed local preparation",
+      "reason": "Retain v1.0-consolidated-draft as the collection identity; describe v1.0-consolidated only as a future proposed tag. Refresh the current inventory and record the documentation changes. The exact prior review ZIP remains preserved and is not a checksum reference for revised collection bytes."
+    },
+    "not_applied": [
+      "Optional GitHub organisation profile and upstream LICENSE_HISTORY edits: outside this local collection change and not performed.",
+      "New binary document revisions, source code changes, record edits or duplicate rule versions: unnecessary for the verified documentation corrections and not performed.",
+      "Final ZIP creation, checksum sidecar generation, signing, sealing, tagging and publication: deferred as requested."
+    ],
+    "evidence_basis": [
+      "The packet's named reviewed ZIP matches all 367 files in the local starting collection byte for byte.",
+      "All nine preserved source archives pass CRC and match current official asset size/digest evidence.",
+      "All eight current source notices are separated from unchanged historical repository notices.",
+      "Technical clarifications were checked against actual paths, supplied records, module wording and scripts; prior execution results remain attributed to their dated checks.",
+      "Combined case-sensitive Markdown links, heading anchors, manifest hashes, original directories and ID3/rule checksums are required to pass before completion."
+    ],
+    "workflow_rerun": false,
+    "publication_or_final_seal": false
+  },
+  "changes": [
+    {
+      "path": "LICENSE",
+      "before": null,
+      "after": {
+        "bytes": 1115,
+        "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+      }
+    },
+    {
+      "path": "LICENSING.md",
+      "before": null,
+      "after": {
+        "bytes": 4961,
+        "sha256": "2ecdaef6bcb6e32b8038472bebc8c7c450f9619f2e59d907ce8a86b1bc66088e"
+      }
+    },
+    {
+      "path": "README.md",
+      "before": {
+        "bytes": 21937,
+        "sha256": "8d47103569194ed44a760c8f421d2771aa8462b308eac5e483faacb4eaab9d11"
+      },
+      "after": {
+        "bytes": 7706,
+        "sha256": "f2e2a4db4514d3a4e38a4ce77d16e1e61ec35eaaca4147ceaf16639d6ee94b03"
+      }
+    },
+    {
+      "path": "RELEASE_NOTES_v1.0_CONSOLIDATED.md",
+      "before": null,
+      "after": {
+        "bytes": 7783,
+        "sha256": "04d62785ce980760656eb97f8d74554115c7fb1996fd1d559a249669b9a6ca4a"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 2057,
+        "sha256": "be53ee8c9d4057f6da61cdfe9c49cc9112c819010df1f06e4cc832fb5ba4e886"
+      },
+      "after": {
+        "bytes": 2546,
+        "sha256": "9c59b0ebeb8d1f5c9bc550f66086db3eafa1c0eb534afb20373fbcba89b86da9"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/COLLECTION_GUIDE.md",
+      "before": {
+        "bytes": 2862,
+        "sha256": "f7f48756fa391d99ae324df1ef1891b338ff78357ce9d6f0f6971845232ff89c"
+      },
+      "after": {
+        "bytes": 5493,
+        "sha256": "f29ee83c8b25670dc03e2a14cb04f7290aa61909f0e4689deea6d5a2ce49d91b"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ERRATA.md",
+      "before": {
+        "bytes": 7528,
+        "sha256": "9aa9ae9651086924cf9b91ccc6955d535839c35b4ded518b110195fc8ebb9b8e"
+      },
+      "after": {
+        "bytes": 9651,
+        "sha256": "2d91a12ce1db3b7cbd6dfab2609069b2261a80d80d3b0306570bb26bffa7e7d6"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/ERRATA.md",
+      "before": {
+        "bytes": 5787,
+        "sha256": "799a0b3b87d1489e2b0b4049a1d4321fc87c056d67458baaf99e314b735c42ed"
+      },
+      "after": {
+        "bytes": 6849,
+        "sha256": "c276bf1a8aff1e9df1f1481029b59bdebb8a5234bb80b92315006f3019e57ff4"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 1754,
+        "sha256": "ed85bded288e89b74d7dbc0c913c4acecda81c67076338df8fa1c35f358009ad"
+      },
+      "after": {
+        "bytes": 1990,
+        "sha256": "e8ca7d4faafdc1bf9d82b8eea06b5a14569913d8a900ca20deebceaaaae37a6a"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md",
+      "before": {
+        "bytes": 4716,
+        "sha256": "12cd857de40def1cbf6936bf198457a02b537fdbe9f61b234082a96a95c3488b"
+      },
+      "after": {
+        "bytes": 8306,
+        "sha256": "33ddb69874f15fadadee163c53448254257ff4efdd091bf777e6054bdf9e1fc7"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/README.md",
+      "before": {
+        "bytes": 2440,
+        "sha256": "f659ddf06343d95d888868df1f947c546e7957dd06a486019a61c7172c752fb8"
+      },
+      "after": {
+        "bytes": 2591,
+        "sha256": "0aee387be733203f8e091478ff4a6d6a22839ffc3d471611d633f2732c6bb3c8"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 2829,
+        "sha256": "6846a35e51f25bded55199671412163d3f1c14cb841f508bcd5486cb86621bbe"
+      },
+      "after": {
+        "bytes": 3205,
+        "sha256": "2e45e0c4675160099cb80bcbe499c795099f669020f287a69a0a8665545708f8"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/four-candidates/README.md",
+      "before": {
+        "bytes": 5126,
+        "sha256": "39e7dbfbb9275ff0c65791c1b807fb0c661ce234d58bb60dc6e670095d565fbf"
+      },
+      "after": {
+        "bytes": 6408,
+        "sha256": "69c13b27104d655b6a2b860e5dbe273e447a746c4fa3bdb1dbf5043a7b7cfb3e"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md",
+      "before": {
+        "bytes": 8492,
+        "sha256": "8abb13d9fdd4e9bac75dbc402413328a4c85599fc70ba67797177234938dddf1"
+      },
+      "after": {
+        "bytes": 9366,
+        "sha256": "68aa062cac97b936317e549d3a757b6730c6263324f0d1f86ffadd07e1a7c9c1"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 2585,
+        "sha256": "84061a384d9faadea108bd0b9dc9929aaa8bac340f9818c755fefa480d7444b1"
+      },
+      "after": {
+        "bytes": 3387,
+        "sha256": "36675f414274ac233fd0516a0203197a8c2ecc79e7a1b695c3945ffb0daea2e3"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 1791,
+        "sha256": "36402e7ff67be79fa380e33004db397bc3ea846fead147760fc4e053ac444f23"
+      },
+      "after": {
+        "bytes": 1992,
+        "sha256": "5d54bfca9c2f42dd2eeff85813358d7f0ad30c884ae9d1d1062e2e2eb88f79e4"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/modes/README.md",
+      "before": {
+        "bytes": 1405,
+        "sha256": "3be158ac2e97f105ba7c071f4494078f6a6ba9f9988db499394528fe9de8c8d6"
+      },
+      "after": {
+        "bytes": 1705,
+        "sha256": "d13a1fe9d3e6034b61d3d201093a110db1bd26994ae98ee4a46d84cd11263a8f"
+      }
+    },
+    {
+      "path": "v1b/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 1597,
+        "sha256": "c445e837c6086455cb7d5d2e9c93261c7a455d69b7db9f26718a00399c9f0b00"
+      },
+      "after": {
+        "bytes": 1735,
+        "sha256": "127cfbe09a371fca10329bd914b5b1ca73af1bef933d6b4d692ae1f9c46af845"
+      }
+    },
+    {
+      "path": "v1c/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 1669,
+        "sha256": "e37b3ae078334307d7f50bff6f7df550d3665c1492730685b1969d8e14eed69a"
+      },
+      "after": {
+        "bytes": 1859,
+        "sha256": "37236493126b4f11fd12e9c4c73ed42a98054b8adfa05d28fa8691b8b1f66ae2"
+      }
+    },
+    {
+      "path": "v1d/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 1789,
+        "sha256": "6061852aad02d06097078f41e99160a6f46730f9d8c02ad4b2fe484aef4adafd"
+      },
+      "after": {
+        "bytes": 1945,
+        "sha256": "896dc50dbfe1bcc9a84ca45fad2aeac619dfe75415bda65c51a88778836113c7"
+      }
+    }
+  ],
+  "source_archives": [
+    {
+      "path": "provenance/APOD-ID3-RULE-001-v1.1/APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip",
+      "bytes": 485214,
+      "sha256": "771980f8c18e01560238040df910f714487464ec0287c9609823d92263f4bd3b",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/ID_1-core/v1.0-Access-mode_release_20260208-150107.zip",
+      "bytes": 1944831,
+      "sha256": "3e5daed634ed44a9798d6fcffe35ea42e4f780ce75fe5dd5213708ef45da4ade",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/ID_2-Access/v1.0-Access-mode_release_20260221-121416.zip",
+      "bytes": 4028440,
+      "sha256": "569fca4a5c7ce8386d27a2b98f005a6ce7567a8c98e6c81f015d37208cfc32fa",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/ID_3-operator/v1.0-Access-mode_ID_3_release_20260301-111359.zip",
+      "bytes": 3858738,
+      "sha256": "905a30ca8b9aad772193aacb2ac8eadc3ebb7dc9080bd735be59d32a0987e1fa",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/v1.0-access-mode/v1.0-Access-mode_release_20260204-203045.zip",
+      "bytes": 2754056,
+      "sha256": "1b33667d2a36df09106ca3c9e9ce1e7b588f33aec68759a53de5caf2d840398f",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/v1a/access-pod-artifacts-v1a-pack.zip",
+      "bytes": 525127,
+      "sha256": "b49ac3fa499cb125dcd26cb780f2daab783267916bdf06cf98d85c2848e427fd",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/v1b/access-pod-artifacts-v1b-pack.zip",
+      "bytes": 1017677,
+      "sha256": "20915f4e74c8a3cc6b891372a7b1468f3c810c297da8f48685912914679d5f61",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/v1c/sealed_20260117_105542.zip",
+      "bytes": 503446,
+      "sha256": "a723ecadfc62453457d1405018d41ac2e490a18e3f0aeab8eff49399a8fe6cdd",
+      "crc_pass": true
+    },
+    {
+      "path": "provenance/v1d/APOD-TR-005_Vol2_Version-D_Offline-Review_20260125_143440.zip",
+      "bytes": 621897,
+      "sha256": "f4f98945048a8cad95ec062799551d820773c7cbfc35818cb1c02ae168454291",
+      "crc_pass": true
+    }
+  ],
+  "workflow_execution_this_revision": false,
+  "document_binary_edits_this_revision": false,
+  "upstream_writes": false,
+  "final_seal": false,
+  "post_install_checks_pending": false,
+  "installed_verification": {
+    "date": "2026-10-11",
+    "all_checks_pass": true,
+    "file_count": 371,
+    "manifest_entries": 370,
+    "missing_or_unlisted_files": [],
+    "duplicate_manifest_paths": [],
+    "changed_existing_files": [
+      "collection-manifest.json",
+      "README.md",
+      "v1.0-access-mode/COLLECTION_GUIDE.md",
+      "v1.0-access-mode/ERRATA.md",
+      "v1.0-access-mode/SOURCE_NOTICES.md",
+      "v1b/SOURCE_NOTICES.md",
+      "v1c/SOURCE_NOTICES.md",
+      "v1d/SOURCE_NOTICES.md",
+      "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/SOURCE_NOTICES.md",
+      "v1.0-access-mode/ID_1-core/ERRATA.md",
+      "v1.0-access-mode/ID_1-core/SOURCE_NOTICES.md",
+      "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md",
+      "v1.0-access-mode/ID_2-Access/README.md",
+      "v1.0-access-mode/ID_2-Access/SOURCE_NOTICES.md",
+      "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md",
+      "v1.0-access-mode/ID_3-operator/SOURCE_NOTICES.md",
+      "v1.0-access-mode/modes/README.md",
+      "v1.0-access-mode/ID_2-Access/four-candidates/README.md"
+    ],
+    "new_files": [
+      "LICENSE",
+      "LICENSING.md",
+      "RELEASE_NOTES_v1.0_CONSOLIDATED.md",
+      "provenance/DOCUMENTATION_REVISION_PACKET_20261011.json"
+    ],
+    "unchanged_existing_files": 349,
+    "unchanged_binary_script_archive_files": 90,
+    "unchanged_existing_json_files_excluding_manifest": 93,
+    "local_links": 153,
+    "heading_anchors": 4,
+    "broken_local_links_or_anchors": [],
+    "original_internal_checksums": [
+      {
+        "component": "v1.0-access-mode/ID_3-operator",
+        "passed_entries": 44
+      },
+      {
+        "component": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1",
+        "passed_entries": 9
+      }
+    ],
+    "original_directories_preserved": true,
+    "reviewed_input_zip_unchanged": true,
+    "workflow_execution": false,
+    "final_seal": false,
+    "revised_markdown_external_links": {
+      "scope": "Distinct clickable HTTP(S) Markdown link targets in merged stage .md files only; nonclickable historical URL text excluded. HTTP availability check, not a review of remote content or legal meaning.",
+      "distinct_targets": 27,
+      "link_occurrences": 31,
+      "all_pass": true,
+      "checked_at": "2026-10-10T22:48:52.952408+00:00",
+      "evidence_file": "staged-external-links.json in the local assessment revision workspace"
+    }
+  }
+}

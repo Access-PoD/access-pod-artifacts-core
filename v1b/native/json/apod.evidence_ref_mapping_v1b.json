@@ -1,0 +1,115 @@
+{
+  "artifact_type": "apod_evidence_ref_mapping",
+  "document_id": "APOD-TR-003",
+  "pack_id": "accesspod-artifacts",
+  "pack_version": "1b",
+  "issued_at": "2026-02-01T00:00:00Z",
+  "system_id": "QPF-REF-001",
+  "mapping": [
+    {
+      "internal_evidence_id": "EVID-API-001",
+      "evidence_manifest_id": "API_CONTROLS"
+    },
+    {
+      "internal_evidence_id": "EVID-API-002",
+      "evidence_manifest_id": "API_CONTROLS"
+    },
+    {
+      "internal_evidence_id": "EVID-API-CTRL-001",
+      "evidence_manifest_id": "API_CONTROLS"
+    },
+    {
+      "internal_evidence_id": "EVID-ARCH-001",
+      "evidence_manifest_id": null
+    },
+    {
+      "internal_evidence_id": "EVID-CHANGE-001",
+      "evidence_manifest_id": "POLICY_EXECUTION"
+    },
+    {
+      "internal_evidence_id": "EVID-CSC-001",
+      "evidence_manifest_id": "CSC_OUTPUT"
+    },
+    {
+      "internal_evidence_id": "EVID-DATA-CHANGE-001",
+      "evidence_manifest_id": "DATA_PROVENANCE"
+    },
+    {
+      "internal_evidence_id": "EVID-DRIFT-001",
+      "evidence_manifest_id": "POST_MARKET"
+    },
+    {
+      "internal_evidence_id": "EVID-ENF-PTS-001",
+      "evidence_manifest_id": "POLICY_EXECUTION"
+    },
+    {
+      "internal_evidence_id": "EVID-GOV-DEC-001",
+      "evidence_manifest_id": "POLICY_EXECUTION"
+    },
+    {
+      "internal_evidence_id": "EVID-GOV-TRACE-001",
+      "evidence_manifest_id": "POLICY_EXECUTION"
+    },
+    {
+      "internal_evidence_id": "EVID-HITL-001",
+      "evidence_manifest_id": "HITL_EVENTS"
+    },
+    {
+      "internal_evidence_id": "EVID-HITL-LOG-001",
+      "evidence_manifest_id": "HITL_EVENTS"
+    },
+    {
+      "internal_evidence_id": "EVID-INC-001",
+      "evidence_manifest_id": "POST_MARKET"
+    },
+    {
+      "internal_evidence_id": "EVID-MODALITY-001",
+      "evidence_manifest_id": "DATA_PROVENANCE"
+    },
+    {
+      "internal_evidence_id": "EVID-PACK-001",
+      "evidence_manifest_id": "CSC_OUTPUT"
+    },
+    {
+      "internal_evidence_id": "EVID-PMM-001",
+      "evidence_manifest_id": "POST_MARKET"
+    },
+    {
+      "internal_evidence_id": "EVID-POLICY-001",
+      "evidence_manifest_id": "POLICY_EXECUTION"
+    },
+    {
+      "internal_evidence_id": "EVID-RACI-001",
+      "evidence_manifest_id": null
+    },
+    {
+      "internal_evidence_id": "EVID-REPORT-001",
+      "evidence_manifest_id": "POST_MARKET"
+    },
+    {
+      "internal_evidence_id": "EVID-RISK-001",
+      "evidence_manifest_id": "RISK_SAPP"
+    },
+    {
+      "internal_evidence_id": "EVID-RISK-002",
+      "evidence_manifest_id": "RISK_SAPP"
+    },
+    {
+      "internal_evidence_id": "EVID-SAPP-001",
+      "evidence_manifest_id": "RISK_SAPP"
+    },
+    {
+      "internal_evidence_id": "EVID-SCOPE-001",
+      "evidence_manifest_id": "SCOPE"
+    },
+    {
+      "internal_evidence_id": "EVID-TELEM-001",
+      "evidence_manifest_id": "POLICY_EXECUTION"
+    },
+    {
+      "internal_evidence_id": "EVID-UGCCMT-001",
+      "evidence_manifest_id": "DATA_PROVENANCE"
+    }
+  ],
+  "notes": "Cross-walk between internal evidence identifiers used in expanded Annex VII self-assessment and the canonical evidence IDs defined in apod.evidence_manifest.json."
+}

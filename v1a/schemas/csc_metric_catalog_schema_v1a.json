@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://policyofdevelopments.org/schema/csc_metric_catalog.schema.json",
+  "title": "CSC Metric Catalog",
+  "type": "object",
+  "required": [
+    "meta",
+    "metrics"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "metric_id",
+          "name",
+          "factor",
+          "unit",
+          "direction",
+          "aggregation",
+          "normalization",
+          "thresholds",
+          "telemetry_source",
+          "event_fields"
+        ],
+        "properties": {
+          "metric_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "factor": {
+            "type": "string",
+            "pattern": "^6\\.[1-6]$"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string",
+            "enum": [
+              "higher_is_better",
+              "lower_is_better",
+              "target_is_best"
+            ]
+          },
+          "aggregation": {
+            "type": "string"
+          },
+          "normalization": {
+            "type": "object"
+          },
+          "thresholds": {
+            "type": "object"
+          },
+          "telemetry_source": {
+            "type": "string"
+          },
+          "event_fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "description": "JSON Schema for validating CSC Metric Catalog files used by Access PoD / SAPP scoring."
+}

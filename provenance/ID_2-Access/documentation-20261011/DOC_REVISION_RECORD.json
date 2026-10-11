@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-11",
+  "status": "local_documentation_draft_reviewed_unsealed",
+  "revision_scope": "Retained complete Word guide with appended four-candidate supplement and full-record appendix.",
+  "source_master": {
+    "original_path": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\docs\\create_sessions\\ID_2 Toolkit Script Examples Companion.backup.20260418-202652.docx",
+    "preserved_filename": "ID_2 Toolkit Script Examples Companion.backup.20260418-202652.docx",
+    "sha256": "4cc3edca3e8f1e42f0c57b3f4c79230b64435e0cf3eb3f76b6ad25eec23346ab",
+    "bytes": 724585
+  },
+  "source_identity": {
+    "word": "APOD-ID2-SCRIPT-EXAMPLES-002, 18 February 2026",
+    "published_pdf": "APOD-ID2-SCRIPT-EXAMPLES-001, 20 February 2026",
+    "treatment": "Both retained and explicitly explained; no new formal identifier."
+  },
+  "revision_directory": "ID_2-Access/four-candidates/docs/create_sessions/revisions",
+  "outputs": {
+    "ID2_FOUR_CANDIDATE_FULL_RECORDS.md": {
+      "sha256": "9f234311ba81a09cfe29ed4a0b2a9e069b30ec5c68a205501d3845be529f30cf",
+      "bytes": 54384
+    },
+    "ID_2 Toolkit Script Examples Companion - four-candidate consolidated draft.docx": {
+      "sha256": "b494f20fe5baffa3e12e531eb648e91d2504341b4e079f8f1170837d678f2649",
+      "bytes": 721657
+    },
+    "Replay-ID2-FourCandidate.ps1": {
+      "sha256": "b6f05595cfbbea6a3b43662b4692108e6609e428c499f61c76396ea4df42191c",
+      "bytes": 2672
+    },
+    "REVISION_NOTES.md": {
+      "sha256": "1b0360a4b02bd1d06986c56d7198bfee6077cb78d468b60facc553601c547654",
+      "bytes": 5837
+    }
+  },
+  "preservation": {
+    "original_package_parts": 16,
+    "changed_parts": [
+      "word/document.xml"
+    ],
+    "all_original_body_nodes_retained": true,
+    "original_body_node_count": 1614,
+    "original_paragraph_count": 1713,
+    "added_paragraph_count": 727,
+    "section_count": 60,
+    "source_styles_headers_footers_relationships_unchanged": true
+  },
+  "visual_review": {
+    "date": "2026-10-11",
+    "approved": true,
+    "docx_sha256": "b494f20fe5baffa3e12e531eb648e91d2504341b4e079f8f1170837d678f2649",
+    "page_count": 94,
+    "original_pages": 62,
+    "supplement_pages": 32,
+    "supplement_starts_page": 63,
+    "retained_pages_pixel_identical": true,
+    "retained_pages_text_identical": true,
+    "review_coverage": [
+      {
+        "pages": "1-62",
+        "method": "Full-resolution source visual review plus exact final raster equality",
+        "reviewers": [
+          "doc_render",
+          "read_e"
+        ]
+      },
+      {
+        "pages": "63-78",
+        "method": "Full-resolution final v3 page review",
+        "reviewer": "doc_render"
+      },
+      {
+        "pages": "79-94",
+        "method": "Full-resolution final v3 page review",
+        "reviewer": "read_e"
+      }
+    ],
+    "unresolved_layout_defects": [],
+    "structural_retention_pass": true,
+    "all_nine_internal_links_valid": true,
+    "technical_review_pass": true,
+    "renderer": "Read-only hidden Word 16 PDF export adapter for packaged render_docx.py, followed by bundled Poppler rasterization",
+    "render_directory": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-word-guide-20261011\\final-render-v3"
+  },
+  "records": [
+    {
+      "relative_path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "sha256": "c2e31860664755a8eba5d39eb04a1449d7e4f372b4852a65ab811327defe9742",
+      "bytes": 3444
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895",
+      "bytes": 10059
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "sha256": "6f1cf90c2c19fe485e61c64e71f32fc34f40a79af96852451ce5a93e4ae61ec9",
+      "bytes": 3410
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4",
+      "bytes": 7866
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "sha256": "39f311d0bc7be97e2efc5f309580bac8c6bb9d10d421592b1350cd8454fe1ee1",
+      "bytes": 3592
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3",
+      "bytes": 9324
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "sha256": "59f0b405a813effb12e685a85201cdaab2732e278576d640eea9bd8b1479d2cf",
+      "bytes": 3631
+    },
+    {
+      "relative_path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca",
+      "bytes": 10212
+    }
+  ],
+  "scripts": {
+    "ID_2-Access/four-candidates/scripts/helpers/Add-ID2SessionStatus.ps1": {
+      "bytes": 821,
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55"
+    },
+    "ID_2-Access/four-candidates/scripts/helpers/Add-ID2StressCategoryTags.ps1": {
+      "bytes": 2276,
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea"
+    },
+    "ID_2-Access/four-candidates/scripts/helpers/Edit-ID2SessionJson.ps1": {
+      "bytes": 5829,
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707"
+    },
+    "ID_2-Access/four-candidates/scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1": {
+      "bytes": 10087,
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf"
+    },
+    "ID_2-Access/four-candidates/scripts/primary/ID2_Comparative_Analysis_Tool.ps1": {
+      "bytes": 11128,
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1"
+    },
+    "ID_2-Access/four-candidates/scripts/primary/Normalize-ID2Module03.ps1": {
+      "bytes": 4287,
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44"
+    },
+    "ID_2-Access/four-candidates/scripts/primary/Run-ID2-StressComparison.ps1": {
+      "bytes": 6964,
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7"
+    }
+  },
+  "technical_review": {
+    "eight_complete_json_blocks_match": true,
+    "all_four_run_fields_covered": true,
+    "word_command_lines_match_tested_script": true,
+    "peer_review_passed": true
+  },
+  "replay": {
+    "snippet_sha256": "b6f05595cfbbea6a3b43662b4692108e6609e428c499f61c76396ea4df42191c",
+    "maximum_snippet_line_length": 70,
+    "continuation_backticks_clean": true,
+    "parse_exit_code": 0,
+    "exit_code": 0,
+    "workflow_execution_count": 1,
+    "warnings": [],
+    "expected_baseline_verified": true,
+    "expected_variant_identities_verified": true,
+    "variant_count": 3,
+    "candidate_count_including_baseline": 4,
+    "compared_fields": [
+      "stress_conditions",
+      "fragility_points",
+      "authority_drift_flags",
+      "escalation_triggers"
+    ],
+    "session_records_unchanged": true,
+    "module_completion_states_unchanged": true,
+    "not_executed": [
+      "interactive authoring helpers",
+      "status helper",
+      "MarkCompleted",
+      "model or API",
+      "enterprise workflow",
+      "ID3",
+      "freeze"
+    ],
+    "limitations": [
+      "Comparison of authored text lists, not an efficacy or completeness evaluation.",
+      "Other five Module JSON outputs per candidate remain absent.",
+      "Blank intended_reuse and baseline null stress tags preserved in source.",
+      "Generated timestamps, resolved paths and tied top-five ordering can differ from historical summaries."
+    ]
+  },
+  "replay_source_files_preserved": 52,
+  "replay_normalization": "Only working-copy top-level observations, uncertainty_notes and escalation_triggers changed null to [] in each of four Module03 files. Backups and new summary are working-copy outputs.",
+  "local_diagnostic_note": "An initial parser-harness argument error and a multiple-pwsh preflight resolution error were corrected before the primary chain executed. Final snippet selects the first resolved pwsh application; successful primary chain execution count is one.",
+  "collection_preservation_contract": {
+    "baseline_files": 350,
+    "preserve_byte_for_byte": 347,
+    "metadata_updates": [
+      "README.md",
+      "ID_2-Access/four-candidates/README.md",
+      "collection-manifest.json"
+    ],
+    "added_files": 6,
+    "final_file_count": 356,
+    "enforcement": "Bounded installer checks the full baseline before writing and the complete expected inventory after writing."
+  },
+  "sealing": {
+    "final_seal": false,
+    "zip_created": false,
+    "publication_performed": false
+  },
+  "qa_working_directory": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-word-guide-20261011"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "record_class": "non_inspection_module_record",
+  "access_mode_primary": "ID_2",
+  "inspection_status": "not_frozen",
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "human_decision_required": true,
+
+  "module": {
+    "module_id": "04",
+    "module_title": "Writing Governance Artifacts",
+    "source_module_path": "modes/ID_2_access/modules/module_04_writing_governance_artifacts_ID_2.md",
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_04_writing_governance_artifacts_ID_2.md"
+  },
+
+  "inputs": {
+    "source_texts": [],
+    "draft_goals": [],
+    "context_notes": ""
+  },
+
+  "captures": {
+    "artifact_type": "",
+    "draft_versions": [
+      {
+        "version_id": "v0",
+        "path": "",
+        "notes": ""
+      }
+    ],
+    "claim_to_evidence_map": [
+      {
+        "claim": "",
+        "evidence_refs": [],
+        "status": "unverified"
+      }
+    ],
+    "tone_authority_checks": {
+      "prohibited_phrases_found": [],
+      "authority_drift_flags": [],
+      "edits_applied": []
+    }
+  },
+
+  "observations": [],
+  "uncertainty_notes": [],
+  "escalation_triggers": [],
+
+  "validation": {
+    "misalignment_tests_run": [],
+    "verification_questions": [],
+    "human_review_notes": ""
+  },
+
+  "outputs": {
+    "generated_artifacts": [],
+    "links": []
+  },
+
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  }
+}

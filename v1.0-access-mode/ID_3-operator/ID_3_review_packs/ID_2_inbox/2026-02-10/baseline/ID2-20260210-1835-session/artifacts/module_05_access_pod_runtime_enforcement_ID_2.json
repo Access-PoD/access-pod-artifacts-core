@@ -1,0 +1,57 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "record_class": "non_inspection_module_record",
+  "access_mode_primary": "ID_2",
+  "inspection_status": "not_frozen",
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "human_decision_required": true,
+
+  "module": {
+    "module_id": "05",
+    "module_title": "Access PoD Runtime Enforcement",
+    "source_module_path": "modes/ID_2_access/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md"
+  },
+
+  "inputs": {
+    "policy_context": [],
+    "signal_definitions": [],
+    "context_notes": ""
+  },
+
+  "captures": {
+    "where_policy_attaches": [],
+    "runtime_assumptions": [],
+    "signals": [
+      {
+        "signal_name": "",
+        "description": "",
+        "interpretation_notes": "",
+        "risk_of_misread": "",
+        "escalation_thresholds": []
+      }
+    ],
+    "enforcement_points_hypotheses": [],
+    "failure_modes": []
+  },
+
+  "observations": [],
+  "uncertainty_notes": [],
+  "escalation_triggers": [],
+
+  "validation": {
+    "misalignment_tests_run": [],
+    "verification_questions": [],
+    "human_review_notes": ""
+  },
+
+  "outputs": {
+    "generated_artifacts": [],
+    "links": []
+  },
+
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  }
+}

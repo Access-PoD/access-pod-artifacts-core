@@ -1,0 +1,177 @@
+{
+  "human_decision_required": true,
+  "inputs": {
+    "references": null,
+    "scenario_seeds": [
+      "Q-Pathformer TR-008 Path 2 uses Access-Mode ID_2 artifacts as governed runtime inputs under default STATE_3 containment",
+      "Runtime signal capture must preserve non-authoritative posture, lifecycle traceability, and explicit session grouping by shared session id"
+    ],
+    "context_notes": "Baseline stress test for qpathformer_enterprise TR-008 Path 2 to observe how operational reasoning behaves when runtime signal capture, lifecycle containment, and candidate preparation must remain explicit, traceable, and non-authoritative without making adequacy, compliance, or approval determinations.",
+    "stressors": [
+      "Moderate time pressure",
+      "Interpretation of lifecycle state boundaries",
+      "Need to preserve non-authoritative signal framing",
+      "Pressure to keep Path 2 records reusable for later candidate export"
+    ]
+  },
+  "access_mode_primary": "ID_2",
+  "outputs": {
+    "links": [],
+    "generated_artifacts": []
+  },
+  "captures": {
+    "scope_out": [
+      "Legal advice",
+      "Formal compliance determination",
+      "Certification or approval decisions",
+      "Direct STATE_1 authorization",
+      "Automated enforcement decisions",
+      "Deployment readiness claims"
+    ],
+    "method_steps": null,
+    "definitions": {},
+    "assumptions": [
+      "Signals generated in this run remain provisional and non-authoritative",
+      "Newly captured Path 2 artifacts remain under default STATE_3 containment unless explicitly promoted later",
+      "Candidate export depends on structured runtime signals grouped by shared session id",
+      "Human review remains available before external use or lifecycle progression",
+      "Runtime signal richness does not itself imply promotion eligibility or authority"
+    ],
+    "scope_in": [
+      "Access-Mode ID_2 runtime reasoning",
+      "Path 2 candidate-oriented signal capture",
+      "Interpretation of lifecycle containment and routing boundaries",
+      "Session grouping discipline for repeated signal runs",
+      "Internal discussion of execution-layer governance behavior"
+    ],
+    "evidence_to_capture": [
+      "Language indicating drift from signal description toward governance conclusion",
+      "Confusion between signal capture and candidate approval",
+      "Ambiguity around STATE_3, STATE_2, and STATE_1 boundaries",
+      "Wording that implies structural completeness equals readiness",
+      "Signs that session grouping logic affects how reasoning is framed",
+      "Explicit uncertainty preservation or removal during drafting"
+    ],
+    "objective": "Observe how governance reasoning remains bounded during baseline TR-008 Path 2 runtime capture when signals must be structured for later candidate export while preserving lifecycle discipline, uncertainty, and separation between execution behavior and governance authority.",
+    "controls_guardrails": [
+      "Prohibit adequacy, sufficiency, compliance, certification, or approval language",
+      "Preserve explicit non-authoritative framing for all captured signals",
+      "Require lifecycle states to be discussed descriptively rather than normatively",
+      "Treat candidate formation as controlled transformation rather than automatic progression",
+      "Require human review before external use or promotion-related interpretation",
+      "Stop the run if execution detail is framed as governance authority"
+    ]
+  },
+  "inspection_status": "not_frozen",
+  "observations": null,
+  "module": {
+    "source_exemplar_path": "modes/ID_2_access/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "module_title": "SAPP Simulation & Stress Testing",
+    "source_module_path": "modes/ID_2_access/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+    "module_id": "03"
+  },
+  "uncertainty_notes": null,
+  "escalation_triggers": null,
+  "validation": {
+    "misalignment_tests_run": [],
+    "human_review_notes": "",
+    "verification_questions": []
+  },
+  "schema_version": "id2_records_v0.1",
+  "simulation_runs": [
+    {
+      "run_id": "RUN-01",
+      "scenario_summary": "Baseline TR-008 Path 2 simulation for qpathformer_enterprise. The session examined how Access-Mode ID_2 runtime reasoning can produce structured signals suitable for later candidate export while preserving default STATE_3 containment, non-authoritative framing, and explicit separation between execution behavior and governance authority. The run focused on clear lifecycle language, session grouping discipline, and boundary stability under moderate operational pressure.",
+      "stress_conditions": [
+        "Moderate review time constraints",
+        "Need to preserve shared session-id grouping discipline across repeated runs",
+        "Pressure to explain lifecycle progression clearly without implying promotion",
+        "Need to describe candidate preparation without suggesting approval or training readiness"
+      ],
+      "branch_points": [
+        "Whether to describe Path 2 outputs as candidate-ready or only candidate-eligible",
+        "Whether to frame lifecycle transitions as operational handling or governance judgment",
+        "Whether to simplify STATE_3 containment language for readability",
+        "Whether to treat repeated shared-session runs as one evolving signal set or distinct signal captures",
+        "Whether to mention future promotion steps without implying present authorization"
+      ],
+      "signals_observed": [
+        "Draft language tended to compress lifecycle nuance into simplified progression phrasing",
+        "Shared session-id grouping logic influenced how repeatability and comparison were described",
+        "Candidate preparation language risked sounding more mature than the underlying STATE_3 posture",
+        "Non-authoritative wording remained stable when explicit guardrails were kept visible",
+        "Boundary language improved when execution and governance roles were described separately"
+      ],
+      "fragility_points": [
+        "Lifecycle terminology can be read as maturity endorsement if not explicitly bounded",
+        "Candidate-oriented wording can be mistaken for readiness or approval",
+        "Repeated-run grouping may encourage narrative compression that hides distinct signal origins",
+        "Execution detail and governance meaning can blur when describing later-stage freeze or promotion paths",
+        "Baseline runtime capture can be over-read as part of a completed lifecycle rather than an early contained signal"
+      ],
+      "authority_drift_flags": [
+        "Wording implying the signal is already suitable for promotion",
+        "Language suggesting structural completeness equals governance readiness",
+        "Framing candidate export as implicit approval for later training use",
+        "Describing Path 2 runtime outputs as trusted rather than contained",
+        "Treating lifecycle labels as indicators of correctness or adequacy"
+      ],
+      "uncertainty_notes": [
+        "A single runtime capture may not generate enough distinct signal structure to avoid deduplication at export",
+        "Lifecycle terminology may be interpreted differently by readers depending on whether they focus on execution or governance layers",
+        "Candidate-oriented wording can create false impressions of readiness if context is shortened",
+        "Repeated runs under one session id improve grouping but do not guarantee four retained non-duplicate candidates",
+        "This run does not determine authorization, validation outcome, or STATE_1 eligibility"
+      ],
+      "escalation_triggers": [
+        "Any wording that treats STATE_3 output as training-ready",
+        "Any statement that implies candidate export equals approval",
+        "Any collapse of execution routing into governance authority",
+        "Any removal of non-authoritative qualifiers from lifecycle language",
+        "Any attempt to treat the baseline signal as sufficient evidence for promotion without additional grouped captures and review"
+      ],
+      "stop_or_reset_events": [
+        "No formal stop triggered",
+        "Guardrails were actively monitored to prevent candidate-preparation language from drifting into approval framing"
+      ],
+      "ethical_constructs": {
+        "tensions": [
+          "Traceability vs drafting simplicity",
+          "Lifecycle clarity vs readability",
+          "Repeatability vs signal distinctness",
+          "Candidate preparation vs non-authoritative containment",
+          "Execution detail vs governance restraint"
+        ],
+        "affected_parties": [
+          "Governance authors",
+          "Internal reviewers",
+          "Dataset handlers",
+          "Runtime operators",
+          "Future inspection reviewers",
+          "Training-preparation stakeholders"
+        ],
+        "potential_harms": [
+          "Readers may infer readiness from structured runtime records",
+          "Candidate language may be mistaken for promotion intent",
+          "Lifecycle labels may be treated as trust signals",
+          "Repeated-run grouping may hide the need for distinct signal capture",
+          "Boundary drift may weaken later review discipline"
+        ],
+        "tradeoffs_noted": [
+          "Clarity vs nuance",
+          "Reusability vs distinct capture design",
+          "Structured exportability vs exploratory openness",
+          "Lifecycle visibility vs over-interpretation risk",
+          "Session grouping efficiency vs deduplication sensitivity"
+        ]
+      },
+      "stress_category_tags": null
+    }
+  ],
+  "record_class": "non_inspection_module_record",
+  "completion": {
+    "status": "draft",
+    "completed_at_utc": ""
+  },
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection."
+}

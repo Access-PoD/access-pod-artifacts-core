@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "apod.evidence_manifest.schema.json",
+  "title": "Access PoD Governance Evidence Manifest (Native)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "apod_version",
+    "artifact_type",
+    "system_id",
+    "scope",
+    "evidence_index",
+    "restrictions",
+    "metadata",
+    "signoff"
+  ],
+  "properties": {
+    "apod_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "artifact_type": {
+      "type": "string",
+      "const": "evidence_manifest"
+    },
+    "system_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["jurisdiction", "environment", "sector"],
+      "properties": {
+        "jurisdiction": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1, "maxLength": 64 }
+        },
+        "environment": {
+          "type": "string",
+          "enum": ["pilot", "staging", "production", "sandbox", "test"]
+        },
+        "sector": {
+          "anyOf": [
+            { "type": "string", "minLength": 1, "maxLength": 128 },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "evidence_index": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evidence_item" }
+    },
+    "restrictions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cryptography", "validation_nodes", "incident_playbooks"],
+      "properties": {
+        "cryptography": { "type": "string", "const": "restricted" },
+        "validation_nodes": { "type": "string", "const": "restricted" },
+        "incident_playbooks": { "type": "string", "const": "restricted" }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["created_utc", "status"],
+      "properties": {
+        "created_utc": { "$ref": "#/$defs/utc_datetime" },
+        "status": { "type": "string", "enum": ["draft", "final", "superseded"] }
+      }
+    },
+    "signoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "name", "date_utc", "attestation"],
+      "properties": {
+        "role": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 256 },
+        "date_utc": {
+          "anyOf": [
+            { "$ref": "#/$defs/utc_datetime" },
+            { "type": "string", "const": "" }
+          ]
+        },
+        "attestation": { "type": "string", "minLength": 1, "maxLength": 1024 }
+      }
+    }
+  },
+  "$defs": {
+    "utc_datetime": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "evidence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "annex_vii", "freshness", "disclosure"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z0-9_\\-]{2,64}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "system_scope",
+            "simulation_summary",
+            "ugccmt_lineage",
+            "policy_as_code_telemetry",
+            "human_oversight_log",
+            "execution_gates",
+            "monitoring_summary",
+            "assurance_signal"
+          ]
+        },
+        "annex_vii": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^(§[0-9]+|Art\\.[ ]?[0-9]+)$"
+          }
+        },
+        "freshness": {
+          "type": "string",
+          "enum": ["current", "continuous", "per_change", "scheduled"]
+        },
+        "disclosure": {
+          "type": "string",
+          "enum": ["summary", "semantic_only", "scope_bound", "controlled"]
+        }
+      }
+    }
+  }
+}

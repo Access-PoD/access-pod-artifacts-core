@@ -1,0 +1,275 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "ID_1-core",
+  "date": "2026-10-11",
+  "status": "unchanged_published_import_with_separate_notes",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_1-core",
+  "source_snapshot_download_date": "2026-10-10",
+  "source_zip": "v1.0-Access-mode_release_20260208-150107.zip",
+  "source_zip_sha256": "3e5daed634ed44a9798d6fcffe35ea42e4f780ce75fe5dd5213708ef45da4ade",
+  "source_zip_crc_pass": true,
+  "source_member_count": 23,
+  "source_file_count": 23,
+  "preserved_explicit_archive_directories": [],
+  "imported_files": [
+    {
+      "path": "ID_1-core/docs/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "archive_member": "docs/Access_Mode_Project_Guide.pdf"
+    },
+    {
+      "path": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "archive_member": "docs/APOD-TR-006 - Volume 2, Version E.pdf"
+    },
+    {
+      "path": "ID_1-core/docs/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "archive_member": "docs/APOD-TR-006-E.2.pdf"
+    },
+    {
+      "path": "ID_1-core/docs/README_doc_orientation.md",
+      "bytes": 2901,
+      "sha256": "74307539e0b40746f5f2014318177cda7ab90b30d7e3c02364f17e0be1803b5e",
+      "archive_member": "docs/README_doc_orientation.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee",
+      "archive_member": "exemplar_modules/Learning Mode Rules README ID_1.pdf"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/Learning_mode.md",
+      "bytes": 3226,
+      "sha256": "097269021a312aa1dab96ddffb815089644555e89e9df0ef4994a21c4c99d6f0",
+      "archive_member": "exemplar_modules/Learning_mode.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/module_01_governance_ai_identity_ID_1.md",
+      "bytes": 9958,
+      "sha256": "6392715eb6a694377382712730b75184e8029c7b689ba58701578ec55fec0529",
+      "archive_member": "exemplar_modules/module_01_governance_ai_identity_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/module_02_intent_scope_boundaries_ID_1.md",
+      "bytes": 8507,
+      "sha256": "57788316ddeebf36f1b7aaaf6550afd9d2bbda81adb4d1a2755a37e52d1ce275",
+      "archive_member": "exemplar_modules/module_02_intent_scope_boundaries_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/module_03_governance_rag_references_ID_1.md",
+      "bytes": 7413,
+      "sha256": "1b91de460657bca70d60bdc374afc1af3936066bf87b4d0e20aaed4be70122eb",
+      "archive_member": "exemplar_modules/module_03_governance_rag_references_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/module_04_writing_governance_artifacts_ID_1.md",
+      "bytes": 6387,
+      "sha256": "2b64d8bf2bf19454dc589dffe726f44facc39324bbac1cc22bd3117593dcc25d",
+      "archive_member": "exemplar_modules/module_04_writing_governance_artifacts_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/module_05_access_pod_lens_ID_1.md",
+      "bytes": 6606,
+      "sha256": "a5fed12baa043bedb1cb5994f74ecc8ced01583178b99e337b49524f7a865ee6",
+      "archive_member": "exemplar_modules/module_05_access_pod_lens_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/module_06_forward_practice_reflection_ID_1.md",
+      "bytes": 6156,
+      "sha256": "6e652897c6fcc24c2797cb45054d739440af76a431bdc8e96c202490c971586b",
+      "archive_member": "exemplar_modules/module_06_forward_practice_reflection_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee",
+      "archive_member": "modules/Learning Mode Rules README ID_1.pdf"
+    },
+    {
+      "path": "ID_1-core/modules/Learning_mode.md",
+      "bytes": 3226,
+      "sha256": "097269021a312aa1dab96ddffb815089644555e89e9df0ef4994a21c4c99d6f0",
+      "archive_member": "modules/Learning_mode.md"
+    },
+    {
+      "path": "ID_1-core/modules/module_01_governance_ai_identity_ID_1.md",
+      "bytes": 13381,
+      "sha256": "e6a3da360b3953abefd9b9f5ed43d8040e8e43620f2a533808a3e4f2d5b1a85a",
+      "archive_member": "modules/module_01_governance_ai_identity_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/modules/module_02_intent_scope_boundaries_ID_1.md",
+      "bytes": 13642,
+      "sha256": "97acfcec9d102d87c674725c04416c187939dd656499a409deb951fe352cd318",
+      "archive_member": "modules/module_02_intent_scope_boundaries_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/modules/module_03_governance_rag_references_ID_1.md",
+      "bytes": 13090,
+      "sha256": "b0c087e533d0370d6fe8b0b24596001c951913c470b2d32a2348a54b01c6b6d0",
+      "archive_member": "modules/module_03_governance_rag_references_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/modules/module_04_writing_governance_artifacts_ID_1.md",
+      "bytes": 12511,
+      "sha256": "d52187edb2fe323f442d6f28f568bc98c564a4ad14b789a7ada0c755dfaddfcd",
+      "archive_member": "modules/module_04_writing_governance_artifacts_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/modules/module_05_access_pod_lens_ID_1.md",
+      "bytes": 12306,
+      "sha256": "2df84bf22de54743d5b8a944790d8e2de6415e90e1056f802f04f54e4f262516",
+      "archive_member": "modules/module_05_access_pod_lens_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/modules/module_06_forward_practice_reflection_ID_1.md",
+      "bytes": 11326,
+      "sha256": "ed29c22532291827e82267d50435349255da74fda2f9b475617ea2d377d9a2c6",
+      "archive_member": "modules/module_06_forward_practice_reflection_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/Access-Mode ID_1 — Core (Learning).pdf",
+      "bytes": 185634,
+      "sha256": "f2dca3a384d53aa49a8318be0df695042585de85bf90c56d67b6246342995cfe",
+      "archive_member": "Access-Mode ID_1 — Core (Learning).pdf"
+    },
+    {
+      "path": "ID_1-core/README_ID_1.md",
+      "bytes": 1862,
+      "sha256": "3480d987beb7b29021d1b7dd640930a3bcfa4e48f4bd618ac41ad48c943be805",
+      "archive_member": "README_ID_1.md"
+    },
+    {
+      "path": "ID_1-core/release_notes_ID_1.md",
+      "bytes": 8701,
+      "sha256": "9712e44fe03436a69787a6ac70214e328932cc0c9816b2474f9a7414325489ca",
+      "archive_member": "release_notes_ID_1.md"
+    }
+  ],
+  "upstream_embedded_manifest_present": false,
+  "published_sidecar_matches": true,
+  "published_assets": [
+    {
+      "path": "provenance/ID_1-core/v1.0-Access-mode_release_20260208-150107.zip",
+      "bytes": 1944831,
+      "sha256": "3e5daed634ed44a9798d6fcffe35ea42e4f780ce75fe5dd5213708ef45da4ade",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/ID_1-core/v1.0-Access-mode_release_20260208-150107.zip",
+      "asset_id": 352489929,
+      "github_digest_from_download_snapshot": "sha256:3e5daed634ed44a9798d6fcffe35ea42e4f780ce75fe5dd5213708ef45da4ade",
+      "matches_download_snapshot": true
+    },
+    {
+      "path": "provenance/ID_1-core/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "307bfa33d9d89aeb1de4282ebffc1aec805bae3cd04d92313ae84278b9d03508",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/ID_1-core/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "asset_id": 352489962,
+      "github_digest_from_download_snapshot": "sha256:307bfa33d9d89aeb1de4282ebffc1aec805bae3cd04d92313ae84278b9d03508",
+      "matches_download_snapshot": true
+    }
+  ],
+  "original_files_changed": [],
+  "pdfs_unchanged_from_zip": [
+    {
+      "path": "ID_1-core/docs/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "archive_member": "docs/Access_Mode_Project_Guide.pdf"
+    },
+    {
+      "path": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "archive_member": "docs/APOD-TR-006 - Volume 2, Version E.pdf"
+    },
+    {
+      "path": "ID_1-core/docs/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "archive_member": "docs/APOD-TR-006-E.2.pdf"
+    },
+    {
+      "path": "ID_1-core/exemplar_modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee",
+      "archive_member": "exemplar_modules/Learning Mode Rules README ID_1.pdf"
+    },
+    {
+      "path": "ID_1-core/modules/Learning Mode Rules README ID_1.pdf",
+      "bytes": 185363,
+      "sha256": "38c20732eef63ba2d949b44f0bebeb74647c761e648e17e94ac3c55a44c812ee",
+      "archive_member": "modules/Learning Mode Rules README ID_1.pdf"
+    },
+    {
+      "path": "ID_1-core/Access-Mode ID_1 — Core (Learning).pdf",
+      "bytes": 185634,
+      "sha256": "f2dca3a384d53aa49a8318be0df695042585de85bf90c56d67b6246342995cfe",
+      "archive_member": "Access-Mode ID_1 — Core (Learning).pdf"
+    }
+  ],
+  "paper_matches_supplied_assessment_copy": true,
+  "paper_sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+  "supplied_paper_filename": "APOD-TR-006+-+Volume+2,+Version+E.pdf",
+  "additional_paper_copy_beyond_source_zip_created": false,
+  "shared_base_documents": [
+    {
+      "id1_path": "ID_1-core/docs/APOD-TR-006 - Volume 2, Version E.pdf",
+      "base_path": "v1.0-access-mode/releases/APOD-TR-006 - Volume 2, Version E.pdf",
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "byte_identical": true,
+      "both_original_release_copies_retained": true
+    },
+    {
+      "id1_path": "ID_1-core/docs/APOD-TR-006-E.2.pdf",
+      "base_path": "v1.0-access-mode/releases/APOD-TR-006-E.2.pdf",
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "byte_identical": true,
+      "both_original_release_copies_retained": true
+    },
+    {
+      "id1_path": "ID_1-core/docs/Access_Mode_Project_Guide.pdf",
+      "base_path": "v1.0-access-mode/orchestration/Access_Mode_Project_Guide.pdf",
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "byte_identical": true,
+      "both_original_release_copies_retained": true
+    }
+  ],
+  "priming_module_count": 6,
+  "exemplar_module_count": 6,
+  "priming_modules_distinct_from_base": [
+    "modules/module_01_governance_ai_identity_ID_1.md",
+    "modules/module_02_intent_scope_boundaries_ID_1.md",
+    "modules/module_03_governance_rag_references_ID_1.md",
+    "modules/module_04_writing_governance_artifacts_ID_1.md",
+    "modules/module_05_access_pod_lens_ID_1.md",
+    "modules/module_06_forward_practice_reflection_ID_1.md"
+  ],
+  "duplicate_controls_and_rules_pdfs_preserved": true,
+  "base_release_changed": false,
+  "added_component_notes": [
+    "ID_1-core/ERRATA.md",
+    "ID_1-core/SOURCE_NOTICES.md"
+  ],
+  "repository_context_notices": [
+    {
+      "path": "provenance/ID_1-core/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "source_repository_path": "LICENSE",
+      "scope": "Repository context; not an original ID1 ZIP member or new component licence grant."
+    },
+    {
+      "path": "provenance/ID_1-core/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a",
+      "source_repository_path": "LICENSE_HISTORY.md",
+      "scope": "Repository context; not an original ID1 ZIP member or new component licence grant."
+    }
+  ],
+  "interpretation": "Source preservation and documented preparation checks; no observed learning result, model execution, final sealing or publication."
+}

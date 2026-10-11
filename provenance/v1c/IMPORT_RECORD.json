@@ -1,0 +1,177 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "v1c",
+  "date": "2026-10-11",
+  "status": "unchanged_published_import_with_separate_notes",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1c",
+  "source_snapshot_download_date": "2026-10-10",
+  "source_zip": "sealed_20260117_105542.zip",
+  "source_zip_sha256": "a723ecadfc62453457d1405018d41ac2e490a18e3f0aeab8eff49399a8fe6cdd",
+  "source_zip_crc_pass": true,
+  "source_member_count": 10,
+  "imported_files": [
+    {
+      "path": "v1c/annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).md",
+      "bytes": 6821,
+      "sha256": "f4123d187a969c73e44ea0de2d71483bd9a8f6e4ab9927fa14dd00294f30ef24",
+      "archive_member": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).md"
+    },
+    {
+      "path": "v1c/annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf",
+      "bytes": 131698,
+      "sha256": "f452b2bd152b412ced1d4ff518e64e224c5cb218ca366a1b0360f7b3c3ee8e05",
+      "archive_member": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf"
+    },
+    {
+      "path": "v1c/examples/dataset_lineage.example.json",
+      "bytes": 876,
+      "sha256": "0407cb4ddc71c9ac54604ccfab0eed480a4e9412f8772c09cdaaba17ac8e85bc",
+      "archive_member": "examples/dataset_lineage.example.json"
+    },
+    {
+      "path": "v1c/examples/policy_lineage.example.json",
+      "bytes": 818,
+      "sha256": "42a54c350b2d0bed9ebdbfae616eeae7c8f9e6790d2cd652490a7c07dbe01d6b",
+      "archive_member": "examples/policy_lineage.example.json"
+    },
+    {
+      "path": "v1c/schemas/lineage_policy_dataset.schema.json",
+      "bytes": 3208,
+      "sha256": "474f70f04265f8a0caaa86a8a4a4bb4a52be4c7410a9fbf717e892df1d79e796",
+      "archive_member": "schemas/lineage_policy_dataset.schema.json"
+    },
+    {
+      "path": "v1c/APOD-TR-004_Vol2_Version-C.pdf",
+      "bytes": 392753,
+      "sha256": "ece85c35ebb1aa7fab9c56a2208ea9b6d72d3f237266463b1c0db7526dbd8518",
+      "archive_member": "APOD-TR-004_Vol2_Version-C.pdf"
+    },
+    {
+      "path": "v1c/manifest.internal.json",
+      "bytes": 1836,
+      "sha256": "cb58f7d6c3d4db50c239a3fcd5ac71221fc64ec23f74f2a3ba0a2c0c791b8e87",
+      "archive_member": "manifest.internal.json"
+    },
+    {
+      "path": "v1c/manifest.json",
+      "bytes": 1363,
+      "sha256": "e538d6f97f0c0d3d9295b10ef232ec6c1778b119e8b65c1ff3d3ea2e6258ca87",
+      "archive_member": "manifest.json"
+    },
+    {
+      "path": "v1c/README.md",
+      "bytes": 3947,
+      "sha256": "05008a742765ae23f10a51d11237172b4ce525bd63e3240a1d910cdd0f8b1727",
+      "archive_member": "README.md"
+    },
+    {
+      "path": "v1c/release_notes.md",
+      "bytes": 3413,
+      "sha256": "5f13d9446243baa24e63422cde43b96ae7dc9d862c867a88fc14ccb3ac4df95d",
+      "archive_member": "release_notes.md"
+    }
+  ],
+  "original_manifest_checks": [
+    {
+      "path": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).md",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "APOD-TR-004_Vol2_Version-C.pdf",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "examples/dataset_lineage.example.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "examples/policy_lineage.example.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "manifest.json",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "README.md",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "release_notes.md",
+      "hash_and_size_match": true
+    },
+    {
+      "path": "schemas/lineage_policy_dataset.schema.json",
+      "hash_and_size_match": true
+    }
+  ],
+  "published_sidecar_matches": true,
+  "external_manifest_matches": true,
+  "published_assets": [
+    {
+      "path": "provenance/v1c/sealed_20260117_105542.zip",
+      "bytes": 503446,
+      "sha256": "a723ecadfc62453457d1405018d41ac2e490a18e3f0aeab8eff49399a8fe6cdd",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/v1c/sealed_20260117_105542.zip",
+      "matches_download_snapshot": true
+    },
+    {
+      "path": "provenance/v1c/sealed_20260117_105542.zip.sha256",
+      "bytes": 102,
+      "sha256": "e2ff181979fc60dd0b1d81b16b486ffbd1eb73234d45975c27fb39b904e82549",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/v1c/sealed_20260117_105542.zip.sha256",
+      "matches_download_snapshot": true
+    },
+    {
+      "path": "provenance/v1c/manifest.external.json",
+      "bytes": 619,
+      "sha256": "b0829653361ab3491064a8252256fee38c65aa37d475bc2c530416fee2f4083e",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/v1c/manifest.external.json",
+      "matches_download_snapshot": true
+    }
+  ],
+  "original_files_changed": [],
+  "pdfs_unchanged_from_zip": [
+    {
+      "path": "v1c/annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf",
+      "bytes": 131698,
+      "sha256": "f452b2bd152b412ced1d4ff518e64e224c5cb218ca366a1b0360f7b3c3ee8e05",
+      "archive_member": "annex/APOD-TR-004-ANNEX-X_Policy-Dataset-Lineage_(Informative).pdf"
+    },
+    {
+      "path": "v1c/APOD-TR-004_Vol2_Version-C.pdf",
+      "bytes": 392753,
+      "sha256": "ece85c35ebb1aa7fab9c56a2208ea9b6d72d3f237266463b1c0db7526dbd8518",
+      "archive_member": "APOD-TR-004_Vol2_Version-C.pdf"
+    }
+  ],
+  "paper_matches_supplied_assessment_copy": true,
+  "paper_sha256": "ece85c35ebb1aa7fab9c56a2208ea9b6d72d3f237266463b1c0db7526dbd8518",
+  "supplied_paper_filename": "APOD-TR-004_Vol2_Version-C (1).pdf",
+  "additional_paper_copy_created": false,
+  "added_component_notes": [
+    "v1c/ERRATA.md",
+    "v1c/SOURCE_NOTICES.md"
+  ],
+  "repository_context_notices": [
+    {
+      "path": "provenance/v1c/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "source_repository_path": "LICENSE",
+      "scope": "Repository context; not an original v1c ZIP member or a new component licence grant."
+    },
+    {
+      "path": "provenance/v1c/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a",
+      "source_repository_path": "LICENSE_HISTORY.md",
+      "scope": "Repository context; not an original v1c ZIP member or a new component licence grant."
+    }
+  ],
+  "interpretation": "Import and preservation checks only; not execution, semantic assurance, final sealing or publication."
+}

@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "apod.v1d.stress_evidence_record.schema.json",
+  "title": "Access PoD v1d Stress-Test Evidence Record",
+  "description": "Non-normative, non-certifying evidence record for Version D governance stress-testing and ethical evaluation. This schema captures scope, stress type, observed governance failure modes, and governance actions taken. It does not define compliance, certification, or pass/fail outcomes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "created_utc",
+    "scenario",
+    "stress",
+    "context",
+    "evidence",
+    "accountability",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "v1d-1.0",
+      "description": "Schema version identifier for compatibility."
+    },
+    "record_id": {
+      "type": "string",
+      "description": "Unique record identifier (recommend UUID).",
+      "minLength": 8,
+      "maxLength": 128
+    },
+    "created_utc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Record creation timestamp in UTC (ISO 8601)."
+    },
+    "source": {
+      "type": "object",
+      "description": "Optional provenance for how this record was created (tooling, workshop, or internal process).",
+      "additionalProperties": false,
+      "properties": {
+        "origin": {
+          "type": "string",
+          "enum": ["workshop", "internal_exercise", "regulatory_review", "standards_review", "other"],
+          "description": "Where the stress-test exercise originated."
+        },
+        "reference_docs": {
+          "type": "array",
+          "description": "Optional references (e.g., Version D paper, Version A framework, internal policies).",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          },
+          "maxItems": 25
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes about the origin context.",
+          "maxLength": 2000
+        }
+      }
+    },
+    "scenario": {
+      "type": "object",
+      "description": "Scenario identity and framing for the stress test.",
+      "additionalProperties": false,
+      "required": ["scenario_id", "title", "summary"],
+      "properties": {
+        "scenario_id": {
+          "type": "string",
+          "description": "Identifier for the scenario (e.g., v1d-SC-001).",
+          "minLength": 3,
+          "maxLength": 64
+        },
+        "title": {
+          "type": "string",
+          "description": "Short scenario title.",
+          "minLength": 3,
+          "maxLength": 160
+        },
+        "summary": {
+          "type": "string",
+          "description": "Brief scenario summary (what is being stressed and why).",
+          "minLength": 10,
+          "maxLength": 2000
+        },
+        "compounded": {
+          "type": "boolean",
+          "description": "True if this is a compounded stress scenario (multiple stress types interact).",
+          "default": false
+        },
+        "tags": {
+          "type": "array",
+          "description": "Optional tags to group scenarios (e.g., 'procurement', 'delegation', 'telemetry-gap').",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64
+          },
+          "maxItems": 20
+        }
+      }
+    },
+    "stress": {
+      "type": "object",
+      "description": "Stress category selection and stress conditions applied.",
+      "additionalProperties": false,
+      "required": ["stress_types", "stress_conditions"],
+      "properties": {
+        "stress_types": {
+          "type": "array",
+          "description": "One or more Version D stress categories applied.",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "enum": [
+              "authority",
+              "delegation",
+              "telemetry",
+              "incentive",
+              "ethical_ambiguity",
+              "compounded"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "stress_conditions": {
+          "type": "array",
+          "description": "Concrete stress conditions introduced (e.g., time pressure, partial telemetry, conflicting stakeholders).",
+          "minItems": 1,
+          "maxItems": 25,
+          "items": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 240
+          }
+        },
+        "non_exploitative_declaration": {
+          "type": "boolean",
+          "description": "Affirms the exercise did not include exploitation, penetration testing, jailbreak attempts, or disclosure of sensitive attack vectors.",
+          "const": true
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "description": "Scope and applicability context for this stress test.",
+      "additionalProperties": false,
+      "required": ["context_scope", "assumptions_declared", "ai_assistance_boundary"],
+      "properties": {
+        "context_scope": {
+          "type": "string",
+          "description": "Scope statement for where this record applies (system/process, jurisdiction, audience).",
+          "minLength": 10,
+          "maxLength": 1500
+        },
+        "assumptions_declared": {
+          "type": "array",
+          "description": "Assumptions explicitly declared prior to stress-testing (Version D discipline).",
+          "minItems": 1,
+          "maxItems": 20,
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 300
+          }
+        },
+        "ai_assistance_boundary": {
+          "type": "string",
+          "description": "Declared boundary for AI assistance in the exercise (what AI may do vs must not do).",
+          "minLength": 10,
+          "maxLength": 800
+        },
+        "sector_profile": {
+          "type": "string",
+          "description": "Optional sector context (e.g., healthcare, finance, public sector).",
+          "maxLength": 80
+        },
+        "jurisdiction": {
+          "type": "array",
+          "description": "Optional jurisdictions referenced (e.g., AU, EU, US).",
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 32
+          },
+          "maxItems": 10
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Observed outcomes and governance evidence produced by stress-testing.",
+      "additionalProperties": false,
+      "required": [
+        "telemetry_status",
+        "observed_failure_modes",
+        "governance_actions_taken",
+        "decision_rationale"
+      ],
+      "properties": {
+        "telemetry_status": {
+          "type": "string",
+          "description": "Status of evidence availability during the exercise.",
+          "enum": ["complete", "partial", "contested", "absent"]
+        },
+        "observed_failure_modes": {
+          "type": "array",
+          "description": "Observed failure modes or fragility points in governance behavior (not system exploits).",
+          "minItems": 0,
+          "maxItems": 25,
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 400
+          }
+        },
+        "governance_actions_taken": {
+          "type": "array",
+          "description": "Governance actions taken during the stress event. These actions reflect constraint, escalation, and/or revocation rehearsal (not approval).",
+          "minItems": 1,
+          "maxItems": 15,
+          "items": {
+            "type": "string",
+            "enum": [
+              "pause_or_constrain_scope",
+              "escalate_to_human_review",
+              "require_additional_evidence",
+              "withhold_or_constrain_assurance_signal",
+              "revocation_rehearsal_executed",
+              "no_action_taken_documented",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "decision_rationale": {
+          "type": "string",
+          "description": "Short rationale for the actions taken, written as if it may be challenged under scrutiny.",
+          "minLength": 20,
+          "maxLength": 3000
+        },
+        "ethical_note": {
+          "type": "string",
+          "description": "Optional ethical reasoning note (uncertainty acknowledged, non-decision rationale, precautionary restraint).",
+          "maxLength": 2500
+        },
+        "evidence_artifacts": {
+          "type": "array",
+          "description": "Optional references to supporting evidence artifacts (links, filenames, or internal IDs). Do not include sensitive content; store references only.",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 512
+          },
+          "maxItems": 50
+        },
+        "assurance_constraint": {
+          "type": "object",
+          "description": "Optional description of how this stress-test constrains assurance (it must not elevate trust).",
+          "additionalProperties": false,
+          "properties": {
+            "constraint_type": {
+              "type": "string",
+              "enum": ["scope_narrowing", "provisional_only", "degradation_ready", "revocation_ready", "no_change"],
+              "description": "How assurance interpretation is constrained by this evidence."
+            },
+            "notes": {
+              "type": "string",
+              "maxLength": 1500
+            }
+          }
+        }
+      }
+    },
+    "accountability": {
+      "type": "object",
+      "description": "Who owns the decision and who must defend it.",
+      "additionalProperties": false,
+      "required": ["accountable_role", "responsibility_statement"],
+      "properties": {
+        "accountable_role": {
+          "type": "string",
+          "description": "Role accountable for the decisions recorded (e.g., signatory, governance lead, risk owner).",
+          "minLength": 3,
+          "maxLength": 120
+        },
+        "responsibility_statement": {
+          "type": "string",
+          "description": "Single-sentence responsibility statement (e.g., 'I remain accountable for...').",
+          "minLength": 10,
+          "maxLength": 400
+        },
+        "participants": {
+          "type": "array",
+          "description": "Optional list of participating roles (do not include personal data).",
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 120
+          },
+          "maxItems": 25
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "description": "Review posture and confidence in the record (not a trust score).",
+      "additionalProperties": false,
+      "required": ["record_confidence", "next_step"],
+      "properties": {
+        "record_confidence": {
+          "type": "string",
+          "description": "Confidence in the completeness/faithfulness of this record, not system trust.",
+          "enum": ["low", "medium", "high"]
+        },
+        "next_step": {
+          "type": "string",
+          "description": "Next-step action resulting from this stress test (e.g., refine scope, repeat with tighter telemetry, re-enter onboarding constraints).",
+          "minLength": 5,
+          "maxLength": 800
+        },
+        "follow_up_due_utc": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Optional follow-up review date in UTC."
+        }
+      }
+    },
+    "disclaimer": {
+      "type": "object",
+      "description": "Non-certifying posture declaration. Included to prevent misuse when records circulate.",
+      "additionalProperties": false,
+      "required": ["non_certifying", "no_compliance_determination"],
+      "properties": {
+        "non_certifying": {
+          "type": "boolean",
+          "const": true,
+          "description": "Affirms this record does not certify or approve systems."
+        },
+        "no_compliance_determination": {
+          "type": "boolean",
+          "const": true,
+          "description": "Affirms this record does not constitute a compliance determination or regulatory guidance."
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 1200
+        }
+      }
+    }
+  }
+}

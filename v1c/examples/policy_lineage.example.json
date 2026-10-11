@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "status": "informative",
+    "intended_use": ["documentation", "traceability"],
+    "does_not": [
+      "grant_policy_authority",
+      "assert_trust",
+      "replace_regulatory_decision"
+    ],
+    "version": "0.1",
+    "generated_at": "2026-01-17T10:15:00Z"
+  },
+  "kind": "policy_lineage",
+  "record": {
+    "policy_id": "AI-GOV-PRIVACY-001",
+    "policy_version": "2025.12",
+    "status": "proposed",
+    "effective_date": "2026-03-01",
+    "review_date": "2026-09-01",
+    "scope": {
+      "jurisdiction": "AU",
+      "sector": "public-sector"
+    },
+    "supersedes": "AI-GOV-PRIVACY-000",
+    "applicability_notes": "Proposed amendments under consultation; onboarding treated as containment until evidence supports progression.",
+    "declaration_only": true
+  }
+}

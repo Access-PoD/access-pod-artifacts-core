@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "csc_snapshot.schema.json",
+  "title": "csc snapshot (native)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "apod_version",
+    "artifact_type",
+    "csc",
+    "snapshot",
+    "scope",
+    "assurance_output",
+    "factor_scores",
+    "qualification_gates",
+    "degradation_and_revocation",
+    "evidence_manifest_linkage",
+    "restrictions",
+    "operator_signoff"
+  ],
+  "properties": {
+    "apod_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "artifact_type": {
+      "type": "string",
+      "const": "csc_snapshot"
+    },
+    "csc": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "signal_type", "rating_scale"],
+      "properties": {
+        "schema_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+        "signal_type": { "type": "string", "const": "telemetry_derived_assurance" },
+        "rating_scale": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["min_stars", "max_stars", "interpretation_note"],
+          "properties": {
+            "min_stars": { "type": "integer", "minimum": 1, "maximum": 6 },
+            "max_stars": { "type": "integer", "minimum": 1, "maximum": 6 },
+            "interpretation_note": { "type": "string", "minLength": 1, "maxLength": 600 }
+          }
+        }
+      }
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["snapshot_id", "created_utc", "valid_from_utc", "valid_to_utc", "freshness"],
+      "properties": {
+        "snapshot_id": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 128
+        },
+        "created_utc": { "$ref": "#/$defs/utc_datetime" },
+        "valid_from_utc": { "$ref": "#/$defs/utc_datetime" },
+        "valid_to_utc": { "$ref": "#/$defs/utc_datetime" },
+        "freshness": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "telemetry_window_start_utc",
+            "telemetry_window_end_utc",
+            "telemetry_required",
+            "assurance_suspends_if_telemetry_missing"
+          ],
+          "properties": {
+            "telemetry_window_start_utc": { "$ref": "#/$defs/utc_datetime" },
+            "telemetry_window_end_utc": { "$ref": "#/$defs/utc_datetime" },
+            "telemetry_required": { "type": "boolean" },
+            "assurance_suspends_if_telemetry_missing": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "system",
+        "jurisdiction",
+        "sector_profile",
+        "intended_use",
+        "deployment_boundary",
+        "third_party_models_in_scope"
+      ],
+      "properties": {
+        "system": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "name", "environment"],
+          "properties": {
+            "id": { "type": "string", "minLength": 1, "maxLength": 128 },
+            "name": { "type": "string", "minLength": 1, "maxLength": 256 },
+            "environment": {
+              "type": "string",
+              "enum": ["pilot", "staging", "production", "sandbox", "test"]
+            }
+          }
+        },
+        "jurisdiction": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1, "maxLength": 64 }
+        },
+        "sector_profile": {
+          "anyOf": [
+            { "type": "string", "minLength": 1, "maxLength": 128 },
+            { "type": "null" }
+          ]
+        },
+        "intended_use": { "type": "string", "minLength": 1, "maxLength": 256 },
+        "deployment_boundary": { "type": "string", "minLength": 1, "maxLength": 256 },
+        "third_party_models_in_scope": { "type": "boolean" }
+      }
+    },
+    "assurance_output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["csc_star_rating", "iso_aligned_risk_tier", "status", "status_reason"],
+      "properties": {
+        "csc_star_rating": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "iso_aligned_risk_tier": {
+          "type": "string",
+          "enum": ["unacceptable", "high", "medium-high", "medium", "low", "minimal"]
+        },
+        "status": { "type": "string", "enum": ["active", "suspended", "revoked"] },
+        "status_reason": { "type": "string", "minLength": 1, "maxLength": 600 }
+      }
+    },
+    "factor_scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scale", "non_compensatory", "factors"],
+      "properties": {
+        "scale": { "type": "string", "const": "0-100" },
+        "non_compensatory": { "type": "boolean", "const": true },
+        "factors": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/factor_score" }
+        }
+      }
+    },
+    "qualification_gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gates_enforced", "gate_results"],
+      "properties": {
+        "gates_enforced": { "type": "boolean" },
+        "gate_results": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/gate_result" }
+        }
+      }
+    },
+    "degradation_and_revocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "degradation_supported",
+        "revocation_supported",
+        "last_degradation_event",
+        "last_revocation_event",
+        "revocation_note"
+      ],
+      "properties": {
+        "degradation_supported": { "type": "boolean" },
+        "revocation_supported": { "type": "boolean" },
+        "last_degradation_event": {
+          "anyOf": [
+            { "$ref": "#/$defs/utc_datetime" },
+            { "type": "null" }
+          ]
+        },
+        "last_revocation_event": {
+          "anyOf": [
+            { "$ref": "#/$defs/utc_datetime" },
+            { "type": "null" }
+          ]
+        },
+        "revocation_note": { "type": "string", "minLength": 1, "maxLength": 600 }
+      }
+    },
+    "evidence_manifest_linkage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_manifest_system_id", "evidence_refs_used", "evidence_manifest_ref"],
+      "properties": {
+        "evidence_manifest_system_id": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "evidence_refs_used": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_\\-]{2,64}$"
+          }
+        },
+        "evidence_manifest_ref": {
+          "type": "string",
+          "pattern": "^[a-z0-9._\\-]+\\.json$"
+        }
+      }
+    },
+    "restrictions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cryptographic_realization", "validation_node_internals", "threshold_values_and_playbooks"],
+      "properties": {
+        "cryptographic_realization": { "type": "string", "const": "restricted" },
+        "validation_node_internals": { "type": "string", "const": "restricted" },
+        "threshold_values_and_playbooks": { "type": "string", "const": "restricted" }
+      }
+    },
+    "operator_signoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "name", "date_utc", "attestation"],
+      "properties": {
+        "role": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "name": { "type": "string", "maxLength": 256 },
+        "date_utc": {
+          "anyOf": [
+            { "$ref": "#/$defs/utc_datetime" },
+            { "type": "string", "const": "" }
+          ]
+        },
+        "attestation": { "type": "string", "minLength": 1, "maxLength": 900 }
+      }
+    }
+  },
+  "$defs": {
+    "utc_datetime": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "factor_score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "score", "confidence", "evidence_summary", "evidence_refs"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^6\\.[1-6]$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 128
+        },
+        "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "evidence_summary": { "type": "string", "minLength": 1, "maxLength": 600 },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_\\-]{2,64}$"
+          }
+        }
+      }
+    },
+    "gate_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gate_id", "description", "status", "notes"],
+      "properties": {
+        "gate_id": { "type": "string", "minLength": 3, "maxLength": 64 },
+        "description": { "type": "string", "minLength": 3, "maxLength": 256 },
+        "status": { "type": "string", "enum": ["pass", "fail", "not_applicable"] },
+        "notes": { "type": "string", "minLength": 1, "maxLength": 600 }
+      }
+    }
+  }
+}

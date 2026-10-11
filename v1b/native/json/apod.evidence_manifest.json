@@ -1,0 +1,103 @@
+{
+  "apod_version": "1.0",
+  "artifact_type": "evidence_manifest",
+  "system_id": "QPF-REF-001",
+  "scope": {
+    "jurisdiction": [
+      "EU"
+    ],
+    "environment": "pilot",
+    "sector": null
+  },
+  "evidence_index": [
+    {
+      "id": "SCOPE",
+      "type": "system_scope",
+      "annex_vii": [
+        "§1",
+        "§2"
+      ],
+      "freshness": "current",
+      "disclosure": "summary"
+    },
+    {
+      "id": "RISK_SAPP",
+      "type": "simulation_summary",
+      "annex_vii": [
+        "§3"
+      ],
+      "freshness": "per_change",
+      "disclosure": "summary"
+    },
+    {
+      "id": "DATA_PROVENANCE",
+      "type": "ugccmt_lineage",
+      "annex_vii": [
+        "§4"
+      ],
+      "freshness": "continuous",
+      "disclosure": "semantic_only"
+    },
+    {
+      "id": "POLICY_EXECUTION",
+      "type": "policy_as_code_telemetry",
+      "annex_vii": [
+        "§5"
+      ],
+      "freshness": "continuous",
+      "disclosure": "summary"
+    },
+    {
+      "id": "HITL_EVENTS",
+      "type": "human_oversight_log",
+      "annex_vii": [
+        "§6"
+      ],
+      "freshness": "continuous",
+      "disclosure": "summary"
+    },
+    {
+      "id": "API_CONTROLS",
+      "type": "execution_gates",
+      "annex_vii": [
+        "§7"
+      ],
+      "freshness": "current",
+      "disclosure": "summary"
+    },
+    {
+      "id": "POST_MARKET",
+      "type": "monitoring_summary",
+      "annex_vii": [
+        "§8"
+      ],
+      "freshness": "scheduled",
+      "disclosure": "summary"
+    },
+    {
+      "id": "CSC_OUTPUT",
+      "type": "assurance_signal",
+      "annex_vii": [
+        "§7",
+        "§9"
+      ],
+      "freshness": "continuous",
+      "disclosure": "scope_bound"
+    }
+  ],
+  "restrictions": {
+    "cryptography": "restricted",
+    "validation_nodes": "restricted",
+    "incident_playbooks": "restricted"
+  },
+  "metadata": {
+    "created_utc": "2025-12-31T00:00:00Z",
+    "status": "draft"
+  },
+  "signoff": {
+    "role": "governance_signatory",
+    "name": "",
+    "date_utc": "",
+    "attestation": "Manifest indexes available evidence without disclosing restricted specifications."
+  }
+}

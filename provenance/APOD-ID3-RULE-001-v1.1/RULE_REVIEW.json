@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-11",
+  "scope": "Read-only rule publication migration and candidate-cardinality review. No rule edits, workflow executions, or local variant import.",
+  "source_zip": "C:\\Anthony Siljeg\\Access PoD assessment\\Git zip package\\APOD-ID3-RULE-001-v1.1\\APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422.zip",
+  "source_zip_sha256": "771980f8c18e01560238040df910f714487464ec0287c9609823d92263f4bd3b",
+  "zip_crc_pass": true,
+  "published_sidecar": "C:\\Anthony Siljeg\\Access PoD assessment\\Git zip package\\APOD-ID3-RULE-001-v1.1\\SHA256SUMS_APOD-ID3-RULE-001_rule-engine_v1.1_pack.txt",
+  "published_sidecar_sha256": "53db090915e7a25666ad1f1e01f442c3d90b4dc05a16cc3eeae2e086c3d82d84",
+  "published_sidecar_pass": true,
+  "archive_files": 10,
+  "extraction_files_match_archive": 10,
+  "internal_checksum_entries_passed": 9,
+  "manifest_includes_present": 8,
+  "manifest_unlisted_actual_files": [
+    "checksums/SHA256SUMS.txt",
+    "manifests/rule_release.manifest.json"
+  ],
+  "archive_file_sha256": {
+    "changes/CHANGELOG.md": "dedf55cd8c8d4da76bb85123846d5773346eda044d65efc3e9a36e768f5a6aea",
+    "changes/DIFF_NOTES.md": "5ccea0b4a7ef5415e78ae1d97c3da16577f4a6849e52577cf6c931aaa584a334",
+    "checksums/SHA256SUMS.txt": "b8b7a8fdf59bd22a79ae803c226a879bb85bcc4e35b3e4afa24db993c9d4349a",
+    "manifests/rule_release.manifest.json": "aa1d40e98613022341a912b86a334e1cb759a23df070d19d76417f561195397d",
+    "rules/session_completeness.rule.json": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+    "spec/README.md": "800ea1d66fc4fe782bf24267ef812951136f703e60a0dcb3cff498b7aa98af13",
+    "spec/Rule Engine Formalization.pdf": "53dd78e5068465e4ece548000ef0efbf7653358298836294d063a36d06df2f80",
+    "CONTRIBUTORS.md": "f3e846663025f13d065dbb7abb066f5c6b49751832229c2d39435cc8cae58df6",
+    "README.md": "df44b38334aa84f80e3fadda0bee5902cee1303fb0430354dea915511ecc08e2",
+    "release_notes_INTERNAL.md": "4ecb4f205b2273c600d2d3d3e4a243932992767dd1728452ab0fd8e499abc226"
+  },
+  "contains_executable_engine": false,
+  "original_rule": {
+    "path": "C:\\Anthony Siljeg\\Access PoD assessment\\repository\\extracted\\APOD-ID3-RULE-001-v1.1\\APOD-ID3-RULE-001_rule-engine_v1.1_20260228-211422\\rules\\session_completeness.rule.json",
+    "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+    "rule_id": "CSC_SESSION_COMPLETENESS_V1_1",
+    "schema_version": "rule_v1_1",
+    "field_count": 43,
+    "required_field_count": 31,
+    "points_possible_per_session": 47,
+    "validator_count": 6,
+    "unique_field_paths": true,
+    "all_validator_references_resolve": true,
+    "scoring_report_metadata": [
+      "baseline_percent",
+      "variant_percent",
+      "average_percent"
+    ]
+  },
+  "embedded_id3_rule": {
+    "path": "C:\\access-pod-v1.0\\ID_3-operator\\scripts\\rules\\session_completeness.rule.json",
+    "sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+    "matches_original_publication_bytes": true
+  },
+  "local_four_case_rule_context": {
+    "path": "C:\\v1.1-Access-mode\\modes\\ID_3_operator_4.sessions\\scripts\\rules\\session_completeness.rule.json",
+    "sha256": "1e9044fec38266fa46acf4c33664903c3516a122f362e0f706c871f9fa4187b3",
+    "imported": false,
+    "workflow_executed": false,
+    "same_rule_id": true,
+    "same_schema_version": true,
+    "byte_identical_to_original": false,
+    "validators_identical": true,
+    "field_path_required_points_validate_contract_identical": true,
+    "json_differences": [
+      {
+        "path": "/fields/6/notes",
+        "original": "If baseline uses a placeholder, ID_3 correction should default to folder-derived session_id before freeze.",
+        "local_four_case": "If a variant session_id ends with ambiguity, lifecycleboundary, or timepressure, ID_3 correction may normalize it back to the shared base session_id before freeze."
+      },
+      {
+        "path": "/implementation_notes",
+        "original": [
+          "Array validation is split into array_any_len (type-only) and array_min_len_1 (semantic minimum).",
+          "Completeness is diagnostic only; do not modify records based on score.",
+          "The only mandatory correction suggested by this rule is replacing placeholder session.session_id with a folder-derived value before freeze."
+        ],
+        "local_four_case": [
+          "Array validation is split into array_any_len (type-only) and array_min_len_1 (semantic minimum).",
+          "Completeness is diagnostic only; do not modify records based on score.",
+          "ID_3 correction may normalize ambiguity, lifecycleboundary, and timepressure variant session ids back to the shared base session_id before freeze.",
+          "The only content correction implied by this rule is minimal metadata normalization required for deterministic ID_3 packaging before hash and freeze."
+        ]
+      },
+      {
+        "path": "/intended_use",
+        "original": "Diagnostic completeness scoring only. Must not drive content edits beyond minimal metadata correction prior to hash/freeze.",
+        "local_four_case": "Diagnostic completeness scoring only. Must not drive content edits beyond minimal metadata correction prior to hash and freeze."
+      },
+      {
+        "path": "/rule_title",
+        "original": "Session.json completeness (ID_2 session records for ID_3 inspection prep)",
+        "local_four_case": "Session.json completeness (baseline + three variant ID_2 session records for ID_3 inspection prep)"
+      },
+      {
+        "path": "/scoring/report",
+        "original": [
+          "baseline_percent",
+          "variant_percent",
+          "average_percent"
+        ],
+        "local_four_case": [
+          "baseline_percent",
+          "ambiguity_percent",
+          "lifecycleboundary_percent",
+          "timepressure_percent",
+          "average_percent"
+        ]
+      }
+    ]
+  },
+  "tooling_evidence": [
+    {
+      "path": "C:\\access-pod-v1.0\\ID_3-operator\\scripts\\Inspect-SessionMetadataShapes.ps1",
+      "sha256": "dac546127a83547ce6e4a0ee79f4fc4e4049c10ef9dc2a6e365f850aa65cd80d",
+      "lines": [
+        {
+          "line": 35,
+          "text": "[Parameter(Mandatory)][ValidateSet(\"baseline\",\"variants\")][string]$Branch"
+        },
+        {
+          "line": 369,
+          "text": "$baseScore = Score-Completeness -Obj $Baseline -RuleObj $Rule"
+        },
+        {
+          "line": 370,
+          "text": "$varScore  = Score-Completeness -Obj $Variant  -RuleObj $Rule"
+        },
+        {
+          "line": 371,
+          "text": "$avgPct    = [math]::Round((($baseScore.percent + $varScore.percent) / 2), 2)"
+        }
+      ]
+    },
+    {
+      "path": "C:\\access-pod-v1.0\\ID_3-operator\\scripts\\Correct-ID3SessionMetadata.ps1",
+      "sha256": "150894d420874fc10b73ad09e3051765dcaab14697692102626593c6cc85b559",
+      "lines": [
+        {
+          "line": 99,
+          "text": "return $dirs[0].Name"
+        },
+        {
+          "line": 194,
+          "text": "$BaselineIn = Join-Path $Working.FullName \"baseline\\jsons\\session.json\""
+        },
+        {
+          "line": 195,
+          "text": "$VariantIn  = Join-Path $Working.FullName \"variants\\jsons\\session.json\""
+        }
+      ]
+    },
+    {
+      "path": "C:\\access-pod-v1.0\\ID_3-operator\\scripts\\Move-And-Freeze-ID3Outbox.ps1",
+      "sha256": "eee9f31149851ed2bd05ae2f90c8adc6f8964120339bdfaf5a8a5f58784065a9",
+      "lines": [
+        {
+          "line": 150,
+          "text": "\"session_baseline.canonical.json\","
+        },
+        {
+          "line": 151,
+          "text": "\"session_variant.canonical.json\","
+        },
+        {
+          "line": 152,
+          "text": "\"module_03_baseline.canonical.json\","
+        },
+        {
+          "line": 153,
+          "text": "\"module_03_variant.canonical.json\""
+        }
+      ]
+    },
+    {
+      "path": "C:\\v1.1-Access-mode\\modes\\ID_3_operator_4.sessions\\scripts\\Inspect-SessionMetadataShapes.ps1",
+      "sha256": "98b539680caf2f2b237e9a99dbe10ad05697c2e2c4d8f40ff3d6e014be852939",
+      "context_only": true,
+      "lines": [
+        {
+          "line": 47,
+          "text": "@{ Label = 'baseline'; WorkingRel = 'baseline\\jsons'; CorrectedRel = 'baseline\\jsons' },"
+        },
+        {
+          "line": 48,
+          "text": "@{ Label = 'ambiguity'; WorkingRel = 'variants\\ambiguity\\jsons'; CorrectedRel = 'variants\\ambiguity\\jsons' },"
+        },
+        {
+          "line": 49,
+          "text": "@{ Label = 'lifecycleboundary'; WorkingRel = 'variants\\lifecycleboundary\\jsons'; CorrectedRel = 'variants\\lifecycleboundary\\jsons' },"
+        },
+        {
+          "line": 50,
+          "text": "@{ Label = 'timepressure'; WorkingRel = 'variants\\timepressure\\jsons'; CorrectedRel = 'variants\\timepressure\\jsons' }"
+        },
+        {
+          "line": 308,
+          "text": "$scores[$record.Label] = Score-Completeness -Obj $record.Json -RuleObj $rule"
+        },
+        {
+          "line": 311,
+          "text": "$averagePercent = [math]::Round((($scores['baseline'].percent + $scores['ambiguity'].percent + $scores['lifecycleboundary'].percent + $scores['timepressure'].percent) / 4), 2)"
+        }
+      ]
+    }
+  ],
+  "answer": {
+    "separate_rule_version_required_solely_by_candidate_count": false,
+    "reason": "The validation contract applies to one session.json object at a time. Candidate discovery, branch paths, aggregate reporting, correction routing and freeze output naming are supplied by ID3 tooling.",
+    "original_rule_migration_recommended": "Preserve original v1.1 rule publication unchanged; it is exactly the rule already bundled in the migrated original ID3 release.",
+    "four_case_limit": "The original rule has baseline/variant scoring.report metadata, but no two-candidate cardinality validator. Current original ID3 scripts explicitly operate on two branches; preserving a shared field rule does not make those scripts process four cases.",
+    "local_rule_versioning_note": "Local four-case JSON changes labels, report metadata and session-ID correction guidance while retaining original identifiers. Do not represent it as byte-identical original v1.1. A future published profile/revision should record those changes and apply the publication version/changelog discipline.",
+    "runtime_claim_limit": "Static field-contract equality is not a tested replacement of the original rule into four-case scripts and does not establish four-case freeze eligibility."
+  },
+  "reused_evidence": {
+    "path": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id3-migration-workflow-20261011\\evidence.json",
+    "sha256": "7a3680044d24471ec321d6590f4fe8571795bb558b7b74b45aa8be64be7582c0",
+    "same_original_rule_hash": true,
+    "positive_original_two_case_workflow_already_verified": true,
+    "prior_test_environment": {
+      "os": "Microsoft Windows 11 Pro",
+      "version": "10.0.26300",
+      "build": "26300",
+      "architecture": "64-bit",
+      "engines": {
+        "PS51": "5.1.26100.9444 Desktop",
+        "PS7": "7.6.6 Core"
+      },
+      "original_windows10_laptop_recreated": false
+    },
+    "new_workflow_run_needed_for_unchanged_migration": false
+  },
+  "unchanged_migration_checks": [
+    "Source ZIP sidecar and CRC; extracted member bytes; nine internal checksums; original PDF/JSON/Markdown preservation.",
+    "JSON parsing, unique field paths and all validator references; literal source manifest includes present.",
+    "Exact rule equality to already migrated ID3 and prior passed positive-workflow evidence.",
+    "After copy: destination file set/hashes including original checksums, unchanged pre-existing collection files, new collection manifest and local reference links."
+  ],
+  "future_four_case_work": [
+    "Review four-branch discovery/reporting/correction/freeze code and versioned documentation separately from candidate count.",
+    "Retain and resolve supplied required-field failures through author decisions; the prior four-case records retain empty session_status.intended_reuse.",
+    "If runtime or validation logic changes, use bounded positive and required-field-negative fixtures with human gate and hash verification; no source freeze is authorised by this review."
+  ]
+}

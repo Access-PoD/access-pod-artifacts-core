@@ -1,0 +1,412 @@
+{
+  "baseline": "records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+  "variants_root": "records\\sessions\\2026-04-11\\variants",
+  "generated_utc": "2026-04-11T11:44:44Z",
+  "results": [
+    {
+      "variant_file": "C:\\v1.0-Access-mode\\modes\\ID_2_access\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "scenario_summary": "Ambiguity variant of the baseline TR-008 Path 2 scenario. The session examined how runtime signals were interpreted when lifecycle cues, candidate-oriented wording, and containment boundaries supported multiple plausible readings. The run focused on preserving uncertainty and preventing interpretive compression into readiness, approval, or governance conclusion language.",
+      "stress_category_tags": [
+        "authority",
+        "telemetry",
+        "ambiguity",
+        "ethical",
+        "delegation"
+      ],
+      "diffs": {
+        "stress_conditions": {
+          "added": [
+            "Ambiguous distinction between candidate eligibility and readiness",
+            "Conflicting lifecycle interpretations",
+            "Inconsistent signal framing across draft explanations",
+            "Unclear boundary between descriptive routing language and evaluative interpretation"
+          ],
+          "removed": [
+            "Moderate review time constraints",
+            "Need to describe candidate preparation without suggesting approval or training readiness",
+            "Need to preserve shared session-id grouping discipline across repeated runs",
+            "Pressure to explain lifecycle progression clearly without implying promotion"
+          ],
+          "added_count": 4,
+          "removed_count": 4,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "fragility_points": {
+          "added": [
+            "Ambiguity can invite authority-like phrasing if the writer tries to resolve uncertainty too quickly",
+            "Ambiguous lifecycle terms can be mistaken for maturity endorsement",
+            "Candidate-oriented wording can drift into readiness implication without any explicit decision",
+            "Repeated explanation attempts may introduce stronger interpretive tone",
+            "Unclear distinction between routing description and governance meaning reduces stability"
+          ],
+          "removed": [
+            "Baseline runtime capture can be over-read as part of a completed lifecycle rather than an early contained signal",
+            "Candidate-oriented wording can be mistaken for readiness or approval",
+            "Execution detail and governance meaning can blur when describing later-stage freeze or promotion paths",
+            "Lifecycle terminology can be read as maturity endorsement if not explicitly bounded",
+            "Repeated-run grouping may encourage narrative compression that hides distinct signal origins"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "authority_drift_flags": {
+          "added": [
+            "Framing lifecycle labels as quality indicators",
+            "Language implying candidate readiness from ambiguous signals",
+            "Replacing uncertainty with simplified certainty",
+            "Treating interpretive preference as governance conclusion",
+            "Wording that collapses descriptive routing into approval-like meaning"
+          ],
+          "removed": [
+            "Describing Path 2 runtime outputs as trusted rather than contained",
+            "Framing candidate export as implicit approval for later training use",
+            "Language suggesting structural completeness equals governance readiness",
+            "Treating lifecycle labels as indicators of correctness or adequacy",
+            "Wording implying the signal is already suitable for promotion"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "escalation_triggers": {
+          "added": [
+            "Any attempt to convert ambiguous signals into definitive readiness language",
+            "Any candidate-oriented wording that implies authorization or promotion",
+            "Any removal of explicit uncertainty where multiple readings remain plausible",
+            "Any statement that treats lifecycle terminology as evidence of authority",
+            "Any unresolved interpretive disagreement affecting external-facing language"
+          ],
+          "removed": [
+            "Any attempt to treat the baseline signal as sufficient evidence for promotion without additional grouped captures and review",
+            "Any collapse of execution routing into governance authority",
+            "Any removal of non-authoritative qualifiers from lifecycle language",
+            "Any statement that implies candidate export equals approval",
+            "Any wording that treats STATE_3 output as training-ready"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        }
+      },
+      "review_notes": [
+        "Stress conditions changed vs baseline (exploratory). Added: Ambiguous distinction between candidate eligibility and readiness | Conflicting lifecycle interpretations | Inconsistent signal framing across draft explanations",
+        "Baseline stress conditions removed/changed: Moderate review time constraints | Need to describe candidate preparation without suggesting approval or training readiness | Need to preserve shared session-id grouping discipline across repeated runs",
+        "Net-new fragility points detected (exploratory): Ambiguity can invite authority-like phrasing if the writer tries to resolve uncertainty too quickly | Ambiguous lifecycle terms can be mistaken for maturity endorsement | Candidate-oriented wording can drift into readiness implication without any explicit decision | Repeated explanation attempts may introduce stronger interpretive tone | Unclear distinction between routing description and governance meaning reduces stability",
+        "What to check: whether scope boundaries and guardrails still hold under this stress intensity.",
+        "Net-new authority drift flags detected (exploratory): Framing lifecycle labels as quality indicators | Language implying candidate readiness from ambiguous signals | Replacing uncertainty with simplified certainty | Treating interpretive preference as governance conclusion | Wording that collapses descriptive routing into approval-like meaning",
+        "What to check: wording that implies endorsement, adequacy, thresholds, or recommendation tone under pressure.",
+        "Net-new escalation triggers detected (exploratory): Any attempt to convert ambiguous signals into definitive readiness language | Any candidate-oriented wording that implies authorization or promotion | Any removal of explicit uncertainty where multiple readings remain plausible | Any statement that treats lifecycle terminology as evidence of authority | Any unresolved interpretive disagreement affecting external-facing language",
+        "What to check: human review routing remains explicit and non-automated; escalation prompts are documented.",
+        "Stress category tags: authority, telemetry, ambiguity, ethical, delegation. Use tags to group recurring patterns across variants (visibility, not validation).",
+        "Reminder: preserve uncertainty notes. Do not smooth uncertainty to meet stakeholder urgency."
+      ]
+    },
+    {
+      "variant_file": "C:\\v1.0-Access-mode\\modes\\ID_2_access\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "scenario_summary": "Cross-path and lifecycle-boundary variant of the baseline TR-008 Path 2 scenario. The session examined how Path 2 runtime signals were described when adjacent concepts such as candidate packaging, review progression, handoff, freeze, registry update, and other execution paths were discussed nearby. The run focused on preserving default containment, preventing maturity inflation, and maintaining separation between execution flow and governance authority.",
+      "stress_category_tags": [
+        "authority",
+        "lifecycle",
+        "containment",
+        "ethical",
+        "delegation"
+      ],
+      "diffs": {
+        "stress_conditions": {
+          "added": [
+            "Candidate packaging language appearing near promotion concepts",
+            "Cross-path references that invite comparison with Path 1 and Path 3",
+            "Freeze and registry terminology creating maturity pressure",
+            "Need to preserve STATE_3 containment while discussing downstream possibilities",
+            "Pressure to describe Path 2 outputs alongside later lifecycle stages"
+          ],
+          "removed": [
+            "Moderate review time constraints",
+            "Need to describe candidate preparation without suggesting approval or training readiness",
+            "Need to preserve shared session-id grouping discipline across repeated runs",
+            "Pressure to explain lifecycle progression clearly without implying promotion"
+          ],
+          "added_count": 5,
+          "removed_count": 4,
+          "net_change": 1,
+          "replacement_detected": true
+        },
+        "fragility_points": {
+          "added": [
+            "Candidate handling can be misread as promotion trajectory rather than controlled packaging",
+            "Cross-path explanation can make contained runtime artifacts appear more mature than they are",
+            "Freeze-adjacent terminology can imply readiness if not carefully bounded",
+            "Path comparisons can blur containment discipline when structural progression is described too compactly",
+            "Registry language can be mistaken for authorization instead of later-stage controlled recordkeeping"
+          ],
+          "removed": [
+            "Baseline runtime capture can be over-read as part of a completed lifecycle rather than an early contained signal",
+            "Candidate-oriented wording can be mistaken for readiness or approval",
+            "Execution detail and governance meaning can blur when describing later-stage freeze or promotion paths",
+            "Lifecycle terminology can be read as maturity endorsement if not explicitly bounded",
+            "Repeated-run grouping may encourage narrative compression that hides distinct signal origins"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "authority_drift_flags": {
+          "added": [
+            "Comparing paths in ways that imply hierarchy of trust rather than execution role",
+            "Framing packaging or handoff terminology as evidence of maturity",
+            "Language implying Path 2 artifacts are close to approval because later stages exist",
+            "Suggesting structural traceability equals governance authorization",
+            "Treating freeze or registry concepts as present-state indicators"
+          ],
+          "removed": [
+            "Describing Path 2 runtime outputs as trusted rather than contained",
+            "Framing candidate export as implicit approval for later training use",
+            "Language suggesting structural completeness equals governance readiness",
+            "Treating lifecycle labels as indicators of correctness or adequacy",
+            "Wording implying the signal is already suitable for promotion"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "escalation_triggers": {
+          "added": [
+            "Any collapse of path distinction into maturity hierarchy",
+            "Any reduction of explicit STATE_3 containment language when downstream stages are discussed",
+            "Any statement that treats Path 2 runtime capture as effectively promotion-ready",
+            "Any suggestion that execution traceability confers governance authority",
+            "Any wording that treats packaging, freeze, or registry concepts as approval signals"
+          ],
+          "removed": [
+            "Any attempt to treat the baseline signal as sufficient evidence for promotion without additional grouped captures and review",
+            "Any collapse of execution routing into governance authority",
+            "Any removal of non-authoritative qualifiers from lifecycle language",
+            "Any statement that implies candidate export equals approval",
+            "Any wording that treats STATE_3 output as training-ready"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        }
+      },
+      "review_notes": [
+        "Stress conditions changed vs baseline (exploratory). Added: Candidate packaging language appearing near promotion concepts | Cross-path references that invite comparison with Path 1 and Path 3 | Freeze and registry terminology creating maturity pressure",
+        "Baseline stress conditions removed/changed: Moderate review time constraints | Need to describe candidate preparation without suggesting approval or training readiness | Need to preserve shared session-id grouping discipline across repeated runs",
+        "Net-new fragility points detected (exploratory): Candidate handling can be misread as promotion trajectory rather than controlled packaging | Cross-path explanation can make contained runtime artifacts appear more mature than they are | Freeze-adjacent terminology can imply readiness if not carefully bounded | Path comparisons can blur containment discipline when structural progression is described too compactly | Registry language can be mistaken for authorization instead of later-stage controlled recordkeeping",
+        "What to check: whether scope boundaries and guardrails still hold under this stress intensity.",
+        "Net-new authority drift flags detected (exploratory): Comparing paths in ways that imply hierarchy of trust rather than execution role | Framing packaging or handoff terminology as evidence of maturity | Language implying Path 2 artifacts are close to approval because later stages exist | Suggesting structural traceability equals governance authorization | Treating freeze or registry concepts as present-state indicators",
+        "What to check: wording that implies endorsement, adequacy, thresholds, or recommendation tone under pressure.",
+        "Net-new escalation triggers detected (exploratory): Any collapse of path distinction into maturity hierarchy | Any reduction of explicit STATE_3 containment language when downstream stages are discussed | Any statement that treats Path 2 runtime capture as effectively promotion-ready | Any suggestion that execution traceability confers governance authority | Any wording that treats packaging, freeze, or registry concepts as approval signals",
+        "What to check: human review routing remains explicit and non-automated; escalation prompts are documented.",
+        "Stress category tags: authority, lifecycle, containment, ethical, delegation. Use tags to group recurring patterns across variants (visibility, not validation).",
+        "Reminder: preserve uncertainty notes. Do not smooth uncertainty to meet stakeholder urgency."
+      ]
+    },
+    {
+      "variant_file": "C:\\v1.0-Access-mode\\modes\\ID_2_access\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "scenario_summary": "Time-pressure variant of the TR-008 Path 2 baseline scenario. The session operated under compressed timelines requiring rapid interpretation of runtime signals while maintaining lifecycle containment and non-authoritative posture",
+      "stress_category_tags": [
+        "authority",
+        "telemetry",
+        "incentive",
+        "ethical",
+        "delegation"
+      ],
+      "diffs": {
+        "stress_conditions": {
+          "added": [
+            "Deferred telemetry reconciliation",
+            "Reduced peer review opportunity",
+            "Same-day response expectation",
+            "Severely compressed review timeline",
+            "Stakeholder demand for immediate interpretation"
+          ],
+          "removed": [
+            "Moderate review time constraints",
+            "Need to describe candidate preparation without suggesting approval or training readiness",
+            "Need to preserve shared session-id grouping discipline across repeated runs",
+            "Pressure to explain lifecycle progression clearly without implying promotion"
+          ],
+          "added_count": 5,
+          "removed_count": 4,
+          "net_change": 1,
+          "replacement_detected": true
+        },
+        "fragility_points": {
+          "added": [
+            "Boundary between signal capture and interpretation blurred",
+            "Candidate framing risked implying readiness",
+            "Peer review limitations reduced drift detection",
+            "Reduced time for reflection increased reliance on initial wording",
+            "Time pressure reduced depth of lifecycle explanation"
+          ],
+          "removed": [
+            "Baseline runtime capture can be over-read as part of a completed lifecycle rather than an early contained signal",
+            "Candidate-oriented wording can be mistaken for readiness or approval",
+            "Execution detail and governance meaning can blur when describing later-stage freeze or promotion paths",
+            "Lifecycle terminology can be read as maturity endorsement if not explicitly bounded",
+            "Repeated-run grouping may encourage narrative compression that hides distinct signal origins"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "authority_drift_flags": {
+          "added": [
+            "Framing signals as stronger indicators than intended",
+            "Language implying readiness for next lifecycle stage",
+            "Reduced uncertainty qualifiers",
+            "Shift toward interpretation rather than observation",
+            "Simplified lifecycle statements appearing more definitive"
+          ],
+          "removed": [
+            "Describing Path 2 runtime outputs as trusted rather than contained",
+            "Framing candidate export as implicit approval for later training use",
+            "Language suggesting structural completeness equals governance readiness",
+            "Treating lifecycle labels as indicators of correctness or adequacy",
+            "Wording implying the signal is already suitable for promotion"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        },
+        "escalation_triggers": {
+          "added": [
+            "Any shift from signal description to decision implication",
+            "Introduction of readiness or promotion language",
+            "Pressure to finalize without review",
+            "Removal of uncertainty qualifiers",
+            "Simplification of lifecycle boundaries into interpretation"
+          ],
+          "removed": [
+            "Any attempt to treat the baseline signal as sufficient evidence for promotion without additional grouped captures and review",
+            "Any collapse of execution routing into governance authority",
+            "Any removal of non-authoritative qualifiers from lifecycle language",
+            "Any statement that implies candidate export equals approval",
+            "Any wording that treats STATE_3 output as training-ready"
+          ],
+          "added_count": 5,
+          "removed_count": 5,
+          "net_change": 0,
+          "replacement_detected": true
+        }
+      },
+      "review_notes": [
+        "Stress conditions changed vs baseline (exploratory). Added: Deferred telemetry reconciliation | Reduced peer review opportunity | Same-day response expectation",
+        "Baseline stress conditions removed/changed: Moderate review time constraints | Need to describe candidate preparation without suggesting approval or training readiness | Need to preserve shared session-id grouping discipline across repeated runs",
+        "Net-new fragility points detected (exploratory): Boundary between signal capture and interpretation blurred | Candidate framing risked implying readiness | Peer review limitations reduced drift detection | Reduced time for reflection increased reliance on initial wording | Time pressure reduced depth of lifecycle explanation",
+        "What to check: whether scope boundaries and guardrails still hold under this stress intensity.",
+        "Net-new authority drift flags detected (exploratory): Framing signals as stronger indicators than intended | Language implying readiness for next lifecycle stage | Reduced uncertainty qualifiers | Shift toward interpretation rather than observation | Simplified lifecycle statements appearing more definitive",
+        "What to check: wording that implies endorsement, adequacy, thresholds, or recommendation tone under pressure.",
+        "Net-new escalation triggers detected (exploratory): Any shift from signal description to decision implication | Introduction of readiness or promotion language | Pressure to finalize without review | Removal of uncertainty qualifiers | Simplification of lifecycle boundaries into interpretation",
+        "What to check: human review routing remains explicit and non-automated; escalation prompts are documented.",
+        "Stress category tags: authority, telemetry, incentive, ethical, delegation. Use tags to group recurring patterns across variants (visibility, not validation).",
+        "Reminder: preserve uncertainty notes. Do not smooth uncertainty to meet stakeholder urgency."
+      ]
+    }
+  ],
+  "aggregate": {
+    "variants_count": 3,
+    "top_recurring_added": {
+      "stress_conditions": [
+        {
+          "item": "Same-day response expectation",
+          "count": 1
+        },
+        {
+          "item": "Pressure to describe Path 2 outputs alongside later lifecycle stages",
+          "count": 1
+        },
+        {
+          "item": "Conflicting lifecycle interpretations",
+          "count": 1
+        },
+        {
+          "item": "Ambiguous distinction between candidate eligibility and readiness",
+          "count": 1
+        },
+        {
+          "item": "Candidate packaging language appearing near promotion concepts",
+          "count": 1
+        }
+      ],
+      "fragility_points": [
+        {
+          "item": "Repeated explanation attempts may introduce stronger interpretive tone",
+          "count": 1
+        },
+        {
+          "item": "Path comparisons can blur containment discipline when structural progression is described too compactly",
+          "count": 1
+        },
+        {
+          "item": "Peer review limitations reduced drift detection",
+          "count": 1
+        },
+        {
+          "item": "Freeze-adjacent terminology can imply readiness if not carefully bounded",
+          "count": 1
+        },
+        {
+          "item": "Registry language can be mistaken for authorization instead of later-stage controlled recordkeeping",
+          "count": 1
+        }
+      ],
+      "authority_drift_flags": [
+        {
+          "item": "Shift toward interpretation rather than observation",
+          "count": 1
+        },
+        {
+          "item": "Simplified lifecycle statements appearing more definitive",
+          "count": 1
+        },
+        {
+          "item": "Suggesting structural traceability equals governance authorization",
+          "count": 1
+        },
+        {
+          "item": "Treating freeze or registry concepts as present-state indicators",
+          "count": 1
+        },
+        {
+          "item": "Framing signals as stronger indicators than intended",
+          "count": 1
+        }
+      ],
+      "escalation_triggers": [
+        {
+          "item": "Any statement that treats Path 2 runtime capture as effectively promotion-ready",
+          "count": 1
+        },
+        {
+          "item": "Any statement that treats lifecycle terminology as evidence of authority",
+          "count": 1
+        },
+        {
+          "item": "Any reduction of explicit STATE_3 containment language when downstream stages are discussed",
+          "count": 1
+        },
+        {
+          "item": "Any removal of explicit uncertainty where multiple readings remain plausible",
+          "count": 1
+        },
+        {
+          "item": "Any candidate-oriented wording that implies authorization or promotion",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "notes": "Exploratory comparative summary only. Does not assert adequacy, compliance, certification, or readiness."
+}

@@ -1,0 +1,124 @@
+{
+  "rule_id": "CSC_SESSION_COMPLETENESS_V1_1",
+  "rule_title": "Session.json completeness (ID_2 session records for ID_3 inspection prep)",
+  "schema_version": "rule_v1_1",
+  "intended_use": "Diagnostic completeness scoring only. Must not drive content edits beyond minimal metadata correction prior to hash/freeze.",
+  "scoring": {
+    "method": "weighted_sum",
+    "report": ["baseline_percent", "variant_percent", "average_percent"],
+    "notes": "Percent = (points_awarded / points_possible) * 100. Required fields must exist and pass validation. Optional fields contribute if present and valid."
+  },
+  "validators": {
+    "non_empty_string": { "type": "string", "min_length": 1 },
+    "bool": { "type": "boolean" },
+    "iso8601_utc": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "array_any_len": { "type": "array" },
+    "array_min_len_1": { "type": "array", "min_length": 1 },
+    "not_placeholder_session_id": {
+      "type": "string",
+      "min_length": 1,
+      "disallow_exact": ["ID2-YYYYMMDD-HHMM-<shortname>"],
+      "disallow_regex": ["^ID2-YYYYMMDD-HHMM-.*$"]
+    }
+  },
+  "fields": [
+    { "path": "schema_version", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "record_class", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "access_mode_primary", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "inspection_status", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "intended_use", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "human_decision_required", "required": true, "points": 1, "validate": "bool" },
+
+    {
+      "path": "session.session_id",
+      "required": true,
+      "points": 3,
+      "validate": "not_placeholder_session_id",
+      "notes": "If baseline uses a placeholder, ID_3 correction should default to folder-derived session_id before freeze."
+    },
+    { "path": "session.created_utc", "required": true, "points": 2, "validate": "iso8601_utc" },
+    { "path": "session.timezone", "required": true, "points": 1, "validate": "non_empty_string" },
+
+    { "path": "session.facilitator.name", "required": false, "points": 1, "validate": "non_empty_string" },
+    { "path": "session.facilitator.role", "required": false, "points": 1, "validate": "non_empty_string" },
+
+    { "path": "session.participants", "required": false, "points": 1, "validate": "array_min_len_1" },
+    { "path": "session.participants[0].name", "required": false, "points": 1, "validate": "non_empty_string" },
+    { "path": "session.participants[0].role", "required": false, "points": 1, "validate": "non_empty_string" },
+
+    { "path": "session.project_context.project_name", "required": false, "points": 2, "validate": "non_empty_string" },
+    { "path": "session.project_context.audience", "required": true, "points": 1, "validate": "array_min_len_1" },
+    { "path": "session.project_context.purpose_statement", "required": true, "points": 1, "validate": "non_empty_string" },
+
+    {
+      "path": "session.project_context.in_scope",
+      "required": false,
+      "points": 1,
+      "validate": "array_any_len",
+      "notes": "Structure must be present (array). May be empty."
+    },
+    {
+      "path": "session.project_context.out_of_scope",
+      "required": true,
+      "points": 1,
+      "validate": "array_min_len_1"
+    },
+
+    { "path": "session.primary_materials.modules_folder", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "session.primary_materials.exemplar_modules_folder", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "session.primary_materials.organizer_mode_file", "required": true, "points": 1, "validate": "non_empty_string" },
+
+    { "path": "session.mode_controls.primary_mode_locked", "required": true, "points": 1, "validate": "bool" },
+    {
+      "path": "session.mode_controls.secondary_modes_allowed",
+      "required": true,
+      "points": 1,
+      "validate": "array_any_len",
+      "notes": "Must be an array; may be empty."
+    },
+    { "path": "session.mode_controls.mode_switching_mid_session_prohibited", "required": true, "points": 1, "validate": "bool" },
+
+    { "path": "run_plan.modules_intended", "required": true, "points": 1, "validate": "array_min_len_1" },
+    { "path": "run_plan.module_order", "required": true, "points": 1, "validate": "array_min_len_1" },
+    { "path": "run_plan.notes", "required": false, "points": 1, "validate": "non_empty_string" },
+
+    { "path": "validation.misalignment_testing_required_for_high_impact_outputs", "required": true, "points": 1, "validate": "bool" },
+    { "path": "validation.question_driven_verification_required", "required": true, "points": 1, "validate": "bool" },
+    { "path": "validation.human_review_required_before_external_use", "required": true, "points": 1, "validate": "bool" },
+    {
+      "path": "validation.validation_events",
+      "required": true,
+      "points": 1,
+      "validate": "array_any_len",
+      "notes": "Must be an array; may be empty."
+    },
+
+    { "path": "outputs_index.module_records", "required": true, "points": 1, "validate": "array_min_len_1" },
+    { "path": "outputs_index.artifacts_folder", "required": true, "points": 1, "validate": "non_empty_string" },
+    {
+      "path": "outputs_index.artifacts",
+      "required": false,
+      "points": 1,
+      "validate": "array_any_len",
+      "notes": "If present, must be an array; may be empty."
+    },
+
+    { "path": "signoff.non_inspection_acknowledged", "required": true, "points": 1, "validate": "bool" },
+    { "path": "signoff.no_adequacy_or_compliance_claims_acknowledged", "required": true, "points": 1, "validate": "bool" },
+    { "path": "signoff.human_accountability_acknowledged", "required": true, "points": 1, "validate": "bool" },
+    { "path": "signoff.signed_by", "required": false, "points": 1, "validate": "non_empty_string" },
+    { "path": "signoff.signed_at_utc", "required": false, "points": 1, "validate": "iso8601_utc" },
+
+    { "path": "session_status.intended_reuse", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "session_status.state", "required": true, "points": 1, "validate": "non_empty_string" },
+    { "path": "session_status.notes", "required": false, "points": 1, "validate": "non_empty_string" }
+  ],
+  "implementation_notes": [
+    "Array validation is split into array_any_len (type-only) and array_min_len_1 (semantic minimum).",
+    "Completeness is diagnostic only; do not modify records based on score.",
+    "The only mandatory correction suggested by this rule is replacing placeholder session.session_id with a folder-derived value before freeze."
+  ]
+}

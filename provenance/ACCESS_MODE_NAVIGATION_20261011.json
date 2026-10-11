@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-11",
+  "scope": "Navigation-only separation of original Access-Mode modes, later standalone IDs, published two-candidate ID2 baseline and existing four-candidate extension.",
+  "file_moves": [],
+  "new_navigation_files": [
+    "v1.0-access-mode/COLLECTION_GUIDE.md",
+    "v1.0-access-mode/modes/README.md",
+    "v1.0-access-mode/ID_2-Access/README.md"
+  ],
+  "updated_navigation_files": [
+    "README.md",
+    "v1.0-access-mode/ERRATA.md"
+  ],
+  "original_payload_policy": "All files existing before this pass remain byte-identical except the two current collection navigation notes and preparation manifest. No additional advanced code or candidate records created.",
+  "local_links_checked": 78,
+  "broken_local_links": [],
+  "final_seal": false,
+  "installed_verification": {
+    "all_checks_pass": true,
+    "files": 367,
+    "local_links": 78,
+    "broken_local_links": [],
+    "unchanged_existing_files": 360,
+    "unchanged_pdf_docx_files": 61,
+    "file_moves": 0,
+    "final_seal": false
+  }
+}

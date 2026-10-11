@@ -1,0 +1,133 @@
+{
+  "collection": "v1.0-consolidated-draft",
+  "component": "v1d",
+  "date": "2026-10-11",
+  "status": "unchanged_published_import_with_separate_notes",
+  "release_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1d",
+  "source_snapshot_download_date": "2026-10-10",
+  "source_zip": "APOD-TR-005_Vol2_Version-D_Offline-Review_20260125_143440.zip",
+  "source_zip_sha256": "f4f98945048a8cad95ec062799551d820773c7cbfc35818cb1c02ae168454291",
+  "source_zip_crc_pass": true,
+  "source_member_count": 11,
+  "source_file_count": 10,
+  "preserved_explicit_archive_directories": [
+    "paper/docx/"
+  ],
+  "imported_files": [
+    {
+      "path": "v1d/companions/v1d_rules_of_engagement.md",
+      "bytes": 3823,
+      "sha256": "3f01c9be7ac21eba3054dcffdab58092ac640c323947dd69ba3847029c6f47c3",
+      "archive_member": "companions/v1d_rules_of_engagement.md"
+    },
+    {
+      "path": "v1d/companions/v1d_scenarios.md",
+      "bytes": 6077,
+      "sha256": "40bd8e2028874d53be2e3425aeebed1cc73d9111d4555762c65a5410938171e3",
+      "archive_member": "companions/v1d_scenarios.md"
+    },
+    {
+      "path": "v1d/companions/schemas/apod.v1d.stress_evidence_record.schema.json",
+      "bytes": 12726,
+      "sha256": "d81b4da442e7593f245adbbfc5046f58dce7bdf1c86da3e2624973325d95b48e",
+      "archive_member": "companions/schemas/apod.v1d.stress_evidence_record.schema.json"
+    },
+    {
+      "path": "v1d/companions/schemas/v1d_scenarios.schema.json",
+      "bytes": 2656,
+      "sha256": "8c6dcb4a0302d9f809c0d1c9ba82f374be39df05d8edc658a5b77b03406a091e",
+      "archive_member": "companions/schemas/v1d_scenarios.schema.json"
+    },
+    {
+      "path": "v1d/examples/apod.v1d.stress_evidence_record.example.json",
+      "bytes": 6123,
+      "sha256": "882d70b37c05d0f0c3de7f88bfd4b888db7180dc67906c649f3afef52fecb1ce",
+      "archive_member": "examples/apod.v1d.stress_evidence_record.example.json"
+    },
+    {
+      "path": "v1d/examples/v1d_scenarios.index.json",
+      "bytes": 2872,
+      "sha256": "56f54d95aa6b2bf6abec23927d206bb4192a6b1be52088a80711481fa796cf90",
+      "archive_member": "examples/v1d_scenarios.index.json"
+    },
+    {
+      "path": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+      "bytes": 419750,
+      "sha256": "b6d7ffccc69dc1de96324e320520a0170b0fd46c090cf764c9d5b6ec0ce4e0d9",
+      "archive_member": "paper/pdf/APOD-TR-005_Vol2_Version-D.pdf"
+    },
+    {
+      "path": "v1d/tools/validate_jsonschema.py",
+      "bytes": 2664,
+      "sha256": "1313101846efe9678fcc521298bf158dd980523483b87100317cd64e51178b96",
+      "archive_member": "tools/validate_jsonschema.py"
+    },
+    {
+      "path": "v1d/tools/docs/validate_jsonschema_usage.pdf",
+      "bytes": 220265,
+      "sha256": "d75408e5ffda75a7314c14fe3aff045d9f9f30c246aeea0c612f967e5c2b9d3e",
+      "archive_member": "tools/docs/validate_jsonschema_usage.pdf"
+    },
+    {
+      "path": "v1d/README.md",
+      "bytes": 6532,
+      "sha256": "f9d0361b8446b96bbca715348212315a5e79b2044ed063b92b55ae04d176d1a4",
+      "archive_member": "README.md"
+    }
+  ],
+  "upstream_embedded_manifest_present": false,
+  "upstream_checksum_sidecar_supplied": false,
+  "upstream_external_manifest_supplied": false,
+  "published_assets": [
+    {
+      "path": "provenance/v1d/APOD-TR-005_Vol2_Version-D_Offline-Review_20260125_143440.zip",
+      "bytes": 621897,
+      "sha256": "f4f98945048a8cad95ec062799551d820773c7cbfc35818cb1c02ae168454291",
+      "url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/download/v1d/APOD-TR-005_Vol2_Version-D_Offline-Review_20260125_143440.zip",
+      "asset_id": 345523505,
+      "github_digest_from_download_snapshot": "sha256:f4f98945048a8cad95ec062799551d820773c7cbfc35818cb1c02ae168454291",
+      "matches_download_snapshot": true
+    }
+  ],
+  "original_files_changed": [],
+  "pdfs_unchanged_from_zip": [
+    {
+      "path": "v1d/paper/pdf/APOD-TR-005_Vol2_Version-D.pdf",
+      "bytes": 419750,
+      "sha256": "b6d7ffccc69dc1de96324e320520a0170b0fd46c090cf764c9d5b6ec0ce4e0d9",
+      "archive_member": "paper/pdf/APOD-TR-005_Vol2_Version-D.pdf"
+    },
+    {
+      "path": "v1d/tools/docs/validate_jsonschema_usage.pdf",
+      "bytes": 220265,
+      "sha256": "d75408e5ffda75a7314c14fe3aff045d9f9f30c246aeea0c612f967e5c2b9d3e",
+      "archive_member": "tools/docs/validate_jsonschema_usage.pdf"
+    }
+  ],
+  "paper_matches_supplied_assessment_copy": true,
+  "paper_sha256": "b6d7ffccc69dc1de96324e320520a0170b0fd46c090cf764c9d5b6ec0ce4e0d9",
+  "supplied_paper_filename": "APOD-TR-005_Vol2_Version-D (1).pdf",
+  "additional_paper_copy_created": false,
+  "added_component_notes": [
+    "v1d/ERRATA.md",
+    "v1d/SOURCE_NOTICES.md"
+  ],
+  "repository_context_notices": [
+    {
+      "path": "provenance/v1d/repository-notices/LICENSE",
+      "bytes": 1115,
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753",
+      "source_repository_path": "LICENSE",
+      "scope": "Repository context; not an original v1d ZIP member or a new component licence grant."
+    },
+    {
+      "path": "provenance/v1d/repository-notices/LICENSE_HISTORY.md",
+      "bytes": 2077,
+      "sha256": "b40c2c406d751d7941c48c38eb2bfe8d3a6e0f1695eb9535d7697561fb46520a",
+      "source_repository_path": "LICENSE_HISTORY.md",
+      "scope": "Repository context; not an original v1d ZIP member or a new component licence grant."
+    }
+  ],
+  "unresolved_source_issue": "v1d-SC-004 identity and stress types disagree between the worked record and scenario catalog; no replacement inferred.",
+  "interpretation": "Local import inventory; not an upstream seal, authenticated exercise record, governance decision or publication."
+}

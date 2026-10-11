@@ -1,0 +1,97 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "record_class": "non_inspection_session_record",
+  "access_mode_primary": "ID_2",
+  "inspection_status": "not_frozen",
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "human_decision_required": true,
+  "session": {
+    "session_id": "ID2-YYYYMMDD-HHMM-<shortname>",
+    "created_utc": "2026-02-10T07:30:00Z",
+    "timezone": "Australia/Brisbane",
+    "facilitator": {
+      "name": "",
+      "role": ""
+    },
+    "participants": [
+      {
+        "name": "",
+        "role": ""
+      }
+    ],
+    "project_context": {
+      "project_name": "",
+      "audience": [
+        "internal"
+      ],
+      "purpose_statement": "Shift governance from documentation to operational behavior (ID_2).",
+      "in_scope": [],
+      "out_of_scope": [
+        "Legal advice",
+        "Compliance determinations",
+        "Certification/approval language",
+        "Automated enforcement decisions"
+      ]
+    },
+    "primary_materials": {
+      "modules_folder": "modes/ID_2_access/modules/",
+      "exemplar_modules_folder": "modes/ID_2_access/exemplar_modules/",
+      "organizer_mode_file": "modes/ID_2_access/modules/organizer_mode.md"
+    },
+    "mode_controls": {
+      "primary_mode_locked": true,
+      "secondary_modes_allowed": [],
+      "mode_switching_mid_session_prohibited": true
+    }
+  },
+  "run_plan": {
+    "modules_intended": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "module_order": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "notes": ""
+  },
+  "validation": {
+    "misalignment_testing_required_for_high_impact_outputs": true,
+    "question_driven_verification_required": true,
+    "human_review_required_before_external_use": true,
+    "validation_events": []
+  },
+  "session_events": [],
+  "outputs_index": {
+    "module_records": [
+      "module_01_governance_ai_identity_ID_2.json",
+      "module_02_intent_scope_boundaries_ID_2.json",
+      "module_03_sapp_simulation_stress_testing_ID_2.json",
+      "module_04_writing_governance_artifacts_ID_2.json",
+      "module_05_access_pod_runtime_enforcement_ID_2.json",
+      "module_06_csc_scoring_revocation_ID_2.json"
+    ],
+    "artifacts_folder": "artifacts/",
+    "artifacts": []
+  },
+  "signoff": {
+    "non_inspection_acknowledged": true,
+    "no_adequacy_or_compliance_claims_acknowledged": true,
+    "human_accountability_acknowledged": true,
+    "signed_by": "",
+    "signed_at_utc": ""
+  },
+  "session_status": {
+    "intended_reuse": "learning_and_operational_comparison",
+    "state": "active",
+    "notes": "First populated ID_2 session; baseline for future stress runs."
+  }
+}

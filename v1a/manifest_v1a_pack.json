@@ -1,0 +1,73 @@
+{
+  "manifest_type": "apod_artifact_manifest",
+  "pack_id": "APOD-TR-002",
+  "pack_version": "v1a-pack",
+  "status": "Public Review Draft (Standards Exploration)",
+  "generated_utc": "2026-01-02T23:37:17.9610997Z",
+  "root_directory": "C:\\Access_PoD_vol.2_artifact_pack.v1a_pack",
+  "files": [
+    {
+      "file_name": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "relative_path": "APOD-TR-002_A-WEB-of-Sharing-Trust-Responsibility_Vol2_Version-A_Public-Review.pdf",
+      "bytes": 547992,
+      "last_write_utc": "2025-12-28T04:56:43.7834128Z",
+      "sha256": "362a33d563294789eca5444f4e326e42abcf40874a23866ca54ceca6c7f141a8"
+    },
+    {
+      "file_name": "csc_metric_catalog_v1a.json",
+      "relative_path": "catalogs/csc_metric_catalog_v1a.json",
+      "bytes": 38949,
+      "last_write_utc": "2025-12-27T10:35:33.6253802Z",
+      "sha256": "bdc96a9aea13fdfca287f79a12c64f1649254db7e27d0cec86ad3f02cc24b632"
+    },
+    {
+      "file_name": "Access_PoD_JSON_Instructions_v1a.pdf",
+      "relative_path": "docs/Access_PoD_JSON_Instructions_v1a.pdf",
+      "bytes": 4347,
+      "last_write_utc": "2025-12-27T10:34:03.1973595Z",
+      "sha256": "a04825a2bd343d8ee20b528330a44ec14d11229faa441b1aaf20845c3916899f"
+    },
+    {
+      "file_name": "example_csc_certificate_v1a.json",
+      "relative_path": "examples/example_csc_certificate_v1a.json",
+      "bytes": 6350,
+      "last_write_utc": "2025-12-27T10:35:11.0976841Z",
+      "sha256": "2183a0ac74fb4e1d32c701fe50f3779597bc052bd1d11c0af94c45c404c4dff1"
+    },
+    {
+      "file_name": "LICENSE",
+      "relative_path": "LICENSE",
+      "bytes": 1115,
+      "last_write_utc": "2025-12-27T12:08:47.4265959Z",
+      "sha256": "ac6da8aabef4c1ee2b4e2b9b6cfe8e829d2b178971598ae51c283629c84b6753"
+    },
+    {
+      "file_name": "csc_sector_profiles_v1a.json",
+      "relative_path": "profiles/csc_sector_profiles_v1a.json",
+      "bytes": 1546,
+      "last_write_utc": "2025-12-27T10:35:28.7064037Z",
+      "sha256": "4367a93175857a2a5449a5fbcecf8f5a7938e035a2dbe670fe97d63e9c3bf22f"
+    },
+    {
+      "file_name": "README.md",
+      "relative_path": "README.md",
+      "bytes": 2682,
+      "last_write_utc": "2025-12-27T12:10:11.6253998Z",
+      "sha256": "68fe1729a6099b128c5c0bfdf09fcfb6a51e3c502c61edcb9725ab1ed6333b80"
+    },
+    {
+      "file_name": "csc_metric_catalog_schema_v1a.json",
+      "relative_path": "schemas/csc_metric_catalog_schema_v1a.json",
+      "bytes": 1887,
+      "last_write_utc": "2025-12-27T10:35:22.9090050Z",
+      "sha256": "e01dfbca05fb3fd26c1af4348999ed786750e7e22ea102ec900e3209a274cfb2"
+    },
+    {
+      "file_name": "csc-certificate.schema_v1a.json",
+      "relative_path": "schemas/csc-certificate.schema_v1a.json",
+      "bytes": 18576,
+      "last_write_utc": "2025-12-27T10:35:17.1139993Z",
+      "sha256": "d0fd0a079415147395cbb37e612317815989be6e9f27e5d50e74a6cb37c85e34"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "date": "2026-10-11",
+  "scope": "User-authorized ID2 handbook release-link correction, current two-candidate guide, and rule-pack relocation. Research papers, code and supplied records unchanged.",
+  "rule_pack_move": {
+    "from": "APOD-ID3-RULE-001-v1.1",
+    "to": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1"
+  },
+  "source_before_manifest": {
+    "bytes": 77653,
+    "sha256": "a2a39657cfec5db180c9898d299cbb99d172d7ce0fc1b50fc3f2d5ecf5397bf1"
+  },
+  "handbook_correction": {
+    "source_sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78",
+    "source_files": [
+      "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\docs\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf"
+    ],
+    "original_preserved": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\handbook\\original\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+    "provenance_original": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\handbook\\provenance\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+    "staged_outputs": [
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\handbook\\stage\\v1.0-access-mode\\ID_2-Access\\docs\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\handbook\\stage\\v1.0-access-mode\\ID_2-Access\\four-candidates\\docs\\Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf"
+    ],
+    "staged_sha256": "f40cf1e16ff524d3ec0905092350f50d295fa3b0e6f8d1c0fb441bc88024f99d",
+    "original_bytes": 700149,
+    "staged_bytes": 722548,
+    "source_pages": 65,
+    "output_pages": 65,
+    "incremental_original_byte_prefix_preserved": true,
+    "visible_text_changed_pages": [
+      2
+    ],
+    "old_uri": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+    "new_uri": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+    "changed_annotation_count": 1,
+    "content_stream_operations_modified": [
+      728,
+      731,
+      736,
+      742,
+      748
+    ],
+    "native_font": "/UOLHDK+Calibri",
+    "font_resource_unchanged": true,
+    "added_horizontal_extent_points": 25.896000000000004,
+    "scope": "First page 2 release URL text, underline and click target corrected in the two installed handbook copies. Research papers and all other handbook content preserved."
+  },
+  "two_candidate_workflow": {
+    "date": "2026-10-11",
+    "source": "C:\\access-pod-v1.0\\v1.0-access-mode\\ID_2-Access",
+    "scope": "Original two-candidate direct Module03 comparison from fresh scratch copy. No model, normalization, authoring helper, MarkCompleted, ID3 or freeze execution.",
+    "copied_original_file_count": 53,
+    "current_id2_source_file_count": 111,
+    "prior_evidence": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\two-candidate\\evidence.json",
+    "prior_evidence_source_hashes_match": true,
+    "command": [
+      "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "-NoLogo",
+      "-NoProfile",
+      "-File",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\workflow\\two-candidate-copy\\scripts\\primary\\ID2_Comparative_Analysis_Tool.ps1",
+      "-BaselinePath",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\workflow\\two-candidate-copy\\records\\sessions\\2026-02-10\\baseline\\ID2-20260210-1835-session\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "-VariantsRoot",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\workflow\\two-candidate-copy\\records\\sessions\\2026-02-10\\variants",
+      "-OutJson",
+      "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\workflow\\id2_comparison_summary.current-path-replay.json"
+    ],
+    "cwd": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\workflow\\two-candidate-copy",
+    "exit_code": 0,
+    "checks": {
+      "exit_zero": true,
+      "summary_baseline_exact": true,
+      "sole_variant_exact": true,
+      "variant_count_one": true,
+      "all_53_copied_original_files_unchanged": true,
+      "all_current_id2_collection_files_unchanged": true,
+      "all_nine_original_rule_checksum_entries_pass": true,
+      "original_rule_equals_id3_embedded_rule": true
+    },
+    "output": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-two-case-rule-layout-20261011\\workflow\\id2_comparison_summary.current-path-replay.json",
+    "output_sha256": "82f05f4b0a295341343aa764c6cd64fba0c821900f4e671b48eca9307285348c",
+    "warnings": [],
+    "rule_checksum_checks": [
+      {
+        "path": "changes/CHANGELOG.md",
+        "expected_sha256": "dedf55cd8c8d4da76bb85123846d5773346eda044d65efc3e9a36e768f5a6aea",
+        "actual_sha256": "dedf55cd8c8d4da76bb85123846d5773346eda044d65efc3e9a36e768f5a6aea",
+        "matches": true
+      },
+      {
+        "path": "changes/DIFF_NOTES.md",
+        "expected_sha256": "5ccea0b4a7ef5415e78ae1d97c3da16577f4a6849e52577cf6c931aaa584a334",
+        "actual_sha256": "5ccea0b4a7ef5415e78ae1d97c3da16577f4a6849e52577cf6c931aaa584a334",
+        "matches": true
+      },
+      {
+        "path": "CONTRIBUTORS.md",
+        "expected_sha256": "f3e846663025f13d065dbb7abb066f5c6b49751832229c2d39435cc8cae58df6",
+        "actual_sha256": "f3e846663025f13d065dbb7abb066f5c6b49751832229c2d39435cc8cae58df6",
+        "matches": true
+      },
+      {
+        "path": "manifests/rule_release.manifest.json",
+        "expected_sha256": "aa1d40e98613022341a912b86a334e1cb759a23df070d19d76417f561195397d",
+        "actual_sha256": "aa1d40e98613022341a912b86a334e1cb759a23df070d19d76417f561195397d",
+        "matches": true
+      },
+      {
+        "path": "README.md",
+        "expected_sha256": "df44b38334aa84f80e3fadda0bee5902cee1303fb0430354dea915511ecc08e2",
+        "actual_sha256": "df44b38334aa84f80e3fadda0bee5902cee1303fb0430354dea915511ecc08e2",
+        "matches": true
+      },
+      {
+        "path": "release_notes_INTERNAL.md",
+        "expected_sha256": "4ecb4f205b2273c600d2d3d3e4a243932992767dd1728452ab0fd8e499abc226",
+        "actual_sha256": "4ecb4f205b2273c600d2d3d3e4a243932992767dd1728452ab0fd8e499abc226",
+        "matches": true
+      },
+      {
+        "path": "rules/session_completeness.rule.json",
+        "expected_sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+        "actual_sha256": "0be33798f768ec5de74b68bf849fc27932264883f4981714ae97964c6c0e8198",
+        "matches": true
+      },
+      {
+        "path": "spec/README.md",
+        "expected_sha256": "800ea1d66fc4fe782bf24267ef812951136f703e60a0dcb3cff498b7aa98af13",
+        "actual_sha256": "800ea1d66fc4fe782bf24267ef812951136f703e60a0dcb3cff498b7aa98af13",
+        "matches": true
+      },
+      {
+        "path": "spec/Rule Engine Formalization.pdf",
+        "expected_sha256": "53dd78e5068465e4ece548000ef0efbf7653358298836294d063a36d06df2f80",
+        "actual_sha256": "53dd78e5068465e4ece548000ef0efbf7653358298836294d063a36d06df2f80",
+        "matches": true
+      }
+    ],
+    "all_checks_pass": true
+  },
+  "original_toolkit_retained_at": "v1.0-access-mode/ID_2-Access/docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+  "original_word_backup": "provenance/ID_2-Access/documentation-20261011/ID_2 Toolkit Script Examples Companion.backup.20260418-202652.docx",
+  "corrected_guide_outputs": [
+    "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - current two-candidate guide.docx",
+    "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/ID_2 Toolkit Script Examples Companion - current two-candidate guide.pdf",
+    "v1.0-access-mode/ID_2-Access/docs/create_sessions/revisions/REVISION_NOTES.md"
+  ],
+  "preserved_originals": [
+    {
+      "path": "provenance/ID_2-Access/link-path-corrections-20261011/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 700149,
+      "sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78"
+    },
+    {
+      "path": "provenance/ID_2-Access/link-path-corrections-20261011/ID_2 Toolkit Script Examples Companion.pdf",
+      "bytes": 1567828,
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c"
+    }
+  ],
+  "historical_records": "Earlier import, Word revision and layout records describe their dated snapshots and remain unchanged. This record supersedes only current navigation and the current handbook bytes.",
+  "external_check_limits": [
+    "Corrected handbook target and all six related-release/licence links verified accessible. EUR-Lex returned a JavaScript challenge and remains unconfirmed. Historical original URLs remain in archived originals."
+  ],
+  "post_install_checks_pending": false,
+  "final_seal": false,
+  "post_install_verification": {
+    "date": "2026-10-11",
+    "all_checks_pass": true,
+    "files": 363,
+    "manifest_entries": 362,
+    "local_links": 44,
+    "broken_local_links": [],
+    "all_unmodified_pdf_hashes_preserved": 49,
+    "changed_pdf_paths": [
+      "v1.0-access-mode/ID_2-Access/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "v1.0-access-mode/ID_2-Access/four-candidates/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf"
+    ],
+    "rule_checksums": [
+      {
+        "file": "changes/CHANGELOG.md",
+        "passed": true
+      },
+      {
+        "file": "changes/DIFF_NOTES.md",
+        "passed": true
+      },
+      {
+        "file": "CONTRIBUTORS.md",
+        "passed": true
+      },
+      {
+        "file": "manifests/rule_release.manifest.json",
+        "passed": true
+      },
+      {
+        "file": "README.md",
+        "passed": true
+      },
+      {
+        "file": "release_notes_INTERNAL.md",
+        "passed": true
+      },
+      {
+        "file": "rules/session_completeness.rule.json",
+        "passed": true
+      },
+      {
+        "file": "spec/README.md",
+        "passed": true
+      },
+      {
+        "file": "spec/Rule Engine Formalization.pdf",
+        "passed": true
+      }
+    ],
+    "all_previous_directories_preserved": true,
+    "final_seal": false
+  },
+  "document_navigation": {
+    "date": "2026-10-11",
+    "root": "C:\\access-pod-v1.0",
+    "scope": "PDF Link annotations for GoTo/Dest validity and non-HTTP actions; DOCX internal hyperlink anchors/local HYPERLINK fields and non-HTTP hyperlink relationships. No macro/action execution. Bookmark/page structural resolution only, not GUI click test.",
+    "errors": [],
+    "unresolved_internal_links": [],
+    "file_or_other_actions": [],
+    "summary": {
+      "files": 61,
+      "unique_document_bytes": 39,
+      "internal_link_occurrences": 2611,
+      "unresolved_internal_link_occurrences": 0,
+      "file_or_other_action_occurrences": 0,
+      "by_document_class": {
+        "collection_document": {
+          "files": 57,
+          "internal_links": 2171,
+          "external_hyperlinks": 62,
+          "unresolved_internal_links": 0
+        },
+        "archived_provenance": {
+          "files": 4,
+          "internal_links": 440,
+          "external_hyperlinks": 6,
+          "unresolved_internal_links": 0
+        }
+      },
+      "pdf_files": 54,
+      "docx_files": 7,
+      "external_hyperlink_occurrences": 68,
+      "unique_external_targets": 19
+    },
+    "classification_note": "Path-based: archived_provenance means files within provenance; collection_document includes preserved source-era guides and research papers as well as current revisions. It does not assert that all prose or example paths are current.",
+    "external_link_scope": "Embedded HTTP URI annotations and DOCX hyperlink relationships inventoried, not refetched by this structural scan. Bare textual URLs and non-hyperlink prose are outside this scan.",
+    "historical_known_broken_url_occurrences": [
+      {
+        "source": "provenance/ID_2-Access/link-path-corrections-20261011/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+        "document_class": "archived_provenance",
+        "page": 2,
+        "kind": "/URI",
+        "target": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+        "expected_preserved_historical_link": true
+      }
+    ]
+  },
+  "render_and_command_review": {
+    "approved": true,
+    "date": "2026-10-11",
+    "word_pdf_visual_review": {
+      "date": "2026-10-11",
+      "result": "PASS",
+      "docx_sha256": "8b4b0526d8842b7bd177cce0be42031fe0f2d7b698d1bee5820650588cd00133",
+      "pdf_sha256": "b3cbbb5085b95b0e5ceb344386f4171269482a6df1da95e21de1e9f9101e0554",
+      "pages": 63,
+      "original_pages": 62,
+      "setup_page": 63,
+      "original_pages_pixel_identical_to_fully_reviewed_reference": 54,
+      "changed_original_pages_reviewed_at_original_resolution": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        42,
+        43,
+        62
+      ],
+      "new_pages_reviewed_at_original_resolution": [
+        63
+      ],
+      "doc_render_reviewed_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        62,
+        63
+      ],
+      "read_e_reviewed_pages": [
+        42,
+        43
+      ],
+      "unresolved_visual_defects": [],
+      "original_contents_pagination_preserved": true,
+      "all_page_coverage": "54 original pages exactly match a fully visually reviewed reference; the remaining eight original pages and the new page were visually inspected at original resolution.",
+      "comparison_evidence": "render-comparison-v2.json",
+      "source_format_and_scope_evidence": "independent-structure-review.json",
+      "peer_visual_evidence": "independent-visual-review.json",
+      "exact_command_equality_evidence": "../workflow/final-guide-command-equality.json",
+      "bounded_command_test_evidence": "../workflow/guide-snippet-evidence.json",
+      "current_path_comparison_evidence": "../workflow/evidence.json",
+      "source_and_published_unchanged": true,
+      "render_backend": "Packaged render_docx.py with scoped hidden read-only Word PDF adapter and bundled Poppler"
+    },
+    "final_guide_command_equality": {
+      "date": "2026-10-11",
+      "final_staged_docx_sha256": "8b4b0526d8842b7bd177cce0be42031fe0f2d7b698d1bee5820650588cd00133",
+      "all_repaired_snippets_match_successfully_tested_text": true,
+      "checks": [
+        {
+          "paragraphs": [
+            231,
+            232
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            248,
+            253
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            258,
+            263
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            275,
+            276
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            286,
+            291
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            292,
+            298
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            1109,
+            1109
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            1127,
+            1129
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            1135,
+            1137
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            1142,
+            1143
+          ],
+          "matches_tested_command": true
+        },
+        {
+          "paragraphs": [
+            1148,
+            1149
+          ],
+          "matches_tested_command": true
+        }
+      ],
+      "P1146_cleared": true,
+      "setup_extracted_file_matches_docx": true,
+      "workflow_rerun": false,
+      "overall_pass": true
+    },
+    "handbook_review": {
+      "date": "2026-10-11",
+      "scope": "Two identical ID2 handbook copies; native URL-only incremental correction. No installed collection writes or source document actions.",
+      "source_sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78",
+      "staged_sha256": "f40cf1e16ff524d3ec0905092350f50d295fa3b0e6f8d1c0fb441bc88024f99d",
+      "copies_identical": true,
+      "page_count": 65,
+      "original_byte_prefix_preserved": true,
+      "all_original_locations_unchanged": true,
+      "render_dpi": 120,
+      "rendered_pages_compared": 65,
+      "pixel_identical_pages": 64,
+      "visibly_changed_pages": [
+        2
+      ],
+      "content_stream_changed_pages": [
+        2
+      ],
+      "page_boxes_unchanged": true,
+      "navigation": {
+        "internal_count": 120,
+        "all_internal_valid": true,
+        "internal_unchanged": true,
+        "uri_count": 3,
+        "uri_changes": [
+          {
+            "before": {
+              "page": 2,
+              "uri": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/ID_2-access",
+              "rect": [
+                69.75,
+                427.828,
+                449.36,
+                442.478
+              ]
+            },
+            "after": {
+              "page": 2,
+              "uri": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+              "rect": [
+                69.75,
+                427.828,
+                475.256,
+                442.478
+              ]
+            }
+          }
+        ],
+        "other_actions": []
+      },
+      "source_object_warning_explanation": "pypdf incremental writer clone_reader_document_root iterates every ID from 1 through original trailer Size-1, including undefined source IDs 4221 and 4238. Both are absent from the original and output xref and object streams; this is not a new output defect. No unrelated source repair attempted. Both full Poppler renders completed with no diagnostics.",
+      "all_uri_http_checks": [
+        {
+          "uri": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "method": "HEAD",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access"
+        },
+        {
+          "uri": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access",
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/ID_2-Access"
+        },
+        {
+          "uri": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+          "method": "HEAD",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode"
+        },
+        {
+          "uri": "https://github.com/Access-PoD/access-pod-artifacts/releases/tag/v1.0-access-mode",
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases/tag/v1.0-access-mode"
+        },
+        {
+          "uri": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+          "method": "HEAD",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases"
+        },
+        {
+          "uri": "https://github.com/Access-PoD/access-pod-artifacts/releases",
+          "method": "GET",
+          "status": 200,
+          "final_url": "https://github.com/Access-PoD/access-pod-artifacts-core/releases"
+        }
+      ],
+      "visual_review": {
+        "status": "PASS",
+        "reviewed": "Original and corrected page2 full-page raster; URL remains a single clean line with native Calibri, continuous underline and no overlap. Every other page is pixel-identical.",
+        "reviewer": "read_e",
+        "date": "2026-10-11"
+      }
+    },
+    "parent_review": "Root reviewed the corrected handbook page2 and final setup page63; delegated final-render, preserved-structure and exact-command checks passed."
+  },
+  "completion_status": "Current documentation, original preservation, rule relocation, local navigation and collection inventory verified; unsealed."
+}

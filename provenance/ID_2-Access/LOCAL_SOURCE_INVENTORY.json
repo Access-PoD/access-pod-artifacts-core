@@ -1,0 +1,858 @@
+{
+  "date": "2026-10-11",
+  "source_root": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions",
+  "source_files": [
+    {
+      "path": "_release_build/SHA256SUMS_v1.0-access-mode_pack.txt",
+      "bytes": 112,
+      "sha256": "47862c3c14e0b5b55fbfff98c39172b9a88de4ec28afe35275eba0eaad212004",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 700149,
+      "sha256": "ae24ddeebf520ab2db248322201f5378d66cb623cbf1e076caf1c79e7894ac78",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "bytes": 170126,
+      "sha256": "fb0cb45d48e77a061b5191c1d923aa92f3f86063cdfa8cb79fee1192560b0f76",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "bytes": 332081,
+      "sha256": "b8b177ea0d6dd6347e3f13a9e160e50a5e509edc478e2a3fa942097010b3efe6",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "bytes": 3804,
+      "sha256": "472d780f9c3ea83b8e96f52cbe624659687607d0486e50df588ccb1048a64478",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf",
+      "bytes": 1567828,
+      "sha256": "f1932ae48a648bf8f5737e825118e16291e26e34362b94ac06d651db7bb68c9c",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/create_sessions/~$_2 Toolkit Script Examples Companion.docx",
+      "bytes": 162,
+      "sha256": "0c9a9abd72434c85f4f3d9612a10cb600121dc41b44f98d172a192acf48ae291",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/create_sessions/~WRL0003.tmp",
+      "bytes": 103080,
+      "sha256": "8339e2edb7a80ebfc020c9bbf0ccf7f2f9735ebbde4c389ca984d0be6bdbbfb5",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 6767,
+      "sha256": "7f16b026054ea74a01015b8c784d9363aea882e39b92186e49a7856c66c269fc",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 6933,
+      "sha256": "bcdaec30af811623ff697c76fb5ddc5c4915c1eb270b719abf50364f4a7004a1",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 6235,
+      "sha256": "959308de2678780e92de7ee7d0016fd6d822e135374d2db47caf7c1b1edf5f7b",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5728,
+      "sha256": "f36e9b0dfcd50ef580f81941c290ce4fe5cd15fc91546cf994d8daaecd3bdbe5",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 6189,
+      "sha256": "af588ac6bc0357471ba49ade51e9e73d7696a7eeade5ee0e6824ac81d815b26b",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 6425,
+      "sha256": "7993e3166cec2e26f4f735ae6e00c18c1054ccb0c35585e699aa6943efb2e3c1",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/exemplar_modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/manifest.txt",
+      "bytes": 5426,
+      "sha256": "710db57e23410422137b204ababb1ef075b106d08a0fd653ac3cdae9464acea8",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 13923,
+      "sha256": "3ff8c2271c9f80a5111795954524f0b173b1a6d5ac2b5d39b90df5af0d938d4c",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 11869,
+      "sha256": "f448becb62e3a588aa1b3204cd0dcf1fb46463e9b5d3428aba74fda46101a287",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 11609,
+      "sha256": "c6edacf00c0f53372cb2a1343548aa3bf430e5ba79f264ec3f08cba90a344da6",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 9295,
+      "sha256": "ae7d014503832f38d6b00309a048f8cd534a1a21ce747d5e656e77bc500404a1",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 11376,
+      "sha256": "21b584c3e5b6a11c885a64efa5cb2e8d1ff61889841228b3e98122e20808ed48",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 11050,
+      "sha256": "11614ae3d55c7f6d84ea41f480fc5b31ecd9004b86f9ba618dc7ba68f0b04987",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/README_ID_2.md",
+      "bytes": 2089,
+      "sha256": "b5ab14c04e5f43191338cabbd938b837168618f1e91650e3ccbb6c3c170dcab5",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/comparisons/2026-02-10/ID2-20260210-1835-session/id2_comparison_summary.json",
+      "bytes": 7819,
+      "sha256": "e86a5dcca5da72142cc6e3c54b09ab75ce24e894747c45b438be9e766c3f27a7",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/helpers/Helpers_README.md",
+      "bytes": 2166,
+      "sha256": "db08abf72cef1ddffa4c2bf8a727f5c161d0ef47df5e100d647f86fdd08d3e3c",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/helpers/id2_prompt_examples.json",
+      "bytes": 2483,
+      "sha256": "7a60952c4f97514c1d0888a2a331fe4f73b54054d3540389657790e8433fe4e8",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 23005,
+      "sha256": "b0889f51dbf8ff60505b4b7a1bae4c4bcfc067e0115e3492e4d148f4c2bf7644",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9136,
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "bytes": 2817,
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10634,
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "bytes": 3519,
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/templates/module_03.template.json",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/records/templates/session.template.json",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/release_notes_ID_2.md",
+      "bytes": 5257,
+      "sha256": "83160aa688d93aed9084b0fb54caaf7f87c7db1ae62e957e994cf9da13291673",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/helpers/Add-ID2SessionStatus.ps1",
+      "bytes": 821,
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "bytes": 2276,
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/helpers/Edit-ID2SessionJson.ps1",
+      "bytes": 5829,
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "bytes": 10087,
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "bytes": 11128,
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/primary/Normalize-ID2Module03.ps1",
+      "bytes": 4287,
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/scripts/primary/Run-ID2-StressComparison.ps1",
+      "bytes": 6964,
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/stage_20260221-121416/~$cess-Mode ID_2 – Access (Operational reasoning).docx",
+      "bytes": 162,
+      "sha256": "f104c3c7513ad3e8c75ca3567edfd28df9649870f18060d3567e576fb80135d7",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "_release_build/v1.0-Access-mode_release_20260221-121416.zip",
+      "bytes": 4028440,
+      "sha256": "569fca4a5c7ce8386d27a2b98f005a6ce7567a8c98e6c81f015d37208cfc32fa",
+      "disposition": "Historical staging excluded from active versions; source retained in place."
+    },
+    {
+      "path": "docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+      "bytes": 687345,
+      "sha256": "232df94a172631f5ca11c06c18b8cef6a3228dcd97ac90f8b89311350598b781",
+      "disposition": "Distinct local revision preserved under local-document-history; published original used in both active versions."
+    },
+    {
+      "path": "docs/additional/ID_2 Structured Comparative Analysis.pdf",
+      "bytes": 170126,
+      "sha256": "fb0cb45d48e77a061b5191c1d923aa92f3f86063cdfa8cb79fee1192560b0f76",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/additional/Session_JSON_Review_ID_2_Posture-Safe_Editing.pdf",
+      "bytes": 332081,
+      "sha256": "b8b177ea0d6dd6347e3f13a9e160e50a5e509edc478e2a3fa942097010b3efe6",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/additional/Version_D_to_ID2_Alignment_Note.md",
+      "bytes": 3804,
+      "sha256": "472d780f9c3ea83b8e96f52cbe624659687607d0486e50df588ccb1048a64478",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/create_sessions/Access-Mode ID_2 commands & Path 2 Execution Notes.docx",
+      "bytes": 53743,
+      "sha256": "c94aa768d9f9a3559f12555930d2c589cf97d598188f23a2417ca40a1668d29d",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/create_sessions/Four ID_2 records_candidets session + ps7 console.docx",
+      "bytes": 74377,
+      "sha256": "514439f2767f0bc14ef037c225528fb1c3e6fa37cec607af1c63051559afaf1d",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/create_sessions/ID_2 Toolkit Script Examples Companion - revised four-session run.docx",
+      "bytes": 32917,
+      "sha256": "8cc42f0c7a9e6e1ca3611005b07dd1447bc726d7d4693e1a6cf09865afe5418d",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/create_sessions/ID_2 Toolkit Script Examples Companion.backup.20260418-202652.docx",
+      "bytes": 724585,
+      "sha256": "4cc3edca3e8f1e42f0c57b3f4c79230b64435e0cf3eb3f76b6ad25eec23346ab",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "docs/create_sessions/~$_2 Toolkit Script Examples Companion.docx",
+      "bytes": 162,
+      "sha256": "0c9a9abd72434c85f4f3d9612a10cb600121dc41b44f98d172a192acf48ae291",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "docs/create_sessions/~WRL0003.tmp",
+      "bytes": 103080,
+      "sha256": "8339e2edb7a80ebfc020c9bbf0ccf7f2f9735ebbde4c389ca984d0be6bdbbfb5",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "docs/relationship_to_version_E/Access_Mode_Project_Guide.pdf",
+      "bytes": 480560,
+      "sha256": "27df634ad9092d672b20425823a395e7a095f7a24eca013f36ed7fe885332766",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/relationship_to_version_E/APOD-TR-006 - Volume 2, Version E.pdf",
+      "bytes": 635475,
+      "sha256": "e1319139efbf87ecaa1644d9259d930810f08118a02afa883cd89407f0d27159",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "docs/relationship_to_version_E/APOD-TR-006-E.2.pdf",
+      "bytes": 331846,
+      "sha256": "4ac1ad808135edd6e8a3b0e8a8b70d3e94e4729a320cce73615d809f1444f8e5",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 6767,
+      "sha256": "7f16b026054ea74a01015b8c784d9363aea882e39b92186e49a7856c66c269fc",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 6933,
+      "sha256": "bcdaec30af811623ff697c76fb5ddc5c4915c1eb270b719abf50364f4a7004a1",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 6235,
+      "sha256": "959308de2678780e92de7ee7d0016fd6d822e135374d2db47caf7c1b1edf5f7b",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 5728,
+      "sha256": "f36e9b0dfcd50ef580f81941c290ce4fe5cd15fc91546cf994d8daaecd3bdbe5",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 6189,
+      "sha256": "af588ac6bc0357471ba49ade51e9e73d7696a7eeade5ee0e6824ac81d815b26b",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 6425,
+      "sha256": "7993e3166cec2e26f4f735ae6e00c18c1054ccb0c35585e699aa6943efb2e3c1",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "exemplar_modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "manifest.txt",
+      "bytes": 5426,
+      "sha256": "710db57e23410422137b204ababb1ef075b106d08a0fd653ac3cdae9464acea8",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/module_01_governance_ai_identity_ID_2.md",
+      "bytes": 13923,
+      "sha256": "3ff8c2271c9f80a5111795954524f0b173b1a6d5ac2b5d39b90df5af0d938d4c",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/module_02_intent_scope_boundaries_ID_2.md",
+      "bytes": 11869,
+      "sha256": "f448becb62e3a588aa1b3204cd0dcf1fb46463e9b5d3428aba74fda46101a287",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/module_03_sapp_simulation_stress_testing_ID_2.md",
+      "bytes": 11609,
+      "sha256": "c6edacf00c0f53372cb2a1343548aa3bf430e5ba79f264ec3f08cba90a344da6",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/module_04_writing_governance_artifacts_ID_2.md",
+      "bytes": 9295,
+      "sha256": "ae7d014503832f38d6b00309a048f8cd534a1a21ce747d5e656e77bc500404a1",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/module_05_access_pod_runtime_enforcement_ID_2.md",
+      "bytes": 11376,
+      "sha256": "21b584c3e5b6a11c885a64efa5cb2e8d1ff61889841228b3e98122e20808ed48",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/module_06_csc_scoring_revocation_ID_2.md",
+      "bytes": 11050,
+      "sha256": "11614ae3d55c7f6d84ea41f480fc5b31ecd9004b86f9ba618dc7ba68f0b04987",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/Organizer Mode Rules README_ID_2.pdf",
+      "bytes": 233802,
+      "sha256": "ddffb01f0a7e15d3c7aceff1a1dfb4db4cdf5adbe78e790fd1bac9a4933d1c18",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "modules/organizer_mode.md",
+      "bytes": 2416,
+      "sha256": "167f3da58b514cb135519b6df6c6d014a5f80e2c7b0bd1c11b79fab07260b030",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "README_ID_2.md",
+      "bytes": 2089,
+      "sha256": "b5ab14c04e5f43191338cabbd938b837168618f1e91650e3ccbb6c3c170dcab5",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/comparisons/2026-02-10/ID2-20260210-1835-session/id2_comparison_summary.json",
+      "bytes": 7819,
+      "sha256": "b366865032cab6a2758360f7b7b5813ed7de769437f3fe653c43b44c0aa36c8e",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/comparisons/2026-04-11/ID2-20260411-1400-qpath-tr008-run/id2_comparison_summary.json",
+      "bytes": 25769,
+      "sha256": "8eb2246a7ed779b70370c11f36f156aa187adb96203f25949d6bbf75f193fdab",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/helpers/Helpers_README.md",
+      "bytes": 2166,
+      "sha256": "db08abf72cef1ddffa4c2bf8a727f5c161d0ef47df5e100d647f86fdd08d3e3c",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/helpers/id2_prompt_examples.json",
+      "bytes": 2483,
+      "sha256": "7a60952c4f97514c1d0888a2a331fe4f73b54054d3540389657790e8433fe4e8",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/helpers/prompt_examples_module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 23005,
+      "sha256": "b0889f51dbf8ff60505b4b7a1bae4c4bcfc067e0115e3492e4d148f4c2bf7644",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9136,
+      "sha256": "81d103ae32f73c0efd1c202ee7fe0d4cebc997b959836c992c5e06a72981f159",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/baseline/ID2-20260210-1835-session/artifacts/session.json",
+      "bytes": 2817,
+      "sha256": "028b74509bcefe01eb2a94db09a7d236d78dd0e5ac207bed0d4177ed9da434c3",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_01_governance_ai_identity_ID_2.json",
+      "bytes": 1319,
+      "sha256": "3459cc9aa5f165f786919e594cd3cd59a4c209b7779770032b009de7a2ce1938",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_02_intent_scope_boundaries_ID_2.json",
+      "bytes": 1638,
+      "sha256": "ef94f13a92d77a745b69ac9ec92cc196acc4861f4bc4fe9fa6a38de8ae006008",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10634,
+      "sha256": "f7230a3fc42f72a24661074a32255639f79cd6695d5f4a15f47e566add2901d4",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_04_writing_governance_artifacts_ID_2.json",
+      "bytes": 1528,
+      "sha256": "dad8db0cb5721490350c3ee05f8f098be7af82ca80f015ed5d7f9d6b8a4b2c91",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_05_access_pod_runtime_enforcement_ID_2.json",
+      "bytes": 1451,
+      "sha256": "faab99775e656f7a6ed427ce4d9a5baa70841aa0ca79925bf1acad222af8148c",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/module_06_csc_scoring_revocation_ID_2.json",
+      "bytes": 1695,
+      "sha256": "d1b1698d39d1228120d42386d5b6dca0d01fb470bde345c78f79d7292fa1d17e",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-02-10/variants/ID2-20260210-1907-session-timepressure/artifacts/session.json",
+      "bytes": 3519,
+      "sha256": "305f243899e24b47294167885069632fefec22405aa43fbb8a3dae77dd57da18",
+      "disposition": "Historical two-case working copy excluded from child; original published two-case release preserved at parent."
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10059,
+      "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "bytes": 10059,
+      "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-202022",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "bytes": 3444,
+      "sha256": "c2e31860664755a8eba5d39eb04a1449d7e4f372b4852a65ab811327defe9742",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json.bak.20260411-200101",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 9324,
+      "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "bytes": 9324,
+      "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-211102",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-211119",
+      "bytes": 9208,
+      "sha256": "dc1e2a275cc3d64e5d3b62ea2dea4e210983465e0dee6411838e4fe7fbdd965a",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "bytes": 3592,
+      "sha256": "39f311d0bc7be97e2efc5f309580bac8c6bb9d10d421592b1350cd8454fe1ee1",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json.bak.20260411-210232",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 10212,
+      "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "bytes": 10212,
+      "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-213259",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-213317",
+      "bytes": 10094,
+      "sha256": "6d6d0595bb3f2d8846262d35b90cb9b832ff26e4940c99a78cc194bd2d5d1d64",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "bytes": 3631,
+      "sha256": "59f0b405a813effb12e685a85201cdaab2732e278576d640eea9bd8b1479d2cf",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json.bak.20260411-212434",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "bytes": 7866,
+      "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+      "bytes": 7866,
+      "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-205801",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20260411-205835",
+      "bytes": 7750,
+      "sha256": "01ae76b259bb8a225632fbeda05f1ae530d8dc312b432ed2407c5acf0c5f052d",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "bytes": 3410,
+      "sha256": "6f1cf90c2c19fe485e61c64e71f32fc34f40a79af96852451ce5a93e4ae61ec9",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json.bak.20260411-204800",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    },
+    {
+      "path": "records/templates/module_03.template.json",
+      "bytes": 1341,
+      "sha256": "005fcd60c38dda55013ac27b02a69f9af8ce4776196e46b688fc29be899f57fe",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "records/templates/session.template.json",
+      "bytes": 2700,
+      "sha256": "5f5cbf2981c833822cc4fd43fabcfc436d3ff2ea54e2d34418cf6a2b4e995505",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "release_notes_ID_2.md",
+      "bytes": 5257,
+      "sha256": "83160aa688d93aed9084b0fb54caaf7f87c7db1ae62e957e994cf9da13291673",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/helpers/Add-ID2SessionStatus.ps1",
+      "bytes": 821,
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "bytes": 2276,
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/helpers/Edit-ID2SessionJson.ps1",
+      "bytes": 5829,
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "bytes": 10087,
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "bytes": 11128,
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/primary/Normalize-ID2Module03.ps1",
+      "bytes": 4287,
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "scripts/primary/Run-ID2-StressComparison.ps1",
+      "bytes": 6964,
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7",
+      "disposition": "Included in four-candidates with identical bytes."
+    },
+    {
+      "path": "~$cess-Mode ID_2 – Access (Operational reasoning).docx",
+      "bytes": 162,
+      "sha256": "f104c3c7513ad3e8c75ca3567edfd28df9649870f18060d3567e576fb80135d7",
+      "disposition": "Backup, lock or temporary file excluded from active versions; source retained in place."
+    }
+  ],
+  "source_unchanged": true,
+  "selected_identical_local_files": 48,
+  "published_support_exceptions": [
+    "docs/Access-Mode ID_2 - Operational Runtime Reasoning (APOD-ID2-OR-001).pdf",
+    "docs/create_sessions/ID_2 Toolkit Script Examples Companion.pdf"
+  ]
+}

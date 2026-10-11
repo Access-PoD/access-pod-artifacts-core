@@ -1,0 +1,97 @@
+{
+  "schema_version": "id2_records_v0.1",
+  "session": {
+    "session_id": "ID2-YYYYMMDD-HHMM-<shortname>",
+    "mode_controls": {
+      "secondary_modes_allowed": [],
+      "primary_mode_locked": true,
+      "mode_switching_mid_session_prohibited": true
+    },
+    "facilitator": {
+      "name": "",
+      "role": ""
+    },
+    "project_context": {
+      "purpose_statement": "Shift governance from documentation to operational behavior (ID_2).",
+      "out_of_scope": [
+        "Legal advice",
+        "Compliance determinations",
+        "Certification/approval language",
+        "Automated enforcement decisions"
+      ],
+      "audience": [
+        "internal"
+      ],
+      "in_scope": [],
+      "project_name": ""
+    },
+    "primary_materials": {
+      "exemplar_modules_folder": "modes/ID_2_access/exemplar_modules/",
+      "organizer_mode_file": "modes/ID_2_access/modules/organizer_mode.md",
+      "modules_folder": "modes/ID_2_access/modules/"
+    },
+    "timezone": "Australia/Brisbane",
+    "created_utc": "",
+    "participants": [
+      {
+        "name": "",
+        "role": ""
+      }
+    ]
+  },
+  "validation": {
+    "validation_events": [],
+    "misalignment_testing_required_for_high_impact_outputs": true,
+    "human_review_required_before_external_use": true,
+    "question_driven_verification_required": true
+  },
+  "record_class": "non_inspection_session_record",
+  "access_mode_primary": "ID_2",
+  "run_plan": {
+    "modules_intended": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "notes": "",
+    "module_order": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ]
+  },
+  "intended_use": "Operational reasoning capture; signals not decisions; non-inspection.",
+  "signoff": {
+    "human_accountability_acknowledged": true,
+    "signed_at_utc": "",
+    "signed_by": "",
+    "non_inspection_acknowledged": true,
+    "no_adequacy_or_compliance_claims_acknowledged": true
+  },
+  "inspection_status": "not_frozen",
+  "session_status": {
+    "notes": "",
+    "intended_reuse": "",
+    "state": "active"
+  },
+  "session_events": [],
+  "outputs_index": {
+    "artifacts": [],
+    "module_records": [
+      "module_01_governance_ai_identity_ID_2.json",
+      "module_02_intent_scope_boundaries_ID_2.json",
+      "module_03_sapp_simulation_stress_testing_ID_2.json",
+      "module_04_writing_governance_artifacts_ID_2.json",
+      "module_05_access_pod_runtime_enforcement_ID_2.json",
+      "module_06_csc_scoring_revocation_ID_2.json"
+    ],
+    "artifacts_folder": "artifacts/"
+  },
+  "human_decision_required": true
+}

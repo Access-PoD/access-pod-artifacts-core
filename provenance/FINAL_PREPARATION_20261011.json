@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-11",
+  "scope": "Install the reviewed repository README, correct ID1 completed-migration wording and align current packaging-status notes before the user-authorized local integrity seal.",
+  "prior_audit_manifest_sha256": "8edc682f12441128b03fd6b2079d89e1575b1eca01713a5e2cc2958402c41a8e",
+  "reviewed_readme": {
+    "bytes": 11939,
+    "sha256": "306ce408416b58306a591847a4be8ab1842d48d40522a7aae075215eafe8c506"
+  },
+  "changes": [
+    {
+      "path": "README.md",
+      "before": {
+        "bytes": 7706,
+        "sha256": "f2e2a4db4514d3a4e38a4ce77d16e1e61ec35eaaca4147ceaf16639d6ee94b03"
+      },
+      "after": {
+        "bytes": 11939,
+        "sha256": "306ce408416b58306a591847a4be8ab1842d48d40522a7aae075215eafe8c506"
+      }
+    },
+    {
+      "path": "RELEASE_NOTES_v1.0_CONSOLIDATED.md",
+      "before": {
+        "bytes": 7783,
+        "sha256": "04d62785ce980760656eb97f8d74554115c7fb1996fd1d559a249669b9a6ca4a"
+      },
+      "after": {
+        "bytes": 8169,
+        "sha256": "a5bd55accf09142be5bbf4cac0970c0772cf9dde9478467a4d3f5d131184a575"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/MIGRATION_NOTES.md",
+      "before": {
+        "bytes": 6347,
+        "sha256": "ff818671d2a5f19595137bd51b4f26d6b3c7556503eed72676f9680c79006941"
+      },
+      "after": {
+        "bytes": 6420,
+        "sha256": "f7dc095722c4deec109721097a04f41f4d1548f6ad99d45f2d1161c07d34b1f9"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/APOD-ID3-RULE-001-v1.1/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 2546,
+        "sha256": "9c59b0ebeb8d1f5c9bc550f66086db3eafa1c0eb534afb20373fbcba89b86da9"
+      },
+      "after": {
+        "bytes": 2617,
+        "sha256": "8e98bf30641fc9df166bce7192ed0d0fcaea44e7d5d66ede3f9b25627d4bce9a"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/COLLECTION_GUIDE.md",
+      "before": {
+        "bytes": 5493,
+        "sha256": "f29ee83c8b25670dc03e2a14cb04f7290aa61909f0e4689deea6d5a2ce49d91b"
+      },
+      "after": {
+        "bytes": 5532,
+        "sha256": "b3be4ea2f14bfe248c6ea8572764d1f33edf610701ff9518c76ac1e482fd1e39"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ERRATA.md",
+      "before": {
+        "bytes": 9651,
+        "sha256": "2d91a12ce1db3b7cbd6dfab2609069b2261a80d80d3b0306570bb26bffa7e7d6"
+      },
+      "after": {
+        "bytes": 9710,
+        "sha256": "d6ab26c25541e31f1334157b8f434a58e6c63f221677aad12910b21d36d66d5d"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_1-core/ERRATA.md",
+      "before": {
+        "bytes": 6849,
+        "sha256": "c276bf1a8aff1e9df1f1481029b59bdebb8a5234bb80b92315006f3019e57ff4"
+      },
+      "after": {
+        "bytes": 6960,
+        "sha256": "604151731405972ddaa1346daef423a825815e3bd555442a70a92b579f2461d4"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/MIGRATION_NOTES.md",
+      "before": {
+        "bytes": 8306,
+        "sha256": "33ddb69874f15fadadee163c53448254257ff4efdd091bf777e6054bdf9e1fc7"
+      },
+      "after": {
+        "bytes": 8377,
+        "sha256": "57b4d300e1a48fd944e09bcf4eccbf97adc0b3c0aa6df015b193c3b7ac79e968"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/README.md",
+      "before": {
+        "bytes": 2591,
+        "sha256": "0aee387be733203f8e091478ff4a6d6a22839ffc3d471611d633f2732c6bb3c8"
+      },
+      "after": {
+        "bytes": 2667,
+        "sha256": "5e16a106c6f48b9ebb13e7fcf0768aa362dcc8af88aab1684486ec56d6b7c336"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_2-Access/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 3205,
+        "sha256": "2e45e0c4675160099cb80bcbe499c795099f669020f287a69a0a8665545708f8"
+      },
+      "after": {
+        "bytes": 3276,
+        "sha256": "6579688b0339ea6e05fd23f8ea91af043fdcd3050be7adf1e8f18d0c423c20df"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/MIGRATION_NOTES.md",
+      "before": {
+        "bytes": 9366,
+        "sha256": "68aa062cac97b936317e549d3a757b6730c6263324f0d1f86ffadd07e1a7c9c1"
+      },
+      "after": {
+        "bytes": 9426,
+        "sha256": "53656e75c0a1b6d547d2e2bebb3e98d9e9fac0709bc5b948779c312f1ccc3819"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/ID_3-operator/SOURCE_NOTICES.md",
+      "before": {
+        "bytes": 3387,
+        "sha256": "36675f414274ac233fd0516a0203197a8c2ecc79e7a1b695c3945ffb0daea2e3"
+      },
+      "after": {
+        "bytes": 3454,
+        "sha256": "5a498e25c3482540b5adaf1b44e0f9391b4aab87754c859c8a77b4515cbb31dd"
+      }
+    },
+    {
+      "path": "v1.0-access-mode/modes/README.md",
+      "before": {
+        "bytes": 1705,
+        "sha256": "d13a1fe9d3e6034b61d3d201093a110db1bd26994ae98ee4a46d84cd11263a8f"
+      },
+      "after": {
+        "bytes": 1772,
+        "sha256": "89392dc77065c5cec5f83e3ef689642cd8c034168471b844cafcddac368b6bb8"
+      }
+    },
+    {
+      "path": "v1c/ERRATA.md",
+      "before": {
+        "bytes": 4342,
+        "sha256": "91f62a55ea08f9ad9c0276e4569c29e125fc58f8794dd974f1851fec9a92d5e0"
+      },
+      "after": {
+        "bytes": 4454,
+        "sha256": "f618b543e57ab63fad810bae71707ecc6801d75f041c0a81994247b824ed2b70"
+      }
+    }
+  ],
+  "original_artifacts_changed": false,
+  "papers_or_document_binaries_changed": false,
+  "runtime_workflow_executed": false,
+  "upstream_writes": false,
+  "packaging_status_authority": "collection-manifest.json and the separate SEAL_RECEIPT.json beside the final ZIP",
+  "historical_records_policy": "Prior audit, import, correction and preparation records retain their original bytes, dates and status."
+}

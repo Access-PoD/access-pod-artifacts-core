@@ -1,0 +1,815 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://policyofdevelopments.org/schema/csc-certificate.schema.json",
+  "title": "Compliance Star Certificate (CSC) - Certificate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "csc_id",
+    "issued_at",
+    "expires_at",
+    "status",
+    "issuer",
+    "subject",
+    "scope",
+    "assessment",
+    "evidence",
+    "signature"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for this CSC certificate JSON object.",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "csc_id": {
+      "type": "string",
+      "description": "Globally unique certificate identifier (UUID/ULID recommended).",
+      "minLength": 10,
+      "maxLength": 128
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "suspended",
+        "revoked",
+        "expired",
+        "superseded"
+      ],
+      "description": "Lifecycle status of the certificate."
+    },
+    "revocation": {
+      "$ref": "#/$defs/Revocation"
+    },
+    "issuer": {
+      "$ref": "#/$defs/Issuer"
+    },
+    "subject": {
+      "$ref": "#/$defs/Subject"
+    },
+    "scope": {
+      "$ref": "#/$defs/Scope"
+    },
+    "assessment": {
+      "$ref": "#/$defs/Assessment"
+    },
+    "evidence": {
+      "$ref": "#/$defs/EvidenceBundle"
+    },
+    "signature": {
+      "$ref": "#/$defs/SignatureBlock"
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "registry_entry": {
+          "type": "string",
+          "format": "uri"
+        },
+        "verification_endpoint": {
+          "type": "string",
+          "format": "uri"
+        },
+        "public_report": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "IssuerRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "org_id"
+      ],
+      "properties": {
+        "org_id": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 128
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 256
+        }
+      }
+    },
+    "Revocation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "is_revoked"
+      ],
+      "properties": {
+        "is_revoked": {
+          "type": "boolean"
+        },
+        "revoked_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "reason_code": {
+          "type": "string",
+          "enum": [
+            "telemetry_missing",
+            "critical_control_failure",
+            "material_incident",
+            "misrepresentation",
+            "key_compromise",
+            "nonpayment",
+            "legal_order",
+            "other"
+          ]
+        },
+        "reason_detail": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "revoked_by": {
+          "$ref": "#/$defs/IssuerRef"
+        }
+      }
+    },
+    "Issuer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "org_id",
+        "name",
+        "key_id",
+        "contact"
+      ],
+      "properties": {
+        "org_id": {
+          "type": "string",
+          "description": "Issuer organization identifier in CSC registry namespace.",
+          "minLength": 3,
+          "maxLength": 128
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "key_id": {
+          "type": "string",
+          "description": "Issuer signing key identifier (KID).",
+          "minLength": 3,
+          "maxLength": 256
+        },
+        "contact": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "email"
+          ],
+          "properties": {
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "web": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "jurisdiction": {
+          "type": "string",
+          "maxLength": 128
+        }
+      }
+    },
+    "Subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subject_id",
+        "name",
+        "type",
+        "owner"
+      ],
+      "properties": {
+        "subject_id": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 256
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "model",
+            "service",
+            "pipeline",
+            "agent",
+            "dataset",
+            "platform"
+          ]
+        },
+        "owner": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "org_id",
+            "name"
+          ],
+          "properties": {
+            "org_id": {
+              "type": "string",
+              "maxLength": 128
+            },
+            "name": {
+              "type": "string",
+              "maxLength": 256
+            }
+          }
+        },
+        "version": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "artifact": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "digest_alg": {
+              "type": "string",
+              "enum": [
+                "sha256",
+                "sha512"
+              ]
+            },
+            "digest": {
+              "type": "string",
+              "minLength": 32,
+              "maxLength": 256
+            },
+            "uri": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    },
+    "Scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ai_types",
+        "deployment",
+        "jurisdictions",
+        "sectors",
+        "use_constraints"
+      ],
+      "properties": {
+        "ai_types": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": [
+              "ML",
+              "CV",
+              "DL",
+              "LLM",
+              "RAG",
+              "agentic",
+              "RL",
+              "federated",
+              "other"
+            ]
+          }
+        },
+        "deployment": {
+          "type": "string",
+          "enum": [
+            "offline",
+            "batch",
+            "realtime",
+            "edge",
+            "cloud",
+            "hybrid"
+          ]
+        },
+        "jurisdictions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "maxLength": 128
+          }
+        },
+        "sectors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "maxLength": 128
+          }
+        },
+        "risk_tier_declared": {
+          "type": "string",
+          "enum": [
+            "unacceptable",
+            "high",
+            "medium_high",
+            "medium",
+            "low",
+            "minimal"
+          ]
+        },
+        "use_constraints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 500
+          }
+        }
+      }
+    },
+    "Assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sapp",
+        "factor_scores",
+        "weights",
+        "composite_score",
+        "csc_level",
+        "risk_tier",
+        "iso_alignment"
+      ],
+      "properties": {
+        "sapp": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "maturity_level",
+            "run_id",
+            "run_at",
+            "environment"
+          ],
+          "properties": {
+            "maturity_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6
+            },
+            "run_id": {
+              "type": "string",
+              "maxLength": 128
+            },
+            "run_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "environment": {
+              "type": "string",
+              "enum": [
+                "simulation",
+                "staging",
+                "preprod",
+                "prod-parity"
+              ]
+            }
+          }
+        },
+        "factor_scores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "f6_1",
+            "f6_2",
+            "f6_3",
+            "f6_4",
+            "f6_5",
+            "f6_6"
+          ],
+          "properties": {
+            "f6_1": {
+              "$ref": "#/$defs/FactorScore"
+            },
+            "f6_2": {
+              "$ref": "#/$defs/FactorScore"
+            },
+            "f6_3": {
+              "$ref": "#/$defs/FactorScore"
+            },
+            "f6_4": {
+              "$ref": "#/$defs/FactorScore"
+            },
+            "f6_5": {
+              "$ref": "#/$defs/FactorScore"
+            },
+            "f6_6": {
+              "$ref": "#/$defs/FactorScore"
+            }
+          }
+        },
+        "weights": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "profile_id",
+            "f6_1",
+            "f6_2",
+            "f6_3",
+            "f6_4",
+            "f6_5",
+            "f6_6"
+          ],
+          "properties": {
+            "profile_id": {
+              "type": "string",
+              "maxLength": 128
+            },
+            "f6_1": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "f6_2": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "f6_3": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "f6_4": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "f6_5": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "f6_6": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "composite_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "csc_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "risk_tier": {
+          "type": "string",
+          "enum": [
+            "unacceptable",
+            "high",
+            "medium_high",
+            "medium",
+            "low",
+            "minimal"
+          ]
+        },
+        "gates": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "no_critical_failures": {
+              "type": "boolean"
+            },
+            "telemetry_minimum_met": {
+              "type": "boolean"
+            },
+            "f6_1_min_met": {
+              "type": "boolean"
+            },
+            "f6_4_min_met": {
+              "type": "boolean"
+            },
+            "all_factors_min_met": {
+              "type": "boolean"
+            },
+            "sector_validation_met": {
+              "type": "boolean"
+            }
+          }
+        },
+        "iso_alignment": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "iso_iec_42001": {
+              "$ref": "#/$defs/ISOAlignmentStatus"
+            },
+            "iso_iec_23894": {
+              "$ref": "#/$defs/ISOAlignmentStatus"
+            },
+            "iso_iec_22989": {
+              "$ref": "#/$defs/ISOAlignmentStatus"
+            }
+          }
+        }
+      }
+    },
+    "FactorScore": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "score",
+        "confidence",
+        "telemetry_window",
+        "top_metrics"
+      ],
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence based on telemetry completeness, stability, and sample size."
+        },
+        "telemetry_window": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "start",
+            "end"
+          ],
+          "properties": {
+            "start": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "end": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "top_metrics": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 50,
+          "items": {
+            "$ref": "#/$defs/MetricContribution"
+          }
+        }
+      }
+    },
+    "MetricContribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metric_id",
+        "value",
+        "weight",
+        "normalized",
+        "direction"
+      ],
+      "properties": {
+        "metric_id": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "value": {
+          "type": [
+            "number",
+            "string",
+            "boolean"
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "normalized": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "higher_is_better",
+            "lower_is_better",
+            "target_is_best"
+          ]
+        }
+      }
+    },
+    "ISOAlignmentStatus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_assessed",
+            "partial",
+            "aligned",
+            "audit_ready"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "controls_mapped": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 128
+          }
+        }
+      }
+    },
+    "EvidenceBundle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bundle_id",
+        "digest_alg",
+        "digest",
+        "items"
+      ],
+      "properties": {
+        "bundle_id": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "digest_alg": {
+          "type": "string",
+          "enum": [
+            "sha256",
+            "sha512"
+          ]
+        },
+        "digest": {
+          "type": "string",
+          "minLength": 32,
+          "maxLength": 256
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/EvidenceItem"
+          }
+        }
+      }
+    },
+    "EvidenceItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "uri",
+        "digest_alg",
+        "digest"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "telemetry_export",
+            "policy_bundle",
+            "simulation_report",
+            "risk_register",
+            "incident_log",
+            "human_review_log",
+            "model_card",
+            "dataset_card",
+            "redteam_results",
+            "attestation",
+            "other"
+          ]
+        },
+        "uri": {
+          "type": "string",
+          "format": "uri"
+        },
+        "digest_alg": {
+          "type": "string",
+          "enum": [
+            "sha256",
+            "sha512"
+          ]
+        },
+        "digest": {
+          "type": "string",
+          "minLength": 4,
+          "maxLength": 256
+        },
+        "content_type": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "SignatureBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "alg",
+        "kid",
+        "signed_payload_digest",
+        "signature",
+        "canonicalization"
+      ],
+      "properties": {
+        "alg": {
+          "type": "string",
+          "enum": [
+            "EdDSA",
+            "ES256",
+            "RS256"
+          ]
+        },
+        "kid": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "canonicalization": {
+          "type": "string",
+          "enum": [
+            "JCS",
+            "RFC8785"
+          ],
+          "description": "JSON canonicalization scheme used before hashing/signing."
+        },
+        "signed_payload_digest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "digest_alg",
+            "digest"
+          ],
+          "properties": {
+            "digest_alg": {
+              "type": "string",
+              "enum": [
+                "sha256",
+                "sha512"
+              ]
+            },
+            "digest": {
+              "type": "string",
+              "minLength": 4,
+              "maxLength": 256
+            }
+          }
+        },
+        "signature": {
+          "type": "string",
+          "description": "Base64url signature over canonicalized payload digest.",
+          "minLength": 16,
+          "maxLength": 8192
+        },
+        "signed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "description": "JSON Schema for CSC certificates (registry + verification). Version A artifact pack."
+}

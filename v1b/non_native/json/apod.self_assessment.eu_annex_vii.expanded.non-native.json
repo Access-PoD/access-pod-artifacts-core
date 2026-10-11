@@ -1,0 +1,313 @@
+{
+  "schema": {
+    "name": "apod_eu_annex_vii_self_assessment",
+    "version": "1.0",
+    "status": "informative",
+    "alignment": {
+      "primary": "EU AI Act Annex VII (technical documentation + post-market monitoring readiness)",
+      "secondary": ["ISO/IEC 42001", "ISO/IEC 23894", "ISO/IEC 22989"],
+      "notes": "This file is a self-assessment artifact for operator readiness. It does not constitute conformity assessment, certification, or legal advice."
+    }
+  },
+  "document_control": {
+    "document_id": "APOD-EU-A7-SA-001",
+    "title": "Access PoD — EU AI Act Annex VII Evidence Readiness Self-Assessment",
+    "edition": "Public Review Draft (Standards Exploration)",
+    "created_utc": "2025-12-31T00:00:00Z",
+    "last_updated_utc": "2025-12-31T00:00:00Z",
+    "owner": {
+      "organization": "Alnotrea Labs / Policy of Developments - Access PoD Initiative",
+      "contact_role": "Governance Lead"
+    },
+    "confidentiality": {
+      "classification": "Non-sensitive summary",
+      "restricted_specs_referenced": true,
+      "restriction_note": "Cryptographic realization, validation node internals, thresholds, and incident playbooks are governed by restricted specifications and are intentionally excluded."
+    }
+  },
+  "system_profile": {
+    "system_name": "Q-Pathformer Reference Implementation",
+    "system_id": "QPF-REF-001",
+    "intended_purpose": "Reference implementation used to demonstrate runtime governance instantiation under Access PoD and CSC.",
+    "deployment_context": {
+      "environment": "pilot",
+      "sectors": [],
+      "jurisdictions": ["EU"],
+      "high_risk_use_case_claimed": false,
+      "scope_statement": "This artifact supports standards exploration and does not assert regulatory compliance or high-risk classification."
+    },
+    "components": {
+      "governance_layer": "Access PoD",
+      "assurance_signal": "Compliance Star Certificate (CSC)",
+      "provenance_model": "UGCCMT",
+      "execution_interface": "Q-Pathformer API",
+      "third_party_models_in_scope": false
+    }
+  },
+  "assessment_instructions": {
+    "response_scale": {
+      "status_values": ["met", "partially_met", "not_met", "not_applicable"],
+      "evidence_strength_values": ["strong", "moderate", "weak", "none"],
+      "notes": "Operators should attach references to evidence artifacts in the evidence_manifest section or in the separate apod_governance_evidence_manifest.json."
+    }
+  },
+  "annex_vii_alignment_matrix": {
+    "A_system_description_governance_context": {
+      "annex_vii_refs": ["§1", "§2"],
+      "items": [
+        {
+          "id": "A1",
+          "requirement": "Intended purpose and deployment scope are defined and versioned.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-SCOPE-001"],
+          "notes": "Define production vs pilot scope and sector profile declarations."
+        },
+        {
+          "id": "A2",
+          "requirement": "Governance authority (Access PoD) is separated from execution capability.",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-ARCH-001", "EVID-API-001"],
+          "notes": "Separation-of-powers is enforced through proposal/authorization workflow."
+        },
+        {
+          "id": "A3",
+          "requirement": "Roles and responsibilities (operator, deployer, suppliers) are documented.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-RACI-001"],
+          "notes": "Add supplier/third-party delegation clauses for external model APIs (if enabled)."
+        },
+        {
+          "id": "A4",
+          "requirement": "Scope changes trigger governance review.",
+          "status": "partially_met",
+          "evidence_strength": "weak",
+          "evidence_refs": ["EVID-CHANGE-001"],
+          "notes": "Formalize scope-change gates and record as governance telemetry."
+        }
+      ]
+    },
+    "B_risk_management_system": {
+      "annex_vii_refs": ["§3", "Art. 9"],
+      "items": [
+        {
+          "id": "B1",
+          "requirement": "Continuous risk management exists (not only pre-deployment).",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-RISK-001"],
+          "notes": "Demonstrate post-market risk review cadence with runtime telemetry inputs."
+        },
+        {
+          "id": "B2",
+          "requirement": "High-risk changes trigger simulation-based evaluation (SAPP).",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-SAPP-001"],
+          "notes": "Retain simulation summaries and sign-off records."
+        },
+        {
+          "id": "B3",
+          "requirement": "Risk categories are identified and reviewed (safety, misuse, systemic impact).",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-RISK-002"],
+          "notes": "Expand risk taxonomy per sector profiles when applicable."
+        },
+        {
+          "id": "B4",
+          "requirement": "Risk mitigation decisions are traceable to governance actions.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-GOV-TRACE-001"],
+          "notes": "Ensure consistent linkage from risk items to enforcement points."
+        }
+      ]
+    },
+    "C_data_governance_provenance": {
+      "annex_vii_refs": ["§4", "Art. 10"],
+      "items": [
+        {
+          "id": "C1",
+          "requirement": "Data procurement and updates are controlled through governance workflows.",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-API-002", "EVID-GOV-DEC-001"],
+          "notes": "Execution APIs do not independently approve training data."
+        },
+        {
+          "id": "C2",
+          "requirement": "Provenance/lineage is tracked across lifecycle phases (UGCCMT semantics).",
+          "status": "met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-UGCCMT-001"],
+          "notes": "Cryptographic realization is restricted; semantic lineage summaries are available."
+        },
+        {
+          "id": "C3",
+          "requirement": "Data updates/extensions are attributable and auditable.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-DATA-CHANGE-001"],
+          "notes": "Ensure consistent unit/group mapping and change records."
+        },
+        {
+          "id": "C4",
+          "requirement": "Data governance applies across major modalities in scope.",
+          "status": "met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-MODALITY-001"],
+          "notes": "Majority modality coverage documented; minority modalities optional."
+        }
+      ]
+    },
+    "D_technical_documentation_traceability": {
+      "annex_vii_refs": ["§5"],
+      "items": [
+        {
+          "id": "D1",
+          "requirement": "Policies are executable (policy-as-code) with enforceable control points.",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-POLICY-001", "EVID-ENF-PTS-001"],
+          "notes": "Demonstrate enforcement point registry and audit trail."
+        },
+        {
+          "id": "D2",
+          "requirement": "Telemetry is attributable to enforcement points and persists across updates.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-TELEM-001"],
+          "notes": "Add telemetry completeness metrics and freshness reporting."
+        }
+      ]
+    },
+    "E_human_oversight": {
+      "annex_vii_refs": ["§6", "Art. 14"],
+      "items": [
+        {
+          "id": "E1",
+          "requirement": "Human-in-the-loop oversight exists for elevated-risk events.",
+          "status": "met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-HITL-001"],
+          "notes": "Ensure escalation criteria are explicit and auditable."
+        },
+        {
+          "id": "E2",
+          "requirement": "Human interventions and overrides are logged as governance evidence.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-HITL-LOG-001"],
+          "notes": "Standardize intervention logging fields and timestamps."
+        }
+      ]
+    },
+    "F_accuracy_robustness_security": {
+      "annex_vii_refs": ["§7", "Art. 15"],
+      "items": [
+        {
+          "id": "F1",
+          "requirement": "Controls monitor for drift/misuse/control degradation.",
+          "status": "partially_met",
+          "evidence_strength": "weak",
+          "evidence_refs": ["EVID-DRIFT-001"],
+          "notes": "Drift thresholds are restricted; provide high-level monitoring summaries."
+        },
+        {
+          "id": "F2",
+          "requirement": "Assurance is constrained/suspended when telemetry is incomplete.",
+          "status": "met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-CSC-001"],
+          "notes": "Document suspension semantics and evidence-quality triggers at a high level."
+        },
+        {
+          "id": "F3",
+          "requirement": "Execution APIs are policy-bound; catastrophic overwrite prevention exists.",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-API-CTRL-001"],
+          "notes": "Single auditable execution surface with governance authorization gates."
+        }
+      ]
+    },
+    "G_post_market_monitoring_incidents": {
+      "annex_vii_refs": ["§8", "Art. 61"],
+      "items": [
+        {
+          "id": "G1",
+          "requirement": "Runtime telemetry supports continuous post-market monitoring.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-PMM-001"],
+          "notes": "Define monitoring cadence and reporting outputs."
+        },
+        {
+          "id": "G2",
+          "requirement": "Significant incidents trigger governance review and evidence capture.",
+          "status": "partially_met",
+          "evidence_strength": "weak",
+          "evidence_refs": ["EVID-INC-001"],
+          "notes": "Incident playbooks are restricted; provide incident category summaries and governance decision logs."
+        }
+      ]
+    },
+    "H_transparency_information_provision": {
+      "annex_vii_refs": ["§9", "Art. 13"],
+      "items": [
+        {
+          "id": "H1",
+          "requirement": "Governance outcomes can be summarized without exposing proprietary internals.",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-REPORT-001"],
+          "notes": "Provide scope-bound summaries for regulators."
+        },
+        {
+          "id": "H2",
+          "requirement": "CSC is not treated as certification; outputs are time- and scope-bound.",
+          "status": "met",
+          "evidence_strength": "strong",
+          "evidence_refs": ["EVID-CSC-001"],
+          "notes": "Include timestamp, scope, and evidence freshness."
+        }
+      ]
+    },
+    "I_third_party_delegation": {
+      "annex_vii_refs": ["§2", "§10"],
+      "items": [
+        {
+          "id": "I1",
+          "requirement": "Third-party model/API use is declared and governed.",
+          "status": "not_applicable",
+          "evidence_strength": "none",
+          "evidence_refs": [],
+          "notes": "Enable when external model APIs are integrated under standards-mediated confirmation."
+        }
+      ]
+    },
+    "J_evidence_disclosure_readiness": {
+      "annex_vii_refs": ["cross-cutting"],
+      "items": [
+        {
+          "id": "J1",
+          "requirement": "Evidence is available as summaries/extracts without restricted mechanism disclosure.",
+          "status": "partially_met",
+          "evidence_strength": "moderate",
+          "evidence_refs": ["EVID-PACK-001"],
+          "notes": "Maintain an evidence manifest mapping IDs to artifacts, owners, and retention."
+        }
+      ]
+    }
+  },
+  "operator_signoff": {
+    "signoff_status": "draft",
+    "signoff_role": "Operator / Governance Signatory",
+    "signoff_name": "",
+    "signoff_date_utc": "",
+    "attestation": "I attest that this self-assessment reflects current operational evidence availability and that any 'met' items can be supported with evidence artifacts upon request, subject to confidentiality controls."
+  }
+}

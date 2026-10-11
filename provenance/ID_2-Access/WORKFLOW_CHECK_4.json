@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-11",
+  "scope": "Isolated ID2 four-case migration replay only; no model, enterprise, ID3 or freeze operation.",
+  "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions",
+  "fixture": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011",
+  "source_file_count_verified_unchanged": 141,
+  "source_unchanged": true,
+  "copied_files": [
+    {
+      "path": "scripts/helpers/Add-ID2SessionStatus.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\helpers\\Add-ID2SessionStatus.ps1",
+      "sha256": "f6b7a366bc3228374a83e4767d48a42c35457b146220dfa896fe4781e4b3ac55",
+      "bytes": 821
+    },
+    {
+      "path": "scripts/helpers/Add-ID2StressCategoryTags.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\helpers\\Add-ID2StressCategoryTags.ps1",
+      "sha256": "d2aa6193a3492df5b828e26116f5f4f2e33e5dec809f25da8eb9b0f82e0809ea",
+      "bytes": 2276
+    },
+    {
+      "path": "scripts/helpers/Edit-ID2SessionJson.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\helpers\\Edit-ID2SessionJson.ps1",
+      "sha256": "7ff0ab742d87beff4b7dbac01824d743b21f0077a05aa3c8bf7ac621d4a4d707",
+      "bytes": 5829
+    },
+    {
+      "path": "scripts/helpers/Map-VersionD-StressTo-ID2Module03.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\helpers\\Map-VersionD-StressTo-ID2Module03.ps1",
+      "sha256": "92c57dcd60acd83db2ce89a02acd180b02317dc2ccc3478a5909e108804371bf",
+      "bytes": 10087
+    },
+    {
+      "path": "scripts/primary/ID2_Comparative_Analysis_Tool.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\primary\\ID2_Comparative_Analysis_Tool.ps1",
+      "sha256": "516fa214558153562753f31b38ec2398d2709beb63ddb5e1f398c7a3d09f47a1",
+      "bytes": 11128
+    },
+    {
+      "path": "scripts/primary/Normalize-ID2Module03.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\primary\\Normalize-ID2Module03.ps1",
+      "sha256": "a48715a6ef4b1747ae07abf32bfb2a214399cb4b67746bad4e3e3ca045b6ec44",
+      "bytes": 4287
+    },
+    {
+      "path": "scripts/primary/Run-ID2-StressComparison.ps1",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\scripts\\primary\\Run-ID2-StressComparison.ps1",
+      "sha256": "ca81aac40b3222d442b5aba1037fdd49a142f11c16ecd34cbfb475bd001f0fc7",
+      "bytes": 6964
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\session.json",
+      "sha256": "c2e31860664755a8eba5d39eb04a1449d7e4f372b4852a65ab811327defe9742",
+      "bytes": 3444
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895",
+      "bytes": 10059
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\session.json",
+      "sha256": "39f311d0bc7be97e2efc5f309580bac8c6bb9d10d421592b1350cd8454fe1ee1",
+      "bytes": 3592
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-ambiguity\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3",
+      "bytes": 9324
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\session.json",
+      "sha256": "59f0b405a813effb12e685a85201cdaab2732e278576d640eea9bd8b1479d2cf",
+      "bytes": 3631
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-lifecycleboundary\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca",
+      "bytes": 10212
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\session.json",
+      "sha256": "6f1cf90c2c19fe485e61c64e71f32fc34f40a79af96852451ce5a93e4ae61ec9",
+      "bytes": 3410
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "source": "C:\\v1.1-Access-mode\\modes\\ID_2_access_4.sessions\\records\\sessions\\2026-04-11\\variants\\ID2-20260411-1400-qpath-tr008-run-timepressure\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+      "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4",
+      "bytes": 7866
+    }
+  ],
+  "command": [
+    "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "-NoProfile",
+    "-File",
+    "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2\\scripts\\primary\\Run-ID2-StressComparison.ps1",
+    "-BaselinePath",
+    "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2\\records\\sessions\\2026-04-11\\baseline\\ID2-20260411-1400-qpath-tr008-run\\artifacts\\module_03_sapp_simulation_stress_testing_ID_2.json",
+    "-VariantsRoot",
+    "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2\\records\\sessions\\2026-04-11\\variants",
+    "-RecordsRoot",
+    "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2\\records\\sessions\\2026-04-11",
+    "-OutJson",
+    "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2\\records\\comparisons\\2026-04-11\\ID2-20260411-1400-qpath-tr008-run\\id2_comparison_summary.json"
+  ],
+  "cwd": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2",
+  "child_path_prepend": "C:\\Program Files\\PowerShell\\7",
+  "exit_code": 0,
+  "log": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\comparison.log",
+  "summary": "C:\\Anthony Siljeg\\Access PoD assessment\\working\\id2-migration-workflow-20261011\\ID2\\records\\comparisons\\2026-04-11\\ID2-20260411-1400-qpath-tr008-run\\id2_comparison_summary.json",
+  "variants_count": 3,
+  "candidate_count_including_baseline": 4,
+  "warnings": [],
+  "mutated_fixture_input_files": [
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "before": {
+        "sha256": "0f80ffd24a680e6701e2fbdbe0e6b5c88cbcc64525427ec17c9b296ad59f4895",
+        "bytes": 10059
+      },
+      "after": {
+        "sha256": "86418414c2e2feecb2fe4beb70bc73564ef33d4f4ecb60b8c49b04198c44793c",
+        "bytes": 10053
+      },
+      "semantic_changes": [
+        {
+          "field": "/escalation_triggers",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/observations",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/uncertainty_notes",
+          "before": null,
+          "after": []
+        }
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "before": {
+        "sha256": "210bc708e052f7a0679934d8c03f9cfd3653773a145894e298c36b0b429d40d3",
+        "bytes": 9324
+      },
+      "after": {
+        "sha256": "1eb2056ff2b930c36b730bfc9c3f599ca8d735690f93475aa88e468895231fae",
+        "bytes": 9318
+      },
+      "semantic_changes": [
+        {
+          "field": "/escalation_triggers",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/observations",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/uncertainty_notes",
+          "before": null,
+          "after": []
+        }
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "before": {
+        "sha256": "bde02576b2801c10c915aeb16874c29d207d4c79ce9a283a89a620391b9727ca",
+        "bytes": 10212
+      },
+      "after": {
+        "sha256": "1da0fcd437edd602404ab750439354c913622438f6338eb2c039483949e9507c",
+        "bytes": 10206
+      },
+      "semantic_changes": [
+        {
+          "field": "/escalation_triggers",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/observations",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/uncertainty_notes",
+          "before": null,
+          "after": []
+        }
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "before": {
+        "sha256": "f8ddfa2f1f90ee1d252ad099af93b9f416da89d47b2a6ca3629da9f0d46247f4",
+        "bytes": 7866
+      },
+      "after": {
+        "sha256": "14b9e179120cfae3a526c16e65e02a9863a59de0def15c56cd5a82dfc884907d",
+        "bytes": 7860
+      },
+      "semantic_changes": [
+        {
+          "field": "/escalation_triggers",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/observations",
+          "before": null,
+          "after": []
+        },
+        {
+          "field": "/uncertainty_notes",
+          "before": null,
+          "after": []
+        }
+      ]
+    }
+  ],
+  "new_fixture_files": [
+    "records/comparisons/2026-04-11/ID2-20260411-1400-qpath-tr008-run/id2_comparison_summary.json",
+    "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+    "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-073622",
+    "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+    "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-073622",
+    "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+    "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-073622",
+    "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak",
+    "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json.bak.20261011-073622"
+  ],
+  "record_checks": [
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/session.json",
+      "record_class": "non_inspection_session_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "intended_reuse": "",
+      "listed_module_records": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_03_sapp_simulation_stress_testing_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ],
+      "listed_module_records_missing_from_supplied_branch": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/baseline/ID2-20260411-1400-qpath-tr008-run/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "record_class": "non_inspection_module_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "completion_before": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "completion_after": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "simulation_runs_before_type": "list",
+      "simulation_runs_after_type": "list"
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/session.json",
+      "record_class": "non_inspection_session_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "intended_reuse": "",
+      "listed_module_records": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_03_sapp_simulation_stress_testing_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ],
+      "listed_module_records_missing_from_supplied_branch": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/session.json",
+      "record_class": "non_inspection_session_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "intended_reuse": "",
+      "listed_module_records": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_03_sapp_simulation_stress_testing_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ],
+      "listed_module_records_missing_from_supplied_branch": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/session.json",
+      "record_class": "non_inspection_session_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "intended_reuse": "",
+      "listed_module_records": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_03_sapp_simulation_stress_testing_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ],
+      "listed_module_records_missing_from_supplied_branch": [
+        "module_01_governance_ai_identity_ID_2.json",
+        "module_02_intent_scope_boundaries_ID_2.json",
+        "module_04_writing_governance_artifacts_ID_2.json",
+        "module_05_access_pod_runtime_enforcement_ID_2.json",
+        "module_06_csc_scoring_revocation_ID_2.json"
+      ]
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-ambiguity/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "record_class": "non_inspection_module_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "completion_before": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "completion_after": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "simulation_runs_before_type": "list",
+      "simulation_runs_after_type": "list"
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-lifecycleboundary/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "record_class": "non_inspection_module_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "completion_before": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "completion_after": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "simulation_runs_before_type": "list",
+      "simulation_runs_after_type": "list"
+    },
+    {
+      "path": "records/sessions/2026-04-11/variants/ID2-20260411-1400-qpath-tr008-run-timepressure/artifacts/module_03_sapp_simulation_stress_testing_ID_2.json",
+      "record_class": "non_inspection_module_record",
+      "access_mode_primary": "ID_2",
+      "human_decision_required": true,
+      "inspection_status": "not_frozen",
+      "four_id2_posture_fields_pass": true,
+      "completion_before": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "completion_after": {
+        "status": "draft",
+        "completed_at_utc": ""
+      },
+      "simulation_runs_before_type": "list",
+      "simulation_runs_after_type": "list"
+    }
+  ],
+  "interpretation": "Comparison output verified independently of wrapper exit. Script rewrites Module 03 inputs and produces backups; only fixture copies were changed. Four supplied cases are one baseline and three variants, not four independent efficacy trials. Empty intended_reuse is retained and no ID3 eligibility inferred."
+}
